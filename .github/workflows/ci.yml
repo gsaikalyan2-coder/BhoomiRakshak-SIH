@@ -3,6 +3,8 @@ on: [push, pull_request]
 jobs:
   backend:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -12,6 +14,8 @@ jobs:
       - run: pytest backend/tests ml/tests
   frontend:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
