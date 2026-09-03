@@ -1,0 +1,42 @@
+officer_id,full_name,role,state,district,designation,password_seed,password_sha256_demo
+CG-LAO-2022-0241,LAO Bilaspur,officer,Chhattisgarh,Bilaspur,Land Acquisition Officer / SDM,cg-lao-2022-0241,8452e731f3e611a6e42e0348296cef7a8fc72b50026f030c05cc52723e361114
+CG-LAO-2024-0988,LAO Durg,officer,Chhattisgarh,Durg,Land Acquisition Officer / SDM,cg-lao-2024-0988,c64d4ba8bba786c040349b0881c83bbec81d1fc75dd890b8553d4f3cc589d1d7
+CG-LAO-2024-0820,LAO Korba,officer,Chhattisgarh,Korba,Land Acquisition Officer / SDM,cg-lao-2024-0820,baf8c40faf02075dc6b94ddf1e686574a2bfc43bd67d3de03b9869fd0ebeba78
+CG-LAO-2022-0755,LAO Raipur,officer,Chhattisgarh,Raipur,Land Acquisition Officer / SDM,cg-lao-2022-0755,8f9a16ff7fefcdc9f6a95c512895cdd505bbc5bc0b49cfa8daa4af06c3cb32f4
+KA-LAO-2025-0488,LAO Belagavi,officer,Karnataka,Belagavi,Land Acquisition Officer / SDM,ka-lao-2025-0488,69827073a1c57191dc4a43bfffc87560da2c9b5fd433fc0192ec2132da0b600b
+KA-LAO-2024-0628,LAO Bengaluru Urban,officer,Karnataka,Bengaluru Urban,Land Acquisition Officer / SDM,ka-lao-2024-0628,7dde2f4b9faf1345ac6a1e30918df8b850f7c02d647171b39b4cd60abe654244
+KA-LAO-2021-0461,LAO Mysuru,officer,Karnataka,Mysuru,Land Acquisition Officer / SDM,ka-lao-2021-0461,159ed1067e27ecd6d80b6f34c21cd6f23ba176d9e91134826d6ff1e945c21f53
+KA-LAO-2023-0611,LAO Tumakuru,officer,Karnataka,Tumakuru,Land Acquisition Officer / SDM,ka-lao-2023-0611,c858fcbd1d71a70cc4e56c390a61353eafd563b7b7dfac3fe4110196d1140fc4
+MP-LAO-2023-0365,LAO Bhopal,officer,Madhya Pradesh,Bhopal,Land Acquisition Officer / SDM,mp-lao-2023-0365,4f8ee0d17307b84c631824088ec96fc7f95ad5b92fb71d5a588addf9614446d7
+MP-LAO-2024-0467,LAO Gwalior,officer,Madhya Pradesh,Gwalior,Land Acquisition Officer / SDM,mp-lao-2024-0467,a4c8ee9c59a3cc558651b0abf879437abe07dee985d4ba351c76643afaccff23
+MP-LAO-2021-0254,LAO Indore,officer,Madhya Pradesh,Indore,Land Acquisition Officer / SDM,mp-lao-2021-0254,1a12ca1687d00e1c202303018caad76ada98b0b247039084e33970707cca21c0
+MP-LAO-2022-0917,LAO Jabalpur,officer,Madhya Pradesh,Jabalpur,Land Acquisition Officer / SDM,mp-lao-2022-0917,d87f463e91938507ec3b6b0d0ffbd776079debbb81e4169a26218572f58f6d5c
+MH-LAO-2022-0603,LAO Mumbai Suburban,officer,Maharashtra,Mumbai Suburban,Land Acquisition Officer / SDM,mh-lao-2022-0603,0074f1117ea2cd0e861825f6721829f5a4e6efc71f88dbdb591d1b6121de3a9b
+MH-LAO-2025-0718,LAO Nagpur,officer,Maharashtra,Nagpur,Land Acquisition Officer / SDM,mh-lao-2025-0718,5ee55dd6f88053b18dbc07cfe977e9bc36308b761f05a40b26ff5486b4b1279d
+MH-LAO-2025-0385,LAO Nashik,officer,Maharashtra,Nashik,Land Acquisition Officer / SDM,mh-lao-2025-0385,943971072146f5335953d0ba9623bd49b7b4e5f86199169e120e6c8bf3f0c2c3
+MH-LAO-2023-0454,LAO Pune,officer,Maharashtra,Pune,Land Acquisition Officer / SDM,mh-lao-2023-0454,50d33356f123a708d2a199862aeb1a784a11e451c133781a3cf6ba9e4160e4a3
+OD-LAO-2021-0890,LAO Cuttack,officer,Odisha,Cuttack,Land Acquisition Officer / SDM,od-lao-2021-0890,3010f14da32c1bc966433ecc8f68532d0f5c1697243d6d33bc1854039611c73a
+OD-LAO-2025-0784,LAO Ganjam,officer,Odisha,Ganjam,Land Acquisition Officer / SDM,od-lao-2025-0784,34c99f4b7ad6fd854c0bf1764926038f9f26f05a603d384023fcbacbbd41b6eb
+OD-LAO-2022-0873,LAO Khordha,officer,Odisha,Khordha,Land Acquisition Officer / SDM,od-lao-2022-0873,f49ac10981192862fe912494d8c947c92679e74af5365a65519d994548fd6412
+OD-LAO-2024-0281,LAO Sambalpur,officer,Odisha,Sambalpur,Land Acquisition Officer / SDM,od-lao-2024-0281,a8230fadba4089718a9f9ba658db360674d529d52d204913c1d70953d2e57c45
+TN-LAO-2021-0562,LAO Chennai,officer,Tamil Nadu,Chennai,Land Acquisition Officer / SDM,tn-lao-2021-0562,2a9ae6226b704890be418327de68642bf9ad272d85f58e37b58748bc114a1a71
+TN-LAO-2024-0163,LAO Coimbatore,officer,Tamil Nadu,Coimbatore,Land Acquisition Officer / SDM,tn-lao-2024-0163,43e0b1c9582b9ed9cd543e0e8bb359de386e5e910f787c3e7aa10511ab9d127e
+TN-LAO-2021-0436,LAO Madurai,officer,Tamil Nadu,Madurai,Land Acquisition Officer / SDM,tn-lao-2021-0436,271e192adde57b6a37e6f8ec41941d9330873da60748c5ca7aa64bdaf0049ac2
+TN-LAO-2022-0490,LAO Tiruchirappalli,officer,Tamil Nadu,Tiruchirappalli,Land Acquisition Officer / SDM,tn-lao-2022-0490,4ef54a53c9bf49b6b5e22df0441828c87257afbf2e8913e33f676c1f33041398
+TG-LAO-2025-0884,LAO Hyderabad,officer,Telangana,Hyderabad,Land Acquisition Officer / SDM,tg-lao-2025-0884,813b80ebff26415f1dc7be6c59cb32f228a1d1a416ec40fea669c7ed3accc490
+TG-LAO-2024-0235,LAO Karimnagar,officer,Telangana,Karimnagar,Land Acquisition Officer / SDM,tg-lao-2024-0235,2f006df6b54fa5378416be623193848b0a00bc0d3fa1a5cfea21c244129fe5c6
+TG-LAO-2021-0135,LAO Nizamabad,officer,Telangana,Nizamabad,Land Acquisition Officer / SDM,tg-lao-2021-0135,0dd2cfe774d32fae7c25b63625261dcfc7fb2692794a708ff35a3465ab39bcff
+TG-LAO-2021-0919,LAO Warangal,officer,Telangana,Warangal,Land Acquisition Officer / SDM,tg-lao-2021-0919,f9bc16775fa95c74d14072fbb96bb5ac03d40226a28568631ed7b7160ab0167b
+UP-LAO-2023-0451,LAO Kanpur Nagar,officer,Uttar Pradesh,Kanpur Nagar,Land Acquisition Officer / SDM,up-lao-2023-0451,0106df89171c1e2dd8ce810bb8d2d33e2f52e33a895695385d91c9c2041fc69c
+UP-LAO-2021-0734,LAO Lucknow,officer,Uttar Pradesh,Lucknow,Land Acquisition Officer / SDM,up-lao-2021-0734,0fa8d90cdcddf71cdad91726f977ba5d86a05c4c2e084bf25eb576733ac06ef8
+UP-LAO-2023-0576,LAO Prayagraj,officer,Uttar Pradesh,Prayagraj,Land Acquisition Officer / SDM,up-lao-2023-0576,3f91d942b71185cf968194aefdbaaf0d3fad0438f1389da806113ef6ac0106f1
+UP-LAO-2025-0822,LAO Varanasi,officer,Uttar Pradesh,Varanasi,Land Acquisition Officer / SDM,up-lao-2025-0822,ac4bb1711975b019f0ee4dc84cfc28ae2d6fa61e328d0c71afc378d07fbc81b5
+CG-DC-2019-0065,Collector Chhattisgarh,admin,Chhattisgarh,ALL,District Collector,cg-dc-2019-0065,f88052a200fbd078011d65f6a5af7d94a28097f28cf5bf74ba3903d7fdf4147a
+KA-DC-2020-0017,Collector Karnataka,admin,Karnataka,ALL,District Collector,ka-dc-2020-0017,3ab8fd60cb8e6905f0d9519a681a3b995f5f1684e049ff4e88663e4b800e1d26
+MP-DC-2021-0084,Collector Madhya Pradesh,admin,Madhya Pradesh,ALL,District Collector,mp-dc-2021-0084,7ed2a35556f5126d96b2b579bb618ce28d3a3fac4acbd1ae7f382a87dae626b4
+MH-DC-2022-0055,Collector Maharashtra,admin,Maharashtra,ALL,District Collector,mh-dc-2022-0055,8d8ed8bfc016e64f8aab0f23110513a4dcc6426d484a8b4648889395bc39f58a
+OD-DC-2022-0045,Collector Odisha,admin,Odisha,ALL,District Collector,od-dc-2022-0045,747f0d3c60b0462514a7f749ad2a3cc76ee4eac31cd9a1c790d265eb3fc42f73
+TN-DC-2019-0018,Collector Tamil Nadu,admin,Tamil Nadu,ALL,District Collector,tn-dc-2019-0018,49a57e823f839bf957eb8066592673390781ea5fe98a86751bcbabefc20d68a8
+TG-DC-2018-0026,Collector Telangana,admin,Telangana,ALL,District Collector,tg-dc-2018-0026,cdbaaabffa8398cbb69b9fb75d0545b2a94996f7bd3836d0c48e5af72360705f
+UP-DC-2023-0066,Collector Uttar Pradesh,admin,Uttar Pradesh,ALL,District Collector,up-dc-2023-0066,2685ba97325cb28137e8af3a537424a058a935d4e2e5f97076a00a6134a73e93
+IN-NDC-2020-0001,National Nodal Officer,admin,ALL,ALL,State Nodal Officer (MoRD),in-ndc-2020-0001,32b72f73bcf8d328a22944df1f52e691d5351e50328b425c0569d608bfe7a053

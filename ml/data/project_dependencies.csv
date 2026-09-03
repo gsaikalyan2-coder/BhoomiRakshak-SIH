@@ -1,0 +1,629 @@
+upstream_ulpin,downstream_ulpin,dependency_type,note
+22-009-004-262101,22-009-013-481454,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+22-009-010-139561,22-002-004-231516,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+22-009-001-966349,22-014-005-537148,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+22-018-020-948330,22-014-012-594344,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+22-018-003-186466,22-018-007-427108,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+22-002-014-968638,22-002-019-640682,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+22-002-019-640682,22-018-024-885603,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+22-014-023-503989,22-002-016-810586,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+22-009-023-040045,22-014-007-664694,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+22-014-007-664694,22-002-016-709031,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+22-018-021-968127,22-009-020-067439,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+22-009-020-067439,22-009-012-513964,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+22-018-006-970351,22-014-009-112459,Contiguous stretch,National Highway alignment continues into the next stretch
+22-009-021-025825,22-018-019-687038,Contiguous stretch,National Highway alignment continues into the next stretch
+22-018-019-687038,22-009-004-500684,Contiguous stretch,National Highway alignment continues into the next stretch
+22-018-021-025320,22-018-005-566774,Contiguous stretch,National Highway alignment continues into the next stretch
+22-018-005-566774,22-002-008-335658,Contiguous stretch,National Highway alignment continues into the next stretch
+22-002-008-335658,22-014-018-128587,Contiguous stretch,National Highway alignment continues into the next stretch
+22-014-018-128587,22-009-003-212798,Contiguous stretch,National Highway alignment continues into the next stretch
+22-018-015-281782,22-014-008-482155,Contiguous stretch,Power Transmission alignment continues into the next stretch
+22-014-008-482155,22-018-002-476787,Contiguous stretch,Power Transmission alignment continues into the next stretch
+22-009-011-853396,22-018-024-418496,Contiguous stretch,Power Transmission alignment continues into the next stretch
+22-018-024-418496,22-018-021-586883,Contiguous stretch,Power Transmission alignment continues into the next stretch
+22-014-019-874264,22-018-016-513419,Contiguous stretch,Power Transmission alignment continues into the next stretch
+22-018-016-513419,22-014-016-234546,Contiguous stretch,Power Transmission alignment continues into the next stretch
+22-014-016-234546,22-009-008-472058,Contiguous stretch,Power Transmission alignment continues into the next stretch
+22-018-021-350278,22-018-014-152454,Contiguous stretch,Power Transmission alignment continues into the next stretch
+22-018-016-872581,22-009-007-337564,Contiguous stretch,Railway Line alignment continues into the next stretch
+22-009-007-337564,22-009-002-243259,Contiguous stretch,Railway Line alignment continues into the next stretch
+22-002-006-583299,22-014-013-660569,Contiguous stretch,Railway Line alignment continues into the next stretch
+22-014-013-660569,22-002-004-192320,Contiguous stretch,Railway Line alignment continues into the next stretch
+22-009-004-522374,22-014-013-822415,Contiguous stretch,State Highway alignment continues into the next stretch
+22-018-024-953394,22-009-018-967292,Contiguous stretch,State Highway alignment continues into the next stretch
+22-014-017-793907,22-018-001-545491,Contiguous stretch,State Highway alignment continues into the next stretch
+22-018-001-545491,22-014-011-342646,Contiguous stretch,State Highway alignment continues into the next stretch
+22-014-011-342646,22-018-016-820400,Contiguous stretch,State Highway alignment continues into the next stretch
+22-018-016-820400,22-014-003-019606,Contiguous stretch,State Highway alignment continues into the next stretch
+22-014-003-570750,22-018-009-028179,Contiguous stretch,Urban Metro alignment continues into the next stretch
+22-014-020-275962,22-009-003-276112,Contiguous stretch,Urban Metro alignment continues into the next stretch
+22-009-003-276112,22-002-018-182753,Contiguous stretch,Urban Metro alignment continues into the next stretch
+22-002-018-182753,22-002-022-310918,Contiguous stretch,Urban Metro alignment continues into the next stretch
+22-014-017-781394,22-018-014-243421,Contiguous stretch,Urban Metro alignment continues into the next stretch
+22-009-014-008304,22-018-017-780109,Contiguous stretch,Urban Metro alignment continues into the next stretch
+22-014-003-088548,22-002-022-348266,Contiguous stretch,Urban Metro alignment continues into the next stretch
+29-018-024-878590,29-018-019-080916,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+29-018-019-080916,29-022-004-218882,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+29-022-004-218882,29-009-020-506475,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+29-009-020-506475,29-018-010-881797,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+29-018-010-881797,29-009-001-560843,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+29-009-001-560843,29-022-003-480081,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+29-018-016-583426,29-009-024-146793,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+29-018-016-141916,29-022-002-099610,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+29-022-023-972424,29-018-021-168743,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+29-018-021-168743,29-009-005-455315,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+29-022-009-232014,29-018-001-407034,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+29-009-020-946469,29-022-024-163578,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+29-022-024-163578,29-007-011-687218,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+29-009-015-901494,29-018-017-640746,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+29-009-002-673400,29-009-003-574868,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+29-009-003-574868,29-007-005-512685,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+29-007-005-512685,29-022-007-695968,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+29-022-007-695968,29-009-010-380524,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+29-018-007-197634,29-009-023-846911,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+29-022-018-909592,29-009-012-200674,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+29-022-018-697458,29-018-008-164220,Contiguous stretch,National Highway alignment continues into the next stretch
+29-018-008-164220,29-007-005-788735,Contiguous stretch,National Highway alignment continues into the next stretch
+29-007-005-788735,29-009-013-979296,Contiguous stretch,National Highway alignment continues into the next stretch
+29-009-013-979296,29-009-016-811799,Contiguous stretch,National Highway alignment continues into the next stretch
+29-009-016-811799,29-009-001-727216,Contiguous stretch,National Highway alignment continues into the next stretch
+29-022-008-775897,29-009-022-214448,Contiguous stretch,National Highway alignment continues into the next stretch
+29-009-022-214448,29-009-017-318719,Contiguous stretch,National Highway alignment continues into the next stretch
+29-022-004-754634,29-022-011-013199,Contiguous stretch,Power Transmission alignment continues into the next stretch
+29-018-010-276444,29-022-018-446569,Contiguous stretch,Power Transmission alignment continues into the next stretch
+29-009-005-883341,29-009-016-192964,Contiguous stretch,Power Transmission alignment continues into the next stretch
+29-018-002-309194,29-022-022-237598,Contiguous stretch,Power Transmission alignment continues into the next stretch
+29-022-022-237598,29-007-004-376370,Contiguous stretch,Power Transmission alignment continues into the next stretch
+29-022-004-788633,29-009-010-464509,Contiguous stretch,Power Transmission alignment continues into the next stretch
+29-018-016-842919,29-022-008-374630,Contiguous stretch,Power Transmission alignment continues into the next stretch
+29-007-006-208822,29-022-015-841838,Contiguous stretch,Railway Line alignment continues into the next stretch
+29-022-015-841838,29-009-019-414479,Contiguous stretch,Railway Line alignment continues into the next stretch
+29-009-021-996364,29-007-004-408639,Contiguous stretch,Railway Line alignment continues into the next stretch
+29-022-022-522533,29-022-013-419792,Contiguous stretch,Railway Line alignment continues into the next stretch
+29-022-013-419792,29-009-010-716020,Contiguous stretch,Railway Line alignment continues into the next stretch
+29-009-010-716020,29-022-015-483322,Contiguous stretch,Railway Line alignment continues into the next stretch
+29-022-015-483322,29-009-006-314592,Contiguous stretch,Railway Line alignment continues into the next stretch
+29-009-010-091248,29-007-002-158342,Contiguous stretch,State Highway alignment continues into the next stretch
+29-007-002-158342,29-007-007-071762,Contiguous stretch,State Highway alignment continues into the next stretch
+29-007-007-071762,29-022-023-805781,Contiguous stretch,State Highway alignment continues into the next stretch
+29-022-023-971819,29-009-007-703996,Contiguous stretch,Urban Metro alignment continues into the next stretch
+29-009-004-318285,29-022-013-741762,Contiguous stretch,Urban Metro alignment continues into the next stretch
+29-022-013-741762,29-007-015-263678,Contiguous stretch,Urban Metro alignment continues into the next stretch
+29-007-015-263678,29-022-016-773029,Contiguous stretch,Urban Metro alignment continues into the next stretch
+29-022-016-773029,29-007-013-109732,Contiguous stretch,Urban Metro alignment continues into the next stretch
+23-028-011-237736,23-033-009-619375,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+23-033-009-619375,23-028-022-544680,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+23-028-022-544680,23-016-021-062988,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+23-016-021-366099,23-004-013-849153,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+23-004-013-849153,23-004-005-460454,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+23-028-024-197282,23-033-019-156498,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+23-016-023-315833,23-004-010-095966,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+23-028-013-717386,23-016-010-430888,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+23-016-010-430888,23-004-009-955041,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+23-004-009-955041,23-016-024-215387,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+23-028-018-479015,23-004-017-758244,Contiguous stretch,National Highway alignment continues into the next stretch
+23-033-003-670128,23-028-003-517002,Contiguous stretch,National Highway alignment continues into the next stretch
+23-016-002-431793,23-016-019-487040,Contiguous stretch,National Highway alignment continues into the next stretch
+23-028-021-103247,23-028-004-042521,Contiguous stretch,Power Transmission alignment continues into the next stretch
+23-028-009-648235,23-016-005-294751,Contiguous stretch,Power Transmission alignment continues into the next stretch
+23-016-005-294751,23-028-005-493813,Contiguous stretch,Power Transmission alignment continues into the next stretch
+23-028-014-466935,23-033-015-841738,Contiguous stretch,Railway Line alignment continues into the next stretch
+23-033-015-841738,23-028-018-084890,Contiguous stretch,Railway Line alignment continues into the next stretch
+23-028-018-084890,23-004-013-037075,Contiguous stretch,Railway Line alignment continues into the next stretch
+23-004-013-037075,23-004-006-093855,Contiguous stretch,Railway Line alignment continues into the next stretch
+23-004-006-093855,23-028-006-699935,Contiguous stretch,Railway Line alignment continues into the next stretch
+23-028-006-428938,23-016-022-297348,Contiguous stretch,Railway Line alignment continues into the next stretch
+23-016-022-297348,23-004-004-590038,Contiguous stretch,Railway Line alignment continues into the next stretch
+23-033-020-446058,23-028-018-538523,Contiguous stretch,Railway Line alignment continues into the next stretch
+23-016-022-952940,23-004-010-714020,Contiguous stretch,Railway Line alignment continues into the next stretch
+23-004-021-604729,23-028-004-804705,Contiguous stretch,State Highway alignment continues into the next stretch
+23-028-004-804705,23-004-020-557776,Contiguous stretch,State Highway alignment continues into the next stretch
+23-016-011-215124,23-028-009-350448,Contiguous stretch,State Highway alignment continues into the next stretch
+23-004-005-150803,23-028-003-670909,Contiguous stretch,Urban Metro alignment continues into the next stretch
+23-028-003-670909,23-028-014-694966,Contiguous stretch,Urban Metro alignment continues into the next stretch
+23-028-018-777122,23-004-003-065678,Contiguous stretch,Urban Metro alignment continues into the next stretch
+23-004-003-065678,23-016-022-614297,Contiguous stretch,Urban Metro alignment continues into the next stretch
+23-028-015-262626,23-004-002-021181,Contiguous stretch,Urban Metro alignment continues into the next stretch
+27-037-019-331655,27-037-018-273093,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+27-037-018-273093,27-025-021-006424,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+27-025-024-358473,27-025-017-830802,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+27-025-017-830802,27-013-002-146772,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+27-013-002-146772,27-025-002-719139,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+27-001-013-521331,27-013-020-089628,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+27-037-015-156208,27-037-002-577568,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+27-025-020-420336,27-037-024-592138,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+27-037-024-592138,27-037-005-932752,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+27-037-005-932752,27-025-016-374850,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+27-025-012-427552,27-013-006-432571,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+27-013-006-432571,27-013-003-437163,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+27-001-019-900824,27-001-012-918143,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+27-037-008-686288,27-001-007-996044,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+27-013-018-313330,27-025-006-340067,Contiguous stretch,National Highway alignment continues into the next stretch
+27-013-008-442347,27-037-010-996219,Contiguous stretch,National Highway alignment continues into the next stretch
+27-013-017-224465,27-001-003-822573,Contiguous stretch,National Highway alignment continues into the next stretch
+27-001-003-822573,27-025-009-655747,Contiguous stretch,National Highway alignment continues into the next stretch
+27-025-010-264070,27-025-016-963898,Contiguous stretch,National Highway alignment continues into the next stretch
+27-001-014-085914,27-001-009-170912,Contiguous stretch,Power Transmission alignment continues into the next stretch
+27-001-009-170912,27-001-017-532116,Contiguous stretch,Power Transmission alignment continues into the next stretch
+27-001-019-044121,27-001-013-406899,Contiguous stretch,Power Transmission alignment continues into the next stretch
+27-013-004-547768,27-037-017-520679,Contiguous stretch,Railway Line alignment continues into the next stretch
+27-013-008-093589,27-013-023-565388,Contiguous stretch,Railway Line alignment continues into the next stretch
+27-001-009-520920,27-025-002-922498,Contiguous stretch,Railway Line alignment continues into the next stretch
+27-001-024-213539,27-013-001-641445,Contiguous stretch,Railway Line alignment continues into the next stretch
+27-013-023-059045,27-025-015-665882,Contiguous stretch,Railway Line alignment continues into the next stretch
+27-025-022-382533,27-025-006-055986,Contiguous stretch,Railway Line alignment continues into the next stretch
+27-037-017-071976,27-037-019-721758,Contiguous stretch,State Highway alignment continues into the next stretch
+27-001-002-170453,27-001-002-033233,Contiguous stretch,State Highway alignment continues into the next stretch
+27-037-006-607466,27-013-015-433170,Contiguous stretch,State Highway alignment continues into the next stretch
+27-013-015-433170,27-001-024-519408,Contiguous stretch,State Highway alignment continues into the next stretch
+27-001-024-519408,27-037-017-162212,Contiguous stretch,State Highway alignment continues into the next stretch
+27-001-013-421750,27-001-017-880105,Contiguous stretch,Urban Metro alignment continues into the next stretch
+27-001-017-880105,27-037-018-505922,Contiguous stretch,Urban Metro alignment continues into the next stretch
+27-037-018-505922,27-001-016-928452,Contiguous stretch,Urban Metro alignment continues into the next stretch
+27-037-013-834361,27-001-017-023647,Contiguous stretch,Urban Metro alignment continues into the next stretch
+27-025-022-944620,27-037-004-566073,Contiguous stretch,Urban Metro alignment continues into the next stretch
+27-025-001-660303,27-037-015-915936,Contiguous stretch,Urban Metro alignment continues into the next stretch
+27-025-014-520805,27-013-023-822545,Contiguous stretch,Urban Metro alignment continues into the next stretch
+27-013-012-943884,27-013-008-236445,Contiguous stretch,Urban Metro alignment continues into the next stretch
+21-019-009-996875,21-019-001-187413,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+21-005-019-903819,21-019-024-331631,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+21-005-020-076194,21-019-019-960921,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+21-019-002-373494,21-019-002-659698,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+21-005-008-420826,21-012-024-341332,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+21-012-018-340012,21-019-023-451112,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+21-019-023-451112,21-019-013-994290,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+21-026-019-308724,21-005-007-293405,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+21-005-007-293405,21-012-004-001947,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+21-012-004-001947,21-026-008-652571,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+21-005-011-786728,21-012-014-065558,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+21-012-024-199195,21-026-004-937999,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+21-026-004-937999,21-026-020-567288,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+21-019-024-663726,21-026-006-273094,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+21-026-006-273094,21-019-012-187124,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+21-012-011-039271,21-026-005-799576,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+21-026-005-799576,21-026-018-182337,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+21-005-022-175155,21-005-013-007041,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+21-012-012-264754,21-012-017-308238,Contiguous stretch,National Highway alignment continues into the next stretch
+21-012-017-308238,21-005-015-592807,Contiguous stretch,National Highway alignment continues into the next stretch
+21-019-016-998853,21-012-021-517164,Contiguous stretch,National Highway alignment continues into the next stretch
+21-026-009-694289,21-019-013-773037,Contiguous stretch,National Highway alignment continues into the next stretch
+21-026-008-513213,21-019-009-226590,Contiguous stretch,Power Transmission alignment continues into the next stretch
+21-019-002-291996,21-012-007-521759,Contiguous stretch,Power Transmission alignment continues into the next stretch
+21-012-007-521759,21-012-017-655235,Contiguous stretch,Power Transmission alignment continues into the next stretch
+21-026-010-001443,21-012-001-738565,Contiguous stretch,Power Transmission alignment continues into the next stretch
+21-026-010-849923,21-026-014-370727,Contiguous stretch,Power Transmission alignment continues into the next stretch
+21-026-014-370727,21-026-015-050123,Contiguous stretch,Power Transmission alignment continues into the next stretch
+21-005-024-424589,21-019-021-832932,Contiguous stretch,Railway Line alignment continues into the next stretch
+21-012-016-573987,21-026-023-607277,Contiguous stretch,Railway Line alignment continues into the next stretch
+21-026-023-607277,21-005-020-459268,Contiguous stretch,Railway Line alignment continues into the next stretch
+21-005-012-204869,21-019-008-698182,Contiguous stretch,Railway Line alignment continues into the next stretch
+21-026-001-694145,21-005-009-621265,Contiguous stretch,Railway Line alignment continues into the next stretch
+21-005-009-621265,21-012-018-603940,Contiguous stretch,Railway Line alignment continues into the next stretch
+21-019-006-257378,21-005-011-147025,Contiguous stretch,State Highway alignment continues into the next stretch
+21-026-003-542903,21-012-022-745758,Contiguous stretch,State Highway alignment continues into the next stretch
+21-019-019-099733,21-026-002-958256,Contiguous stretch,State Highway alignment continues into the next stretch
+21-026-002-958256,21-019-014-988271,Contiguous stretch,State Highway alignment continues into the next stretch
+21-019-014-988271,21-026-009-098076,Contiguous stretch,State Highway alignment continues into the next stretch
+21-026-006-801004,21-019-018-511650,Contiguous stretch,Urban Metro alignment continues into the next stretch
+21-019-018-511650,21-026-001-033765,Contiguous stretch,Urban Metro alignment continues into the next stretch
+21-012-004-030336,21-012-024-553314,Contiguous stretch,Urban Metro alignment continues into the next stretch
+21-012-024-553314,21-019-007-966961,Contiguous stretch,Urban Metro alignment continues into the next stretch
+21-005-006-988546,21-026-011-280692,Contiguous stretch,Urban Metro alignment continues into the next stretch
+33-014-007-766605,33-023-012-727675,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+33-014-001-555143,33-014-009-322546,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+33-014-008-315668,33-023-021-091857,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+33-045-020-784492,33-014-021-996444,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+33-014-021-996444,33-045-013-795946,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+33-045-013-795946,33-045-014-879637,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+33-023-024-149241,33-045-002-169773,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+33-045-002-169773,33-014-013-611333,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+33-014-013-611333,33-031-017-369786,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+33-031-017-369786,33-023-003-347613,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+33-023-003-347613,33-045-008-394565,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+33-031-016-364585,33-014-015-277839,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+33-045-006-087077,33-023-005-642414,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+33-014-003-624419,33-014-016-217560,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+33-045-012-872493,33-031-018-828945,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+33-023-018-119955,33-045-007-991413,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+33-031-020-687626,33-045-022-073492,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+33-045-022-073492,33-023-024-641523,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+33-045-011-531102,33-014-023-215297,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+33-014-012-988183,33-014-001-688634,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+33-023-011-896950,33-014-022-104665,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+33-014-019-817481,33-045-018-529091,Contiguous stretch,National Highway alignment continues into the next stretch
+33-045-018-529091,33-045-020-990820,Contiguous stretch,National Highway alignment continues into the next stretch
+33-023-009-270578,33-014-007-313313,Contiguous stretch,National Highway alignment continues into the next stretch
+33-014-007-313313,33-023-012-541773,Contiguous stretch,National Highway alignment continues into the next stretch
+33-031-024-214066,33-023-012-198673,Contiguous stretch,National Highway alignment continues into the next stretch
+33-023-012-198673,33-031-008-004122,Contiguous stretch,National Highway alignment continues into the next stretch
+33-023-016-503673,33-045-009-108717,Contiguous stretch,Power Transmission alignment continues into the next stretch
+33-045-009-108717,33-023-024-849398,Contiguous stretch,Power Transmission alignment continues into the next stretch
+33-023-021-127686,33-031-001-407630,Contiguous stretch,Power Transmission alignment continues into the next stretch
+33-031-012-725380,33-045-003-904905,Contiguous stretch,Railway Line alignment continues into the next stretch
+33-045-003-904905,33-023-023-868422,Contiguous stretch,Railway Line alignment continues into the next stretch
+33-045-018-544333,33-023-005-660187,Contiguous stretch,Railway Line alignment continues into the next stretch
+33-014-011-892673,33-014-024-980887,Contiguous stretch,Railway Line alignment continues into the next stretch
+33-031-019-065120,33-045-009-097812,Contiguous stretch,Railway Line alignment continues into the next stretch
+33-045-023-585144,33-031-022-233231,Contiguous stretch,State Highway alignment continues into the next stretch
+33-031-022-233231,33-031-001-161337,Contiguous stretch,State Highway alignment continues into the next stretch
+33-031-001-161337,33-014-015-377807,Contiguous stretch,State Highway alignment continues into the next stretch
+33-014-011-363947,33-045-014-160020,Contiguous stretch,State Highway alignment continues into the next stretch
+33-045-014-160020,33-023-008-109672,Contiguous stretch,State Highway alignment continues into the next stretch
+33-023-008-109672,33-045-015-960454,Contiguous stretch,State Highway alignment continues into the next stretch
+33-045-007-088086,33-023-018-457297,Contiguous stretch,Urban Metro alignment continues into the next stretch
+33-023-018-457297,33-014-020-266749,Contiguous stretch,Urban Metro alignment continues into the next stretch
+33-031-016-649876,33-045-007-583204,Contiguous stretch,Urban Metro alignment continues into the next stretch
+33-045-007-583204,33-031-006-380149,Contiguous stretch,Urban Metro alignment continues into the next stretch
+33-045-007-735680,33-031-006-445132,Contiguous stretch,Urban Metro alignment continues into the next stretch
+33-045-010-090659,33-031-017-145427,Contiguous stretch,Urban Metro alignment continues into the next stretch
+33-031-011-156622,33-045-021-629421,Contiguous stretch,Urban Metro alignment continues into the next stretch
+36-011-008-403302,36-019-009-327811,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+36-003-020-070680,36-011-020-139805,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+36-027-003-562673,36-019-016-909493,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+36-019-016-909493,36-011-021-472394,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+36-011-021-472394,36-011-021-000186,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+36-011-021-000186,36-011-002-604648,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+36-019-019-395879,36-019-019-608716,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+36-019-008-919095,36-027-022-025842,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+36-027-012-620266,36-027-002-466005,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+36-003-001-892924,36-019-011-773030,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+36-027-001-845549,36-003-024-033546,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+36-011-001-148953,36-019-019-376825,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+36-011-005-032698,36-027-009-400358,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+36-019-018-438600,36-019-003-705316,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+36-003-023-854605,36-003-005-162453,Contiguous stretch,National Highway alignment continues into the next stretch
+36-003-005-162453,36-019-009-582253,Contiguous stretch,National Highway alignment continues into the next stretch
+36-019-008-658064,36-019-006-179929,Contiguous stretch,National Highway alignment continues into the next stretch
+36-019-006-179929,36-027-013-769515,Contiguous stretch,National Highway alignment continues into the next stretch
+36-027-013-769515,36-011-018-687163,Contiguous stretch,National Highway alignment continues into the next stretch
+36-011-018-687163,36-019-012-035966,Contiguous stretch,National Highway alignment continues into the next stretch
+36-003-012-548101,36-003-012-771038,Contiguous stretch,National Highway alignment continues into the next stretch
+36-003-019-631474,36-027-006-464235,Contiguous stretch,Power Transmission alignment continues into the next stretch
+36-027-006-464235,36-027-006-854589,Contiguous stretch,Power Transmission alignment continues into the next stretch
+36-027-006-854589,36-011-012-262871,Contiguous stretch,Power Transmission alignment continues into the next stretch
+36-011-012-117613,36-003-012-264469,Contiguous stretch,Power Transmission alignment continues into the next stretch
+36-019-011-175224,36-011-005-573011,Contiguous stretch,Power Transmission alignment continues into the next stretch
+36-011-005-573011,36-019-009-348048,Contiguous stretch,Power Transmission alignment continues into the next stretch
+36-003-004-933326,36-027-011-027965,Contiguous stretch,Railway Line alignment continues into the next stretch
+36-027-011-027965,36-003-001-808075,Contiguous stretch,Railway Line alignment continues into the next stretch
+36-019-014-555270,36-027-001-200502,Contiguous stretch,Railway Line alignment continues into the next stretch
+36-003-002-248756,36-011-013-293948,Contiguous stretch,Railway Line alignment continues into the next stretch
+36-011-013-293948,36-027-013-339968,Contiguous stretch,Railway Line alignment continues into the next stretch
+36-027-013-339968,36-003-014-168649,Contiguous stretch,Railway Line alignment continues into the next stretch
+36-019-015-490823,36-019-003-782215,Contiguous stretch,Railway Line alignment continues into the next stretch
+36-003-002-677210,36-011-020-606190,Contiguous stretch,Railway Line alignment continues into the next stretch
+36-027-010-986859,36-003-006-236093,Contiguous stretch,State Highway alignment continues into the next stretch
+36-027-018-414505,36-027-021-927366,Contiguous stretch,State Highway alignment continues into the next stretch
+36-027-021-927366,36-003-007-310782,Contiguous stretch,State Highway alignment continues into the next stretch
+36-011-010-433055,36-027-004-601436,Contiguous stretch,State Highway alignment continues into the next stretch
+36-003-002-181890,36-027-010-336564,Contiguous stretch,State Highway alignment continues into the next stretch
+36-027-010-336564,36-027-011-634969,Contiguous stretch,State Highway alignment continues into the next stretch
+36-027-011-634969,36-027-013-314456,Contiguous stretch,State Highway alignment continues into the next stretch
+36-011-023-761008,36-011-020-735729,Contiguous stretch,Urban Metro alignment continues into the next stretch
+36-003-002-022189,36-027-007-288778,Contiguous stretch,Urban Metro alignment continues into the next stretch
+36-027-007-288778,36-003-022-552861,Contiguous stretch,Urban Metro alignment continues into the next stretch
+36-019-021-048525,36-003-020-490577,Contiguous stretch,Urban Metro alignment continues into the next stretch
+36-003-020-490577,36-027-006-486547,Contiguous stretch,Urban Metro alignment continues into the next stretch
+36-027-006-486547,36-027-010-959284,Contiguous stretch,Urban Metro alignment continues into the next stretch
+36-027-010-959284,36-019-020-135512,Contiguous stretch,Urban Metro alignment continues into the next stretch
+36-027-014-339807,36-003-020-722251,Contiguous stretch,Urban Metro alignment continues into the next stretch
+09-015-013-453498,09-015-003-087671,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+09-044-003-334004,09-015-022-331393,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+09-015-022-331393,09-002-019-319626,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+09-002-019-319626,09-031-008-739700,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+09-031-008-739700,09-015-022-486717,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+09-015-022-486717,09-031-016-995048,Contiguous stretch,Airport Expansion alignment continues into the next stretch
+09-015-005-629643,09-002-012-096995,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+09-031-011-782923,09-044-023-942817,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+09-002-018-699715,09-015-020-499467,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+09-044-010-399385,09-002-012-287289,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+09-015-023-594924,09-031-010-951761,Contiguous stretch,Industrial Corridor alignment continues into the next stretch
+09-031-015-251640,09-031-023-935005,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+09-015-017-846324,09-044-018-871523,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+09-015-015-268798,09-044-016-721787,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+09-031-018-325979,09-031-010-551779,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+09-031-010-551779,09-002-007-267190,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+09-044-002-147956,09-031-007-719117,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+09-015-018-258288,09-002-007-873989,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+09-015-019-290559,09-015-005-300589,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+09-044-017-935530,09-015-012-869466,Contiguous stretch,Irrigation Canal alignment continues into the next stretch
+09-002-024-838219,09-015-015-984880,Contiguous stretch,National Highway alignment continues into the next stretch
+09-002-018-433132,09-031-003-212773,Contiguous stretch,National Highway alignment continues into the next stretch
+09-031-009-301397,09-002-019-518833,Contiguous stretch,National Highway alignment continues into the next stretch
+09-002-019-518833,09-044-016-349452,Contiguous stretch,National Highway alignment continues into the next stretch
+09-044-016-605257,09-015-013-630484,Contiguous stretch,Power Transmission alignment continues into the next stretch
+09-031-023-654734,09-044-006-290384,Contiguous stretch,Power Transmission alignment continues into the next stretch
+09-044-006-290384,09-031-014-618305,Contiguous stretch,Power Transmission alignment continues into the next stretch
+09-031-009-999808,09-044-013-404185,Contiguous stretch,Power Transmission alignment continues into the next stretch
+09-044-013-404185,09-002-006-374336,Contiguous stretch,Power Transmission alignment continues into the next stretch
+09-015-024-187536,09-044-006-085636,Contiguous stretch,Power Transmission alignment continues into the next stretch
+09-031-006-779473,09-015-017-116286,Contiguous stretch,Railway Line alignment continues into the next stretch
+09-015-017-116286,09-031-012-968801,Contiguous stretch,Railway Line alignment continues into the next stretch
+09-031-012-968801,09-015-020-941039,Contiguous stretch,Railway Line alignment continues into the next stretch
+09-044-015-501491,09-015-023-422636,Contiguous stretch,State Highway alignment continues into the next stretch
+09-015-023-422636,09-031-011-403676,Contiguous stretch,State Highway alignment continues into the next stretch
+09-031-011-403676,09-031-008-581607,Contiguous stretch,State Highway alignment continues into the next stretch
+09-031-008-581607,09-002-006-963241,Contiguous stretch,State Highway alignment continues into the next stretch
+09-002-006-963241,09-031-005-205615,Contiguous stretch,State Highway alignment continues into the next stretch
+09-031-005-205615,09-031-019-872573,Contiguous stretch,State Highway alignment continues into the next stretch
+09-031-019-872573,09-031-004-549123,Contiguous stretch,State Highway alignment continues into the next stretch
+09-031-004-549123,09-015-015-720181,Contiguous stretch,State Highway alignment continues into the next stretch
+09-044-011-678937,09-002-008-247131,Contiguous stretch,State Highway alignment continues into the next stretch
+09-002-008-247131,09-031-004-338225,Contiguous stretch,State Highway alignment continues into the next stretch
+09-031-004-338225,09-044-024-422247,Contiguous stretch,State Highway alignment continues into the next stretch
+09-044-007-769720,09-031-020-450629,Contiguous stretch,State Highway alignment continues into the next stretch
+09-031-020-450629,09-031-006-277677,Contiguous stretch,State Highway alignment continues into the next stretch
+09-031-010-245314,09-031-012-013572,Contiguous stretch,Urban Metro alignment continues into the next stretch
+09-031-012-013572,09-044-011-783326,Contiguous stretch,Urban Metro alignment continues into the next stretch
+09-002-018-837892,09-015-018-017810,Contiguous stretch,Urban Metro alignment continues into the next stretch
+09-002-022-794672,09-044-014-641225,Contiguous stretch,Urban Metro alignment continues into the next stretch
+09-044-017-574913,09-031-006-348412,Contiguous stretch,Urban Metro alignment continues into the next stretch
+21-005-011-786728,21-005-016-212873,Feeder connectivity,Corridor access depends on this road stretch
+21-005-011-786728,21-005-001-250927,Feeder connectivity,Corridor access depends on this road stretch
+22-009-001-966349,22-009-021-025825,Feeder connectivity,Corridor access depends on this road stretch
+22-009-001-966349,22-009-004-522374,Feeder connectivity,Corridor access depends on this road stretch
+29-009-002-628978,29-009-018-330872,Feeder connectivity,Corridor access depends on this road stretch
+29-009-002-628978,29-009-016-811799,Feeder connectivity,Corridor access depends on this road stretch
+33-023-003-347613,33-023-009-270578,Feeder connectivity,Corridor access depends on this road stretch
+33-023-003-347613,33-023-008-109672,Feeder connectivity,Corridor access depends on this road stretch
+36-027-010-345877,36-027-004-601436,Feeder connectivity,Corridor access depends on this road stretch
+36-027-010-345877,36-027-018-414505,Feeder connectivity,Corridor access depends on this road stretch
+36-027-016-523186,36-027-004-601436,Feeder connectivity,Corridor access depends on this road stretch
+36-027-016-523186,36-027-018-414505,Feeder connectivity,Corridor access depends on this road stretch
+09-015-020-499467,09-015-013-819804,Feeder connectivity,Corridor access depends on this road stretch
+09-015-020-499467,09-015-010-940913,Feeder connectivity,Corridor access depends on this road stretch
+21-019-010-250365,21-019-014-988271,Feeder connectivity,Corridor access depends on this road stretch
+21-019-010-250365,21-019-006-257378,Feeder connectivity,Corridor access depends on this road stretch
+27-025-020-420336,27-025-009-655747,Feeder connectivity,Corridor access depends on this road stretch
+27-025-020-420336,27-025-006-340067,Feeder connectivity,Corridor access depends on this road stretch
+29-007-024-604207,29-007-005-788735,Feeder connectivity,Corridor access depends on this road stretch
+29-007-024-604207,29-007-007-071762,Feeder connectivity,Corridor access depends on this road stretch
+09-015-007-459474,09-015-013-819804,Feeder connectivity,Corridor access depends on this road stretch
+09-015-007-459474,09-015-010-940913,Feeder connectivity,Corridor access depends on this road stretch
+21-019-013-994290,21-019-014-988271,Feeder connectivity,Corridor access depends on this road stretch
+21-019-013-994290,21-019-006-257378,Feeder connectivity,Corridor access depends on this road stretch
+23-016-021-561047,23-016-011-215124,Feeder connectivity,Corridor access depends on this road stretch
+23-016-021-561047,23-016-019-487040,Feeder connectivity,Corridor access depends on this road stretch
+09-044-010-180479,09-044-024-422247,Feeder connectivity,Corridor access depends on this road stretch
+09-044-010-180479,09-044-016-349452,Feeder connectivity,Corridor access depends on this road stretch
+36-027-009-400358,36-027-004-601436,Feeder connectivity,Corridor access depends on this road stretch
+36-027-009-400358,36-027-018-414505,Feeder connectivity,Corridor access depends on this road stretch
+22-002-019-640682,22-002-009-541227,Feeder connectivity,Corridor access depends on this road stretch
+22-002-019-640682,22-002-008-335658,Feeder connectivity,Corridor access depends on this road stretch
+29-009-008-883290,29-009-018-330872,Feeder connectivity,Corridor access depends on this road stretch
+29-009-008-883290,29-009-016-811799,Feeder connectivity,Corridor access depends on this road stretch
+22-018-020-948330,22-018-013-296622,Feeder connectivity,Corridor access depends on this road stretch
+22-018-020-948330,22-018-003-425514,Feeder connectivity,Corridor access depends on this road stretch
+22-002-003-644798,22-002-009-541227,Feeder connectivity,Corridor access depends on this road stretch
+22-002-003-644798,22-002-008-335658,Feeder connectivity,Corridor access depends on this road stretch
+23-028-021-863404,23-028-004-804705,Feeder connectivity,Corridor access depends on this road stretch
+23-028-021-863404,23-028-009-350448,Feeder connectivity,Corridor access depends on this road stretch
+22-018-024-885603,22-018-013-296622,Feeder connectivity,Corridor access depends on this road stretch
+22-018-024-885603,22-018-003-425514,Feeder connectivity,Corridor access depends on this road stretch
+33-023-024-149241,33-023-009-270578,Feeder connectivity,Corridor access depends on this road stretch
+33-023-024-149241,33-023-008-109672,Feeder connectivity,Corridor access depends on this road stretch
+09-031-010-951761,09-031-004-338225,Feeder connectivity,Corridor access depends on this road stretch
+09-031-010-951761,09-031-009-301397,Feeder connectivity,Corridor access depends on this road stretch
+21-026-008-652571,21-026-002-958256,Feeder connectivity,Corridor access depends on this road stretch
+21-026-008-652571,21-026-001-357052,Feeder connectivity,Corridor access depends on this road stretch
+27-025-016-374850,27-025-009-655747,Feeder connectivity,Corridor access depends on this road stretch
+27-025-016-374850,27-025-006-340067,Feeder connectivity,Corridor access depends on this road stretch
+36-011-003-331349,36-011-010-433055,Feeder connectivity,Corridor access depends on this road stretch
+36-011-003-331349,36-011-018-687163,Feeder connectivity,Corridor access depends on this road stretch
+36-019-008-919095,36-019-009-582253,Feeder connectivity,Corridor access depends on this road stretch
+36-019-008-919095,36-019-012-035966,Feeder connectivity,Corridor access depends on this road stretch
+29-018-017-640746,29-018-006-070607,Feeder connectivity,Corridor access depends on this road stretch
+29-018-017-640746,29-018-008-164220,Feeder connectivity,Corridor access depends on this road stretch
+23-028-017-616704,23-028-004-804705,Feeder connectivity,Corridor access depends on this road stretch
+23-028-017-616704,23-028-009-350448,Feeder connectivity,Corridor access depends on this road stretch
+27-037-002-577568,27-037-017-497474,Feeder connectivity,Corridor access depends on this road stretch
+27-037-002-577568,27-037-010-996219,Feeder connectivity,Corridor access depends on this road stretch
+36-019-016-850029,36-019-009-582253,Feeder connectivity,Corridor access depends on this road stretch
+36-019-016-850029,36-019-012-035966,Feeder connectivity,Corridor access depends on this road stretch
+22-002-007-199555,22-002-009-541227,Feeder connectivity,Corridor access depends on this road stretch
+22-002-007-199555,22-002-008-335658,Feeder connectivity,Corridor access depends on this road stretch
+33-045-008-394565,33-045-018-529091,Feeder connectivity,Corridor access depends on this road stretch
+33-045-008-394565,33-045-004-081690,Feeder connectivity,Corridor access depends on this road stretch
+33-014-016-217560,33-014-011-676436,Feeder connectivity,Corridor access depends on this road stretch
+33-014-016-217560,33-014-011-363947,Feeder connectivity,Corridor access depends on this road stretch
+36-019-008-771013,36-019-009-582253,Feeder connectivity,Corridor access depends on this road stretch
+36-019-008-771013,36-019-012-035966,Feeder connectivity,Corridor access depends on this road stretch
+36-019-019-376825,36-019-009-582253,Feeder connectivity,Corridor access depends on this road stretch
+36-019-019-376825,36-019-012-035966,Feeder connectivity,Corridor access depends on this road stretch
+23-004-010-095966,23-004-020-557776,Feeder connectivity,Corridor access depends on this road stretch
+23-004-010-095966,23-004-019-012227,Feeder connectivity,Corridor access depends on this road stretch
+29-022-009-442523,29-022-024-239792,Feeder connectivity,Corridor access depends on this road stretch
+29-022-009-442523,29-022-007-575490,Feeder connectivity,Corridor access depends on this road stretch
+09-031-011-782923,09-031-004-338225,Feeder connectivity,Corridor access depends on this road stretch
+09-031-011-782923,09-031-009-301397,Feeder connectivity,Corridor access depends on this road stretch
+22-014-003-242905,22-014-018-128587,Feeder connectivity,Corridor access depends on this road stretch
+22-014-003-242905,22-014-013-822415,Feeder connectivity,Corridor access depends on this road stretch
+22-018-012-901195,22-018-013-296622,Feeder connectivity,Corridor access depends on this road stretch
+22-018-012-901195,22-018-003-425514,Feeder connectivity,Corridor access depends on this road stretch
+29-018-013-003927,29-018-006-070607,Feeder connectivity,Corridor access depends on this road stretch
+29-018-013-003927,29-018-008-164220,Feeder connectivity,Corridor access depends on this road stretch
+36-011-017-938212,36-011-010-433055,Feeder connectivity,Corridor access depends on this road stretch
+36-011-017-938212,36-011-018-687163,Feeder connectivity,Corridor access depends on this road stretch
+21-012-018-340012,21-012-022-745758,Feeder connectivity,Corridor access depends on this road stretch
+21-012-018-340012,21-012-011-176514,Feeder connectivity,Corridor access depends on this road stretch
+33-023-020-307456,33-023-009-270578,Feeder connectivity,Corridor access depends on this road stretch
+33-023-020-307456,33-023-008-109672,Feeder connectivity,Corridor access depends on this road stretch
+09-044-020-405265,09-044-024-422247,Feeder connectivity,Corridor access depends on this road stretch
+09-044-020-405265,09-044-016-349452,Feeder connectivity,Corridor access depends on this road stretch
+22-002-005-605965,22-002-009-541227,Feeder connectivity,Corridor access depends on this road stretch
+22-002-005-605965,22-002-008-335658,Feeder connectivity,Corridor access depends on this road stretch
+27-037-015-156208,27-037-017-497474,Feeder connectivity,Corridor access depends on this road stretch
+27-037-015-156208,27-037-010-996219,Feeder connectivity,Corridor access depends on this road stretch
+22-018-007-427108,22-018-013-296622,Feeder connectivity,Corridor access depends on this road stretch
+22-018-007-427108,22-018-003-425514,Feeder connectivity,Corridor access depends on this road stretch
+29-018-001-407034,29-018-006-070607,Feeder connectivity,Corridor access depends on this road stretch
+29-018-001-407034,29-018-008-164220,Feeder connectivity,Corridor access depends on this road stretch
+21-005-017-162591,21-005-016-212873,Feeder connectivity,Corridor access depends on this road stretch
+21-005-017-162591,21-005-001-250927,Feeder connectivity,Corridor access depends on this road stretch
+22-002-017-463019,22-002-009-541227,Feeder connectivity,Corridor access depends on this road stretch
+22-002-017-463019,22-002-008-335658,Feeder connectivity,Corridor access depends on this road stretch
+23-004-012-503573,23-004-020-557776,Feeder connectivity,Corridor access depends on this road stretch
+23-004-012-503573,23-004-019-012227,Feeder connectivity,Corridor access depends on this road stretch
+36-003-024-033546,36-003-012-771038,Feeder connectivity,Corridor access depends on this road stretch
+36-003-024-033546,36-003-007-310782,Feeder connectivity,Corridor access depends on this road stretch
+22-018-001-023764,22-018-013-296622,Feeder connectivity,Corridor access depends on this road stretch
+22-018-001-023764,22-018-003-425514,Feeder connectivity,Corridor access depends on this road stretch
+36-011-001-148953,36-011-010-433055,Feeder connectivity,Corridor access depends on this road stretch
+36-011-001-148953,36-011-018-687163,Feeder connectivity,Corridor access depends on this road stretch
+33-045-012-872493,33-045-018-529091,Feeder connectivity,Corridor access depends on this road stretch
+33-045-012-872493,33-045-004-081690,Feeder connectivity,Corridor access depends on this road stretch
+36-011-005-032698,36-011-010-433055,Feeder connectivity,Corridor access depends on this road stretch
+36-011-005-032698,36-011-018-687163,Feeder connectivity,Corridor access depends on this road stretch
+22-018-021-691048,22-018-013-296622,Feeder connectivity,Corridor access depends on this road stretch
+22-018-021-691048,22-018-003-425514,Feeder connectivity,Corridor access depends on this road stretch
+29-018-016-141916,29-018-006-070607,Feeder connectivity,Corridor access depends on this road stretch
+29-018-016-141916,29-018-008-164220,Feeder connectivity,Corridor access depends on this road stretch
+29-009-015-901494,29-009-018-330872,Feeder connectivity,Corridor access depends on this road stretch
+29-009-015-901494,29-009-016-811799,Feeder connectivity,Corridor access depends on this road stretch
+23-016-023-315833,23-016-011-215124,Feeder connectivity,Corridor access depends on this road stretch
+23-016-023-315833,23-016-019-487040,Feeder connectivity,Corridor access depends on this road stretch
+29-007-011-687218,29-007-005-788735,Feeder connectivity,Corridor access depends on this road stretch
+29-007-011-687218,29-007-007-071762,Feeder connectivity,Corridor access depends on this road stretch
+27-025-003-817740,27-025-009-655747,Feeder connectivity,Corridor access depends on this road stretch
+27-025-003-817740,27-025-006-340067,Feeder connectivity,Corridor access depends on this road stretch
+22-018-003-186466,22-018-013-296622,Feeder connectivity,Corridor access depends on this road stretch
+22-018-003-186466,22-018-003-425514,Feeder connectivity,Corridor access depends on this road stretch
+23-033-019-156498,23-033-008-121651,Feeder connectivity,Corridor access depends on this road stretch
+23-033-019-156498,23-033-018-810137,Feeder connectivity,Corridor access depends on this road stretch
+09-002-012-287289,09-002-018-433132,Feeder connectivity,Corridor access depends on this road stretch
+09-002-012-287289,09-002-004-500329,Feeder connectivity,Corridor access depends on this road stretch
+29-009-005-455315,29-009-018-330872,Feeder connectivity,Corridor access depends on this road stretch
+29-009-005-455315,29-009-016-811799,Feeder connectivity,Corridor access depends on this road stretch
+36-027-001-845549,36-027-004-601436,Feeder connectivity,Corridor access depends on this road stretch
+36-027-001-845549,36-027-018-414505,Feeder connectivity,Corridor access depends on this road stretch
+29-009-020-946469,29-009-018-330872,Feeder connectivity,Corridor access depends on this road stretch
+29-009-020-946469,29-009-016-811799,Feeder connectivity,Corridor access depends on this road stretch
+33-031-017-369786,33-031-002-770404,Feeder connectivity,Corridor access depends on this road stretch
+33-031-017-369786,33-031-008-004122,Feeder connectivity,Corridor access depends on this road stretch
+09-015-023-594924,09-015-013-819804,Feeder connectivity,Corridor access depends on this road stretch
+09-015-023-594924,09-015-010-940913,Feeder connectivity,Corridor access depends on this road stretch
+29-022-002-099610,29-022-024-239792,Feeder connectivity,Corridor access depends on this road stretch
+29-022-002-099610,29-022-007-575490,Feeder connectivity,Corridor access depends on this road stretch
+36-011-024-060933,36-011-010-433055,Feeder connectivity,Corridor access depends on this road stretch
+36-011-024-060933,36-011-018-687163,Feeder connectivity,Corridor access depends on this road stretch
+09-031-022-184217,09-031-004-338225,Feeder connectivity,Corridor access depends on this road stretch
+09-031-022-184217,09-031-009-301397,Feeder connectivity,Corridor access depends on this road stretch
+21-026-009-986885,21-026-002-958256,Feeder connectivity,Corridor access depends on this road stretch
+21-026-009-986885,21-026-001-357052,Feeder connectivity,Corridor access depends on this road stretch
+22-018-015-420983,22-018-013-296622,Feeder connectivity,Corridor access depends on this road stretch
+22-018-015-420983,22-018-003-425514,Feeder connectivity,Corridor access depends on this road stretch
+33-023-005-642414,33-023-009-270578,Feeder connectivity,Corridor access depends on this road stretch
+33-023-005-642414,33-023-008-109672,Feeder connectivity,Corridor access depends on this road stretch
+33-031-018-828945,33-031-002-770404,Feeder connectivity,Corridor access depends on this road stretch
+33-031-018-828945,33-031-008-004122,Feeder connectivity,Corridor access depends on this road stretch
+36-019-006-621721,36-019-009-582253,Feeder connectivity,Corridor access depends on this road stretch
+36-019-006-621721,36-019-012-035966,Feeder connectivity,Corridor access depends on this road stretch
+33-014-003-624419,33-014-011-676436,Feeder connectivity,Corridor access depends on this road stretch
+33-014-003-624419,33-014-011-363947,Feeder connectivity,Corridor access depends on this road stretch
+22-014-012-594344,22-014-018-128587,Feeder connectivity,Corridor access depends on this road stretch
+22-014-012-594344,22-014-013-822415,Feeder connectivity,Corridor access depends on this road stretch
+21-019-003-645108,21-019-014-988271,Feeder connectivity,Corridor access depends on this road stretch
+21-019-003-645108,21-019-006-257378,Feeder connectivity,Corridor access depends on this road stretch
+27-013-003-816162,27-013-018-313330,Feeder connectivity,Corridor access depends on this road stretch
+27-013-003-816162,27-013-007-293988,Feeder connectivity,Corridor access depends on this road stretch
+23-028-024-197282,23-028-004-804705,Feeder connectivity,Corridor access depends on this road stretch
+23-028-024-197282,23-028-009-350448,Feeder connectivity,Corridor access depends on this road stretch
+33-014-013-611333,33-014-011-676436,Feeder connectivity,Corridor access depends on this road stretch
+33-014-013-611333,33-014-011-363947,Feeder connectivity,Corridor access depends on this road stretch
+09-002-024-994533,09-002-018-433132,Feeder connectivity,Corridor access depends on this road stretch
+09-002-024-994533,09-002-004-500329,Feeder connectivity,Corridor access depends on this road stretch
+33-045-002-169773,33-045-018-529091,Feeder connectivity,Corridor access depends on this road stretch
+33-045-002-169773,33-045-004-081690,Feeder connectivity,Corridor access depends on this road stretch
+22-009-002-176327,22-009-021-025825,Feeder connectivity,Corridor access depends on this road stretch
+22-009-002-176327,22-009-004-522374,Feeder connectivity,Corridor access depends on this road stretch
+09-002-018-699715,09-002-018-433132,Feeder connectivity,Corridor access depends on this road stretch
+09-002-018-699715,09-002-004-500329,Feeder connectivity,Corridor access depends on this road stretch
+09-002-014-978881,09-002-018-433132,Feeder connectivity,Corridor access depends on this road stretch
+09-002-014-978881,09-002-004-500329,Feeder connectivity,Corridor access depends on this road stretch
+23-028-009-366887,23-028-004-804705,Feeder connectivity,Corridor access depends on this road stretch
+23-028-009-366887,23-028-009-350448,Feeder connectivity,Corridor access depends on this road stretch
+21-026-020-567288,21-026-002-958256,Feeder connectivity,Corridor access depends on this road stretch
+21-026-020-567288,21-026-001-357052,Feeder connectivity,Corridor access depends on this road stretch
+22-014-005-537148,22-014-018-128587,Feeder connectivity,Corridor access depends on this road stretch
+22-014-005-537148,22-014-013-822415,Feeder connectivity,Corridor access depends on this road stretch
+22-014-011-799681,22-014-018-128587,Feeder connectivity,Corridor access depends on this road stretch
+22-014-011-799681,22-014-013-822415,Feeder connectivity,Corridor access depends on this road stretch
+09-002-012-096995,09-002-018-433132,Feeder connectivity,Corridor access depends on this road stretch
+09-002-012-096995,09-002-004-500329,Feeder connectivity,Corridor access depends on this road stretch
+36-027-022-025842,36-027-004-601436,Feeder connectivity,Corridor access depends on this road stretch
+36-027-022-025842,36-027-018-414505,Feeder connectivity,Corridor access depends on this road stretch
+27-037-005-932752,27-037-017-497474,Feeder connectivity,Corridor access depends on this road stretch
+27-037-005-932752,27-037-010-996219,Feeder connectivity,Corridor access depends on this road stretch
+29-022-005-835678,29-022-024-239792,Feeder connectivity,Corridor access depends on this road stretch
+29-022-005-835678,29-022-007-575490,Feeder connectivity,Corridor access depends on this road stretch
+36-003-001-892924,36-003-012-771038,Feeder connectivity,Corridor access depends on this road stretch
+36-003-001-892924,36-003-007-310782,Feeder connectivity,Corridor access depends on this road stretch
+22-002-014-968638,22-002-009-541227,Feeder connectivity,Corridor access depends on this road stretch
+22-002-014-968638,22-002-008-335658,Feeder connectivity,Corridor access depends on this road stretch
+29-022-009-232014,29-022-024-239792,Feeder connectivity,Corridor access depends on this road stretch
+29-022-009-232014,29-022-007-575490,Feeder connectivity,Corridor access depends on this road stretch
+09-044-010-399385,09-044-024-422247,Feeder connectivity,Corridor access depends on this road stretch
+09-044-010-399385,09-044-016-349452,Feeder connectivity,Corridor access depends on this road stretch
+22-018-003-316142,22-018-013-296622,Feeder connectivity,Corridor access depends on this road stretch
+22-018-003-316142,22-018-003-425514,Feeder connectivity,Corridor access depends on this road stretch
+23-033-005-677236,23-033-008-121651,Feeder connectivity,Corridor access depends on this road stretch
+23-033-005-677236,23-033-018-810137,Feeder connectivity,Corridor access depends on this road stretch
+33-031-004-898735,33-031-002-770404,Feeder connectivity,Corridor access depends on this road stretch
+33-031-004-898735,33-031-008-004122,Feeder connectivity,Corridor access depends on this road stretch
+27-037-005-386916,27-037-017-497474,Feeder connectivity,Corridor access depends on this road stretch
+27-037-005-386916,27-037-010-996219,Feeder connectivity,Corridor access depends on this road stretch
+21-026-019-308724,21-026-002-958256,Feeder connectivity,Corridor access depends on this road stretch
+21-026-019-308724,21-026-001-357052,Feeder connectivity,Corridor access depends on this road stretch
+23-016-018-510973,23-016-011-215124,Feeder connectivity,Corridor access depends on this road stretch
+23-016-018-510973,23-016-019-487040,Feeder connectivity,Corridor access depends on this road stretch
+21-012-014-065558,21-012-022-745758,Feeder connectivity,Corridor access depends on this road stretch
+21-012-014-065558,21-012-011-176514,Feeder connectivity,Corridor access depends on this road stretch
+23-016-010-263519,23-016-011-215124,Feeder connectivity,Corridor access depends on this road stretch
+23-016-010-263519,23-016-019-487040,Feeder connectivity,Corridor access depends on this road stretch
+23-004-011-299727,23-004-020-557776,Feeder connectivity,Corridor access depends on this road stretch
+23-004-011-299727,23-004-019-012227,Feeder connectivity,Corridor access depends on this road stretch
+09-044-023-942817,09-044-024-422247,Feeder connectivity,Corridor access depends on this road stretch
+09-044-023-942817,09-044-016-349452,Feeder connectivity,Corridor access depends on this road stretch
+36-027-002-466005,36-027-004-601436,Feeder connectivity,Corridor access depends on this road stretch
+36-027-002-466005,36-027-018-414505,Feeder connectivity,Corridor access depends on this road stretch
+21-019-023-451112,21-019-014-988271,Feeder connectivity,Corridor access depends on this road stretch
+21-019-023-451112,21-019-006-257378,Feeder connectivity,Corridor access depends on this road stretch
+09-015-005-629643,09-015-013-819804,Feeder connectivity,Corridor access depends on this road stretch
+09-015-005-629643,09-015-010-940913,Feeder connectivity,Corridor access depends on this road stretch
+29-022-024-163578,29-022-024-239792,Feeder connectivity,Corridor access depends on this road stretch
+29-022-024-163578,29-022-007-575490,Feeder connectivity,Corridor access depends on this road stretch
+33-014-015-277839,33-014-011-676436,Feeder connectivity,Corridor access depends on this road stretch
+33-014-015-277839,33-014-011-363947,Feeder connectivity,Corridor access depends on this road stretch
+33-045-006-087077,33-045-018-529091,Feeder connectivity,Corridor access depends on this road stretch
+33-045-006-087077,33-045-004-081690,Feeder connectivity,Corridor access depends on this road stretch
+21-026-004-937999,21-026-002-958256,Feeder connectivity,Corridor access depends on this road stretch
+21-026-004-937999,21-026-001-357052,Feeder connectivity,Corridor access depends on this road stretch
+36-019-012-013398,36-019-009-582253,Feeder connectivity,Corridor access depends on this road stretch
+36-019-012-013398,36-019-012-035966,Feeder connectivity,Corridor access depends on this road stretch
+36-027-012-620266,36-027-004-601436,Feeder connectivity,Corridor access depends on this road stretch
+36-027-012-620266,36-027-018-414505,Feeder connectivity,Corridor access depends on this road stretch
+21-012-024-199195,21-012-022-745758,Feeder connectivity,Corridor access depends on this road stretch
+21-012-024-199195,21-012-011-176514,Feeder connectivity,Corridor access depends on this road stretch
+27-037-024-592138,27-037-017-497474,Feeder connectivity,Corridor access depends on this road stretch
+27-037-024-592138,27-037-010-996219,Feeder connectivity,Corridor access depends on this road stretch
+22-002-010-708428,22-002-009-541227,Feeder connectivity,Corridor access depends on this road stretch
+22-002-010-708428,22-002-008-335658,Feeder connectivity,Corridor access depends on this road stretch
+36-019-011-773030,36-019-009-582253,Feeder connectivity,Corridor access depends on this road stretch
+36-019-011-773030,36-019-012-035966,Feeder connectivity,Corridor access depends on this road stretch
+29-022-023-972424,29-022-024-239792,Feeder connectivity,Corridor access depends on this road stretch
+29-022-023-972424,29-022-007-575490,Feeder connectivity,Corridor access depends on this road stretch
+33-031-016-364585,33-031-002-770404,Feeder connectivity,Corridor access depends on this road stretch
+33-031-016-364585,33-031-008-004122,Feeder connectivity,Corridor access depends on this road stretch
+21-012-011-872921,21-012-022-745758,Feeder connectivity,Corridor access depends on this road stretch
+21-012-011-872921,21-012-011-176514,Feeder connectivity,Corridor access depends on this road stretch
+29-018-021-168743,29-018-006-070607,Feeder connectivity,Corridor access depends on this road stretch
+29-018-021-168743,29-018-008-164220,Feeder connectivity,Corridor access depends on this road stretch
+21-005-007-293405,21-005-016-212873,Feeder connectivity,Corridor access depends on this road stretch
+21-005-007-293405,21-005-001-250927,Feeder connectivity,Corridor access depends on this road stretch
+09-031-010-811785,09-031-004-338225,Feeder connectivity,Corridor access depends on this road stretch
+09-031-010-811785,09-031-009-301397,Feeder connectivity,Corridor access depends on this road stretch
+21-012-004-001947,21-012-022-745758,Feeder connectivity,Corridor access depends on this road stretch
+21-012-004-001947,21-012-011-176514,Feeder connectivity,Corridor access depends on this road stretch
+22-014-017-221878,22-014-018-128587,Feeder connectivity,Corridor access depends on this road stretch
+22-014-017-221878,22-014-013-822415,Feeder connectivity,Corridor access depends on this road stretch

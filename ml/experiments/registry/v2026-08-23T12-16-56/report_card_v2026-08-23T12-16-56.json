@@ -1,0 +1,593 @@
+{
+  "model_version": "v2026-08-23T12-16-56",
+  "run_date": "2026-08-23 12:16:56",
+  "cv": "5-fold stratified, out-of-fold predictions",
+  "training_data": "synthetic \u2014 ml/src/data/generate_dataset.py rev 3",
+  "model_a_is_delayed": {
+    "n": 600,
+    "positive_rate": 0.4467,
+    "auc": 0.9212,
+    "accuracy": 0.8567,
+    "f1": 0.8352,
+    "brier": 0.113,
+    "confusion_matrix": [
+      [
+        296,
+        36
+      ],
+      [
+        50,
+        218
+      ]
+    ],
+    "confusion_labels": [
+      "on-time",
+      "delayed"
+    ],
+    "calibration_curve": {
+      "mean_predicted": [
+        0.002,
+        0.0102,
+        0.0264,
+        0.0746,
+        0.2148,
+        0.438,
+        0.7406,
+        0.9046,
+        0.9712,
+        0.9945
+      ],
+      "fraction_positive": [
+        0.0,
+        0.0667,
+        0.1,
+        0.1833,
+        0.25,
+        0.4167,
+        0.6833,
+        0.8333,
+        0.95,
+        0.9833
+      ]
+    },
+    "per_state": [
+      {
+        "state": "Chhattisgarh",
+        "n": 93,
+        "positives": 48,
+        "auc": 0.9398,
+        "accuracy": 0.8602
+      },
+      {
+        "state": "Karnataka",
+        "n": 76,
+        "positives": 37,
+        "auc": 0.8891,
+        "accuracy": 0.8289
+      },
+      {
+        "state": "Madhya Pradesh",
+        "n": 63,
+        "positives": 28,
+        "auc": 0.8898,
+        "accuracy": 0.8095
+      },
+      {
+        "state": "Maharashtra",
+        "n": 81,
+        "positives": 40,
+        "auc": 0.9201,
+        "accuracy": 0.8642
+      },
+      {
+        "state": "Odisha",
+        "n": 66,
+        "positives": 24,
+        "auc": 0.9395,
+        "accuracy": 0.8788
+      },
+      {
+        "state": "Tamil Nadu",
+        "n": 73,
+        "positives": 27,
+        "auc": 0.9195,
+        "accuracy": 0.8767
+      },
+      {
+        "state": "Telangana",
+        "n": 80,
+        "positives": 35,
+        "auc": 0.9041,
+        "accuracy": 0.85
+      },
+      {
+        "state": "Uttar Pradesh",
+        "n": 68,
+        "positives": 29,
+        "auc": 0.9558,
+        "accuracy": 0.8824
+      }
+    ]
+  },
+  "model_b_delay_stage": {
+    "n": 268,
+    "classes": [
+      "Compensation Disbursal",
+      "Legal Dispute",
+      "Rehabilitation (R&R)",
+      "Ownership / Title",
+      "Administrative Approval"
+    ],
+    "class_counts": {
+      "Compensation Disbursal": 54,
+      "Legal Dispute": 93,
+      "Rehabilitation (R&R)": 26,
+      "Ownership / Title": 59,
+      "Administrative Approval": 36
+    },
+    "accuracy": 0.7127,
+    "top2_accuracy": 0.9328,
+    "macro_f1": 0.6709,
+    "majority_baseline": 0.347,
+    "ratio_to_baseline": 2.0538,
+    "confusion_matrix": [
+      [
+        31,
+        12,
+        3,
+        2,
+        6
+      ],
+      [
+        6,
+        77,
+        3,
+        6,
+        1
+      ],
+      [
+        1,
+        7,
+        14,
+        3,
+        1
+      ],
+      [
+        0,
+        6,
+        2,
+        51,
+        0
+      ],
+      [
+        10,
+        5,
+        2,
+        1,
+        18
+      ]
+    ],
+    "per_state": [
+      {
+        "state": "Chhattisgarh",
+        "n": 48,
+        "accuracy": 0.6458
+      },
+      {
+        "state": "Karnataka",
+        "n": 37,
+        "accuracy": 0.7838
+      },
+      {
+        "state": "Madhya Pradesh",
+        "n": 28,
+        "accuracy": 0.6786
+      },
+      {
+        "state": "Maharashtra",
+        "n": 40,
+        "accuracy": 0.675
+      },
+      {
+        "state": "Odisha",
+        "n": 24,
+        "accuracy": 0.7083
+      },
+      {
+        "state": "Tamil Nadu",
+        "n": 27,
+        "accuracy": 0.8519
+      },
+      {
+        "state": "Telangana",
+        "n": 35,
+        "accuracy": 0.6857
+      },
+      {
+        "state": "Uttar Pradesh",
+        "n": 29,
+        "accuracy": 0.7241
+      }
+    ]
+  },
+  "model_a_top_importance": [
+    {
+      "feature": "no_legal_disputes",
+      "gain_share": 0.1377
+    },
+    {
+      "feature": "title_clarity_status",
+      "gain_share": 0.0742
+    },
+    {
+      "feature": "legal_dispute_stage",
+      "gain_share": 0.0523
+    },
+    {
+      "feature": "no_ownership_disputes",
+      "gain_share": 0.0466
+    },
+    {
+      "feature": "compensation_disbursed_pct",
+      "gain_share": 0.0461
+    },
+    {
+      "feature": "compensation_gap_pct",
+      "gain_share": 0.039
+    },
+    {
+      "feature": "days_since_dispute_filed",
+      "gain_share": 0.0353
+    },
+    {
+      "feature": "rehab_progress_pct",
+      "gain_share": 0.0344
+    },
+    {
+      "feature": "rehab_plan_approved_flag",
+      "gain_share": 0.0307
+    },
+    {
+      "feature": "forest_clearance_status",
+      "gain_share": 0.0301
+    },
+    {
+      "feature": "no_compensation_appeals",
+      "gain_share": 0.0274
+    },
+    {
+      "feature": "court_stay_flag",
+      "gain_share": 0.0263
+    },
+    {
+      "feature": "state_Chhattisgarh",
+      "gain_share": 0.0245
+    },
+    {
+      "feature": "ownership_dispute_flag",
+      "gain_share": 0.0241
+    },
+    {
+      "feature": "approval_stage",
+      "gain_share": 0.0233
+    },
+    {
+      "feature": "environmental_clearance_status",
+      "gain_share": 0.0231
+    },
+    {
+      "feature": "ownership_fragmentation_index",
+      "gain_share": 0.0223
+    },
+    {
+      "feature": "compensation_amount_disbursed_lakhs",
+      "gain_share": 0.0207
+    },
+    {
+      "feature": "days_in_current_stage",
+      "gain_share": 0.0203
+    },
+    {
+      "feature": "project_type_Industrial Corridor",
+      "gain_share": 0.0199
+    },
+    {
+      "feature": "no_families_resettled",
+      "gain_share": 0.0198
+    },
+    {
+      "feature": "compensation_amount_sanctioned_lakhs",
+      "gain_share": 0.0195
+    },
+    {
+      "feature": "implementing_agency_POWERGRID",
+      "gain_share": 0.0171
+    },
+    {
+      "feature": "no_landowners",
+      "gain_share": 0.0168
+    },
+    {
+      "feature": "longitude",
+      "gain_share": 0.0164
+    },
+    {
+      "feature": "no_affected_families",
+      "gain_share": 0.0163
+    },
+    {
+      "feature": "latitude",
+      "gain_share": 0.0159
+    },
+    {
+      "feature": "compensation_fair_value_lakhs",
+      "gain_share": 0.0157
+    },
+    {
+      "feature": "no_pending_clearances",
+      "gain_share": 0.0155
+    },
+    {
+      "feature": "circle_rate_per_acre_lakhs",
+      "gain_share": 0.0153
+    },
+    {
+      "feature": "land_area_acres",
+      "gain_share": 0.0146
+    },
+    {
+      "feature": "project_type_State Highway",
+      "gain_share": 0.0133
+    },
+    {
+      "feature": "project_type_Power Transmission",
+      "gain_share": 0.012
+    },
+    {
+      "feature": "resettlement_site_ready_flag",
+      "gain_share": 0.0112
+    },
+    {
+      "feature": "project_type_Railway Line",
+      "gain_share": 0.0102
+    },
+    {
+      "feature": "state_Uttar Pradesh",
+      "gain_share": 0.0069
+    },
+    {
+      "feature": "state_Karnataka",
+      "gain_share": 0.0052
+    }
+  ],
+  "model_b_top_importance": [
+    {
+      "feature": "title_clarity_status",
+      "gain_share": 0.084
+    },
+    {
+      "feature": "compensation_dispute_flag",
+      "gain_share": 0.0749
+    },
+    {
+      "feature": "no_ownership_disputes",
+      "gain_share": 0.0395
+    },
+    {
+      "feature": "district_Nagpur",
+      "gain_share": 0.0387
+    },
+    {
+      "feature": "no_legal_disputes",
+      "gain_share": 0.0378
+    },
+    {
+      "feature": "state_Tamil Nadu",
+      "gain_share": 0.0354
+    },
+    {
+      "feature": "rehab_progress_pct",
+      "gain_share": 0.0264
+    },
+    {
+      "feature": "legal_dispute_stage",
+      "gain_share": 0.0249
+    },
+    {
+      "feature": "state_Karnataka",
+      "gain_share": 0.0244
+    },
+    {
+      "feature": "no_pending_clearances",
+      "gain_share": 0.0241
+    },
+    {
+      "feature": "ownership_dispute_flag",
+      "gain_share": 0.0241
+    },
+    {
+      "feature": "court_stay_flag",
+      "gain_share": 0.0233
+    },
+    {
+      "feature": "project_type_Urban Metro",
+      "gain_share": 0.0209
+    },
+    {
+      "feature": "days_in_current_stage",
+      "gain_share": 0.0207
+    },
+    {
+      "feature": "compensation_gap_pct",
+      "gain_share": 0.0207
+    },
+    {
+      "feature": "compensation_disbursed_pct",
+      "gain_share": 0.0196
+    },
+    {
+      "feature": "state_Maharashtra",
+      "gain_share": 0.0195
+    },
+    {
+      "feature": "no_compensation_appeals",
+      "gain_share": 0.0194
+    },
+    {
+      "feature": "implementing_agency_Metro Rail Corp",
+      "gain_share": 0.0188
+    },
+    {
+      "feature": "project_type_Industrial Corridor",
+      "gain_share": 0.0161
+    },
+    {
+      "feature": "state_Uttar Pradesh",
+      "gain_share": 0.0158
+    },
+    {
+      "feature": "implementing_agency_Indian Railways",
+      "gain_share": 0.0155
+    },
+    {
+      "feature": "district_Korba",
+      "gain_share": 0.0145
+    },
+    {
+      "feature": "no_affected_families",
+      "gain_share": 0.0142
+    },
+    {
+      "feature": "project_type_National Highway",
+      "gain_share": 0.0141
+    },
+    {
+      "feature": "project_type_Power Transmission",
+      "gain_share": 0.0138
+    },
+    {
+      "feature": "state_Odisha",
+      "gain_share": 0.0131
+    },
+    {
+      "feature": "implementing_agency_Airports Authority of India",
+      "gain_share": 0.0126
+    },
+    {
+      "feature": "rehab_plan_approved_flag",
+      "gain_share": 0.0124
+    },
+    {
+      "feature": "environmental_clearance_status",
+      "gain_share": 0.0123
+    },
+    {
+      "feature": "state_Madhya Pradesh",
+      "gain_share": 0.0119
+    },
+    {
+      "feature": "implementing_agency_POWERGRID",
+      "gain_share": 0.0119
+    },
+    {
+      "feature": "ownership_fragmentation_index",
+      "gain_share": 0.0118
+    },
+    {
+      "feature": "forest_clearance_status",
+      "gain_share": 0.0116
+    },
+    {
+      "feature": "no_families_resettled",
+      "gain_share": 0.0115
+    },
+    {
+      "feature": "compensation_amount_disbursed_lakhs",
+      "gain_share": 0.011
+    },
+    {
+      "feature": "longitude",
+      "gain_share": 0.011
+    },
+    {
+      "feature": "compensation_fair_value_lakhs",
+      "gain_share": 0.0109
+    },
+    {
+      "feature": "circle_rate_per_acre_lakhs",
+      "gain_share": 0.0106
+    },
+    {
+      "feature": "project_type_Railway Line",
+      "gain_share": 0.0104
+    },
+    {
+      "feature": "district_Jabalpur",
+      "gain_share": 0.0103
+    },
+    {
+      "feature": "days_since_dispute_filed",
+      "gain_share": 0.0096
+    },
+    {
+      "feature": "state_Chhattisgarh",
+      "gain_share": 0.0094
+    },
+    {
+      "feature": "compensation_amount_sanctioned_lakhs",
+      "gain_share": 0.009
+    },
+    {
+      "feature": "latitude",
+      "gain_share": 0.0088
+    },
+    {
+      "feature": "project_type_State Highway",
+      "gain_share": 0.0087
+    },
+    {
+      "feature": "implementing_agency_State Irrigation Dept",
+      "gain_share": 0.0087
+    },
+    {
+      "feature": "land_area_acres",
+      "gain_share": 0.0084
+    },
+    {
+      "feature": "approval_stage",
+      "gain_share": 0.0084
+    },
+    {
+      "feature": "resettlement_site_ready_flag",
+      "gain_share": 0.0081
+    },
+    {
+      "feature": "no_landowners",
+      "gain_share": 0.0077
+    },
+    {
+      "feature": "state_Telangana",
+      "gain_share": 0.0076
+    },
+    {
+      "feature": "district_Warangal",
+      "gain_share": 0.0075
+    },
+    {
+      "feature": "implementing_agency_State Industrial Corp",
+      "gain_share": 0.0071
+    },
+    {
+      "feature": "project_type_Airport Expansion",
+      "gain_share": 0.0069
+    },
+    {
+      "feature": "implementing_agency_NHAI",
+      "gain_share": 0.0053
+    },
+    {
+      "feature": "project_type_Irrigation Canal",
+      "gain_share": 0.0044
+    }
+  ]
+}

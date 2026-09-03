@@ -1,0 +1,45 @@
+{
+  "model_version": "v2026-08-23T20-17-06",
+  "run_date": "2026-08-23 20:17:06",
+  "trained_by": "ml.src.training.train",
+  "data_source": "C:\\Users\\saika\\Land Acquisition\\ml\\data",
+  "data_revision": "rev 3 (synthetic)",
+  "n_projects": 900,
+  "n_closed_training": 600,
+  "n_ongoing_scored": 300,
+  "n_delayed_stage_training": 268,
+  "feature_count": 86,
+  "delay_stage_classes": [
+    "Compensation Disbursal",
+    "Legal Dispute",
+    "Rehabilitation (R&R)",
+    "Ownership / Title",
+    "Administrative Approval"
+  ],
+  "risk_bands": {
+    "High": ">= 0.70",
+    "Medium": "0.40 - 0.69",
+    "Low": "< 0.40"
+  },
+  "metrics": {
+    "binary_auc": 0.9228,
+    "binary_accuracy": 0.85,
+    "binary_brier": 0.1124,
+    "stage_accuracy": 0.6978,
+    "stage_majority_baseline": 0.347,
+    "stage_ratio_to_baseline": 2.0108
+  },
+  "succession_band_counts": {
+    "Not Applicable": 538,
+    "Medium": 167,
+    "High": 134,
+    "Low": 61
+  },
+  "library_versions": {
+    "xgboost": "3.2.0",
+    "shap": "0.51.0",
+    "scikit_learn": "1.9.0",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6"
+  }
+}

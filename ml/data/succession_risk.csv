@@ -1,0 +1,363 @@
+ulpin,heir_claim_count,undocumented_claims,contested_claims,share_total_pct,succession_risk_band,succession_reason
+09-002-004-500329,4,0,1,99.7,High,Competing heirship claims over the same parcel
+09-002-005-820092,4,2,1,100.0,High,Competing heirship claims over the same parcel
+09-002-006-374336,4,3,0,99.5,Medium,3 heir claim(s) without documentary proof — mutation not established
+09-002-008-247131,2,0,1,100.0,High,Competing heirship claims over the same parcel
+09-002-012-069721,3,0,2,94.6,High,Competing heirship claims over the same parcel
+09-002-012-287289,3,1,1,96.5,High,Competing heirship claims over the same parcel
+09-002-014-978881,4,1,1,100.0,High,Competing heirship claims over the same parcel
+09-002-018-066783,3,2,0,98.9,Medium,2 heir claim(s) without documentary proof — mutation not established
+09-002-018-837892,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-002-019-319626,4,1,0,97.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-002-019-518833,2,0,0,100.0,Low,All heirship claims documented
+09-002-024-994533,4,1,1,100.0,High,Competing heirship claims over the same parcel
+09-015-003-087671,3,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+09-015-005-629643,4,2,0,97.3,Medium,2 heir claim(s) without documentary proof — mutation not established
+09-015-007-459474,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-015-007-970801,3,0,2,100.0,High,Competing heirship claims over the same parcel
+09-015-009-180643,2,0,0,100.0,Low,All heirship claims documented
+09-015-013-630484,3,1,0,95.6,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-015-015-984880,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-015-018-017810,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-015-018-040011,3,2,1,95.9,High,Competing heirship claims over the same parcel
+09-015-018-258288,3,0,0,95.1,Medium,3 heirs on one parcel — consent risk at award
+09-015-020-941039,4,2,1,100.0,High,Competing heirship claims over the same parcel
+09-015-021-965587,2,0,0,91.1,Low,All heirship claims documented
+09-015-022-331393,4,1,1,100.0,High,Competing heirship claims over the same parcel
+09-015-023-422636,4,1,0,94.2,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-015-024-187536,4,0,2,95.2,High,Competing heirship claims over the same parcel
+09-015-024-684741,2,0,1,100.0,High,Competing heirship claims over the same parcel
+09-031-004-549123,4,0,2,100.0,High,Competing heirship claims over the same parcel
+09-031-006-321237,1,0,0,73.6,Low,All heirship claims documented
+09-031-007-719117,3,0,1,100.0,High,Competing heirship claims over the same parcel
+09-031-008-581607,1,0,1,71.6,High,Competing heirship claims over the same parcel
+09-031-009-301397,1,0,1,78.0,High,Competing heirship claims over the same parcel
+09-031-010-551779,1,0,0,100.0,Low,All heirship claims documented
+09-031-010-951761,3,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+09-031-011-782923,2,0,1,98.3,High,Competing heirship claims over the same parcel
+09-031-014-618305,4,0,2,100.0,High,Competing heirship claims over the same parcel
+09-031-024-799118,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-044-010-180479,4,0,3,89.1,High,Competing heirship claims over the same parcel
+09-044-010-399385,4,1,0,98.2,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-044-011-678937,4,1,2,100.0,High,Competing heirship claims over the same parcel
+09-044-011-783326,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-044-013-404185,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-044-014-641225,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+09-044-015-501491,4,3,0,100.0,Medium,3 heir claim(s) without documentary proof — mutation not established
+09-044-018-641015,4,2,1,100.0,High,Competing heirship claims over the same parcel
+09-044-018-871523,3,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+21-005-001-250927,3,1,1,100.0,High,Competing heirship claims over the same parcel
+21-005-003-657654,1,1,0,91.9,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-005-008-420826,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-005-009-683504,2,0,1,92.2,High,Competing heirship claims over the same parcel
+21-005-011-786728,4,1,2,100.0,High,Competing heirship claims over the same parcel
+21-005-016-212873,3,2,0,95.8,Medium,2 heir claim(s) without documentary proof — mutation not established
+21-005-020-459268,1,0,1,100.0,High,Competing heirship claims over the same parcel
+21-005-024-337424,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-012-004-001947,2,0,1,89.7,High,Competing heirship claims over the same parcel
+21-012-010-442084,3,1,0,93.9,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-012-011-039271,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-012-011-176514,1,0,0,67.3,Low,All heirship claims documented
+21-012-012-264754,4,3,1,100.0,High,Competing heirship claims over the same parcel
+21-012-016-573987,3,0,0,100.0,Medium,3 heirs on one parcel — consent risk at award
+21-012-017-308238,3,1,0,93.3,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-012-017-655235,4,0,1,100.0,High,Competing heirship claims over the same parcel
+21-012-018-340012,4,0,2,100.0,High,Competing heirship claims over the same parcel
+21-012-018-603940,4,1,2,100.0,High,Competing heirship claims over the same parcel
+21-012-021-517164,1,0,0,100.0,Low,All heirship claims documented
+21-012-024-149588,3,1,1,94.2,High,Competing heirship claims over the same parcel
+21-019-006-257378,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-019-010-250365,2,0,0,93.8,Low,All heirship claims documented
+21-019-011-899752,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-019-012-187124,4,1,0,91.6,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-019-016-998853,4,0,0,98.0,Medium,4 heirs on one parcel — consent risk at award
+21-019-018-511650,3,1,1,100.0,High,Competing heirship claims over the same parcel
+21-019-024-331631,3,0,0,79.1,Medium,3 heirs on one parcel — consent risk at award
+21-026-001-033765,1,0,0,81.4,Low,All heirship claims documented
+21-026-003-542903,2,0,1,91.4,High,Competing heirship claims over the same parcel
+21-026-004-937999,3,0,1,100.0,High,Competing heirship claims over the same parcel
+21-026-008-652571,3,1,1,99.3,High,Competing heirship claims over the same parcel
+21-026-009-694289,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-026-010-001443,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-026-014-370727,1,0,0,88.0,Low,All heirship claims documented
+21-026-015-050123,1,0,0,78.1,Low,All heirship claims documented
+21-026-018-182337,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+21-026-019-095000,2,2,0,88.2,Medium,2 heir claim(s) without documentary proof — mutation not established
+22-002-001-831933,2,0,0,100.0,Low,All heirship claims documented
+22-002-003-642583,4,2,1,100.0,High,Competing heirship claims over the same parcel
+22-002-003-731451,4,2,0,95.7,Medium,2 heir claim(s) without documentary proof — mutation not established
+22-002-006-583299,2,0,2,100.0,High,Competing heirship claims over the same parcel
+22-002-008-335658,3,0,0,100.0,Medium,3 heirs on one parcel — consent risk at award
+22-002-008-923294,3,0,1,100.0,High,Competing heirship claims over the same parcel
+22-002-009-216421,4,2,2,100.0,High,Competing heirship claims over the same parcel
+22-002-013-975593,1,1,0,80.4,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-002-014-342105,2,0,0,97.3,Low,All heirship claims documented
+22-002-014-783176,3,1,1,100.0,High,Competing heirship claims over the same parcel
+22-002-016-810586,2,0,0,100.0,Low,All heirship claims documented
+22-002-017-463019,1,1,0,86.5,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-002-018-182753,3,0,1,91.0,High,Competing heirship claims over the same parcel
+22-002-019-299770,3,0,0,100.0,Medium,3 heirs on one parcel — consent risk at award
+22-002-019-640682,3,1,1,91.9,High,Competing heirship claims over the same parcel
+22-002-022-310918,4,0,2,100.0,High,Competing heirship claims over the same parcel
+22-002-022-420389,2,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+22-002-023-768360,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-009-002-219883,1,0,1,94.5,High,Competing heirship claims over the same parcel
+22-009-003-276112,2,1,0,86.2,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-009-018-967292,4,3,0,93.5,Medium,3 heir claim(s) without documentary proof — mutation not established
+22-009-020-203958,2,2,0,94.7,Medium,2 heir claim(s) without documentary proof — mutation not established
+22-009-021-420306,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-009-021-451815,1,0,0,100.0,Low,All heirship claims documented
+22-014-003-019606,2,0,0,100.0,Low,All heirship claims documented
+22-014-004-452829,3,0,1,92.8,High,Competing heirship claims over the same parcel
+22-014-007-664694,4,1,1,100.0,High,Competing heirship claims over the same parcel
+22-014-009-112459,3,3,0,97.1,Medium,3 heir claim(s) without documentary proof — mutation not established
+22-014-009-741647,2,0,1,100.0,High,Competing heirship claims over the same parcel
+22-014-011-342646,4,1,0,95.5,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-014-011-799681,1,0,0,100.0,Low,All heirship claims documented
+22-014-011-945886,3,0,2,96.5,High,Competing heirship claims over the same parcel
+22-014-013-660569,1,0,0,63.1,Low,All heirship claims documented
+22-014-013-719914,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-014-014-138282,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-014-016-234546,3,1,1,100.0,High,Competing heirship claims over the same parcel
+22-014-017-781394,4,3,1,100.0,High,Competing heirship claims over the same parcel
+22-014-017-793907,4,2,1,100.0,High,Competing heirship claims over the same parcel
+22-014-023-503989,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-018-001-023764,2,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+22-018-002-476787,2,0,1,88.7,High,Competing heirship claims over the same parcel
+22-018-003-316142,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-018-005-566774,2,1,0,98.8,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-018-007-031791,1,0,0,67.5,Low,All heirship claims documented
+22-018-007-427108,1,0,0,100.0,Low,All heirship claims documented
+22-018-015-281782,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-018-015-420983,2,1,0,90.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+22-018-016-872581,1,0,1,74.9,High,Competing heirship claims over the same parcel
+22-018-017-780109,1,0,1,98.9,High,Competing heirship claims over the same parcel
+22-018-019-687038,4,0,1,100.0,High,Competing heirship claims over the same parcel
+22-018-021-691048,2,0,0,100.0,Low,All heirship claims documented
+22-018-024-885603,4,1,2,93.2,High,Competing heirship claims over the same parcel
+23-004-001-197598,3,1,1,92.0,High,Competing heirship claims over the same parcel
+23-004-002-021181,2,0,1,91.7,High,Competing heirship claims over the same parcel
+23-004-004-590038,2,0,1,91.0,High,Competing heirship claims over the same parcel
+23-004-005-150803,1,1,0,75.1,Medium,1 heir claim(s) without documentary proof — mutation not established
+23-004-005-460454,3,1,1,100.0,High,Competing heirship claims over the same parcel
+23-004-011-004994,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+23-016-010-298309,4,0,1,100.0,High,Competing heirship claims over the same parcel
+23-016-011-215124,1,0,0,100.0,Low,All heirship claims documented
+23-016-019-487040,3,1,2,100.0,High,Competing heirship claims over the same parcel
+23-016-020-768275,1,0,1,100.0,High,Competing heirship claims over the same parcel
+23-016-023-315833,1,0,0,85.7,Low,All heirship claims documented
+23-028-003-517002,3,0,0,100.0,Medium,3 heirs on one parcel — consent risk at award
+23-028-003-529604,4,1,0,99.3,Medium,1 heir claim(s) without documentary proof — mutation not established
+23-028-004-042521,2,1,0,90.7,Medium,1 heir claim(s) without documentary proof — mutation not established
+23-028-004-804705,3,2,1,100.0,High,Competing heirship claims over the same parcel
+23-028-006-428938,2,1,1,100.0,High,Competing heirship claims over the same parcel
+23-028-006-699935,2,1,1,100.0,High,Competing heirship claims over the same parcel
+23-028-009-350448,3,1,1,100.0,High,Competing heirship claims over the same parcel
+23-028-009-366887,1,0,0,100.0,Low,All heirship claims documented
+23-028-009-648235,1,0,0,100.0,Low,All heirship claims documented
+23-028-014-466935,1,0,0,63.6,Low,All heirship claims documented
+23-028-014-694966,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+23-028-018-084890,2,0,0,100.0,Low,All heirship claims documented
+23-033-002-472071,3,1,1,98.8,High,Competing heirship claims over the same parcel
+23-033-004-337896,2,1,0,86.6,Medium,1 heir claim(s) without documentary proof — mutation not established
+23-033-010-217866,1,0,0,79.0,Low,All heirship claims documented
+23-033-012-909547,2,0,1,90.5,High,Competing heirship claims over the same parcel
+23-033-014-835539,2,0,1,88.4,High,Competing heirship claims over the same parcel
+23-033-015-841738,3,1,0,85.2,Medium,1 heir claim(s) without documentary proof — mutation not established
+23-033-016-644629,3,0,1,100.0,High,Competing heirship claims over the same parcel
+23-033-019-156498,3,0,1,100.0,High,Competing heirship claims over the same parcel
+23-033-022-948550,1,0,1,92.1,High,Competing heirship claims over the same parcel
+27-001-002-170453,1,1,0,83.8,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-001-002-554599,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-001-003-822573,3,2,0,95.8,Medium,2 heir claim(s) without documentary proof — mutation not established
+27-001-004-922750,4,2,1,100.0,High,Competing heirship claims over the same parcel
+27-001-013-406899,2,1,1,88.6,High,Competing heirship claims over the same parcel
+27-001-013-521331,2,0,0,100.0,Low,All heirship claims documented
+27-001-014-085914,2,0,1,89.2,High,Competing heirship claims over the same parcel
+27-001-015-405987,2,0,1,100.0,High,Competing heirship claims over the same parcel
+27-001-017-880105,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-001-019-123169,3,0,0,92.0,Medium,3 heirs on one parcel — consent risk at award
+27-001-019-900824,2,0,0,99.3,Low,All heirship claims documented
+27-001-021-354655,4,1,0,99.2,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-001-022-863752,2,0,0,85.8,Low,All heirship claims documented
+27-001-023-118983,4,2,0,90.8,Medium,2 heir claim(s) without documentary proof — mutation not established
+27-001-023-324558,3,0,0,100.0,Medium,3 heirs on one parcel — consent risk at award
+27-001-024-213539,2,0,1,99.8,High,Competing heirship claims over the same parcel
+27-013-001-641445,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-013-002-146772,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-013-003-437163,4,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+27-013-012-943884,4,1,0,92.5,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-013-015-433170,4,2,1,99.5,High,Competing heirship claims over the same parcel
+27-013-018-313330,4,0,1,100.0,High,Competing heirship claims over the same parcel
+27-013-020-089628,2,0,0,100.0,Low,All heirship claims documented
+27-013-021-503316,2,0,2,86.1,High,Competing heirship claims over the same parcel
+27-013-023-243010,4,1,1,93.2,High,Competing heirship claims over the same parcel
+27-025-001-660303,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-025-002-719139,2,1,1,100.0,High,Competing heirship claims over the same parcel
+27-025-002-922498,1,0,1,100.0,High,Competing heirship claims over the same parcel
+27-025-006-340067,2,0,0,100.0,Low,All heirship claims documented
+27-025-008-576012,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-025-008-676027,3,0,0,100.0,Medium,3 heirs on one parcel — consent risk at award
+27-025-009-655747,4,2,1,98.4,High,Competing heirship claims over the same parcel
+27-025-017-599201,3,1,1,100.0,High,Competing heirship claims over the same parcel
+27-025-021-006424,4,1,1,100.0,High,Competing heirship claims over the same parcel
+27-025-022-382533,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-037-004-566073,2,0,1,100.0,High,Competing heirship claims over the same parcel
+27-037-006-611238,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-037-008-686288,4,0,2,99.7,High,Competing heirship claims over the same parcel
+27-037-013-834361,4,0,1,99.9,High,Competing heirship claims over the same parcel
+27-037-015-638180,4,3,0,100.0,Medium,3 heir claim(s) without documentary proof — mutation not established
+27-037-017-071976,1,0,1,100.0,High,Competing heirship claims over the same parcel
+27-037-018-096087,4,0,1,100.0,High,Competing heirship claims over the same parcel
+27-037-018-273093,1,1,0,67.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-037-019-629965,4,1,2,97.8,High,Competing heirship claims over the same parcel
+27-037-019-721758,3,1,0,95.9,Medium,1 heir claim(s) without documentary proof — mutation not established
+27-037-023-175762,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-007-005-788735,3,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+29-007-007-071762,1,0,0,76.0,Low,All heirship claims documented
+29-007-011-687218,3,1,1,100.0,High,Competing heirship claims over the same parcel
+29-007-015-623697,2,1,0,89.3,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-007-020-650428,1,0,1,100.0,High,Competing heirship claims over the same parcel
+29-009-002-628978,4,3,0,96.1,Medium,3 heir claim(s) without documentary proof — mutation not established
+29-009-002-673400,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-009-004-318285,2,1,1,100.0,High,Competing heirship claims over the same parcel
+29-009-005-001703,4,2,1,99.8,High,Competing heirship claims over the same parcel
+29-009-005-455315,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-009-006-340166,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-009-007-703996,4,3,1,100.0,High,Competing heirship claims over the same parcel
+29-009-008-883290,2,1,0,83.7,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-009-010-380524,2,0,0,100.0,Low,All heirship claims documented
+29-009-010-464509,2,0,0,77.9,Low,All heirship claims documented
+29-009-010-716020,2,1,0,93.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-009-015-531038,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-009-015-901494,2,1,1,100.0,High,Competing heirship claims over the same parcel
+29-009-016-192964,1,1,0,96.8,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-009-017-318719,4,2,0,98.3,Medium,2 heir claim(s) without documentary proof — mutation not established
+29-009-018-330872,1,0,0,95.8,Low,All heirship claims documented
+29-009-019-414479,3,1,0,93.2,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-009-020-946469,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-009-024-146793,2,1,0,96.3,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-018-001-407034,3,0,0,100.0,Medium,3 heirs on one parcel — consent risk at award
+29-018-003-950223,4,2,0,94.1,Medium,2 heir claim(s) without documentary proof — mutation not established
+29-018-007-197634,3,0,0,94.7,Medium,3 heirs on one parcel — consent risk at award
+29-018-008-164220,4,1,1,97.3,High,Competing heirship claims over the same parcel
+29-018-010-881797,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-018-011-534431,1,0,0,83.0,Low,All heirship claims documented
+29-018-013-003927,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-018-013-657486,3,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+29-018-014-922306,2,0,0,100.0,Low,All heirship claims documented
+29-018-016-141916,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-018-017-640746,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-022-002-099610,2,2,0,96.9,Medium,2 heir claim(s) without documentary proof — mutation not established
+29-022-004-754634,4,1,1,100.0,High,Competing heirship claims over the same parcel
+29-022-004-891765,4,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+29-022-008-374630,3,0,2,95.5,High,Competing heirship claims over the same parcel
+29-022-008-775897,2,1,1,78.3,High,Competing heirship claims over the same parcel
+29-022-009-442523,4,3,0,96.8,Medium,3 heir claim(s) without documentary proof — mutation not established
+29-022-011-013199,3,1,0,96.1,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-022-015-076657,2,0,0,100.0,Low,All heirship claims documented
+29-022-015-460690,1,1,0,94.3,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-022-018-398840,1,1,0,66.5,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-022-018-697458,1,1,0,69.4,Medium,1 heir claim(s) without documentary proof — mutation not established
+29-022-021-035895,4,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+29-022-022-522533,3,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+29-022-023-805781,1,0,0,70.2,Low,All heirship claims documented
+29-022-023-972424,2,1,1,94.7,High,Competing heirship claims over the same parcel
+29-022-024-239792,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-014-001-688634,4,0,2,95.5,High,Competing heirship claims over the same parcel
+33-014-008-315668,3,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+33-014-009-322546,2,0,1,89.4,High,Competing heirship claims over the same parcel
+33-014-011-676436,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-014-012-988183,2,0,0,100.0,Low,All heirship claims documented
+33-014-015-377807,1,0,0,100.0,Low,All heirship claims documented
+33-014-016-217560,4,1,1,97.1,High,Competing heirship claims over the same parcel
+33-014-017-126907,3,2,0,91.1,Medium,2 heir claim(s) without documentary proof — mutation not established
+33-014-019-817481,4,3,0,100.0,Medium,3 heir claim(s) without documentary proof — mutation not established
+33-014-021-996444,1,0,0,100.0,Low,All heirship claims documented
+33-014-024-980887,1,0,0,100.0,Low,All heirship claims documented
+33-023-003-111318,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-023-012-727675,4,3,0,96.3,Medium,3 heir claim(s) without documentary proof — mutation not established
+33-023-012-850145,3,1,0,91.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-023-016-503673,3,0,1,100.0,High,Competing heirship claims over the same parcel
+33-023-018-457297,4,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+33-023-020-307456,3,0,1,100.0,High,Competing heirship claims over the same parcel
+33-023-020-563851,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-023-021-091857,2,1,1,85.9,High,Competing heirship claims over the same parcel
+33-023-021-127686,3,1,0,96.5,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-023-022-052203,2,0,2,87.9,High,Competing heirship claims over the same parcel
+33-031-001-173185,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-031-005-708302,1,0,0,73.7,Low,All heirship claims documented
+33-031-006-380149,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-031-008-004122,3,0,0,100.0,Medium,3 heirs on one parcel — consent risk at award
+33-031-010-491079,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-031-011-156622,3,1,0,86.1,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-031-011-842506,4,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-031-012-609327,2,0,2,100.0,High,Competing heirship claims over the same parcel
+33-031-016-649876,3,0,0,100.0,Medium,3 heirs on one parcel — consent risk at award
+33-031-018-828945,3,2,0,90.6,Medium,2 heir claim(s) without documentary proof — mutation not established
+33-031-019-065120,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-031-021-185290,1,1,0,80.5,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-031-022-233231,1,0,1,85.6,High,Competing heirship claims over the same parcel
+33-031-024-214066,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-045-002-169773,3,0,3,100.0,High,Competing heirship claims over the same parcel
+33-045-003-904905,2,0,1,100.0,High,Competing heirship claims over the same parcel
+33-045-005-622277,2,1,0,92.3,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-045-005-983657,1,1,0,86.3,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-045-007-088086,4,1,1,99.4,High,Competing heirship claims over the same parcel
+33-045-007-735680,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-045-007-769939,1,0,0,81.3,Low,All heirship claims documented
+33-045-009-108717,1,0,0,100.0,Low,All heirship claims documented
+33-045-013-795946,1,0,0,100.0,Low,All heirship claims documented
+33-045-014-879637,2,0,0,100.0,Low,All heirship claims documented
+33-045-015-628192,4,3,1,93.3,High,Competing heirship claims over the same parcel
+33-045-015-960454,2,0,0,89.4,Low,All heirship claims documented
+33-045-018-544333,4,0,0,100.0,Medium,4 heirs on one parcel — consent risk at award
+33-045-019-735619,2,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+33-045-020-321548,3,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-045-021-629421,3,0,2,90.5,High,Competing heirship claims over the same parcel
+33-045-022-073492,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+33-045-023-585144,2,1,0,92.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-003-001-892924,2,0,0,98.9,Low,All heirship claims documented
+36-003-002-022189,3,1,1,100.0,High,Competing heirship claims over the same parcel
+36-003-005-162453,1,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-003-012-771038,1,1,0,69.2,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-003-014-168649,4,1,2,100.0,High,Competing heirship claims over the same parcel
+36-003-016-652606,4,0,0,96.2,Medium,4 heirs on one parcel — consent risk at award
+36-003-019-565746,3,2,0,88.3,Medium,2 heir claim(s) without documentary proof — mutation not established
+36-003-020-722251,3,3,0,93.0,Medium,3 heir claim(s) without documentary proof — mutation not established
+36-003-024-806495,1,0,0,100.0,Low,All heirship claims documented
+36-011-002-639503,4,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+36-011-005-032698,1,1,0,71.1,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-011-008-403302,1,1,0,85.2,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-011-010-014722,3,2,0,93.4,Medium,2 heir claim(s) without documentary proof — mutation not established
+36-011-018-687163,1,0,1,100.0,High,Competing heirship claims over the same parcel
+36-011-020-606190,4,0,1,100.0,High,Competing heirship claims over the same parcel
+36-011-020-735729,2,1,1,94.8,High,Competing heirship claims over the same parcel
+36-011-021-000186,4,0,1,90.9,High,Competing heirship claims over the same parcel
+36-011-021-962044,2,1,0,99.1,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-011-023-761008,2,0,0,100.0,Low,All heirship claims documented
+36-019-003-705316,3,2,0,90.9,Medium,2 heir claim(s) without documentary proof — mutation not established
+36-019-006-179929,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-019-007-248099,4,2,1,100.0,High,Competing heirship claims over the same parcel
+36-019-008-500438,3,1,0,89.2,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-019-008-919095,1,0,0,100.0,Low,All heirship claims documented
+36-019-009-063906,3,1,1,100.0,High,Competing heirship claims over the same parcel
+36-019-010-992795,3,1,0,90.1,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-019-011-175224,2,1,0,100.0,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-019-018-438600,3,0,1,80.1,High,Competing heirship claims over the same parcel
+36-019-019-608716,3,0,1,100.0,High,Competing heirship claims over the same parcel
+36-027-001-557523,4,1,1,100.0,High,Competing heirship claims over the same parcel
+36-027-001-845549,1,0,0,100.0,Low,All heirship claims documented
+36-027-002-641401,4,3,0,94.7,Medium,3 heir claim(s) without documentary proof — mutation not established
+36-027-006-854589,1,0,0,84.6,Low,All heirship claims documented
+36-027-009-400358,1,0,0,100.0,Low,All heirship claims documented
+36-027-010-336564,2,0,0,91.7,Low,All heirship claims documented
+36-027-010-345877,4,1,0,94.1,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-027-011-634969,2,0,0,95.2,Low,All heirship claims documented
+36-027-012-620266,3,1,1,100.0,High,Competing heirship claims over the same parcel
+36-027-013-769515,1,0,0,100.0,Low,All heirship claims documented
+36-027-014-339807,3,0,1,100.0,High,Competing heirship claims over the same parcel
+36-027-018-816317,4,2,0,100.0,Medium,2 heir claim(s) without documentary proof — mutation not established
+36-027-021-776499,1,0,1,73.0,High,Competing heirship claims over the same parcel
+36-027-021-927366,3,1,0,94.6,Medium,1 heir claim(s) without documentary proof — mutation not established
+36-027-022-025842,4,1,1,100.0,High,Competing heirship claims over the same parcel

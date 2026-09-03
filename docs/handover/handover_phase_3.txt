@@ -1,0 +1,413 @@
+================================================================================
+BhoomiRakshak — HANDOVER: PHASE 2 COMPLETE -> PHASE 3 (Backend API + auth)
+Written 2026-08-23. Self-contained: a cold session with no chat history can resume
+from this file alone.
+================================================================================
+
+--------------------------------------------------------------------------------
+PART A — PROJECT SUMMARY
+--------------------------------------------------------------------------------
+
+PROJECT
+  BhoomiRakshak — "Predictive Analysis System for Early Detection of Land
+  Acquisition Delays". SIH 2026, PS SIH26017, Ministry of Rural Development,
+  Software category, theme Agriculture & Foodtech.
+
+  A government-internal decision-support dashboard that predicts which ongoing
+  land acquisition projects will be delayed BEFORE the delay happens, predicts
+  which statutory stage will stall, explains each score with SHAP in officer
+  language, and prescribes corrective action the officer can simulate before
+  taking it.
+
+  Two roles only: admin, officer. No citizen surface, ever.
+
+DEADLINE
+  Prototype evaluation Thursday 2026-08-27.
+  Build days: Monday 2026-08-24, Tuesday 2026-08-25, Wednesday 2026-08-26.
+
+STATUS
+  Phase 0 — Foundation .................. COMPLETE (dataset rev 3)
+  Phase 1 — Data layer .................. COMPLETE and verified, 17/17 checks
+  Phase 2 — ML core ..................... COMPLETE and verified, 10/10 checks  <= just finished
+  Phase 3 — Backend API + auth .......... NEXT
+  Phases 4-8 ............................ NOT STARTED
+
+--------------------------------------------------------------------------------
+PART B — WHAT THIS SESSION (PHASE 2) ACCOMPLISHED
+--------------------------------------------------------------------------------
+
+B1. FILES CREATED
+
+  ml/src/features/__init__.py         public surface of the feature module
+  ml/src/features/schema.py           drop-list, ordinal maps, one-hot/numeric lists
+  ml/src/features/build.py            FeatureSpec, build_feature_matrix, load_projects
+  ml/src/features/derived.py          compensation gap / litigation propensity / succession
+  ml/src/models/__init__.py
+  ml/src/models/registry.py           versioned registry: new_version, version_dir, LATEST
+  ml/src/models/definitions.py        Model A and Model B hyperparameters
+  ml/src/training/__init__.py
+  ml/src/training/train.py            the entrypoint: python -m ml.src.training.train
+  ml/src/evaluation/__init__.py
+  ml/src/evaluation/report.py         CV metrics, calibration plot, markdown report card
+  ml/src/explainability/__init__.py
+  ml/src/explainability/explainer.py  RiskExplainer (shap.TreeExplainer) + ProjectExplanation
+  ml/src/explainability/reason_codes.py  feature name -> officer sentence, + factor groups
+  ml/tests/__init__.py
+  ml/tests/test_features.py           12 tests incl. the drop-list exit assertion
+  ml/tests/test_explainability.py     9 tests over SHAP output and the registry
+  scripts/verify_phase2.py            all seven exit checks, exits non-zero on failure
+  ml/experiments/registry/<version>/  the artifacts (see B3)
+  ml/experiments/report_card_latest.md  stable copy of the newest report card
+
+B2. FILES MODIFIED
+
+  .env         MODEL_REGISTRY_PATH and ACTIVE_MODEL_VERSION filled by the training run
+  CLAUDE.md    ## Current Phase updated to "Phase 2 COMPLETE"
+
+  NOTHING ELSE WAS TOUCHED. No backend, no frontend, no migration, no seed script.
+
+B3. ARTIFACTS PRODUCED  (registry version v2026-08-23T12-16-56)
+
+  ml/experiments/registry/v2026-08-23T12-16-56/
+    model_a_is_delayed.json        Model A booster (XGBoost JSON, portable)
+    model_a_calibrator.joblib      isotonic calibrator fitted on out-of-fold predictions
+    model_b_delay_stage.json       Model B booster, 5-class
+    feature_spec.json              the frozen 86-column contract + one-hot levels
+    metadata.json                  version, row counts, metrics, class order, lib versions
+    derived_scores.csv / .parquet  900 rows: gap index, litigation score, succession band
+    ongoing_scores.csv             300 rows: calibrated risk, band, predicted delay stage
+    report_card_<v>.md / .json     the CV report card
+    calibration_<v>.png            calibration curve
+    ../LATEST                      one line: the active version string
+
+B4. MEASURED RESULTS  (5-fold stratified CV, all figures out-of-fold)
+
+  Model A — binary is_delayed, 600 closed projects
+      ROC AUC        0.9212     (exit criterion >= 0.85)  PASS
+      Accuracy       0.8567
+      F1 (delayed)   0.8352
+      Brier          0.1130
+      Confusion      on-time 296 / 36   delayed 50 / 218
+      Per-state AUC  0.889 (Karnataka) to 0.956 (Uttar Pradesh) — no collapsed slice
+
+  Model B — 5-class delay_stage, 268 delayed closed projects
+      Accuracy            0.7127
+      Majority baseline   0.3470  (Legal Dispute, 93 of 268)
+      Ratio to baseline   2.05x   (exit criterion >= 2x)  PASS
+      Top-2 accuracy      0.8955
+      Macro F1            0.6740
+      Class support       Compensation Disbursal 54 / Legal Dispute 93 /
+                          Rehabilitation (R&R) 26 / Ownership-Title 59 /
+                          Administrative Approval 36
+
+  Feature importance, Model A (gain share, top 8)
+      no_legal_disputes            0.1377
+      title_clarity_status         0.0742   <- ordinal encoding intact
+      legal_dispute_stage          0.0523   <- ordinal encoding intact, "None" preserved
+      no_ownership_disputes        0.0466
+      compensation_disbursed_pct   0.0461
+      compensation_gap_pct         0.0390
+      days_since_dispute_filed     0.0353
+      rehab_progress_pct           0.0344
+
+  Succession bands (deterministic rule) 134 High / 167 Medium / 61 Low —
+  identical to the seeded succession_risk table on all 362 parcels.
+
+B5. EXIT CRITERION — 10/10 CHECKS PASS  (scripts/verify_phase2.py, run 2026-08-23)
+
+  [PASS] Model A + Model B + feature spec + calibrator on disk
+  [PASS] version string absolute-dated and recorded in metadata
+  [PASS] 5-fold out-of-fold AUC 0.9212 >= 0.85
+  [PASS] stage accuracy 0.7127 vs baseline 0.3470 = 2.05x >= 2x
+  [PASS] ml/tests suite — 21 passed (includes the drop-list assertions)
+  [PASS] title_clarity_status gain share 0.0742 > 0
+  [PASS] legal_dispute_stage gain share 0.0523 > 0
+  [PASS] literal "None" preserved — 186 rows at ordinal level 0
+  [PASS] three hand-picked projects each return three named officer-language factors
+  [PASS] succession band and reason identical to the seeded table, 362/362 parcels
+
+  The three hand-picked SHAP explanations, printed verbatim by the verifier:
+
+  compensation-driven · 29-018-019-080916 · Airport Expansion - Mysuru Stretch 8
+    Mysuru, Karnataka · R&R Implementation · calibrated risk 0.818
+    1. Only 20% of the sanctioned award has actually reached landowners
+       increases risk, +17.4% [Compensation]
+    2. Compensation sanctioned is 65% below the circle-rate benchmark
+       increases risk, +15.9% [Compensation]
+    3. Rehabilitation and resettlement is 91% complete
+       reduces risk, -15.4% [Rehabilitation (R&R)]
+
+  litigation-driven · 29-022-005-835678 · Industrial Corridor - Belagavi Stretch 1
+    Belagavi, Karnataka · SIA Completed · calibrated risk 0.774
+    1. Rehabilitation and resettlement is 81% complete
+       reduces risk, -24.9% [Rehabilitation (R&R)]
+    2. 8 legal matter(s) filed against this acquisition
+       increases risk, +17.2% [Legal]
+    3. Record-of-rights title is disputed
+       increases risk, +14.4% [Ownership / Title]
+
+  succession-driven · 09-002-014-978881 · Industrial Corridor - Lucknow Stretch 1
+    Lucknow, Uttar Pradesh · R&R Implementation · calibrated risk 0.714
+    1. Compensation sanctioned is 19% below the circle-rate benchmark
+       reduces risk, -12.8% [Compensation]
+    2. Record-of-rights title is partial
+       increases risk, +12.1% [Ownership / Title]
+    3. Litigation has reached the 'Under Hearing' stage
+       increases risk, +10.5% [Legal]
+    succession (rule, not model): High — Competing heirship claims over the same parcel
+
+  These three are the Phase 8 demo showcase set. They are stable as long as the
+  dataset is not regenerated.
+
+B6. KEY DECISIONS TAKEN THIS SESSION  (all now locked)
+
+  D1. Derived scores are APPLICATION features, NOT model inputs.
+      The compensation-gap index and the litigation-propensity score are collinear
+      transforms of raw columns the model already sees (compensation_gap_pct,
+      title_clarity_status, legal_dispute_stage, ownership_fragmentation_index).
+      Feeding them back would cannibalise the SHAP importance of exactly the raw
+      drivers an officer needs named. Succession risk was never eligible — the
+      PDF requires it be a rule. All three are computed, persisted per project,
+      and rendered; none is trained on.
+
+  D2. Calibration is a SEPARATE isotonic artifact, not a CalibratedClassifierCV wrapper.
+      shap.TreeExplainer cannot walk an isotonic regressor. So Model A stays a raw
+      booster (explainable), and the calibrator is fitted on the out-of-fold
+      predictions and saved beside it. Serving does:
+          p_raw = model_a.predict_proba(X)[:,1]
+          p     = clip(calibrator.predict(p_raw), 0, 1)
+      Isotonic is monotone, so SHAP sign and ranking are unaffected; only the
+      absolute probability moves. This is what RiskExplainer.calibrated_probability
+      already does — call it, do not re-implement it.
+
+  D3. Ordinal columns are read through a str converter, not a post-hoc fillna.
+      load_projects() passes converters={col: str} for the five ordinal columns.
+      This is what preserves the literal "None" (Phase 1 finding 3). Do not
+      "simplify" it to pd.read_csv(path) — ml/tests/test_features.py has a test
+      (test_naive_read_csv_would_have_broken_it) that documents the bug.
+
+  D4. Unknown ordinal levels RAISE, they do not silently become NaN.
+      _encode_ordinals raises FeatureContractError. In Phase 3 this means a bad
+      PATCH payload from the officer update form fails loudly at the service
+      boundary instead of quietly scoring wrong.
+
+  D5. Risk bands are High >= 0.70, Medium 0.40-0.69, Low < 0.40.
+      Recorded in metadata.json. The Phase 4 map pin colours must use these exact
+      cut points (red / amber / green) — do not invent new ones.
+
+  D6. delay_stage class order is frozen in metadata.json["delay_stage_classes"].
+      Model B outputs class INDICES. Never map them by sorting the labels;
+      always read the list from metadata.
+
+B7. BLOCKERS / UNRESOLVED
+
+  U1. Stage-model margin is thin. 2.05x against a 2.0x criterion. Five parameter
+      sets were compared and the shipped one was the best; Phase 0's number was
+      0.679, so this is an improvement, not a regression. If the dataset is ever
+      regenerated the margin could fall below 2x. Do not regenerate the dataset
+      without re-running scripts/verify_phase2.py.
+
+  U2. Rehabilitation (R&R) is Model B's weakest class — 26 of 268 examples.
+      Do not cherry-pick an R&R project for the live demo; read the confusion
+      matrix in the report card before quoting any single-class number.
+
+  U3. Derived scores are persisted to the registry as CSV/parquet, NOT to Postgres.
+      This was a deliberate scoping call so Phase 2 stays offline-callable. Writing
+      them into the DB is Phase 3's batch job (see C4). ongoing_scores.csv is the
+      reference output Phase 3's batch scoring must reproduce.
+
+  U4. Carried forward from Phase 1, unchanged: `docker compose up -d db` was never
+      verified in a build session (image registry unreachable at the time). The user
+      runs that check locally.
+
+--------------------------------------------------------------------------------
+PART C — HANDOFF: EVERYTHING PHASE 3 NEEDS
+--------------------------------------------------------------------------------
+
+C1. LOCKED DECISIONS — DO NOT RE-OPEN
+
+  Product name BhoomiRakshak. Primary key ULPIN (14-digit DILRMP, e.g.
+  29-007-760-288390) — settled, do not question it. Government-internal only, two
+  roles (admin, officer), no citizen surface and no registration route. Real
+  PostgreSQL 16 + PostGIS 3, not CSV/pandas. Login is username + password +
+  CAPTCHA. Alerts are real SMTP with a logged in-app fallback. The label means
+  "will become overdue" — train on the 600 closed, score the 300 ongoing.
+  Absolute dates everywhere, never relative. Training data is synthetic and must
+  be described as such.
+
+  Conventions: routers thin, services fat, no DB access outside
+  backend/app/services/. Every endpoint gets a Pydantic request AND response
+  schema, no bare dicts. Every FK indexed, every geometry column one GiST index.
+  No TODO placeholders in committed code. Secrets only in local .env.
+
+  Feature definitions live ONCE, in ml/src/features/. The backend imports them.
+  The backend must NEVER rebuild features itself.
+
+C2. ENVIRONMENT STATE
+
+  Database: PostgreSQL + PostGIS in two places from the same Alembic migrations
+    - local: docker compose up -d db  (postgis/postgis:16-3.4) — the rehearsed
+      demo path for Thursday
+    - Supabase project bhoomirakshak, ref tayflaukyjtcsyuivpxl, ap-south-1,
+      PostgreSQL 17.6 / PostGIS 3.3.7 in the `extensions` schema — shared dev DB,
+      Data API deliberately DISABLED (see docs/design/adr-001-supabase-shared-dev-db.md)
+    - connect to Supabase with the SESSION POOLER string (port 5432,
+      *.pooler.supabase.com). Never the direct connection (IPv6-only). Never the
+      transaction pooler (port 6543 — breaks prepared statements and DDL).
+    - NEVER run `alembic downgrade base` against Supabase; migration 0001's
+      downgrade drops the PostGIS extension.
+
+  Migrations head = 0003. Thirteen tables plus district_boundaries and the
+  issue_resolutions VIEW. Seeded: 900 projects (600 closed / 300 ongoing) ·
+  768 admin_units · 4,500 risk_history · 4,518 status_log · 927 succession_claims ·
+  362 succession_risk · 628 project_dependencies · 41 officers (32 LAOs, 9 admins).
+  risk_scores, risk_reasons, recommendations, alerts, annotations, audit_log are
+  still EMPTY — Phase 3/6/7 fill them.
+
+  .env (local, gitignored) now holds:
+      POSTGRES_*, DATABASE_URL          (Phase 1)
+      MODEL_REGISTRY_PATH               = ml/experiments/registry
+      ACTIVE_MODEL_VERSION              = v2026-08-23T12-16-56
+  Everything else is still ENTER_YOUR_VALUE_HERE. Phase 3 fills JWT_SECRET_KEY
+  (generate with `openssl rand -hex 32`) and VITE_API_BASE_URL.
+
+  Python: 3.11. Verified library set: xgboost 2.1.4, shap 0.46.0,
+  scikit-learn 1.5.2, pandas 2.2.3, numpy 2.0.2. The booster is saved as XGBoost
+  JSON, which loads across 2.x.
+
+C3. THREE PHASE 1 FINDINGS THAT STILL CONSTRAIN LATER PHASES
+
+  F1. status_log has NO cross-stage history. It records the desk chain within each
+      project's CURRENT stage only: every project has exactly one open row
+      (is_current = true, exited_on NULL), and all of a project's rows carry the
+      same stage as projects.approval_stage. 4,518 rows over 900 projects is ~5
+      DESKS each, not 5 stages. The SLA / stuck-file clock (N7) must therefore be
+      DESK-BASED, not stage-based. Do not promise a stage-duration chart.
+
+  F2. District polygons are DERIVED, not survey boundaries —
+      ST_Buffer(ST_ConvexHull(ST_Collect(village centroids)), 0.05) per district,
+      district_boundaries.source = 'derived-village-hull'. Label them approximate
+      in the UI and answer honestly if a judge asks.
+
+  F3. projects.legal_dispute_stage contains the literal string "None", meaning
+      "no dispute on file" — ordinal level 0, NOT a missing value. Phase 2 handled
+      this in ml/src/features/build.py::load_projects(). Phase 3 reads from
+      Postgres rather than CSV, so the CSV form of the bug cannot recur — but if
+      any code path round-trips through pandas, keep the guard.
+
+C4. WHAT PHASE 3 MUST BUILD  (Backend API + auth · Mon 24 evening -> Tue 25 AM · ~6h)
+
+  1. POST /api/v1/auth/login — officer_id + password + CAPTCHA token; issues a JWT
+     carrying `role` and `district` claims. POST /api/v1/auth/captcha returns a
+     challenge. No registration route, ever. Officer passwords are bcrypt in the
+     officers table; the shipped password_sha256_demo column is a placeholder and
+     must not be used. Demo password = officer_id lowercased.
+
+  2. An RBAC dependency: admin unscoped; officer filtered to their own district on
+     EVERY query, not just the list endpoint.
+
+  3. Endpoints:
+       GET   /projects                        filter, sort, paginate
+       GET   /projects/{ulpin}
+       GET   /projects/{ulpin}/shap
+       GET   /projects/{ulpin}/recommend
+       GET   /projects/{ulpin}/history
+       GET   /projects/{ulpin}/timeline       (E2, from the issue_resolutions view)
+       GET   /projects/{ulpin}/sla            (N7 — DESK-based, see F1)
+       GET   /projects/{ulpin}/peers          (N8)
+       GET   /projects/{ulpin}/downstream     (N9)
+       PATCH /projects/{ulpin}                officer update form
+       POST  /predict                         what-if (N5)
+       GET   /analytics/districts
+       GET   /analytics/statistics
+       GET   /analytics/brief                 (N10)
+       GET   /alerts
+       POST  /annotations
+       GET   /admin-units
+
+  4. Pydantic request AND response schemas on every route. No bare dicts.
+
+  5. Audit middleware: every state-changing call and every score served writes to
+     audit_log.
+
+  6. Batch scoring job: score all 300 ongoing projects, write risk_scores and
+     risk_reasons.
+
+C5. HOW PHASE 3 CONSUMES THE PHASE 2 ARTIFACTS
+
+  Load the model ONCE at app startup and hold it on app.state:
+
+      from ml.src.explainability import RiskExplainer
+      explainer = RiskExplainer.from_registry()   # reads ACTIVE_MODEL_VERSION
+
+  Score a batch of projects fetched from Postgres:
+
+      import pandas as pd
+      from ml.src.features import build_feature_matrix
+      df = pd.DataFrame.from_records(rows)                 # SQLAlchemy rows -> frame
+      X, _ = build_feature_matrix(df, explainer.spec)      # PASS THE SPEC
+      p    = explainer.calibrated_probability(X)           # -> risk_scores
+      stg  = explainer.predict_stage(X)                    # -> predicted delay stage
+
+  Explain one project for GET /projects/{ulpin}/shap:
+
+      exp = explainer.explain_project(row)                 # row: dict or Series
+      exp.to_dict(n=5)
+      # {"ulpin": ..., "risk_probability": 0.818, "base_value": ...,
+      #  "factors": [{"feature": "compensation_disbursed_pct", "value": 20.0,
+      #               "shap_value": 0.71, "contribution_pct": 17.4,
+      #               "direction": "increases risk", "group": "Compensation",
+      #               "display_label": "Only 20% of the sanctioned award has
+      #                                 actually reached landowners"}, ...]}
+
+  factor.display_label goes straight into risk_reasons.display_label.
+  factor.group is the cluster label for the Phase 5 SHAP bar chart.
+
+  Derived scores for the Project Detail panels:
+
+      from ml.src.features import compute_all
+      compute_all(projects_df, claims_df)
+      # -> compensation_gap_index / _band / _reason,
+      #    litigation_propensity_score / _band / _reason,
+      #    succession_risk_band / succession_reason, heir_claim_count, ...
+
+  Succession risk is a RULE. Do not model it, do not re-derive the thresholds.
+  Import ml.src.features.succession_risk. It is asserted equal to the seeded
+  succession_risk table on all 362 parcels.
+
+  Reference outputs to check the batch job against:
+      ml/experiments/registry/<version>/ongoing_scores.csv   300 rows
+      ml/experiments/registry/<version>/derived_scores.csv   900 rows
+
+  CRITICAL: always pass explainer.spec to build_feature_matrix in serving. Without
+  it the one-hot levels are derived from whatever rows happen to be in the request,
+  the column order shifts, and the model silently scores garbage.
+
+C6. PHASE 3 EXIT CRITERION (binary — do not declare the phase done otherwise)
+
+  Swagger UI at /docs lists every route in C4; a Field Officer JWT returns 403 or
+  an empty set for a project outside their district (asserted by a test); all 300
+  ongoing projects have a stored risk score and top-3 reasons in risk_scores /
+  risk_reasons.
+
+C7. DO NOT
+
+  - Do not start Phase 4 (frontend) work in the Phase 3 session.
+  - Do not rebuild feature engineering in the backend. Import ml/src/features/.
+  - Do not add a citizen-facing surface or a registration route.
+  - Do not re-open ULPIN, the role model, or the tech stack.
+  - Do not retrain the models in Phase 3. If a retrain becomes necessary, run
+    `python -m ml.src.training.train` and then `python scripts/verify_phase2.py`
+    and only accept the new version if it is 10/10.
+
+C8. HOW TO RE-VERIFY PHASE 2 FROM COLD
+
+      pip install -r ml/requirements.txt
+      python -m ml.src.training.train        # writes a new version, updates .env
+      python scripts/verify_phase2.py        # 10/10 PASS expected
+      python -m pytest ml/tests -q           # 21 passed expected
+
+================================================================================
+END OF HANDOVER — Phase 2 complete, 10/10 exit checks verified 2026-08-23.
+Phase 3 begins only when the user confirms receipt of this file.
+================================================================================

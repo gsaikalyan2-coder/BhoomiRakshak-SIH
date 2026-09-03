@@ -1,0 +1,928 @@
+claim_id,ulpin,claimant_name,relation_to_recorded_owner,blood_relation,proof_status,proof_document,claimed_share_pct,verification_status,claim_filed_on
+SC-36-027-018-816317-1,36-027-018-816317,Claimant 1,Grandson,True,Documented,Legal Heir Certificate,31.0,Verified,2020-03-26
+SC-36-027-018-816317-2,36-027-018-816317,Claimant 2,Nephew,False,Undocumented,Panchayat attestation,29.6,Pending Verification,2020-03-26
+SC-36-027-018-816317-3,36-027-018-816317,Claimant 3,Step-son,True,Documented,Registered Will,23.7,Verified,2020-03-26
+SC-36-027-018-816317-4,36-027-018-816317,Claimant 4,Nephew,True,Undocumented,Panchayat attestation,15.7,Pending Verification,2020-03-26
+SC-21-005-011-786728-1,21-005-011-786728,Claimant 1,Step-son,True,Contested,Disputed mutation,32.8,Referred to Revenue Court,2020-07-01
+SC-21-005-011-786728-2,21-005-011-786728,Claimant 2,Son,True,Undocumented,Panchayat attestation,20.3,Pending Verification,2020-07-01
+SC-21-005-011-786728-3,21-005-011-786728,Claimant 3,Widow,True,Documented,Succession Certificate,28.6,Verified,2020-07-01
+SC-21-005-011-786728-4,21-005-011-786728,Claimant 4,Nephew,False,Contested,Competing Will produced,18.300000000000004,Referred to Revenue Court,2020-07-01
+SC-23-033-010-217866-1,23-033-010-217866,Claimant 1,Step-son,True,Documented,Succession Certificate,79.0,Verified,2023-04-11
+SC-36-011-021-962044-1,36-011-021-962044,Claimant 1,Son,True,Undocumented,Oral claim only,41.9,Pending Verification,2020-03-11
+SC-36-011-021-962044-2,36-011-021-962044,Claimant 2,Grandson,True,Documented,Registered Will,57.2,Verified,2020-03-11
+SC-27-013-021-503316-1,27-013-021-503316,Claimant 1,Brother,True,Contested,Disputed mutation,61.6,Referred to Revenue Court,2022-05-16
+SC-27-013-021-503316-2,27-013-021-503316,Claimant 2,Daughter,False,Contested,Competing Will produced,24.5,Referred to Revenue Court,2022-05-16
+SC-33-031-006-380149-1,33-031-006-380149,Claimant 1,Son,True,Undocumented,Panchayat attestation,37.1,Pending Verification,2019-09-01
+SC-33-031-006-380149-2,33-031-006-380149,Claimant 2,Step-son,True,Documented,Registered Will,32.2,Verified,2019-09-01
+SC-33-031-006-380149-3,33-031-006-380149,Claimant 3,Widow,True,Documented,Legal Heir Certificate,30.699999999999996,Verified,2019-09-01
+SC-27-025-002-719139-1,27-025-002-719139,Claimant 1,Brother,True,Undocumented,Oral claim only,42.6,Pending Verification,2022-07-25
+SC-27-025-002-719139-2,27-025-002-719139,Claimant 2,Widow,False,Contested,Competing Will produced,57.4,Referred to Revenue Court,2022-07-25
+SC-23-033-014-835539-1,23-033-014-835539,Claimant 1,Brother,True,Contested,Civil suit pending,37.2,Referred to Revenue Court,2019-03-10
+SC-23-033-014-835539-2,23-033-014-835539,Claimant 2,Sister,True,Documented,Mutation Entry (RoR),51.2,Verified,2019-03-10
+SC-27-001-024-213539-1,27-001-024-213539,Claimant 1,Grandson,True,Documented,Legal Heir Certificate,63.2,Verified,2019-12-05
+SC-27-001-024-213539-2,27-001-024-213539,Claimant 2,Grandson,True,Contested,Civil suit pending,36.6,Referred to Revenue Court,2019-12-05
+SC-33-045-015-628192-1,33-045-015-628192,Claimant 1,Step-son,True,Undocumented,"Affidavit, unverified",24.9,Pending Verification,2021-12-18
+SC-33-045-015-628192-2,33-045-015-628192,Claimant 2,Nephew,True,Undocumented,Oral claim only,29.6,Pending Verification,2021-12-18
+SC-33-045-015-628192-3,33-045-015-628192,Claimant 3,Nephew,True,Contested,Disputed mutation,19.0,Referred to Revenue Court,2021-12-18
+SC-33-045-015-628192-4,33-045-015-628192,Claimant 4,Nephew,True,Undocumented,Oral claim only,19.8,Pending Verification,2021-12-18
+SC-29-009-002-628978-1,29-009-002-628978,Claimant 1,Grandson,False,Documented,Registered Will,29.1,Verified,2020-09-18
+SC-29-009-002-628978-2,29-009-002-628978,Claimant 2,Grandson,True,Undocumented,Panchayat attestation,19.6,Pending Verification,2020-09-18
+SC-29-009-002-628978-3,29-009-002-628978,Claimant 3,Brother,False,Undocumented,Oral claim only,33.0,Pending Verification,2020-09-18
+SC-29-009-002-628978-4,29-009-002-628978,Claimant 4,Brother,False,Undocumented,Oral claim only,14.4,Pending Verification,2020-09-18
+SC-22-009-021-451815-1,22-009-021-451815,Claimant 1,Widow,False,Documented,Legal Heir Certificate,100.0,Verified,2020-04-06
+SC-23-028-014-694966-1,23-028-014-694966,Claimant 1,Sister,True,Undocumented,Oral claim only,34.2,Pending Verification,2023-05-21
+SC-23-028-014-694966-2,23-028-014-694966,Claimant 2,Widow,False,Documented,Partition Deed,20.1,Verified,2023-05-21
+SC-23-028-014-694966-3,23-028-014-694966,Claimant 3,Son,False,Documented,Partition Deed,26.5,Verified,2023-05-21
+SC-23-028-014-694966-4,23-028-014-694966,Claimant 4,Widow,True,Documented,Registered Will,19.199999999999996,Verified,2023-05-21
+SC-36-003-012-771038-1,36-003-012-771038,Claimant 1,Step-son,True,Undocumented,Panchayat attestation,69.2,Pending Verification,2022-09-14
+SC-29-022-024-239792-1,29-022-024-239792,Claimant 1,Brother,True,Undocumented,Panchayat attestation,100.0,Pending Verification,2022-01-01
+SC-36-027-010-345877-1,36-027-010-345877,Claimant 1,Widow,True,Documented,Registered Will,32.2,Verified,2022-09-26
+SC-36-027-010-345877-2,36-027-010-345877,Claimant 2,Widow,True,Undocumented,"Affidavit, unverified",17.6,Pending Verification,2022-09-26
+SC-36-027-010-345877-3,36-027-010-345877,Claimant 3,Step-son,False,Documented,Partition Deed,28.1,Verified,2022-09-26
+SC-36-027-010-345877-4,36-027-010-345877,Claimant 4,Nephew,True,Documented,Mutation Entry (RoR),16.2,Verified,2022-09-26
+SC-33-014-011-676436-1,33-014-011-676436,Claimant 1,Nephew,True,Undocumented,Panchayat attestation,32.0,Pending Verification,2022-09-13
+SC-33-014-011-676436-2,33-014-011-676436,Claimant 2,Widow,False,Documented,Mutation Entry (RoR),68.0,Verified,2022-09-13
+SC-09-044-011-783326-1,09-044-011-783326,Claimant 1,Adopted Son,True,Undocumented,"Affidavit, unverified",100.0,Pending Verification,2019-10-17
+SC-27-037-023-175762-1,27-037-023-175762,Claimant 1,Nephew,True,Documented,Partition Deed,39.4,Verified,2021-09-25
+SC-27-037-023-175762-2,27-037-023-175762,Claimant 2,Adopted Son,True,Undocumented,"Affidavit, unverified",20.5,Pending Verification,2021-09-25
+SC-27-037-023-175762-3,27-037-023-175762,Claimant 3,Sister,True,Documented,Succession Certificate,40.1,Verified,2021-09-25
+SC-09-002-018-066783-1,09-002-018-066783,Claimant 1,Brother,True,Undocumented,Oral claim only,46.5,Pending Verification,2022-01-30
+SC-09-002-018-066783-2,09-002-018-066783,Claimant 2,Daughter,False,Documented,Legal Heir Certificate,33.9,Verified,2022-01-30
+SC-09-002-018-066783-3,09-002-018-066783,Claimant 3,Step-son,True,Undocumented,Oral claim only,18.5,Pending Verification,2022-01-30
+SC-33-045-018-544333-1,33-045-018-544333,Claimant 1,Widow,False,Documented,Partition Deed,27.9,Verified,2019-09-20
+SC-33-045-018-544333-2,33-045-018-544333,Claimant 2,Sister,False,Documented,Registered Will,19.5,Verified,2019-09-20
+SC-33-045-018-544333-3,33-045-018-544333,Claimant 3,Daughter,True,Documented,Registered Will,32.0,Verified,2019-09-20
+SC-33-045-018-544333-4,33-045-018-544333,Claimant 4,Brother,True,Documented,Succession Certificate,20.599999999999994,Verified,2019-09-20
+SC-36-003-014-168649-1,36-003-014-168649,Claimant 1,Daughter,True,Contested,Competing Will produced,30.9,Referred to Revenue Court,2020-02-26
+SC-36-003-014-168649-2,36-003-014-168649,Claimant 2,Son,True,Contested,Competing Will produced,23.8,Referred to Revenue Court,2020-02-26
+SC-36-003-014-168649-3,36-003-014-168649,Claimant 3,Adopted Son,True,Undocumented,Panchayat attestation,16.7,Pending Verification,2020-02-26
+SC-36-003-014-168649-4,36-003-014-168649,Claimant 4,Daughter,True,Documented,Mutation Entry (RoR),28.599999999999998,Verified,2020-02-26
+SC-22-018-016-872581-1,22-018-016-872581,Claimant 1,Sister,True,Contested,Civil suit pending,74.9,Referred to Revenue Court,2022-10-27
+SC-23-033-012-909547-1,23-033-012-909547,Claimant 1,Adopted Son,True,Contested,Competing Will produced,69.3,Referred to Revenue Court,2022-11-03
+SC-23-033-012-909547-2,23-033-012-909547,Claimant 2,Brother,True,Documented,Partition Deed,21.2,Verified,2022-11-03
+SC-09-015-007-970801-1,09-015-007-970801,Claimant 1,Son,False,Documented,Legal Heir Certificate,43.4,Verified,2021-05-15
+SC-09-015-007-970801-2,09-015-007-970801,Claimant 2,Grandson,True,Contested,Civil suit pending,20.0,Referred to Revenue Court,2021-05-15
+SC-09-015-007-970801-3,09-015-007-970801,Claimant 3,Son,True,Contested,Disputed mutation,36.6,Referred to Revenue Court,2021-05-15
+SC-21-019-010-250365-1,21-019-010-250365,Claimant 1,Sister,True,Documented,Succession Certificate,50.0,Verified,2022-05-04
+SC-21-019-010-250365-2,21-019-010-250365,Claimant 2,Adopted Son,False,Documented,Legal Heir Certificate,43.8,Verified,2022-05-04
+SC-22-002-008-335658-1,22-002-008-335658,Claimant 1,Son,True,Documented,Legal Heir Certificate,40.6,Verified,2019-11-12
+SC-22-002-008-335658-2,22-002-008-335658,Claimant 2,Nephew,True,Documented,Legal Heir Certificate,25.6,Verified,2019-11-12
+SC-22-002-008-335658-3,22-002-008-335658,Claimant 3,Nephew,False,Documented,Registered Will,33.8,Verified,2019-11-12
+SC-22-018-017-780109-1,22-018-017-780109,Claimant 1,Adopted Son,True,Contested,Civil suit pending,98.9,Referred to Revenue Court,2021-05-14
+SC-09-031-009-301397-1,09-031-009-301397,Claimant 1,Widow,True,Contested,Civil suit pending,78.0,Referred to Revenue Court,2019-11-02
+SC-09-015-007-459474-1,09-015-007-459474,Claimant 1,Brother,True,Undocumented,Oral claim only,100.0,Pending Verification,2020-12-16
+SC-22-014-023-503989-1,22-014-023-503989,Claimant 1,Nephew,True,Documented,Partition Deed,47.5,Verified,2022-05-11
+SC-22-014-023-503989-2,22-014-023-503989,Claimant 2,Son,True,Undocumented,Oral claim only,52.5,Pending Verification,2022-05-11
+SC-09-015-022-331393-1,09-015-022-331393,Claimant 1,Step-son,True,Documented,Partition Deed,15.2,Verified,2021-12-22
+SC-09-015-022-331393-2,09-015-022-331393,Claimant 2,Daughter,True,Documented,Succession Certificate,28.4,Verified,2021-12-22
+SC-09-015-022-331393-3,09-015-022-331393,Claimant 3,Daughter,False,Undocumented,Panchayat attestation,24.1,Pending Verification,2021-12-22
+SC-09-015-022-331393-4,09-015-022-331393,Claimant 4,Widow,True,Contested,Competing Will produced,32.3,Referred to Revenue Court,2021-12-22
+SC-22-002-014-342105-1,22-002-014-342105,Claimant 1,Grandson,True,Documented,Registered Will,59.5,Verified,2023-10-12
+SC-22-002-014-342105-2,22-002-014-342105,Claimant 2,Nephew,True,Documented,Mutation Entry (RoR),37.8,Verified,2023-10-12
+SC-09-044-010-180479-1,09-044-010-180479,Claimant 1,Adopted Son,True,Documented,Partition Deed,15.9,Verified,2021-12-03
+SC-09-044-010-180479-2,09-044-010-180479,Claimant 2,Grandson,True,Contested,Disputed mutation,38.1,Referred to Revenue Court,2021-12-03
+SC-09-044-010-180479-3,09-044-010-180479,Claimant 3,Son,True,Contested,Competing Will produced,15.8,Referred to Revenue Court,2021-12-03
+SC-09-044-010-180479-4,09-044-010-180479,Claimant 4,Daughter,True,Contested,Competing Will produced,19.3,Referred to Revenue Court,2021-12-03
+SC-36-003-019-565746-1,36-003-019-565746,Claimant 1,Widow,True,Undocumented,"Affidavit, unverified",21.7,Pending Verification,2023-11-09
+SC-36-003-019-565746-2,36-003-019-565746,Claimant 2,Brother,True,Undocumented,Oral claim only,31.8,Pending Verification,2023-11-09
+SC-36-003-019-565746-3,36-003-019-565746,Claimant 3,Son,True,Documented,Legal Heir Certificate,34.8,Verified,2023-11-09
+SC-29-007-005-788735-1,29-007-005-788735,Claimant 1,Step-son,True,Undocumented,Panchayat attestation,22.6,Pending Verification,2022-08-24
+SC-29-007-005-788735-2,29-007-005-788735,Claimant 2,Nephew,True,Undocumented,"Affidavit, unverified",25.8,Pending Verification,2022-08-24
+SC-29-007-005-788735-3,29-007-005-788735,Claimant 3,Daughter,False,Documented,Legal Heir Certificate,51.60000000000001,Verified,2022-08-24
+SC-27-013-003-437163-1,27-013-003-437163,Claimant 1,Son,True,Undocumented,"Affidavit, unverified",23.0,Pending Verification,2021-10-31
+SC-27-013-003-437163-2,27-013-003-437163,Claimant 2,Son,True,Documented,Succession Certificate,26.0,Verified,2021-10-31
+SC-27-013-003-437163-3,27-013-003-437163,Claimant 3,Step-son,True,Undocumented,Oral claim only,33.8,Pending Verification,2021-10-31
+SC-27-013-003-437163-4,27-013-003-437163,Claimant 4,Sister,True,Documented,Registered Will,17.200000000000003,Verified,2021-10-31
+SC-29-009-018-330872-1,29-009-018-330872,Claimant 1,Nephew,True,Documented,Mutation Entry (RoR),95.8,Verified,2023-02-23
+SC-21-005-016-212873-1,21-005-016-212873,Claimant 1,Brother,True,Undocumented,"Affidavit, unverified",27.7,Pending Verification,2019-12-03
+SC-21-005-016-212873-2,21-005-016-212873,Claimant 2,Widow,True,Undocumented,Oral claim only,34.6,Pending Verification,2019-12-03
+SC-21-005-016-212873-3,21-005-016-212873,Claimant 3,Step-son,True,Documented,Partition Deed,33.5,Verified,2019-12-03
+SC-36-003-024-806495-1,36-003-024-806495,Claimant 1,Son,True,Documented,Succession Certificate,100.0,Verified,2023-01-13
+SC-21-019-006-257378-1,21-019-006-257378,Claimant 1,Adopted Son,True,Undocumented,Oral claim only,100.0,Pending Verification,2023-01-26
+SC-29-007-007-071762-1,29-007-007-071762,Claimant 1,Son,True,Documented,Registered Will,76.0,Verified,2020-08-23
+SC-21-005-001-250927-1,21-005-001-250927,Claimant 1,Daughter,True,Documented,Succession Certificate,32.6,Verified,2020-07-06
+SC-21-005-001-250927-2,21-005-001-250927,Claimant 2,Grandson,True,Contested,Competing Will produced,40.8,Referred to Revenue Court,2020-07-06
+SC-21-005-001-250927-3,21-005-001-250927,Claimant 3,Nephew,True,Undocumented,"Affidavit, unverified",26.60000000000001,Pending Verification,2020-07-06
+SC-27-037-013-834361-1,27-037-013-834361,Claimant 1,Step-son,False,Contested,Civil suit pending,24.7,Referred to Revenue Court,2022-06-26
+SC-27-037-013-834361-2,27-037-013-834361,Claimant 2,Widow,True,Documented,Succession Certificate,23.2,Verified,2022-06-26
+SC-27-037-013-834361-3,27-037-013-834361,Claimant 3,Grandson,True,Documented,Legal Heir Certificate,17.9,Verified,2022-06-26
+SC-27-037-013-834361-4,27-037-013-834361,Claimant 4,Adopted Son,False,Documented,Legal Heir Certificate,34.1,Verified,2022-06-26
+SC-23-016-011-215124-1,23-016-011-215124,Claimant 1,Nephew,True,Documented,Mutation Entry (RoR),100.0,Verified,2020-10-06
+SC-21-026-019-095000-1,21-026-019-095000,Claimant 1,Grandson,True,Undocumented,Panchayat attestation,37.5,Pending Verification,2022-04-29
+SC-21-026-019-095000-2,21-026-019-095000,Claimant 2,Nephew,True,Undocumented,Panchayat attestation,50.7,Pending Verification,2022-04-29
+SC-27-025-009-655747-1,27-025-009-655747,Claimant 1,Widow,True,Undocumented,"Affidavit, unverified",24.6,Pending Verification,2023-04-06
+SC-27-025-009-655747-2,27-025-009-655747,Claimant 2,Widow,False,Undocumented,Panchayat attestation,32.3,Pending Verification,2023-04-06
+SC-27-025-009-655747-3,27-025-009-655747,Claimant 3,Widow,True,Contested,Competing Will produced,30.0,Referred to Revenue Court,2023-04-06
+SC-27-025-009-655747-4,27-025-009-655747,Claimant 4,Son,True,Documented,Registered Will,11.5,Verified,2023-04-06
+SC-36-027-009-400358-1,36-027-009-400358,Claimant 1,Step-son,True,Documented,Partition Deed,100.0,Verified,2023-01-30
+SC-22-014-009-112459-1,22-014-009-112459,Claimant 1,Widow,True,Undocumented,Oral claim only,25.4,Pending Verification,2021-05-29
+SC-22-014-009-112459-2,22-014-009-112459,Claimant 2,Nephew,False,Undocumented,"Affidavit, unverified",23.6,Pending Verification,2021-05-29
+SC-22-014-009-112459-3,22-014-009-112459,Claimant 3,Son,True,Undocumented,Panchayat attestation,48.1,Pending Verification,2021-05-29
+SC-22-002-019-640682-1,22-002-019-640682,Claimant 1,Grandson,True,Undocumented,"Affidavit, unverified",34.8,Pending Verification,2022-04-06
+SC-22-002-019-640682-2,22-002-019-640682,Claimant 2,Brother,True,Contested,Disputed mutation,34.5,Referred to Revenue Court,2022-04-06
+SC-22-002-019-640682-3,22-002-019-640682,Claimant 3,Widow,True,Documented,Legal Heir Certificate,22.6,Verified,2022-04-06
+SC-29-009-008-883290-1,29-009-008-883290,Claimant 1,Adopted Son,True,Documented,Legal Heir Certificate,56.3,Verified,2023-11-06
+SC-29-009-008-883290-2,29-009-008-883290,Claimant 2,Step-son,True,Undocumented,Panchayat attestation,27.4,Pending Verification,2023-11-06
+SC-23-004-001-197598-1,23-004-001-197598,Claimant 1,Son,False,Documented,Mutation Entry (RoR),35.1,Verified,2022-05-12
+SC-23-004-001-197598-2,23-004-001-197598,Claimant 2,Nephew,True,Undocumented,"Affidavit, unverified",35.4,Pending Verification,2022-05-12
+SC-23-004-001-197598-3,23-004-001-197598,Claimant 3,Nephew,False,Contested,Competing Will produced,21.5,Referred to Revenue Court,2022-05-12
+SC-09-002-006-374336-1,09-002-006-374336,Claimant 1,Grandson,True,Undocumented,Panchayat attestation,34.8,Pending Verification,2023-03-17
+SC-09-002-006-374336-2,09-002-006-374336,Claimant 2,Son,True,Documented,Mutation Entry (RoR),25.2,Verified,2023-03-17
+SC-09-002-006-374336-3,09-002-006-374336,Claimant 3,Grandson,True,Undocumented,Panchayat attestation,20.6,Pending Verification,2023-03-17
+SC-09-002-006-374336-4,09-002-006-374336,Claimant 4,Son,True,Undocumented,Oral claim only,18.9,Pending Verification,2023-03-17
+SC-27-013-020-089628-1,27-013-020-089628,Claimant 1,Widow,True,Documented,Partition Deed,69.9,Verified,2021-01-19
+SC-27-013-020-089628-2,27-013-020-089628,Claimant 2,Brother,True,Documented,Legal Heir Certificate,30.099999999999994,Verified,2021-01-19
+SC-27-001-014-085914-1,27-001-014-085914,Claimant 1,Widow,True,Contested,Disputed mutation,64.2,Referred to Revenue Court,2019-11-06
+SC-27-001-014-085914-2,27-001-014-085914,Claimant 2,Sister,True,Documented,Mutation Entry (RoR),25.0,Verified,2019-11-06
+SC-09-031-007-719117-1,09-031-007-719117,Claimant 1,Sister,True,Documented,Mutation Entry (RoR),30.9,Verified,2022-04-27
+SC-09-031-007-719117-2,09-031-007-719117,Claimant 2,Daughter,False,Contested,Disputed mutation,43.4,Referred to Revenue Court,2022-04-27
+SC-09-031-007-719117-3,09-031-007-719117,Claimant 3,Step-son,True,Documented,Legal Heir Certificate,25.699999999999996,Verified,2022-04-27
+SC-09-031-008-581607-1,09-031-008-581607,Claimant 1,Daughter,True,Contested,Civil suit pending,71.6,Referred to Revenue Court,2023-07-05
+SC-27-001-019-123169-1,27-001-019-123169,Claimant 1,Step-son,True,Documented,Succession Certificate,43.0,Verified,2020-05-03
+SC-27-001-019-123169-2,27-001-019-123169,Claimant 2,Daughter,True,Documented,Registered Will,34.3,Verified,2020-05-03
+SC-27-001-019-123169-3,27-001-019-123169,Claimant 3,Brother,True,Documented,Legal Heir Certificate,14.7,Verified,2020-05-03
+SC-22-018-024-885603-1,22-018-024-885603,Claimant 1,Adopted Son,True,Contested,Disputed mutation,19.8,Referred to Revenue Court,2019-08-08
+SC-22-018-024-885603-2,22-018-024-885603,Claimant 2,Daughter,True,Undocumented,Oral claim only,16.7,Pending Verification,2019-08-08
+SC-22-018-024-885603-3,22-018-024-885603,Claimant 3,Widow,True,Documented,Registered Will,26.4,Verified,2019-08-08
+SC-22-018-024-885603-4,22-018-024-885603,Claimant 4,Son,True,Contested,Competing Will produced,30.3,Referred to Revenue Court,2019-08-08
+SC-09-031-010-951761-1,09-031-010-951761,Claimant 1,Daughter,True,Undocumented,Oral claim only,41.5,Pending Verification,2019-09-30
+SC-09-031-010-951761-2,09-031-010-951761,Claimant 2,Son,True,Documented,Partition Deed,32.1,Verified,2019-09-30
+SC-09-031-010-951761-3,09-031-010-951761,Claimant 3,Widow,True,Undocumented,Oral claim only,26.4,Pending Verification,2019-09-30
+SC-22-014-016-234546-1,22-014-016-234546,Claimant 1,Adopted Son,True,Contested,Disputed mutation,33.5,Referred to Revenue Court,2023-04-18
+SC-22-014-016-234546-2,22-014-016-234546,Claimant 2,Grandson,True,Undocumented,Panchayat attestation,31.9,Pending Verification,2023-04-18
+SC-22-014-016-234546-3,22-014-016-234546,Claimant 3,Son,True,Documented,Mutation Entry (RoR),34.6,Verified,2023-04-18
+SC-09-044-018-871523-1,09-044-018-871523,Claimant 1,Step-son,True,Undocumented,"Affidavit, unverified",34.0,Pending Verification,2020-09-02
+SC-09-044-018-871523-2,09-044-018-871523,Claimant 2,Nephew,True,Documented,Partition Deed,42.4,Verified,2020-09-02
+SC-09-044-018-871523-3,09-044-018-871523,Claimant 3,Brother,True,Undocumented,Oral claim only,23.6,Pending Verification,2020-09-02
+SC-22-009-021-420306-1,22-009-021-420306,Claimant 1,Sister,True,Undocumented,Panchayat attestation,100.0,Pending Verification,2023-06-18
+SC-33-023-012-727675-1,33-023-012-727675,Claimant 1,Grandson,True,Undocumented,"Affidavit, unverified",33.8,Pending Verification,2019-12-04
+SC-33-023-012-727675-2,33-023-012-727675,Claimant 2,Daughter,True,Documented,Registered Will,15.6,Verified,2019-12-04
+SC-33-023-012-727675-3,33-023-012-727675,Claimant 3,Step-son,True,Undocumented,Panchayat attestation,33.3,Pending Verification,2019-12-04
+SC-33-023-012-727675-4,33-023-012-727675,Claimant 4,Nephew,True,Undocumented,"Affidavit, unverified",13.6,Pending Verification,2019-12-04
+SC-21-026-008-652571-1,21-026-008-652571,Claimant 1,Widow,True,Documented,Succession Certificate,41.8,Verified,2021-10-06
+SC-21-026-008-652571-2,21-026-008-652571,Claimant 2,Daughter,False,Contested,Competing Will produced,23.4,Referred to Revenue Court,2021-10-06
+SC-21-026-008-652571-3,21-026-008-652571,Claimant 3,Adopted Son,True,Undocumented,Panchayat attestation,34.1,Pending Verification,2021-10-06
+SC-23-028-003-529604-1,23-028-003-529604,Claimant 1,Daughter,True,Documented,Registered Will,34.1,Verified,2020-04-05
+SC-23-028-003-529604-2,23-028-003-529604,Claimant 2,Nephew,True,Undocumented,"Affidavit, unverified",25.2,Pending Verification,2020-04-05
+SC-23-028-003-529604-3,23-028-003-529604,Claimant 3,Grandson,True,Documented,Partition Deed,23.6,Verified,2020-04-05
+SC-23-028-003-529604-4,23-028-003-529604,Claimant 4,Brother,True,Documented,Legal Heir Certificate,16.4,Verified,2020-04-05
+SC-36-027-014-339807-1,36-027-014-339807,Claimant 1,Grandson,True,Contested,Competing Will produced,43.8,Referred to Revenue Court,2022-07-02
+SC-36-027-014-339807-2,36-027-014-339807,Claimant 2,Son,True,Documented,Succession Certificate,31.3,Verified,2022-07-02
+SC-36-027-014-339807-3,36-027-014-339807,Claimant 3,Grandson,True,Documented,Legal Heir Certificate,24.900000000000002,Verified,2022-07-02
+SC-23-028-004-804705-1,23-028-004-804705,Claimant 1,Daughter,True,Contested,Disputed mutation,35.5,Referred to Revenue Court,2021-04-20
+SC-23-028-004-804705-2,23-028-004-804705,Claimant 2,Nephew,True,Undocumented,Panchayat attestation,37.8,Pending Verification,2021-04-20
+SC-23-028-004-804705-3,23-028-004-804705,Claimant 3,Sister,True,Undocumented,"Affidavit, unverified",26.700000000000003,Pending Verification,2021-04-20
+SC-22-014-011-342646-1,22-014-011-342646,Claimant 1,Sister,True,Documented,Registered Will,29.6,Verified,2020-04-11
+SC-22-014-011-342646-2,22-014-011-342646,Claimant 2,Son,False,Documented,Registered Will,25.5,Verified,2020-04-11
+SC-22-014-011-342646-3,22-014-011-342646,Claimant 3,Brother,True,Documented,Legal Heir Certificate,28.7,Verified,2020-04-11
+SC-22-014-011-342646-4,22-014-011-342646,Claimant 4,Grandson,True,Undocumented,"Affidavit, unverified",11.7,Pending Verification,2020-04-11
+SC-29-007-020-650428-1,29-007-020-650428,Claimant 1,Sister,True,Contested,Disputed mutation,100.0,Referred to Revenue Court,2021-09-22
+SC-21-012-018-603940-1,21-012-018-603940,Claimant 1,Widow,False,Undocumented,"Affidavit, unverified",20.0,Pending Verification,2020-03-06
+SC-21-012-018-603940-2,21-012-018-603940,Claimant 2,Daughter,True,Contested,Civil suit pending,16.5,Referred to Revenue Court,2020-03-06
+SC-21-012-018-603940-3,21-012-018-603940,Claimant 3,Nephew,True,Contested,Civil suit pending,43.0,Referred to Revenue Court,2020-03-06
+SC-21-012-018-603940-4,21-012-018-603940,Claimant 4,Grandson,True,Documented,Succession Certificate,20.5,Verified,2020-03-06
+SC-36-019-008-919095-1,36-019-008-919095,Claimant 1,Sister,True,Documented,Partition Deed,100.0,Verified,2020-02-16
+SC-27-013-018-313330-1,27-013-018-313330,Claimant 1,Widow,True,Documented,Mutation Entry (RoR),24.5,Verified,2023-07-19
+SC-27-013-018-313330-2,27-013-018-313330,Claimant 2,Adopted Son,False,Contested,Disputed mutation,27.7,Referred to Revenue Court,2023-07-19
+SC-27-013-018-313330-3,27-013-018-313330,Claimant 3,Nephew,True,Documented,Mutation Entry (RoR),30.4,Verified,2023-07-19
+SC-27-013-018-313330-4,27-013-018-313330,Claimant 4,Step-son,True,Documented,Partition Deed,17.4,Verified,2023-07-19
+SC-22-002-008-923294-1,22-002-008-923294,Claimant 1,Widow,False,Documented,Succession Certificate,27.6,Verified,2023-02-02
+SC-22-002-008-923294-2,22-002-008-923294,Claimant 2,Brother,False,Contested,Civil suit pending,35.4,Referred to Revenue Court,2023-02-02
+SC-22-002-008-923294-3,22-002-008-923294,Claimant 3,Widow,True,Documented,Partition Deed,37.00000000000001,Verified,2023-02-02
+SC-33-045-021-629421-1,33-045-021-629421,Claimant 1,Son,True,Contested,Disputed mutation,39.2,Referred to Revenue Court,2020-10-29
+SC-33-045-021-629421-2,33-045-021-629421,Claimant 2,Nephew,True,Documented,Registered Will,22.7,Verified,2020-10-29
+SC-33-045-021-629421-3,33-045-021-629421,Claimant 3,Brother,True,Contested,Competing Will produced,28.6,Referred to Revenue Court,2020-10-29
+SC-29-018-017-640746-1,29-018-017-640746,Claimant 1,Nephew,True,Undocumented,Oral claim only,67.2,Pending Verification,2021-02-05
+SC-29-018-017-640746-2,29-018-017-640746,Claimant 2,Son,False,Documented,Partition Deed,32.8,Verified,2021-02-05
+SC-29-022-015-460690-1,29-022-015-460690,Claimant 1,Adopted Son,True,Undocumented,Oral claim only,94.3,Pending Verification,2022-09-30
+SC-23-004-011-004994-1,23-004-011-004994,Claimant 1,Sister,False,Documented,Registered Will,29.2,Verified,2023-01-02
+SC-23-004-011-004994-2,23-004-011-004994,Claimant 2,Daughter,True,Undocumented,Oral claim only,29.6,Pending Verification,2023-01-02
+SC-23-004-011-004994-3,23-004-011-004994,Claimant 3,Widow,False,Documented,Legal Heir Certificate,21.8,Verified,2023-01-02
+SC-23-004-011-004994-4,23-004-011-004994,Claimant 4,Daughter,True,Documented,Succession Certificate,19.399999999999995,Verified,2023-01-02
+SC-27-025-008-576012-1,27-025-008-576012,Claimant 1,Grandson,True,Undocumented,"Affidavit, unverified",20.5,Pending Verification,2023-06-06
+SC-27-025-008-576012-2,27-025-008-576012,Claimant 2,Step-son,True,Documented,Registered Will,32.4,Verified,2023-06-06
+SC-27-025-008-576012-3,27-025-008-576012,Claimant 3,Son,True,Documented,Succession Certificate,25.9,Verified,2023-06-06
+SC-27-025-008-576012-4,27-025-008-576012,Claimant 4,Widow,True,Documented,Partition Deed,21.200000000000003,Verified,2023-06-06
+SC-33-014-008-315668-1,33-014-008-315668,Claimant 1,Sister,False,Undocumented,"Affidavit, unverified",20.7,Pending Verification,2019-06-15
+SC-33-014-008-315668-2,33-014-008-315668,Claimant 2,Step-son,True,Undocumented,"Affidavit, unverified",32.2,Pending Verification,2019-06-15
+SC-33-014-008-315668-3,33-014-008-315668,Claimant 3,Nephew,True,Documented,Legal Heir Certificate,47.099999999999994,Verified,2019-06-15
+SC-09-002-019-319626-1,09-002-019-319626,Claimant 1,Grandson,True,Undocumented,"Affidavit, unverified",19.9,Pending Verification,2019-03-09
+SC-09-002-019-319626-2,09-002-019-319626,Claimant 2,Brother,True,Documented,Registered Will,23.8,Verified,2019-03-09
+SC-09-002-019-319626-3,09-002-019-319626,Claimant 3,Sister,True,Documented,Succession Certificate,25.4,Verified,2019-03-09
+SC-09-002-019-319626-4,09-002-019-319626,Claimant 4,Son,True,Documented,Mutation Entry (RoR),27.9,Verified,2019-03-09
+SC-21-012-011-039271-1,21-012-011-039271,Claimant 1,Adopted Son,True,Undocumented,Panchayat attestation,100.0,Pending Verification,2022-05-17
+SC-33-014-019-817481-1,33-014-019-817481,Claimant 1,Nephew,True,Documented,Partition Deed,17.8,Verified,2022-07-10
+SC-33-014-019-817481-2,33-014-019-817481,Claimant 2,Widow,True,Undocumented,Panchayat attestation,36.7,Pending Verification,2022-07-10
+SC-33-014-019-817481-3,33-014-019-817481,Claimant 3,Nephew,True,Undocumented,Panchayat attestation,23.4,Pending Verification,2022-07-10
+SC-33-014-019-817481-4,33-014-019-817481,Claimant 4,Sister,True,Undocumented,"Affidavit, unverified",22.1,Pending Verification,2022-07-10
+SC-36-011-010-014722-1,36-011-010-014722,Claimant 1,Sister,False,Undocumented,"Affidavit, unverified",42.8,Pending Verification,2019-09-01
+SC-36-011-010-014722-2,36-011-010-014722,Claimant 2,Grandson,True,Documented,Succession Certificate,28.8,Verified,2019-09-01
+SC-36-011-010-014722-3,36-011-010-014722,Claimant 3,Sister,True,Undocumented,"Affidavit, unverified",21.8,Pending Verification,2019-09-01
+SC-36-027-002-641401-1,36-027-002-641401,Claimant 1,Daughter,False,Undocumented,Oral claim only,21.7,Pending Verification,2021-10-28
+SC-36-027-002-641401-2,36-027-002-641401,Claimant 2,Brother,True,Undocumented,Oral claim only,19.5,Pending Verification,2021-10-28
+SC-36-027-002-641401-3,36-027-002-641401,Claimant 3,Widow,True,Undocumented,Oral claim only,40.9,Pending Verification,2021-10-28
+SC-36-027-002-641401-4,36-027-002-641401,Claimant 4,Nephew,True,Documented,Registered Will,12.6,Verified,2021-10-28
+SC-22-002-013-975593-1,22-002-013-975593,Claimant 1,Grandson,True,Undocumented,Oral claim only,80.4,Pending Verification,2021-02-13
+SC-33-014-016-217560-1,33-014-016-217560,Claimant 1,Brother,True,Documented,Mutation Entry (RoR),33.2,Verified,2019-02-27
+SC-33-014-016-217560-2,33-014-016-217560,Claimant 2,Step-son,True,Undocumented,Oral claim only,22.4,Pending Verification,2019-02-27
+SC-33-014-016-217560-3,33-014-016-217560,Claimant 3,Son,True,Contested,Civil suit pending,25.4,Referred to Revenue Court,2019-02-27
+SC-33-014-016-217560-4,33-014-016-217560,Claimant 4,Step-son,True,Documented,Registered Will,16.1,Verified,2019-02-27
+SC-33-031-010-491079-1,33-031-010-491079,Claimant 1,Step-son,True,Undocumented,Panchayat attestation,100.0,Pending Verification,2023-03-10
+SC-21-019-024-331631-1,21-019-024-331631,Claimant 1,Nephew,True,Documented,Registered Will,22.1,Verified,2022-07-11
+SC-21-019-024-331631-2,21-019-024-331631,Claimant 2,Brother,True,Documented,Partition Deed,24.9,Verified,2022-07-11
+SC-21-019-024-331631-3,21-019-024-331631,Claimant 3,Adopted Son,True,Documented,Partition Deed,32.1,Verified,2022-07-11
+SC-33-045-022-073492-1,33-045-022-073492,Claimant 1,Daughter,True,Undocumented,Oral claim only,63.3,Pending Verification,2020-07-27
+SC-33-045-022-073492-2,33-045-022-073492,Claimant 2,Step-son,True,Documented,Legal Heir Certificate,36.7,Verified,2020-07-27
+SC-21-026-009-694289-1,21-026-009-694289,Claimant 1,Son,True,Documented,Succession Certificate,21.0,Verified,2020-02-21
+SC-21-026-009-694289-2,21-026-009-694289,Claimant 2,Widow,False,Documented,Succession Certificate,19.6,Verified,2020-02-21
+SC-21-026-009-694289-3,21-026-009-694289,Claimant 3,Adopted Son,True,Documented,Legal Heir Certificate,27.8,Verified,2020-02-21
+SC-21-026-009-694289-4,21-026-009-694289,Claimant 4,Brother,True,Undocumented,Panchayat attestation,31.599999999999998,Pending Verification,2020-02-21
+SC-33-031-001-173185-1,33-031-001-173185,Claimant 1,Grandson,True,Undocumented,Oral claim only,100.0,Pending Verification,2020-02-09
+SC-23-033-015-841738-1,23-033-015-841738,Claimant 1,Brother,True,Documented,Succession Certificate,36.8,Verified,2020-12-15
+SC-23-033-015-841738-2,23-033-015-841738,Claimant 2,Daughter,True,Documented,Registered Will,20.7,Verified,2020-12-15
+SC-23-033-015-841738-3,23-033-015-841738,Claimant 3,Nephew,True,Undocumented,"Affidavit, unverified",27.7,Pending Verification,2020-12-15
+SC-29-022-009-442523-1,29-022-009-442523,Claimant 1,Widow,True,Undocumented,"Affidavit, unverified",28.3,Pending Verification,2022-11-11
+SC-29-022-009-442523-2,29-022-009-442523,Claimant 2,Nephew,True,Undocumented,"Affidavit, unverified",25.3,Pending Verification,2022-11-11
+SC-29-022-009-442523-3,29-022-009-442523,Claimant 3,Son,True,Documented,Partition Deed,22.4,Verified,2022-11-11
+SC-29-022-009-442523-4,29-022-009-442523,Claimant 4,Grandson,True,Undocumented,"Affidavit, unverified",20.8,Pending Verification,2022-11-11
+SC-27-013-015-433170-1,27-013-015-433170,Claimant 1,Son,False,Undocumented,Panchayat attestation,19.1,Pending Verification,2021-08-23
+SC-27-013-015-433170-2,27-013-015-433170,Claimant 2,Adopted Son,False,Contested,Competing Will produced,23.3,Referred to Revenue Court,2021-08-23
+SC-27-013-015-433170-3,27-013-015-433170,Claimant 3,Widow,True,Undocumented,"Affidavit, unverified",24.0,Pending Verification,2021-08-23
+SC-27-013-015-433170-4,27-013-015-433170,Claimant 4,Nephew,True,Documented,Succession Certificate,33.1,Verified,2021-08-23
+SC-09-031-011-782923-1,09-031-011-782923,Claimant 1,Grandson,True,Documented,Mutation Entry (RoR),63.7,Verified,2020-03-19
+SC-09-031-011-782923-2,09-031-011-782923,Claimant 2,Nephew,True,Contested,Competing Will produced,34.6,Referred to Revenue Court,2020-03-19
+SC-27-025-002-922498-1,27-025-002-922498,Claimant 1,Brother,True,Contested,Competing Will produced,100.0,Referred to Revenue Court,2020-07-21
+SC-29-022-008-775897-1,29-022-008-775897,Claimant 1,Widow,True,Undocumented,Panchayat attestation,33.0,Pending Verification,2021-01-31
+SC-29-022-008-775897-2,29-022-008-775897,Claimant 2,Sister,False,Contested,Disputed mutation,45.3,Referred to Revenue Court,2021-01-31
+SC-09-015-024-187536-1,09-015-024-187536,Claimant 1,Daughter,True,Contested,Competing Will produced,26.7,Referred to Revenue Court,2019-02-27
+SC-09-015-024-187536-2,09-015-024-187536,Claimant 2,Step-son,True,Contested,Disputed mutation,15.9,Referred to Revenue Court,2019-02-27
+SC-09-015-024-187536-3,09-015-024-187536,Claimant 3,Daughter,True,Documented,Mutation Entry (RoR),34.5,Verified,2019-02-27
+SC-09-015-024-187536-4,09-015-024-187536,Claimant 4,Grandson,True,Documented,Legal Heir Certificate,18.1,Verified,2019-02-27
+SC-29-018-013-003927-1,29-018-013-003927,Claimant 1,Daughter,True,Undocumented,Oral claim only,100.0,Pending Verification,2019-12-27
+SC-29-009-007-703996-1,29-009-007-703996,Claimant 1,Nephew,True,Contested,Disputed mutation,18.2,Referred to Revenue Court,2023-07-26
+SC-29-009-007-703996-2,29-009-007-703996,Claimant 2,Step-son,True,Undocumented,Panchayat attestation,27.6,Pending Verification,2023-07-26
+SC-29-009-007-703996-3,29-009-007-703996,Claimant 3,Adopted Son,True,Undocumented,"Affidavit, unverified",19.3,Pending Verification,2023-07-26
+SC-29-009-007-703996-4,29-009-007-703996,Claimant 4,Adopted Son,True,Undocumented,"Affidavit, unverified",34.89999999999999,Pending Verification,2023-07-26
+SC-22-002-014-783176-1,22-002-014-783176,Claimant 1,Widow,True,Documented,Mutation Entry (RoR),31.8,Verified,2020-10-07
+SC-22-002-014-783176-2,22-002-014-783176,Claimant 2,Brother,True,Contested,Competing Will produced,46.3,Referred to Revenue Court,2020-10-07
+SC-22-002-014-783176-3,22-002-014-783176,Claimant 3,Grandson,True,Undocumented,Panchayat attestation,21.900000000000006,Pending Verification,2020-10-07
+SC-23-004-004-590038-1,23-004-004-590038,Claimant 1,Daughter,False,Contested,Competing Will produced,50.7,Referred to Revenue Court,2021-07-10
+SC-23-004-004-590038-2,23-004-004-590038,Claimant 2,Grandson,True,Documented,Succession Certificate,40.3,Verified,2021-07-10
+SC-29-009-015-531038-1,29-009-015-531038,Claimant 1,Sister,True,Undocumented,Panchayat attestation,25.1,Pending Verification,2022-03-20
+SC-29-009-015-531038-2,29-009-015-531038,Claimant 2,Daughter,True,Documented,Mutation Entry (RoR),27.8,Verified,2022-03-20
+SC-29-009-015-531038-3,29-009-015-531038,Claimant 3,Widow,False,Documented,Mutation Entry (RoR),25.7,Verified,2022-03-20
+SC-29-009-015-531038-4,29-009-015-531038,Claimant 4,Adopted Son,True,Documented,Succession Certificate,21.40000000000001,Verified,2022-03-20
+SC-21-019-011-899752-1,21-019-011-899752,Claimant 1,Widow,True,Undocumented,Panchayat attestation,100.0,Pending Verification,2023-04-18
+SC-21-012-018-340012-1,21-012-018-340012,Claimant 1,Grandson,True,Contested,Civil suit pending,19.2,Referred to Revenue Court,2022-10-27
+SC-21-012-018-340012-2,21-012-018-340012,Claimant 2,Adopted Son,True,Documented,Succession Certificate,29.3,Verified,2022-10-27
+SC-21-012-018-340012-3,21-012-018-340012,Claimant 3,Nephew,True,Documented,Legal Heir Certificate,15.6,Verified,2022-10-27
+SC-21-012-018-340012-4,21-012-018-340012,Claimant 4,Widow,False,Contested,Disputed mutation,35.9,Referred to Revenue Court,2022-10-27
+SC-33-023-020-307456-1,33-023-020-307456,Claimant 1,Nephew,True,Documented,Registered Will,20.9,Verified,2023-11-17
+SC-33-023-020-307456-2,33-023-020-307456,Claimant 2,Grandson,False,Documented,Succession Certificate,27.1,Verified,2023-11-17
+SC-33-023-020-307456-3,33-023-020-307456,Claimant 3,Step-son,True,Contested,Civil suit pending,51.99999999999999,Referred to Revenue Court,2023-11-17
+SC-22-002-003-642583-1,22-002-003-642583,Claimant 1,Son,True,Documented,Partition Deed,20.0,Verified,2021-01-31
+SC-22-002-003-642583-2,22-002-003-642583,Claimant 2,Widow,True,Undocumented,Oral claim only,27.1,Pending Verification,2021-01-31
+SC-22-002-003-642583-3,22-002-003-642583,Claimant 3,Step-son,True,Contested,Civil suit pending,29.4,Referred to Revenue Court,2021-01-31
+SC-22-002-003-642583-4,22-002-003-642583,Claimant 4,Daughter,True,Undocumented,"Affidavit, unverified",23.5,Pending Verification,2021-01-31
+SC-09-015-023-422636-1,09-015-023-422636,Claimant 1,Daughter,True,Undocumented,Panchayat attestation,30.2,Pending Verification,2020-07-29
+SC-09-015-023-422636-2,09-015-023-422636,Claimant 2,Daughter,True,Documented,Legal Heir Certificate,20.3,Verified,2020-07-29
+SC-09-015-023-422636-3,09-015-023-422636,Claimant 3,Sister,True,Documented,Registered Will,28.6,Verified,2020-07-29
+SC-09-015-023-422636-4,09-015-023-422636,Claimant 4,Grandson,True,Documented,Succession Certificate,15.1,Verified,2020-07-29
+SC-09-044-018-641015-1,09-044-018-641015,Claimant 1,Daughter,True,Undocumented,Panchayat attestation,33.5,Pending Verification,2021-07-06
+SC-09-044-018-641015-2,09-044-018-641015,Claimant 2,Brother,True,Contested,Competing Will produced,27.2,Referred to Revenue Court,2021-07-06
+SC-09-044-018-641015-3,09-044-018-641015,Claimant 3,Nephew,True,Documented,Registered Will,23.2,Verified,2021-07-06
+SC-09-044-018-641015-4,09-044-018-641015,Claimant 4,Nephew,True,Undocumented,"Affidavit, unverified",16.099999999999998,Pending Verification,2021-07-06
+SC-33-014-015-377807-1,33-014-015-377807,Claimant 1,Grandson,False,Documented,Legal Heir Certificate,100.0,Verified,2021-12-22
+SC-09-015-024-684741-1,09-015-024-684741,Claimant 1,Step-son,True,Contested,Civil suit pending,35.4,Referred to Revenue Court,2021-09-16
+SC-09-015-024-684741-2,09-015-024-684741,Claimant 2,Step-son,True,Documented,Registered Will,64.6,Verified,2021-09-16
+SC-21-026-018-182337-1,21-026-018-182337,Claimant 1,Nephew,True,Documented,Legal Heir Certificate,44.1,Verified,2019-03-13
+SC-21-026-018-182337-2,21-026-018-182337,Claimant 2,Widow,True,Documented,Succession Certificate,28.2,Verified,2019-03-13
+SC-21-026-018-182337-3,21-026-018-182337,Claimant 3,Grandson,False,Undocumented,Panchayat attestation,27.7,Pending Verification,2019-03-13
+SC-22-018-019-687038-1,22-018-019-687038,Claimant 1,Adopted Son,True,Documented,Partition Deed,21.2,Verified,2019-10-20
+SC-22-018-019-687038-2,22-018-019-687038,Claimant 2,Grandson,True,Contested,Disputed mutation,15.8,Referred to Revenue Court,2019-10-20
+SC-22-018-019-687038-3,22-018-019-687038,Claimant 3,Sister,True,Documented,Partition Deed,36.0,Verified,2019-10-20
+SC-22-018-019-687038-4,22-018-019-687038,Claimant 4,Sister,False,Documented,Succession Certificate,27.0,Verified,2019-10-20
+SC-22-014-017-781394-1,22-014-017-781394,Claimant 1,Widow,True,Contested,Disputed mutation,20.5,Referred to Revenue Court,2022-11-29
+SC-22-014-017-781394-2,22-014-017-781394,Claimant 2,Step-son,True,Undocumented,Oral claim only,29.7,Pending Verification,2022-11-29
+SC-22-014-017-781394-3,22-014-017-781394,Claimant 3,Nephew,True,Undocumented,"Affidavit, unverified",30.1,Pending Verification,2022-11-29
+SC-22-014-017-781394-4,22-014-017-781394,Claimant 4,Step-son,True,Undocumented,Oral claim only,19.699999999999996,Pending Verification,2022-11-29
+SC-09-015-021-965587-1,09-015-021-965587,Claimant 1,Sister,True,Documented,Partition Deed,57.5,Verified,2020-09-22
+SC-09-015-021-965587-2,09-015-021-965587,Claimant 2,Brother,True,Documented,Legal Heir Certificate,33.6,Verified,2020-09-22
+SC-22-018-007-427108-1,22-018-007-427108,Claimant 1,Brother,True,Documented,Mutation Entry (RoR),100.0,Verified,2020-12-24
+SC-29-018-001-407034-1,29-018-001-407034,Claimant 1,Nephew,True,Documented,Mutation Entry (RoR),36.3,Verified,2023-12-25
+SC-29-018-001-407034-2,29-018-001-407034,Claimant 2,Brother,True,Documented,Mutation Entry (RoR),43.6,Verified,2023-12-25
+SC-29-018-001-407034-3,29-018-001-407034,Claimant 3,Adopted Son,False,Documented,Mutation Entry (RoR),20.1,Verified,2023-12-25
+SC-27-025-006-340067-1,27-025-006-340067,Claimant 1,Widow,True,Documented,Mutation Entry (RoR),63.5,Verified,2021-07-05
+SC-27-025-006-340067-2,27-025-006-340067,Claimant 2,Widow,True,Documented,Mutation Entry (RoR),36.5,Verified,2021-07-05
+SC-22-018-005-566774-1,22-018-005-566774,Claimant 1,Adopted Son,True,Documented,Mutation Entry (RoR),57.8,Verified,2023-09-19
+SC-22-018-005-566774-2,22-018-005-566774,Claimant 2,Widow,True,Undocumented,Oral claim only,41.0,Pending Verification,2023-09-19
+SC-23-028-009-350448-1,23-028-009-350448,Claimant 1,Grandson,False,Undocumented,Oral claim only,32.3,Pending Verification,2021-12-11
+SC-23-028-009-350448-2,23-028-009-350448,Claimant 2,Son,True,Contested,Civil suit pending,28.6,Referred to Revenue Court,2021-12-11
+SC-23-028-009-350448-3,23-028-009-350448,Claimant 3,Widow,True,Documented,Succession Certificate,39.1,Verified,2021-12-11
+SC-27-013-023-243010-1,27-013-023-243010,Claimant 1,Daughter,False,Contested,Civil suit pending,32.4,Referred to Revenue Court,2021-05-06
+SC-27-013-023-243010-2,27-013-023-243010,Claimant 2,Daughter,True,Documented,Succession Certificate,29.6,Verified,2021-05-06
+SC-27-013-023-243010-3,27-013-023-243010,Claimant 3,Step-son,True,Documented,Partition Deed,20.2,Verified,2021-05-06
+SC-27-013-023-243010-4,27-013-023-243010,Claimant 4,Sister,True,Undocumented,"Affidavit, unverified",11.0,Pending Verification,2021-05-06
+SC-29-022-011-013199-1,29-022-011-013199,Claimant 1,Son,True,Undocumented,"Affidavit, unverified",44.5,Pending Verification,2022-08-11
+SC-29-022-011-013199-2,29-022-011-013199,Claimant 2,Widow,True,Documented,Mutation Entry (RoR),33.5,Verified,2022-08-11
+SC-29-022-011-013199-3,29-022-011-013199,Claimant 3,Nephew,True,Documented,Partition Deed,18.1,Verified,2022-08-11
+SC-33-045-009-108717-1,33-045-009-108717,Claimant 1,Daughter,True,Documented,Succession Certificate,100.0,Verified,2023-07-11
+SC-22-014-009-741647-1,22-014-009-741647,Claimant 1,Son,False,Contested,Competing Will produced,48.2,Referred to Revenue Court,2023-07-23
+SC-22-014-009-741647-2,22-014-009-741647,Claimant 2,Widow,True,Documented,Partition Deed,51.8,Verified,2023-07-23
+SC-22-002-017-463019-1,22-002-017-463019,Claimant 1,Brother,False,Undocumented,"Affidavit, unverified",86.5,Pending Verification,2020-02-26
+SC-33-014-012-988183-1,33-014-012-988183,Claimant 1,Grandson,True,Documented,Partition Deed,39.2,Verified,2023-12-16
+SC-33-014-012-988183-2,33-014-012-988183,Claimant 2,Son,False,Documented,Succession Certificate,60.8,Verified,2023-12-16
+SC-09-031-010-551779-1,09-031-010-551779,Claimant 1,Nephew,True,Documented,Mutation Entry (RoR),100.0,Verified,2019-08-12
+SC-23-033-016-644629-1,23-033-016-644629,Claimant 1,Adopted Son,True,Contested,Disputed mutation,33.3,Referred to Revenue Court,2021-04-18
+SC-23-033-016-644629-2,23-033-016-644629,Claimant 2,Widow,True,Documented,Legal Heir Certificate,43.5,Verified,2021-04-18
+SC-23-033-016-644629-3,23-033-016-644629,Claimant 3,Son,True,Documented,Partition Deed,23.200000000000003,Verified,2021-04-18
+SC-36-011-018-687163-1,36-011-018-687163,Claimant 1,Widow,True,Contested,Disputed mutation,100.0,Referred to Revenue Court,2021-04-18
+SC-22-002-022-310918-1,22-002-022-310918,Claimant 1,Brother,True,Documented,Legal Heir Certificate,32.3,Verified,2019-10-14
+SC-22-002-022-310918-2,22-002-022-310918,Claimant 2,Widow,False,Contested,Civil suit pending,17.7,Referred to Revenue Court,2019-10-14
+SC-22-002-022-310918-3,22-002-022-310918,Claimant 3,Step-son,True,Documented,Succession Certificate,22.4,Verified,2019-10-14
+SC-22-002-022-310918-4,22-002-022-310918,Claimant 4,Son,False,Contested,Civil suit pending,27.6,Referred to Revenue Court,2019-10-14
+SC-33-023-020-563851-1,33-023-020-563851,Claimant 1,Son,True,Undocumented,Oral claim only,100.0,Pending Verification,2022-08-12
+SC-23-028-018-084890-1,23-028-018-084890,Claimant 1,Sister,True,Documented,Legal Heir Certificate,54.5,Verified,2021-08-12
+SC-23-028-018-084890-2,23-028-018-084890,Claimant 2,Widow,True,Documented,Registered Will,45.5,Verified,2021-08-12
+SC-23-004-005-460454-1,23-004-005-460454,Claimant 1,Sister,True,Documented,Mutation Entry (RoR),33.9,Verified,2022-08-03
+SC-23-004-005-460454-2,23-004-005-460454,Claimant 2,Son,True,Contested,Competing Will produced,20.4,Referred to Revenue Court,2022-08-03
+SC-23-004-005-460454-3,23-004-005-460454,Claimant 3,Widow,True,Undocumented,"Affidavit, unverified",45.699999999999996,Pending Verification,2022-08-03
+SC-27-001-004-922750-1,27-001-004-922750,Claimant 1,Nephew,True,Contested,Competing Will produced,33.5,Referred to Revenue Court,2021-02-11
+SC-27-001-004-922750-2,27-001-004-922750,Claimant 2,Step-son,False,Documented,Mutation Entry (RoR),13.7,Verified,2021-02-11
+SC-27-001-004-922750-3,27-001-004-922750,Claimant 3,Brother,True,Undocumented,Panchayat attestation,36.3,Pending Verification,2021-02-11
+SC-27-001-004-922750-4,27-001-004-922750,Claimant 4,Nephew,True,Undocumented,Panchayat attestation,16.5,Pending Verification,2021-02-11
+SC-22-018-002-476787-1,22-018-002-476787,Claimant 1,Daughter,False,Documented,Mutation Entry (RoR),69.9,Verified,2021-10-22
+SC-22-018-002-476787-2,22-018-002-476787,Claimant 2,Widow,True,Contested,Competing Will produced,18.8,Referred to Revenue Court,2021-10-22
+SC-36-019-008-500438-1,36-019-008-500438,Claimant 1,Adopted Son,True,Documented,Registered Will,29.7,Verified,2022-04-20
+SC-36-019-008-500438-2,36-019-008-500438,Claimant 2,Nephew,True,Documented,Partition Deed,42.8,Verified,2022-04-20
+SC-36-019-008-500438-3,36-019-008-500438,Claimant 3,Step-son,True,Undocumented,Oral claim only,16.7,Pending Verification,2022-04-20
+SC-36-019-011-175224-1,36-019-011-175224,Claimant 1,Widow,False,Documented,Succession Certificate,32.4,Verified,2020-02-18
+SC-36-019-011-175224-2,36-019-011-175224,Claimant 2,Grandson,True,Undocumented,"Affidavit, unverified",67.6,Pending Verification,2020-02-18
+SC-21-012-011-176514-1,21-012-011-176514,Claimant 1,Son,True,Documented,Mutation Entry (RoR),67.3,Verified,2021-03-03
+SC-09-015-003-087671-1,09-015-003-087671,Claimant 1,Brother,True,Documented,Legal Heir Certificate,37.7,Verified,2022-01-09
+SC-09-015-003-087671-2,09-015-003-087671,Claimant 2,Sister,False,Undocumented,"Affidavit, unverified",27.0,Pending Verification,2022-01-09
+SC-09-015-003-087671-3,09-015-003-087671,Claimant 3,Brother,True,Undocumented,"Affidavit, unverified",35.3,Pending Verification,2022-01-09
+SC-27-037-018-096087-1,27-037-018-096087,Claimant 1,Son,True,Documented,Partition Deed,26.8,Verified,2021-08-13
+SC-27-037-018-096087-2,27-037-018-096087,Claimant 2,Son,True,Documented,Mutation Entry (RoR),19.7,Verified,2021-08-13
+SC-27-037-018-096087-3,27-037-018-096087,Claimant 3,Step-son,False,Documented,Mutation Entry (RoR),17.9,Verified,2021-08-13
+SC-27-037-018-096087-4,27-037-018-096087,Claimant 4,Grandson,True,Contested,Disputed mutation,35.6,Referred to Revenue Court,2021-08-13
+SC-23-028-014-466935-1,23-028-014-466935,Claimant 1,Brother,True,Documented,Mutation Entry (RoR),63.6,Verified,2019-11-08
+SC-22-002-023-768360-1,22-002-023-768360,Claimant 1,Sister,True,Documented,Registered Will,36.0,Verified,2020-04-11
+SC-22-002-023-768360-2,22-002-023-768360,Claimant 2,Daughter,True,Undocumented,Oral claim only,64.0,Pending Verification,2020-04-11
+SC-22-018-001-023764-1,22-018-001-023764,Claimant 1,Adopted Son,False,Undocumented,"Affidavit, unverified",66.3,Pending Verification,2021-03-15
+SC-22-018-001-023764-2,22-018-001-023764,Claimant 2,Nephew,True,Undocumented,Oral claim only,33.7,Pending Verification,2021-03-15
+SC-29-022-004-891765-1,29-022-004-891765,Claimant 1,Adopted Son,True,Undocumented,"Affidavit, unverified",29.8,Pending Verification,2023-02-16
+SC-29-022-004-891765-2,29-022-004-891765,Claimant 2,Son,True,Documented,Legal Heir Certificate,28.1,Verified,2023-02-16
+SC-29-022-004-891765-3,29-022-004-891765,Claimant 3,Widow,True,Documented,Succession Certificate,22.6,Verified,2023-02-16
+SC-29-022-004-891765-4,29-022-004-891765,Claimant 4,Nephew,True,Undocumented,"Affidavit, unverified",19.5,Pending Verification,2023-02-16
+SC-21-012-021-517164-1,21-012-021-517164,Claimant 1,Sister,True,Documented,Registered Will,100.0,Verified,2020-01-22
+SC-33-045-005-983657-1,33-045-005-983657,Claimant 1,Nephew,True,Undocumented,"Affidavit, unverified",86.3,Pending Verification,2022-02-26
+SC-33-023-021-091857-1,33-023-021-091857,Claimant 1,Daughter,False,Contested,Disputed mutation,46.1,Referred to Revenue Court,2019-09-12
+SC-33-023-021-091857-2,33-023-021-091857,Claimant 2,Step-son,True,Undocumented,"Affidavit, unverified",39.8,Pending Verification,2019-09-12
+SC-21-012-012-264754-1,21-012-012-264754,Claimant 1,Step-son,True,Undocumented,Oral claim only,18.9,Pending Verification,2019-12-31
+SC-21-012-012-264754-2,21-012-012-264754,Claimant 2,Grandson,True,Contested,Disputed mutation,37.7,Referred to Revenue Court,2019-12-31
+SC-21-012-012-264754-3,21-012-012-264754,Claimant 3,Son,True,Undocumented,Oral claim only,27.2,Pending Verification,2019-12-31
+SC-21-012-012-264754-4,21-012-012-264754,Claimant 4,Adopted Son,True,Undocumented,"Affidavit, unverified",16.199999999999992,Pending Verification,2019-12-31
+SC-29-009-002-673400-1,29-009-002-673400,Claimant 1,Brother,False,Documented,Succession Certificate,30.5,Verified,2022-10-17
+SC-29-009-002-673400-2,29-009-002-673400,Claimant 2,Nephew,True,Undocumented,Panchayat attestation,69.5,Pending Verification,2022-10-17
+SC-36-011-020-606190-1,36-011-020-606190,Claimant 1,Nephew,True,Contested,Disputed mutation,16.7,Referred to Revenue Court,2023-05-31
+SC-36-011-020-606190-2,36-011-020-606190,Claimant 2,Son,True,Documented,Legal Heir Certificate,16.8,Verified,2023-05-31
+SC-36-011-020-606190-3,36-011-020-606190,Claimant 3,Nephew,False,Documented,Partition Deed,26.1,Verified,2023-05-31
+SC-36-011-020-606190-4,36-011-020-606190,Claimant 4,Adopted Son,True,Documented,Mutation Entry (RoR),40.4,Verified,2023-05-31
+SC-27-037-019-721758-1,27-037-019-721758,Claimant 1,Nephew,True,Documented,Legal Heir Certificate,36.3,Verified,2020-04-17
+SC-27-037-019-721758-2,27-037-019-721758,Claimant 2,Brother,True,Undocumented,Panchayat attestation,30.2,Pending Verification,2020-04-17
+SC-27-037-019-721758-3,27-037-019-721758,Claimant 3,Sister,True,Documented,Legal Heir Certificate,29.4,Verified,2020-04-17
+SC-29-009-010-380524-1,29-009-010-380524,Claimant 1,Daughter,True,Documented,Succession Certificate,53.8,Verified,2021-08-04
+SC-29-009-010-380524-2,29-009-010-380524,Claimant 2,Grandson,True,Documented,Mutation Entry (RoR),46.2,Verified,2021-08-04
+SC-27-001-013-521331-1,27-001-013-521331,Claimant 1,Sister,False,Documented,Succession Certificate,48.8,Verified,2023-10-25
+SC-27-001-013-521331-2,27-001-013-521331,Claimant 2,Widow,False,Documented,Registered Will,51.2,Verified,2023-10-25
+SC-22-002-001-831933-1,22-002-001-831933,Claimant 1,Brother,False,Documented,Legal Heir Certificate,67.2,Verified,2023-10-22
+SC-22-002-001-831933-2,22-002-001-831933,Claimant 2,Widow,True,Documented,Mutation Entry (RoR),32.8,Verified,2023-10-22
+SC-29-007-015-623697-1,29-007-015-623697,Claimant 1,Brother,False,Documented,Partition Deed,50.5,Verified,2020-06-09
+SC-29-007-015-623697-2,29-007-015-623697,Claimant 2,Widow,True,Undocumented,Panchayat attestation,38.8,Pending Verification,2020-06-09
+SC-27-001-013-406899-1,27-001-013-406899,Claimant 1,Adopted Son,True,Contested,Competing Will produced,62.8,Referred to Revenue Court,2021-11-18
+SC-27-001-013-406899-2,27-001-013-406899,Claimant 2,Step-son,True,Undocumented,Oral claim only,25.8,Pending Verification,2021-11-18
+SC-36-011-005-032698-1,36-011-005-032698,Claimant 1,Nephew,True,Undocumented,Oral claim only,71.1,Pending Verification,2019-08-10
+SC-09-031-006-321237-1,09-031-006-321237,Claimant 1,Adopted Son,True,Documented,Registered Will,73.6,Verified,2023-05-15
+SC-23-028-006-428938-1,23-028-006-428938,Claimant 1,Brother,False,Undocumented,"Affidavit, unverified",42.2,Pending Verification,2020-11-23
+SC-23-028-006-428938-2,23-028-006-428938,Claimant 2,Daughter,True,Contested,Civil suit pending,57.8,Referred to Revenue Court,2020-11-23
+SC-22-018-021-691048-1,22-018-021-691048,Claimant 1,Step-son,True,Documented,Succession Certificate,68.2,Verified,2021-01-23
+SC-22-018-021-691048-2,22-018-021-691048,Claimant 2,Brother,True,Documented,Mutation Entry (RoR),31.799999999999997,Verified,2021-01-23
+SC-22-014-007-664694-1,22-014-007-664694,Claimant 1,Son,True,Undocumented,"Affidavit, unverified",23.7,Pending Verification,2022-05-31
+SC-22-014-007-664694-2,22-014-007-664694,Claimant 2,Brother,True,Documented,Succession Certificate,30.7,Verified,2022-05-31
+SC-22-014-007-664694-3,22-014-007-664694,Claimant 3,Daughter,False,Documented,Succession Certificate,19.3,Verified,2022-05-31
+SC-22-014-007-664694-4,22-014-007-664694,Claimant 4,Nephew,True,Contested,Disputed mutation,26.299999999999994,Referred to Revenue Court,2022-05-31
+SC-33-014-017-126907-1,33-014-017-126907,Claimant 1,Brother,False,Documented,Legal Heir Certificate,36.6,Verified,2020-10-22
+SC-33-014-017-126907-2,33-014-017-126907,Claimant 2,Son,False,Undocumented,Oral claim only,33.9,Pending Verification,2020-10-22
+SC-33-014-017-126907-3,33-014-017-126907,Claimant 3,Grandson,True,Undocumented,"Affidavit, unverified",20.6,Pending Verification,2020-10-22
+SC-27-001-023-324558-1,27-001-023-324558,Claimant 1,Widow,True,Documented,Legal Heir Certificate,30.7,Verified,2023-03-04
+SC-27-001-023-324558-2,27-001-023-324558,Claimant 2,Grandson,True,Documented,Registered Will,36.9,Verified,2023-03-04
+SC-27-001-023-324558-3,27-001-023-324558,Claimant 3,Nephew,False,Documented,Mutation Entry (RoR),32.4,Verified,2023-03-04
+SC-22-009-018-967292-1,22-009-018-967292,Claimant 1,Adopted Son,True,Undocumented,"Affidavit, unverified",15.8,Pending Verification,2022-12-13
+SC-22-009-018-967292-2,22-009-018-967292,Claimant 2,Brother,True,Undocumented,Panchayat attestation,20.1,Pending Verification,2022-12-13
+SC-22-009-018-967292-3,22-009-018-967292,Claimant 3,Sister,True,Undocumented,Panchayat attestation,39.8,Pending Verification,2022-12-13
+SC-22-009-018-967292-4,22-009-018-967292,Claimant 4,Grandson,True,Documented,Partition Deed,17.8,Verified,2022-12-13
+SC-29-022-004-754634-1,29-022-004-754634,Claimant 1,Nephew,False,Undocumented,Panchayat attestation,21.8,Pending Verification,2021-02-27
+SC-29-022-004-754634-2,29-022-004-754634,Claimant 2,Sister,True,Documented,Legal Heir Certificate,23.6,Verified,2021-02-27
+SC-29-022-004-754634-3,29-022-004-754634,Claimant 3,Nephew,False,Contested,Competing Will produced,30.8,Referred to Revenue Court,2021-02-27
+SC-29-022-004-754634-4,29-022-004-754634,Claimant 4,Son,True,Documented,Partition Deed,23.8,Verified,2021-02-27
+SC-21-012-017-308238-1,21-012-017-308238,Claimant 1,Daughter,True,Undocumented,Oral claim only,21.0,Pending Verification,2022-04-12
+SC-21-012-017-308238-2,21-012-017-308238,Claimant 2,Son,True,Documented,Mutation Entry (RoR),43.2,Verified,2022-04-12
+SC-21-012-017-308238-3,21-012-017-308238,Claimant 3,Widow,True,Documented,Legal Heir Certificate,29.1,Verified,2022-04-12
+SC-22-002-016-810586-1,22-002-016-810586,Claimant 1,Nephew,True,Documented,Partition Deed,43.1,Verified,2021-01-06
+SC-22-002-016-810586-2,22-002-016-810586,Claimant 2,Widow,True,Documented,Mutation Entry (RoR),56.9,Verified,2021-01-06
+SC-22-014-014-138282-1,22-014-014-138282,Claimant 1,Widow,False,Documented,Partition Deed,26.9,Verified,2019-04-06
+SC-22-014-014-138282-2,22-014-014-138282,Claimant 2,Son,False,Documented,Mutation Entry (RoR),31.5,Verified,2019-04-06
+SC-22-014-014-138282-3,22-014-014-138282,Claimant 3,Adopted Son,True,Undocumented,Oral claim only,41.599999999999994,Pending Verification,2019-04-06
+SC-33-045-007-769939-1,33-045-007-769939,Claimant 1,Adopted Son,True,Documented,Succession Certificate,81.3,Verified,2020-01-04
+SC-36-011-002-639503-1,36-011-002-639503,Claimant 1,Daughter,True,Documented,Succession Certificate,17.9,Verified,2022-02-05
+SC-36-011-002-639503-2,36-011-002-639503,Claimant 2,Step-son,True,Documented,Registered Will,27.3,Verified,2022-02-05
+SC-36-011-002-639503-3,36-011-002-639503,Claimant 3,Nephew,False,Undocumented,Oral claim only,21.5,Pending Verification,2022-02-05
+SC-36-011-002-639503-4,36-011-002-639503,Claimant 4,Sister,True,Undocumented,Oral claim only,33.3,Pending Verification,2022-02-05
+SC-27-037-004-566073-1,27-037-004-566073,Claimant 1,Sister,True,Documented,Partition Deed,66.8,Verified,2020-09-26
+SC-27-037-004-566073-2,27-037-004-566073,Claimant 2,Step-son,True,Contested,Civil suit pending,33.2,Referred to Revenue Court,2020-09-26
+SC-29-018-007-197634-1,29-018-007-197634,Claimant 1,Sister,True,Documented,Registered Will,20.7,Verified,2022-01-10
+SC-29-018-007-197634-2,29-018-007-197634,Claimant 2,Daughter,True,Documented,Partition Deed,47.2,Verified,2022-01-10
+SC-29-018-007-197634-3,29-018-007-197634,Claimant 3,Grandson,True,Documented,Succession Certificate,26.8,Verified,2022-01-10
+SC-29-018-016-141916-1,29-018-016-141916,Claimant 1,Daughter,True,Undocumented,Oral claim only,100.0,Pending Verification,2023-02-13
+SC-33-014-009-322546-1,33-014-009-322546,Claimant 1,Widow,True,Contested,Competing Will produced,60.1,Referred to Revenue Court,2022-07-24
+SC-33-014-009-322546-2,33-014-009-322546,Claimant 2,Son,True,Documented,Legal Heir Certificate,29.3,Verified,2022-07-24
+SC-22-002-006-583299-1,22-002-006-583299,Claimant 1,Grandson,True,Contested,Disputed mutation,49.0,Referred to Revenue Court,2019-07-25
+SC-22-002-006-583299-2,22-002-006-583299,Claimant 2,Grandson,True,Contested,Competing Will produced,51.0,Referred to Revenue Court,2019-07-25
+SC-27-001-017-880105-1,27-001-017-880105,Claimant 1,Widow,True,Undocumented,Oral claim only,100.0,Pending Verification,2020-02-20
+SC-27-001-003-822573-1,27-001-003-822573,Claimant 1,Grandson,True,Documented,Mutation Entry (RoR),42.2,Verified,2021-11-30
+SC-27-001-003-822573-2,27-001-003-822573,Claimant 2,Step-son,False,Undocumented,"Affidavit, unverified",30.3,Pending Verification,2021-11-30
+SC-27-001-003-822573-3,27-001-003-822573,Claimant 3,Widow,True,Undocumented,"Affidavit, unverified",23.3,Pending Verification,2021-11-30
+SC-33-023-016-503673-1,33-023-016-503673,Claimant 1,Grandson,True,Documented,Registered Will,45.0,Verified,2021-10-20
+SC-33-023-016-503673-2,33-023-016-503673,Claimant 2,Sister,True,Contested,Civil suit pending,20.6,Referred to Revenue Court,2021-10-20
+SC-33-023-016-503673-3,33-023-016-503673,Claimant 3,Son,True,Documented,Mutation Entry (RoR),34.4,Verified,2021-10-20
+SC-29-009-015-901494-1,29-009-015-901494,Claimant 1,Grandson,True,Undocumented,Oral claim only,64.7,Pending Verification,2019-01-14
+SC-29-009-015-901494-2,29-009-015-901494,Claimant 2,Brother,True,Contested,Civil suit pending,35.3,Referred to Revenue Court,2019-01-14
+SC-23-016-023-315833-1,23-016-023-315833,Claimant 1,Adopted Son,True,Documented,Mutation Entry (RoR),85.7,Verified,2022-11-06
+SC-33-023-018-457297-1,33-023-018-457297,Claimant 1,Nephew,True,Documented,Legal Heir Certificate,17.5,Verified,2021-06-23
+SC-33-023-018-457297-2,33-023-018-457297,Claimant 2,Sister,False,Undocumented,Oral claim only,28.5,Pending Verification,2021-06-23
+SC-33-023-018-457297-3,33-023-018-457297,Claimant 3,Brother,True,Documented,Partition Deed,33.8,Verified,2021-06-23
+SC-33-023-018-457297-4,33-023-018-457297,Claimant 4,Brother,False,Undocumented,"Affidavit, unverified",20.200000000000003,Pending Verification,2021-06-23
+SC-09-015-018-040011-1,09-015-018-040011,Claimant 1,Step-son,True,Contested,Civil suit pending,22.9,Referred to Revenue Court,2021-01-28
+SC-09-015-018-040011-2,09-015-018-040011,Claimant 2,Daughter,True,Undocumented,Panchayat attestation,53.0,Pending Verification,2021-01-28
+SC-09-015-018-040011-3,09-015-018-040011,Claimant 3,Brother,True,Undocumented,Oral claim only,20.0,Pending Verification,2021-01-28
+SC-23-028-009-648235-1,23-028-009-648235,Claimant 1,Sister,True,Documented,Succession Certificate,100.0,Verified,2019-02-08
+SC-21-012-010-442084-1,21-012-010-442084,Claimant 1,Son,False,Documented,Registered Will,31.6,Verified,2020-12-01
+SC-21-012-010-442084-2,21-012-010-442084,Claimant 2,Son,True,Documented,Mutation Entry (RoR),40.5,Verified,2020-12-01
+SC-21-012-010-442084-3,21-012-010-442084,Claimant 3,Daughter,False,Undocumented,Panchayat attestation,21.8,Pending Verification,2020-12-01
+SC-29-007-011-687218-1,29-007-011-687218,Claimant 1,Daughter,True,Contested,Civil suit pending,20.4,Referred to Revenue Court,2020-01-24
+SC-29-007-011-687218-2,29-007-011-687218,Claimant 2,Daughter,True,Documented,Registered Will,50.8,Verified,2020-01-24
+SC-29-007-011-687218-3,29-007-011-687218,Claimant 3,Step-son,True,Undocumented,Oral claim only,28.799999999999997,Pending Verification,2020-01-24
+SC-29-018-013-657486-1,29-018-013-657486,Claimant 1,Son,True,Undocumented,"Affidavit, unverified",42.0,Pending Verification,2022-10-29
+SC-29-018-013-657486-2,29-018-013-657486,Claimant 2,Adopted Son,False,Documented,Partition Deed,26.9,Verified,2022-10-29
+SC-29-018-013-657486-3,29-018-013-657486,Claimant 3,Daughter,True,Undocumented,Panchayat attestation,31.1,Pending Verification,2022-10-29
+SC-23-016-019-487040-1,23-016-019-487040,Claimant 1,Step-son,False,Contested,Civil suit pending,45.0,Referred to Revenue Court,2019-04-18
+SC-23-016-019-487040-2,23-016-019-487040,Claimant 2,Son,True,Undocumented,Oral claim only,34.4,Pending Verification,2019-04-18
+SC-23-016-019-487040-3,23-016-019-487040,Claimant 3,Step-son,True,Contested,Competing Will produced,20.6,Referred to Revenue Court,2019-04-18
+SC-23-016-020-768275-1,23-016-020-768275,Claimant 1,Brother,True,Contested,Competing Will produced,100.0,Referred to Revenue Court,2019-08-03
+SC-27-025-008-676027-1,27-025-008-676027,Claimant 1,Son,True,Documented,Succession Certificate,36.0,Verified,2022-01-05
+SC-27-025-008-676027-2,27-025-008-676027,Claimant 2,Adopted Son,True,Documented,Partition Deed,20.0,Verified,2022-01-05
+SC-27-025-008-676027-3,27-025-008-676027,Claimant 3,Son,True,Documented,Legal Heir Certificate,44.0,Verified,2022-01-05
+SC-09-031-004-549123-1,09-031-004-549123,Claimant 1,Brother,True,Contested,Disputed mutation,33.4,Referred to Revenue Court,2022-01-16
+SC-09-031-004-549123-2,09-031-004-549123,Claimant 2,Step-son,True,Documented,Registered Will,30.4,Verified,2022-01-16
+SC-09-031-004-549123-3,09-031-004-549123,Claimant 3,Step-son,True,Contested,Competing Will produced,13.0,Referred to Revenue Court,2022-01-16
+SC-09-031-004-549123-4,09-031-004-549123,Claimant 4,Brother,False,Documented,Succession Certificate,23.199999999999996,Verified,2022-01-16
+SC-33-014-024-980887-1,33-014-024-980887,Claimant 1,Son,True,Documented,Partition Deed,100.0,Verified,2023-03-22
+SC-09-002-018-837892-1,09-002-018-837892,Claimant 1,Sister,True,Documented,Mutation Entry (RoR),34.7,Verified,2023-10-18
+SC-09-002-018-837892-2,09-002-018-837892,Claimant 2,Daughter,False,Undocumented,"Affidavit, unverified",28.0,Pending Verification,2023-10-18
+SC-09-002-018-837892-3,09-002-018-837892,Claimant 3,Adopted Son,True,Documented,Registered Will,16.3,Verified,2023-10-18
+SC-09-002-018-837892-4,09-002-018-837892,Claimant 4,Sister,False,Documented,Partition Deed,20.999999999999996,Verified,2023-10-18
+SC-33-023-021-127686-1,33-023-021-127686,Claimant 1,Nephew,True,Undocumented,"Affidavit, unverified",39.0,Pending Verification,2022-02-18
+SC-33-023-021-127686-2,33-023-021-127686,Claimant 2,Daughter,False,Documented,Succession Certificate,26.1,Verified,2022-02-18
+SC-33-023-021-127686-3,33-023-021-127686,Claimant 3,Daughter,False,Documented,Registered Will,31.4,Verified,2022-02-18
+SC-36-003-002-022189-1,36-003-002-022189,Claimant 1,Sister,True,Contested,Disputed mutation,31.6,Referred to Revenue Court,2022-06-30
+SC-36-003-002-022189-2,36-003-002-022189,Claimant 2,Son,True,Undocumented,Panchayat attestation,26.2,Pending Verification,2022-06-30
+SC-36-003-002-022189-3,36-003-002-022189,Claimant 3,Adopted Son,True,Documented,Legal Heir Certificate,42.2,Verified,2022-06-30
+SC-29-009-024-146793-1,29-009-024-146793,Claimant 1,Sister,False,Documented,Mutation Entry (RoR),55.2,Verified,2022-02-16
+SC-29-009-024-146793-2,29-009-024-146793,Claimant 2,Daughter,True,Undocumented,Panchayat attestation,41.1,Pending Verification,2022-02-16
+SC-23-033-019-156498-1,23-033-019-156498,Claimant 1,Brother,False,Documented,Legal Heir Certificate,27.3,Verified,2022-04-02
+SC-23-033-019-156498-2,23-033-019-156498,Claimant 2,Brother,True,Contested,Civil suit pending,33.5,Referred to Revenue Court,2022-04-02
+SC-23-033-019-156498-3,23-033-019-156498,Claimant 3,Nephew,True,Documented,Partition Deed,39.2,Verified,2022-04-02
+SC-09-044-015-501491-1,09-044-015-501491,Claimant 1,Nephew,True,Documented,Succession Certificate,32.8,Verified,2019-09-01
+SC-09-044-015-501491-2,09-044-015-501491,Claimant 2,Sister,True,Undocumented,"Affidavit, unverified",27.2,Pending Verification,2019-09-01
+SC-09-044-015-501491-3,09-044-015-501491,Claimant 3,Sister,True,Undocumented,Oral claim only,27.3,Pending Verification,2019-09-01
+SC-09-044-015-501491-4,09-044-015-501491,Claimant 4,Nephew,False,Undocumented,Panchayat attestation,12.7,Pending Verification,2019-09-01
+SC-09-002-012-287289-1,09-002-012-287289,Claimant 1,Brother,True,Undocumented,"Affidavit, unverified",34.1,Pending Verification,2023-05-20
+SC-09-002-012-287289-2,09-002-012-287289,Claimant 2,Adopted Son,False,Documented,Succession Certificate,28.1,Verified,2023-05-20
+SC-09-002-012-287289-3,09-002-012-287289,Claimant 3,Brother,True,Contested,Civil suit pending,34.3,Referred to Revenue Court,2023-05-20
+SC-21-019-012-187124-1,21-019-012-187124,Claimant 1,Widow,True,Documented,Mutation Entry (RoR),25.9,Verified,2019-10-23
+SC-21-019-012-187124-2,21-019-012-187124,Claimant 2,Nephew,False,Documented,Partition Deed,22.5,Verified,2019-10-23
+SC-21-019-012-187124-3,21-019-012-187124,Claimant 3,Daughter,True,Documented,Legal Heir Certificate,16.5,Verified,2019-10-23
+SC-21-019-012-187124-4,21-019-012-187124,Claimant 4,Nephew,True,Undocumented,"Affidavit, unverified",26.7,Pending Verification,2019-10-23
+SC-29-018-003-950223-1,29-018-003-950223,Claimant 1,Brother,True,Undocumented,"Affidavit, unverified",28.3,Pending Verification,2021-09-29
+SC-29-018-003-950223-2,29-018-003-950223,Claimant 2,Brother,True,Undocumented,"Affidavit, unverified",29.1,Pending Verification,2021-09-29
+SC-29-018-003-950223-3,29-018-003-950223,Claimant 3,Nephew,False,Documented,Mutation Entry (RoR),23.4,Verified,2021-09-29
+SC-29-018-003-950223-4,29-018-003-950223,Claimant 4,Brother,True,Documented,Mutation Entry (RoR),13.3,Verified,2021-09-29
+SC-27-025-021-006424-1,27-025-021-006424,Claimant 1,Adopted Son,False,Documented,Partition Deed,34.2,Verified,2019-11-08
+SC-27-025-021-006424-2,27-025-021-006424,Claimant 2,Widow,True,Undocumented,Oral claim only,13.4,Pending Verification,2019-11-08
+SC-27-025-021-006424-3,27-025-021-006424,Claimant 3,Step-son,True,Contested,Competing Will produced,29.5,Referred to Revenue Court,2019-11-08
+SC-27-025-021-006424-4,27-025-021-006424,Claimant 4,Adopted Son,True,Documented,Legal Heir Certificate,22.9,Verified,2019-11-08
+SC-29-009-005-001703-1,29-009-005-001703,Claimant 1,Brother,True,Contested,Competing Will produced,23.1,Referred to Revenue Court,2023-05-28
+SC-29-009-005-001703-2,29-009-005-001703,Claimant 2,Sister,True,Undocumented,"Affidavit, unverified",30.5,Pending Verification,2023-05-28
+SC-29-009-005-001703-3,29-009-005-001703,Claimant 3,Daughter,True,Documented,Mutation Entry (RoR),24.5,Verified,2023-05-28
+SC-29-009-005-001703-4,29-009-005-001703,Claimant 4,Daughter,True,Undocumented,"Affidavit, unverified",21.7,Pending Verification,2023-05-28
+SC-29-009-005-455315-1,29-009-005-455315,Claimant 1,Grandson,True,Documented,Partition Deed,18.6,Verified,2020-12-26
+SC-29-009-005-455315-2,29-009-005-455315,Claimant 2,Sister,True,Documented,Legal Heir Certificate,33.8,Verified,2020-12-26
+SC-29-009-005-455315-3,29-009-005-455315,Claimant 3,Adopted Son,True,Undocumented,Oral claim only,28.1,Pending Verification,2020-12-26
+SC-29-009-005-455315-4,29-009-005-455315,Claimant 4,Grandson,True,Documented,Registered Will,19.500000000000007,Verified,2020-12-26
+SC-36-027-001-845549-1,36-027-001-845549,Claimant 1,Grandson,True,Documented,Legal Heir Certificate,100.0,Verified,2022-04-04
+SC-29-009-020-946469-1,29-009-020-946469,Claimant 1,Widow,True,Undocumented,Oral claim only,25.7,Pending Verification,2019-11-21
+SC-29-009-020-946469-2,29-009-020-946469,Claimant 2,Sister,True,Documented,Legal Heir Certificate,16.8,Verified,2019-11-21
+SC-29-009-020-946469-3,29-009-020-946469,Claimant 3,Son,True,Documented,Succession Certificate,30.3,Verified,2019-11-21
+SC-29-009-020-946469-4,29-009-020-946469,Claimant 4,Step-son,True,Documented,Registered Will,27.2,Verified,2019-11-21
+SC-29-022-002-099610-1,29-022-002-099610,Claimant 1,Widow,True,Undocumented,Panchayat attestation,56.2,Pending Verification,2019-05-01
+SC-29-022-002-099610-2,29-022-002-099610,Claimant 2,Adopted Son,False,Undocumented,Panchayat attestation,40.7,Pending Verification,2019-05-01
+SC-29-018-010-881797-1,29-018-010-881797,Claimant 1,Brother,True,Undocumented,Panchayat attestation,42.6,Pending Verification,2022-07-07
+SC-29-018-010-881797-2,29-018-010-881797,Claimant 2,Widow,True,Documented,Succession Certificate,57.4,Verified,2022-07-07
+SC-36-027-001-557523-1,36-027-001-557523,Claimant 1,Widow,True,Documented,Partition Deed,34.2,Verified,2023-02-04
+SC-36-027-001-557523-2,36-027-001-557523,Claimant 2,Daughter,True,Undocumented,"Affidavit, unverified",14.7,Pending Verification,2023-02-04
+SC-36-027-001-557523-3,36-027-001-557523,Claimant 3,Brother,False,Documented,Legal Heir Certificate,17.2,Verified,2023-02-04
+SC-36-027-001-557523-4,36-027-001-557523,Claimant 4,Grandson,True,Contested,Competing Will produced,33.89999999999999,Referred to Revenue Court,2023-02-04
+SC-22-014-011-945886-1,22-014-011-945886,Claimant 1,Daughter,True,Contested,Competing Will produced,37.8,Referred to Revenue Court,2020-07-11
+SC-22-014-011-945886-2,22-014-011-945886,Claimant 2,Son,True,Contested,Disputed mutation,24.2,Referred to Revenue Court,2020-07-11
+SC-22-014-011-945886-3,22-014-011-945886,Claimant 3,Brother,False,Documented,Registered Will,34.5,Verified,2020-07-11
+SC-27-001-021-354655-1,27-001-021-354655,Claimant 1,Son,True,Documented,Registered Will,26.9,Verified,2019-04-25
+SC-27-001-021-354655-2,27-001-021-354655,Claimant 2,Sister,False,Documented,Partition Deed,16.1,Verified,2019-04-25
+SC-27-001-021-354655-3,27-001-021-354655,Claimant 3,Widow,True,Documented,Partition Deed,39.1,Verified,2019-04-25
+SC-27-001-021-354655-4,27-001-021-354655,Claimant 4,Son,True,Undocumented,"Affidavit, unverified",17.1,Pending Verification,2019-04-25
+SC-21-019-018-511650-1,21-019-018-511650,Claimant 1,Sister,False,Contested,Disputed mutation,40.7,Referred to Revenue Court,2019-03-28
+SC-21-019-018-511650-2,21-019-018-511650,Claimant 2,Widow,True,Documented,Legal Heir Certificate,36.8,Verified,2019-03-28
+SC-21-019-018-511650-3,21-019-018-511650,Claimant 3,Widow,False,Undocumented,Oral claim only,22.5,Pending Verification,2019-03-28
+SC-29-022-018-398840-1,29-022-018-398840,Claimant 1,Daughter,False,Undocumented,"Affidavit, unverified",66.5,Pending Verification,2022-08-22
+SC-36-019-006-179929-1,36-019-006-179929,Claimant 1,Sister,False,Documented,Legal Heir Certificate,47.7,Verified,2021-06-27
+SC-36-019-006-179929-2,36-019-006-179929,Claimant 2,Step-son,True,Undocumented,Oral claim only,52.3,Pending Verification,2021-06-27
+SC-27-037-017-071976-1,27-037-017-071976,Claimant 1,Widow,True,Contested,Disputed mutation,100.0,Referred to Revenue Court,2020-08-06
+SC-22-018-015-420983-1,22-018-015-420983,Claimant 1,Step-son,True,Documented,Partition Deed,62.9,Verified,2019-01-23
+SC-22-018-015-420983-2,22-018-015-420983,Claimant 2,Widow,True,Undocumented,Panchayat attestation,27.1,Pending Verification,2019-01-23
+SC-21-026-003-542903-1,21-026-003-542903,Claimant 1,Nephew,True,Contested,Competing Will produced,63.2,Referred to Revenue Court,2023-11-23
+SC-21-026-003-542903-2,21-026-003-542903,Claimant 2,Grandson,True,Documented,Mutation Entry (RoR),28.2,Verified,2023-11-23
+SC-27-037-019-629965-1,27-037-019-629965,Claimant 1,Sister,True,Documented,Mutation Entry (RoR),30.1,Verified,2021-03-07
+SC-27-037-019-629965-2,27-037-019-629965,Claimant 2,Adopted Son,True,Undocumented,"Affidavit, unverified",32.1,Pending Verification,2021-03-07
+SC-27-037-019-629965-3,27-037-019-629965,Claimant 3,Step-son,True,Contested,Disputed mutation,18.4,Referred to Revenue Court,2021-03-07
+SC-27-037-019-629965-4,27-037-019-629965,Claimant 4,Son,False,Contested,Civil suit pending,17.2,Referred to Revenue Court,2021-03-07
+SC-33-031-012-609327-1,33-031-012-609327,Claimant 1,Grandson,True,Contested,Civil suit pending,42.9,Referred to Revenue Court,2019-07-11
+SC-33-031-012-609327-2,33-031-012-609327,Claimant 2,Step-son,True,Contested,Competing Will produced,57.1,Referred to Revenue Court,2019-07-11
+SC-29-022-015-076657-1,29-022-015-076657,Claimant 1,Step-son,True,Documented,Registered Will,47.0,Verified,2022-07-09
+SC-29-022-015-076657-2,29-022-015-076657,Claimant 2,Daughter,True,Documented,Mutation Entry (RoR),53.0,Verified,2022-07-09
+SC-33-031-018-828945-1,33-031-018-828945,Claimant 1,Adopted Son,True,Documented,Registered Will,44.0,Verified,2020-08-12
+SC-33-031-018-828945-2,33-031-018-828945,Claimant 2,Adopted Son,True,Undocumented,Panchayat attestation,31.8,Pending Verification,2020-08-12
+SC-33-031-018-828945-3,33-031-018-828945,Claimant 3,Adopted Son,False,Undocumented,Panchayat attestation,14.8,Pending Verification,2020-08-12
+SC-23-033-022-948550-1,23-033-022-948550,Claimant 1,Grandson,True,Contested,Disputed mutation,92.1,Referred to Revenue Court,2020-12-25
+SC-22-002-003-731451-1,22-002-003-731451,Claimant 1,Brother,True,Undocumented,"Affidavit, unverified",25.6,Pending Verification,2021-02-15
+SC-22-002-003-731451-2,22-002-003-731451,Claimant 2,Nephew,True,Undocumented,Panchayat attestation,31.6,Pending Verification,2021-02-15
+SC-22-002-003-731451-3,22-002-003-731451,Claimant 3,Grandson,True,Documented,Registered Will,27.5,Verified,2021-02-15
+SC-22-002-003-731451-4,22-002-003-731451,Claimant 4,Step-son,True,Documented,Mutation Entry (RoR),11.0,Verified,2021-02-15
+SC-22-009-003-276112-1,22-009-003-276112,Claimant 1,Step-son,False,Undocumented,"Affidavit, unverified",53.1,Pending Verification,2021-03-28
+SC-22-009-003-276112-2,22-009-003-276112,Claimant 2,Sister,True,Documented,Succession Certificate,33.1,Verified,2021-03-28
+SC-33-031-019-065120-1,33-031-019-065120,Claimant 1,Grandson,True,Undocumented,Oral claim only,38.1,Pending Verification,2020-08-20
+SC-33-031-019-065120-2,33-031-019-065120,Claimant 2,Grandson,True,Documented,Mutation Entry (RoR),24.4,Verified,2020-08-20
+SC-33-031-019-065120-3,33-031-019-065120,Claimant 3,Step-son,True,Documented,Mutation Entry (RoR),37.5,Verified,2020-08-20
+SC-09-044-013-404185-1,09-044-013-404185,Claimant 1,Daughter,True,Undocumented,Oral claim only,100.0,Pending Verification,2022-07-09
+SC-23-028-004-042521-1,23-028-004-042521,Claimant 1,Nephew,True,Documented,Succession Certificate,41.6,Verified,2023-01-15
+SC-23-028-004-042521-2,23-028-004-042521,Claimant 2,Grandson,True,Undocumented,"Affidavit, unverified",49.1,Pending Verification,2023-01-15
+SC-22-014-017-793907-1,22-014-017-793907,Claimant 1,Nephew,True,Documented,Mutation Entry (RoR),25.1,Verified,2019-01-07
+SC-22-014-017-793907-2,22-014-017-793907,Claimant 2,Son,True,Undocumented,Panchayat attestation,30.7,Pending Verification,2019-01-07
+SC-22-014-017-793907-3,22-014-017-793907,Claimant 3,Step-son,True,Undocumented,Oral claim only,29.3,Pending Verification,2019-01-07
+SC-22-014-017-793907-4,22-014-017-793907,Claimant 4,Grandson,True,Contested,Civil suit pending,14.900000000000002,Referred to Revenue Court,2019-01-07
+SC-09-002-004-500329-1,09-002-004-500329,Claimant 1,Son,True,Documented,Registered Will,17.0,Verified,2020-06-23
+SC-09-002-004-500329-2,09-002-004-500329,Claimant 2,Son,True,Documented,Legal Heir Certificate,34.1,Verified,2020-06-23
+SC-09-002-004-500329-3,09-002-004-500329,Claimant 3,Grandson,True,Documented,Registered Will,27.9,Verified,2020-06-23
+SC-09-002-004-500329-4,09-002-004-500329,Claimant 4,Daughter,True,Contested,Civil suit pending,20.7,Referred to Revenue Court,2020-06-23
+SC-27-025-001-660303-1,27-025-001-660303,Claimant 1,Nephew,True,Undocumented,Panchayat attestation,100.0,Pending Verification,2020-07-08
+SC-09-015-013-630484-1,09-015-013-630484,Claimant 1,Adopted Son,True,Documented,Partition Deed,24.0,Verified,2023-05-15
+SC-09-015-013-630484-2,09-015-013-630484,Claimant 2,Sister,True,Undocumented,Oral claim only,33.0,Pending Verification,2023-05-15
+SC-09-015-013-630484-3,09-015-013-630484,Claimant 3,Adopted Son,True,Documented,Partition Deed,38.6,Verified,2023-05-15
+SC-22-009-002-219883-1,22-009-002-219883,Claimant 1,Grandson,True,Contested,Civil suit pending,94.5,Referred to Revenue Court,2019-08-17
+SC-33-023-003-111318-1,33-023-003-111318,Claimant 1,Step-son,False,Undocumented,"Affidavit, unverified",59.3,Pending Verification,2022-01-28
+SC-33-023-003-111318-2,33-023-003-111318,Claimant 2,Widow,True,Documented,Mutation Entry (RoR),40.7,Verified,2022-01-28
+SC-29-009-017-318719-1,29-009-017-318719,Claimant 1,Brother,True,Documented,Legal Heir Certificate,15.9,Verified,2019-07-12
+SC-29-009-017-318719-2,29-009-017-318719,Claimant 2,Grandson,True,Undocumented,Oral claim only,22.0,Pending Verification,2019-07-12
+SC-29-009-017-318719-3,29-009-017-318719,Claimant 3,Step-son,False,Undocumented,"Affidavit, unverified",40.2,Pending Verification,2019-07-12
+SC-29-009-017-318719-4,29-009-017-318719,Claimant 4,Daughter,True,Documented,Partition Deed,20.2,Verified,2019-07-12
+SC-21-026-001-033765-1,21-026-001-033765,Claimant 1,Daughter,True,Documented,Partition Deed,81.4,Verified,2022-08-14
+SC-36-011-020-735729-1,36-011-020-735729,Claimant 1,Brother,True,Undocumented,Panchayat attestation,69.5,Pending Verification,2021-09-25
+SC-36-011-020-735729-2,36-011-020-735729,Claimant 2,Widow,False,Contested,Disputed mutation,25.3,Referred to Revenue Court,2021-09-25
+SC-33-023-022-052203-1,33-023-022-052203,Claimant 1,Grandson,True,Contested,Disputed mutation,43.5,Referred to Revenue Court,2022-06-02
+SC-33-023-022-052203-2,33-023-022-052203,Claimant 2,Nephew,False,Contested,Competing Will produced,44.4,Referred to Revenue Court,2022-06-02
+SC-22-014-004-452829-1,22-014-004-452829,Claimant 1,Adopted Son,False,Documented,Succession Certificate,38.5,Verified,2021-08-05
+SC-22-014-004-452829-2,22-014-004-452829,Claimant 2,Adopted Son,True,Contested,Disputed mutation,38.8,Referred to Revenue Court,2021-08-05
+SC-22-014-004-452829-3,22-014-004-452829,Claimant 3,Grandson,True,Documented,Partition Deed,15.5,Verified,2021-08-05
+SC-27-013-001-641445-1,27-013-001-641445,Claimant 1,Nephew,True,Undocumented,Oral claim only,69.7,Pending Verification,2023-07-31
+SC-27-013-001-641445-2,27-013-001-641445,Claimant 2,Adopted Son,True,Documented,Partition Deed,30.299999999999997,Verified,2023-07-31
+SC-23-004-005-150803-1,23-004-005-150803,Claimant 1,Brother,True,Undocumented,Panchayat attestation,75.1,Pending Verification,2019-06-26
+SC-36-027-021-776499-1,36-027-021-776499,Claimant 1,Step-son,True,Contested,Civil suit pending,73.0,Referred to Revenue Court,2022-05-27
+SC-36-027-013-769515-1,36-027-013-769515,Claimant 1,Step-son,True,Documented,Registered Will,100.0,Verified,2022-03-27
+SC-21-026-010-001443-1,21-026-010-001443,Claimant 1,Daughter,True,Documented,Mutation Entry (RoR),23.3,Verified,2020-01-20
+SC-21-026-010-001443-2,21-026-010-001443,Claimant 2,Son,True,Documented,Mutation Entry (RoR),26.3,Verified,2020-01-20
+SC-21-026-010-001443-3,21-026-010-001443,Claimant 3,Grandson,True,Undocumented,"Affidavit, unverified",50.400000000000006,Pending Verification,2020-01-20
+SC-27-001-002-170453-1,27-001-002-170453,Claimant 1,Nephew,False,Undocumented,Panchayat attestation,83.8,Pending Verification,2023-07-22
+SC-09-015-009-180643-1,09-015-009-180643,Claimant 1,Nephew,True,Documented,Registered Will,31.6,Verified,2020-12-17
+SC-09-015-009-180643-2,09-015-009-180643,Claimant 2,Widow,True,Documented,Partition Deed,68.4,Verified,2020-12-17
+SC-09-002-024-994533-1,09-002-024-994533,Claimant 1,Step-son,True,Undocumented,Panchayat attestation,32.8,Pending Verification,2022-02-03
+SC-09-002-024-994533-2,09-002-024-994533,Claimant 2,Sister,True,Documented,Legal Heir Certificate,29.6,Verified,2022-02-03
+SC-09-002-024-994533-3,09-002-024-994533,Claimant 3,Grandson,True,Contested,Civil suit pending,25.4,Referred to Revenue Court,2022-02-03
+SC-09-002-024-994533-4,09-002-024-994533,Claimant 4,Son,True,Documented,Registered Will,12.200000000000003,Verified,2022-02-03
+SC-36-003-020-722251-1,36-003-020-722251,Claimant 1,Nephew,True,Undocumented,Oral claim only,35.0,Pending Verification,2021-03-28
+SC-36-003-020-722251-2,36-003-020-722251,Claimant 2,Nephew,True,Undocumented,"Affidavit, unverified",36.9,Pending Verification,2021-03-28
+SC-36-003-020-722251-3,36-003-020-722251,Claimant 3,Step-son,True,Undocumented,"Affidavit, unverified",21.1,Pending Verification,2021-03-28
+SC-22-018-007-031791-1,22-018-007-031791,Claimant 1,Son,True,Documented,Partition Deed,67.5,Verified,2019-08-23
+SC-23-004-002-021181-1,23-004-002-021181,Claimant 1,Step-son,True,Documented,Mutation Entry (RoR),39.1,Verified,2020-01-06
+SC-23-004-002-021181-2,23-004-002-021181,Claimant 2,Step-son,True,Contested,Disputed mutation,52.6,Referred to Revenue Court,2020-01-06
+SC-29-009-006-340166-1,29-009-006-340166,Claimant 1,Sister,True,Undocumented,"Affidavit, unverified",57.0,Pending Verification,2021-10-02
+SC-29-009-006-340166-2,29-009-006-340166,Claimant 2,Adopted Son,True,Documented,Mutation Entry (RoR),43.0,Verified,2021-10-02
+SC-33-045-002-169773-1,33-045-002-169773,Claimant 1,Daughter,False,Contested,Disputed mutation,21.6,Referred to Revenue Court,2023-08-16
+SC-33-045-002-169773-2,33-045-002-169773,Claimant 2,Grandson,True,Contested,Civil suit pending,40.5,Referred to Revenue Court,2023-08-16
+SC-33-045-002-169773-3,33-045-002-169773,Claimant 3,Adopted Son,True,Contested,Competing Will produced,37.900000000000006,Referred to Revenue Court,2023-08-16
+SC-27-001-019-900824-1,27-001-019-900824,Claimant 1,Nephew,True,Documented,Registered Will,66.1,Verified,2023-12-13
+SC-27-001-019-900824-2,27-001-019-900824,Claimant 2,Nephew,True,Documented,Partition Deed,33.2,Verified,2023-12-13
+SC-29-009-004-318285-1,29-009-004-318285,Claimant 1,Nephew,True,Undocumented,Panchayat attestation,39.4,Pending Verification,2019-02-17
+SC-29-009-004-318285-2,29-009-004-318285,Claimant 2,Step-son,True,Contested,Disputed mutation,60.6,Referred to Revenue Court,2019-02-17
+SC-27-037-008-686288-1,27-037-008-686288,Claimant 1,Step-son,True,Documented,Legal Heir Certificate,21.5,Verified,2019-03-04
+SC-27-037-008-686288-2,27-037-008-686288,Claimant 2,Nephew,True,Contested,Civil suit pending,17.0,Referred to Revenue Court,2019-03-04
+SC-27-037-008-686288-3,27-037-008-686288,Claimant 3,Brother,True,Documented,Mutation Entry (RoR),21.7,Verified,2019-03-04
+SC-27-037-008-686288-4,27-037-008-686288,Claimant 4,Grandson,False,Contested,Disputed mutation,39.5,Referred to Revenue Court,2019-03-04
+SC-29-018-008-164220-1,29-018-008-164220,Claimant 1,Adopted Son,True,Contested,Competing Will produced,16.0,Referred to Revenue Court,2022-10-07
+SC-29-018-008-164220-2,29-018-008-164220,Claimant 2,Grandson,True,Undocumented,"Affidavit, unverified",25.1,Pending Verification,2022-10-07
+SC-29-018-008-164220-3,29-018-008-164220,Claimant 3,Daughter,True,Documented,Partition Deed,33.8,Verified,2022-10-07
+SC-29-018-008-164220-4,29-018-008-164220,Claimant 4,Step-son,True,Documented,Succession Certificate,22.4,Verified,2022-10-07
+SC-27-037-018-273093-1,27-037-018-273093,Claimant 1,Daughter,True,Undocumented,Panchayat attestation,67.0,Pending Verification,2025-07-03
+SC-22-002-022-420389-1,22-002-022-420389,Claimant 1,Step-son,False,Undocumented,Panchayat attestation,31.8,Pending Verification,2026-03-14
+SC-22-002-022-420389-2,22-002-022-420389,Claimant 2,Grandson,True,Undocumented,"Affidavit, unverified",68.2,Pending Verification,2026-03-14
+SC-09-044-014-641225-1,09-044-014-641225,Claimant 1,Son,True,Documented,Mutation Entry (RoR),30.6,Verified,2026-08-15
+SC-09-044-014-641225-2,09-044-014-641225,Claimant 2,Sister,False,Undocumented,Oral claim only,28.8,Pending Verification,2026-08-15
+SC-09-044-014-641225-3,09-044-014-641225,Claimant 3,Adopted Son,True,Documented,Registered Will,40.60000000000001,Verified,2026-08-15
+SC-21-005-024-337424-1,21-005-024-337424,Claimant 1,Step-son,True,Undocumented,Panchayat attestation,65.0,Pending Verification,2025-07-01
+SC-21-005-024-337424-2,21-005-024-337424,Claimant 2,Son,False,Documented,Mutation Entry (RoR),35.0,Verified,2025-07-01
+SC-21-026-014-370727-1,21-026-014-370727,Claimant 1,Grandson,False,Documented,Legal Heir Certificate,88.0,Verified,2024-06-28
+SC-29-009-016-192964-1,29-009-016-192964,Claimant 1,Brother,True,Undocumented,"Affidavit, unverified",96.8,Pending Verification,2026-03-25
+SC-36-019-003-705316-1,36-019-003-705316,Claimant 1,Adopted Son,True,Documented,Legal Heir Certificate,41.9,Verified,2025-02-14
+SC-36-019-003-705316-2,36-019-003-705316,Claimant 2,Grandson,False,Undocumented,Panchayat attestation,32.3,Pending Verification,2025-02-14
+SC-36-019-003-705316-3,36-019-003-705316,Claimant 3,Sister,False,Undocumented,Oral claim only,16.7,Pending Verification,2025-02-14
+SC-22-009-020-203958-1,22-009-020-203958,Claimant 1,Brother,True,Undocumented,Oral claim only,68.5,Pending Verification,2025-09-10
+SC-22-009-020-203958-2,22-009-020-203958,Claimant 2,Son,False,Undocumented,Oral claim only,26.2,Pending Verification,2025-09-10
+SC-09-015-015-984880-1,09-015-015-984880,Claimant 1,Adopted Son,False,Undocumented,"Affidavit, unverified",27.8,Pending Verification,2024-10-26
+SC-09-015-015-984880-2,09-015-015-984880,Claimant 2,Adopted Son,True,Documented,Legal Heir Certificate,44.0,Verified,2024-10-26
+SC-09-015-015-984880-3,09-015-015-984880,Claimant 3,Sister,True,Documented,Legal Heir Certificate,28.200000000000003,Verified,2024-10-26
+SC-22-014-013-719914-1,22-014-013-719914,Claimant 1,Sister,True,Documented,Mutation Entry (RoR),32.5,Verified,2026-05-11
+SC-22-014-013-719914-2,22-014-013-719914,Claimant 2,Brother,True,Undocumented,Panchayat attestation,38.1,Pending Verification,2026-05-11
+SC-22-014-013-719914-3,22-014-013-719914,Claimant 3,Widow,False,Documented,Partition Deed,29.4,Verified,2026-05-11
+SC-09-002-014-978881-1,09-002-014-978881,Claimant 1,Son,True,Undocumented,Oral claim only,18.2,Pending Verification,2026-07-20
+SC-09-002-014-978881-2,09-002-014-978881,Claimant 2,Son,True,Documented,Legal Heir Certificate,24.7,Verified,2026-07-20
+SC-09-002-014-978881-3,09-002-014-978881,Claimant 3,Son,True,Contested,Disputed mutation,17.2,Referred to Revenue Court,2026-07-20
+SC-09-002-014-978881-4,09-002-014-978881,Claimant 4,Widow,True,Documented,Registered Will,39.89999999999999,Verified,2026-07-20
+SC-21-005-003-657654-1,21-005-003-657654,Claimant 1,Brother,True,Undocumented,Oral claim only,91.9,Pending Verification,2024-12-01
+SC-21-012-024-149588-1,21-012-024-149588,Claimant 1,Sister,True,Contested,Competing Will produced,44.6,Referred to Revenue Court,2026-06-09
+SC-21-012-024-149588-2,21-012-024-149588,Claimant 2,Nephew,True,Undocumented,Oral claim only,17.8,Pending Verification,2026-06-09
+SC-21-012-024-149588-3,21-012-024-149588,Claimant 3,Son,False,Documented,Legal Heir Certificate,31.8,Verified,2026-06-09
+SC-29-022-008-374630-1,29-022-008-374630,Claimant 1,Son,True,Contested,Disputed mutation,33.0,Referred to Revenue Court,2026-05-12
+SC-29-022-008-374630-2,29-022-008-374630,Claimant 2,Widow,True,Contested,Civil suit pending,40.1,Referred to Revenue Court,2026-05-12
+SC-29-022-008-374630-3,29-022-008-374630,Claimant 3,Son,True,Documented,Succession Certificate,22.4,Verified,2026-05-12
+SC-29-009-010-716020-1,29-009-010-716020,Claimant 1,Daughter,True,Undocumented,Oral claim only,64.5,Pending Verification,2026-01-30
+SC-29-009-010-716020-2,29-009-010-716020,Claimant 2,Widow,True,Documented,Succession Certificate,28.5,Verified,2026-01-30
+SC-09-002-008-247131-1,09-002-008-247131,Claimant 1,Brother,True,Contested,Disputed mutation,45.1,Referred to Revenue Court,2026-06-25
+SC-09-002-008-247131-2,09-002-008-247131,Claimant 2,Daughter,True,Documented,Partition Deed,54.9,Verified,2026-06-25
+SC-33-045-019-735619-1,33-045-019-735619,Claimant 1,Widow,True,Undocumented,Oral claim only,33.2,Pending Verification,2024-09-13
+SC-33-045-019-735619-2,33-045-019-735619,Claimant 2,Daughter,True,Undocumented,"Affidavit, unverified",66.8,Pending Verification,2024-09-13
+SC-23-028-009-366887-1,23-028-009-366887,Claimant 1,Brother,True,Documented,Succession Certificate,100.0,Verified,2026-06-20
+SC-27-025-017-599201-1,27-025-017-599201,Claimant 1,Nephew,True,Documented,Legal Heir Certificate,25.8,Verified,2026-01-31
+SC-27-025-017-599201-2,27-025-017-599201,Claimant 2,Sister,True,Contested,Competing Will produced,29.8,Referred to Revenue Court,2026-01-31
+SC-27-025-017-599201-3,27-025-017-599201,Claimant 3,Step-son,True,Undocumented,Oral claim only,44.400000000000006,Pending Verification,2026-01-31
+SC-36-019-009-063906-1,36-019-009-063906,Claimant 1,Son,True,Contested,Disputed mutation,44.5,Referred to Revenue Court,2024-10-16
+SC-36-019-009-063906-2,36-019-009-063906,Claimant 2,Daughter,False,Documented,Partition Deed,25.7,Verified,2024-10-16
+SC-36-019-009-063906-3,36-019-009-063906,Claimant 3,Sister,True,Undocumented,"Affidavit, unverified",29.8,Pending Verification,2024-10-16
+SC-33-023-012-850145-1,33-023-012-850145,Claimant 1,Adopted Son,True,Documented,Succession Certificate,23.7,Verified,2026-03-24
+SC-33-023-012-850145-2,33-023-012-850145,Claimant 2,Brother,True,Undocumented,"Affidavit, unverified",53.0,Pending Verification,2026-03-24
+SC-33-023-012-850145-3,33-023-012-850145,Claimant 3,Daughter,True,Documented,Succession Certificate,14.3,Verified,2026-03-24
+SC-33-045-020-321548-1,33-045-020-321548,Claimant 1,Grandson,False,Documented,Registered Will,37.1,Verified,2024-12-03
+SC-33-045-020-321548-2,33-045-020-321548,Claimant 2,Sister,True,Documented,Partition Deed,27.3,Verified,2024-12-03
+SC-33-045-020-321548-3,33-045-020-321548,Claimant 3,Grandson,True,Undocumented,Panchayat attestation,35.599999999999994,Pending Verification,2024-12-03
+SC-27-013-002-146772-1,27-013-002-146772,Claimant 1,Sister,True,Documented,Partition Deed,19.3,Verified,2025-09-20
+SC-27-013-002-146772-2,27-013-002-146772,Claimant 2,Step-son,True,Undocumented,"Affidavit, unverified",32.0,Pending Verification,2025-09-20
+SC-27-013-002-146772-3,27-013-002-146772,Claimant 3,Daughter,True,Documented,Mutation Entry (RoR),16.9,Verified,2025-09-20
+SC-27-013-002-146772-4,27-013-002-146772,Claimant 4,Daughter,True,Documented,Succession Certificate,31.800000000000004,Verified,2025-09-20
+SC-29-018-011-534431-1,29-018-011-534431,Claimant 1,Grandson,True,Documented,Partition Deed,83.0,Verified,2024-07-23
+SC-09-002-005-820092-1,09-002-005-820092,Claimant 1,Son,True,Undocumented,"Affidavit, unverified",17.8,Pending Verification,2025-02-03
+SC-09-002-005-820092-2,09-002-005-820092,Claimant 2,Son,True,Undocumented,Panchayat attestation,27.1,Pending Verification,2025-02-03
+SC-09-002-005-820092-3,09-002-005-820092,Claimant 3,Son,False,Contested,Disputed mutation,21.9,Referred to Revenue Court,2025-02-03
+SC-09-002-005-820092-4,09-002-005-820092,Claimant 4,Widow,True,Documented,Legal Heir Certificate,33.2,Verified,2025-02-03
+SC-22-014-011-799681-1,22-014-011-799681,Claimant 1,Grandson,True,Documented,Succession Certificate,100.0,Verified,2025-07-10
+SC-27-001-002-554599-1,27-001-002-554599,Claimant 1,Adopted Son,True,Documented,Succession Certificate,31.1,Verified,2025-08-31
+SC-27-001-002-554599-2,27-001-002-554599,Claimant 2,Son,False,Documented,Registered Will,31.2,Verified,2025-08-31
+SC-27-001-002-554599-3,27-001-002-554599,Claimant 3,Son,False,Documented,Succession Certificate,21.5,Verified,2025-08-31
+SC-27-001-002-554599-4,27-001-002-554599,Claimant 4,Nephew,True,Undocumented,Oral claim only,16.200000000000003,Pending Verification,2025-08-31
+SC-33-014-021-996444-1,33-014-021-996444,Claimant 1,Adopted Son,True,Documented,Succession Certificate,100.0,Verified,2026-07-14
+SC-36-011-021-000186-1,36-011-021-000186,Claimant 1,Nephew,True,Documented,Legal Heir Certificate,22.5,Verified,2025-05-19
+SC-36-011-021-000186-2,36-011-021-000186,Claimant 2,Sister,True,Contested,Competing Will produced,26.7,Referred to Revenue Court,2025-05-19
+SC-36-011-021-000186-3,36-011-021-000186,Claimant 3,Grandson,True,Documented,Mutation Entry (RoR),20.1,Verified,2025-05-19
+SC-36-011-021-000186-4,36-011-021-000186,Claimant 4,Son,False,Documented,Registered Will,21.6,Verified,2025-05-19
+SC-23-028-003-517002-1,23-028-003-517002,Claimant 1,Step-son,True,Documented,Legal Heir Certificate,42.1,Verified,2025-06-13
+SC-23-028-003-517002-2,23-028-003-517002,Claimant 2,Nephew,True,Documented,Legal Heir Certificate,36.9,Verified,2025-06-13
+SC-23-028-003-517002-3,23-028-003-517002,Claimant 3,Adopted Son,False,Documented,Partition Deed,21.0,Verified,2025-06-13
+SC-36-027-022-025842-1,36-027-022-025842,Claimant 1,Adopted Son,True,Contested,Competing Will produced,28.4,Referred to Revenue Court,2025-10-03
+SC-36-027-022-025842-2,36-027-022-025842,Claimant 2,Sister,False,Documented,Legal Heir Certificate,15.3,Verified,2025-10-03
+SC-36-027-022-025842-3,36-027-022-025842,Claimant 3,Sister,True,Undocumented,"Affidavit, unverified",30.6,Pending Verification,2025-10-03
+SC-36-027-022-025842-4,36-027-022-025842,Claimant 4,Daughter,True,Documented,Partition Deed,25.699999999999996,Verified,2025-10-03
+SC-22-002-009-216421-1,22-002-009-216421,Claimant 1,Brother,False,Contested,Civil suit pending,16.0,Referred to Revenue Court,2024-11-06
+SC-22-002-009-216421-2,22-002-009-216421,Claimant 2,Daughter,True,Undocumented,"Affidavit, unverified",22.9,Pending Verification,2024-11-06
+SC-22-002-009-216421-3,22-002-009-216421,Claimant 3,Brother,False,Contested,Competing Will produced,21.4,Referred to Revenue Court,2024-11-06
+SC-22-002-009-216421-4,22-002-009-216421,Claimant 4,Sister,True,Undocumented,Panchayat attestation,39.7,Pending Verification,2024-11-06
+SC-23-033-002-472071-1,23-033-002-472071,Claimant 1,Nephew,True,Contested,Disputed mutation,24.9,Referred to Revenue Court,2024-08-02
+SC-23-033-002-472071-2,23-033-002-472071,Claimant 2,Nephew,True,Undocumented,Panchayat attestation,45.8,Pending Verification,2024-08-02
+SC-23-033-002-472071-3,23-033-002-472071,Claimant 3,Nephew,True,Documented,Registered Will,28.1,Verified,2024-08-02
+SC-33-045-007-088086-1,33-045-007-088086,Claimant 1,Son,True,Contested,Civil suit pending,25.6,Referred to Revenue Court,2025-12-25
+SC-33-045-007-088086-2,33-045-007-088086,Claimant 2,Adopted Son,True,Documented,Legal Heir Certificate,33.4,Verified,2025-12-25
+SC-33-045-007-088086-3,33-045-007-088086,Claimant 3,Grandson,True,Undocumented,Oral claim only,23.9,Pending Verification,2025-12-25
+SC-33-045-007-088086-4,33-045-007-088086,Claimant 4,Grandson,True,Documented,Legal Heir Certificate,16.5,Verified,2025-12-25
+SC-36-019-019-608716-1,36-019-019-608716,Claimant 1,Step-son,True,Documented,Registered Will,28.7,Verified,2024-11-19
+SC-36-019-019-608716-2,36-019-019-608716,Claimant 2,Son,False,Contested,Disputed mutation,44.6,Referred to Revenue Court,2024-11-19
+SC-36-019-019-608716-3,36-019-019-608716,Claimant 3,Adopted Son,False,Documented,Mutation Entry (RoR),26.699999999999996,Verified,2024-11-19
+SC-33-045-014-879637-1,33-045-014-879637,Claimant 1,Daughter,True,Documented,Partition Deed,38.2,Verified,2024-07-31
+SC-33-045-014-879637-2,33-045-014-879637,Claimant 2,Adopted Son,True,Documented,Registered Will,61.8,Verified,2024-07-31
+SC-27-001-023-118983-1,27-001-023-118983,Claimant 1,Grandson,True,Documented,Succession Certificate,21.9,Verified,2024-12-31
+SC-27-001-023-118983-2,27-001-023-118983,Claimant 2,Sister,True,Undocumented,Panchayat attestation,26.0,Pending Verification,2024-12-31
+SC-27-001-023-118983-3,27-001-023-118983,Claimant 3,Grandson,True,Documented,Succession Certificate,25.0,Verified,2024-12-31
+SC-27-001-023-118983-4,27-001-023-118983,Claimant 4,Adopted Son,True,Undocumented,"Affidavit, unverified",17.9,Pending Verification,2024-12-31
+SC-33-031-008-004122-1,33-031-008-004122,Claimant 1,Sister,False,Documented,Partition Deed,34.0,Verified,2025-01-02
+SC-33-031-008-004122-2,33-031-008-004122,Claimant 2,Widow,True,Documented,Legal Heir Certificate,44.6,Verified,2025-01-02
+SC-33-031-008-004122-3,33-031-008-004122,Claimant 3,Adopted Son,True,Documented,Mutation Entry (RoR),21.4,Verified,2025-01-02
+SC-22-002-018-182753-1,22-002-018-182753,Claimant 1,Adopted Son,True,Documented,Legal Heir Certificate,28.5,Verified,2025-01-11
+SC-22-002-018-182753-2,22-002-018-182753,Claimant 2,Son,True,Contested,Competing Will produced,44.9,Referred to Revenue Court,2025-01-11
+SC-22-002-018-182753-3,22-002-018-182753,Claimant 3,Grandson,True,Documented,Partition Deed,17.6,Verified,2025-01-11
+SC-29-022-023-805781-1,29-022-023-805781,Claimant 1,Brother,True,Documented,Succession Certificate,70.2,Verified,2025-12-19
+SC-36-003-001-892924-1,36-003-001-892924,Claimant 1,Nephew,True,Documented,Succession Certificate,44.8,Verified,2025-10-26
+SC-36-003-001-892924-2,36-003-001-892924,Claimant 2,Grandson,False,Documented,Registered Will,54.1,Verified,2025-10-26
+SC-36-011-023-761008-1,36-011-023-761008,Claimant 1,Sister,False,Documented,Legal Heir Certificate,64.5,Verified,2025-11-11
+SC-36-011-023-761008-2,36-011-023-761008,Claimant 2,Nephew,True,Documented,Mutation Entry (RoR),35.5,Verified,2025-11-11
+SC-29-022-022-522533-1,29-022-022-522533,Claimant 1,Widow,True,Undocumented,Panchayat attestation,35.7,Pending Verification,2025-10-11
+SC-29-022-022-522533-2,29-022-022-522533,Claimant 2,Daughter,True,Undocumented,Oral claim only,39.9,Pending Verification,2025-10-11
+SC-29-022-022-522533-3,29-022-022-522533,Claimant 3,Daughter,True,Documented,Mutation Entry (RoR),24.4,Verified,2025-10-11
+SC-21-012-017-655235-1,21-012-017-655235,Claimant 1,Adopted Son,True,Documented,Succession Certificate,16.9,Verified,2024-09-02
+SC-21-012-017-655235-2,21-012-017-655235,Claimant 2,Step-son,True,Documented,Mutation Entry (RoR),30.8,Verified,2024-09-02
+SC-21-012-017-655235-3,21-012-017-655235,Claimant 3,Son,False,Documented,Legal Heir Certificate,24.9,Verified,2024-09-02
+SC-21-012-017-655235-4,21-012-017-655235,Claimant 4,Nephew,True,Contested,Disputed mutation,27.4,Referred to Revenue Court,2024-09-02
+SC-33-045-003-904905-1,33-045-003-904905,Claimant 1,Sister,True,Documented,Registered Will,30.6,Verified,2026-02-15
+SC-33-045-003-904905-2,33-045-003-904905,Claimant 2,Brother,True,Contested,Disputed mutation,69.4,Referred to Revenue Court,2026-02-15
+SC-09-002-012-069721-1,09-002-012-069721,Claimant 1,Step-son,True,Contested,Disputed mutation,45.5,Referred to Revenue Court,2025-12-03
+SC-09-002-012-069721-2,09-002-012-069721,Claimant 2,Sister,True,Documented,Registered Will,26.8,Verified,2025-12-03
+SC-09-002-012-069721-3,09-002-012-069721,Claimant 3,Sister,True,Contested,Civil suit pending,22.3,Referred to Revenue Court,2025-12-03
+SC-27-025-022-382533-1,27-025-022-382533,Claimant 1,Sister,True,Undocumented,"Affidavit, unverified",41.3,Pending Verification,2026-01-25
+SC-27-025-022-382533-2,27-025-022-382533,Claimant 2,Brother,True,Documented,Legal Heir Certificate,35.3,Verified,2026-01-25
+SC-27-025-022-382533-3,27-025-022-382533,Claimant 3,Grandson,True,Documented,Succession Certificate,23.400000000000006,Verified,2026-01-25
+SC-21-005-008-420826-1,21-005-008-420826,Claimant 1,Brother,False,Documented,Succession Certificate,41.5,Verified,2026-08-15
+SC-21-005-008-420826-2,21-005-008-420826,Claimant 2,Adopted Son,True,Undocumented,"Affidavit, unverified",58.5,Pending Verification,2026-08-15
+SC-33-031-021-185290-1,33-031-021-185290,Claimant 1,Daughter,False,Undocumented,Oral claim only,80.5,Pending Verification,2026-07-10
+SC-09-044-010-399385-1,09-044-010-399385,Claimant 1,Widow,False,Undocumented,Oral claim only,22.2,Pending Verification,2026-02-13
+SC-09-044-010-399385-2,09-044-010-399385,Claimant 2,Adopted Son,True,Documented,Succession Certificate,32.7,Verified,2026-02-13
+SC-09-044-010-399385-3,09-044-010-399385,Claimant 3,Brother,True,Documented,Legal Heir Certificate,30.1,Verified,2026-02-13
+SC-09-044-010-399385-4,09-044-010-399385,Claimant 4,Grandson,False,Documented,Mutation Entry (RoR),13.2,Verified,2026-02-13
+SC-22-018-003-316142-1,22-018-003-316142,Claimant 1,Nephew,True,Undocumented,Panchayat attestation,100.0,Pending Verification,2026-05-17
+SC-23-016-010-298309-1,23-016-010-298309,Claimant 1,Nephew,False,Documented,Succession Certificate,15.7,Verified,2024-11-30
+SC-23-016-010-298309-2,23-016-010-298309,Claimant 2,Nephew,False,Documented,Mutation Entry (RoR),33.2,Verified,2024-11-30
+SC-23-016-010-298309-3,23-016-010-298309,Claimant 3,Son,True,Documented,Succession Certificate,22.0,Verified,2024-11-30
+SC-23-016-010-298309-4,23-016-010-298309,Claimant 4,Brother,True,Contested,Civil suit pending,29.099999999999994,Referred to Revenue Court,2024-11-30
+SC-36-003-005-162453-1,36-003-005-162453,Claimant 1,Daughter,True,Undocumented,Oral claim only,100.0,Pending Verification,2024-12-25
+SC-21-019-016-998853-1,21-019-016-998853,Claimant 1,Step-son,True,Documented,Partition Deed,16.3,Verified,2025-10-05
+SC-21-019-016-998853-2,21-019-016-998853,Claimant 2,Step-son,False,Documented,Succession Certificate,33.4,Verified,2025-10-05
+SC-21-019-016-998853-3,21-019-016-998853,Claimant 3,Adopted Son,True,Documented,Mutation Entry (RoR),25.2,Verified,2025-10-05
+SC-21-019-016-998853-4,21-019-016-998853,Claimant 4,Sister,True,Documented,Registered Will,23.1,Verified,2025-10-05
+SC-27-013-012-943884-1,27-013-012-943884,Claimant 1,Grandson,False,Undocumented,Panchayat attestation,34.3,Pending Verification,2025-07-18
+SC-27-013-012-943884-2,27-013-012-943884,Claimant 2,Widow,False,Documented,Succession Certificate,28.7,Verified,2025-07-18
+SC-27-013-012-943884-3,27-013-012-943884,Claimant 3,Nephew,True,Documented,Mutation Entry (RoR),13.7,Verified,2025-07-18
+SC-27-013-012-943884-4,27-013-012-943884,Claimant 4,Step-son,True,Documented,Succession Certificate,15.8,Verified,2025-07-18
+SC-33-031-011-156622-1,33-031-011-156622,Claimant 1,Daughter,False,Documented,Registered Will,30.1,Verified,2024-12-30
+SC-33-031-011-156622-2,33-031-011-156622,Claimant 2,Grandson,True,Undocumented,Oral claim only,32.6,Pending Verification,2024-12-30
+SC-33-031-011-156622-3,33-031-011-156622,Claimant 3,Step-son,False,Documented,Mutation Entry (RoR),23.4,Verified,2024-12-30
+SC-36-027-011-634969-1,36-027-011-634969,Claimant 1,Grandson,False,Documented,Mutation Entry (RoR),62.3,Verified,2024-08-05
+SC-36-027-011-634969-2,36-027-011-634969,Claimant 2,Nephew,True,Documented,Legal Heir Certificate,32.9,Verified,2024-08-05
+SC-33-045-013-795946-1,33-045-013-795946,Claimant 1,Sister,True,Documented,Mutation Entry (RoR),100.0,Verified,2024-09-07
+SC-33-031-016-649876-1,33-031-016-649876,Claimant 1,Grandson,True,Documented,Partition Deed,35.5,Verified,2026-07-05
+SC-33-031-016-649876-2,33-031-016-649876,Claimant 2,Adopted Son,True,Documented,Registered Will,30.4,Verified,2026-07-05
+SC-33-031-016-649876-3,33-031-016-649876,Claimant 3,Nephew,True,Documented,Succession Certificate,34.1,Verified,2026-07-05
+SC-27-037-006-611238-1,27-037-006-611238,Claimant 1,Widow,True,Undocumented,Oral claim only,52.8,Pending Verification,2026-06-08
+SC-27-037-006-611238-2,27-037-006-611238,Claimant 2,Widow,True,Documented,Mutation Entry (RoR),47.2,Verified,2026-06-08
+SC-21-005-009-683504-1,21-005-009-683504,Claimant 1,Adopted Son,True,Contested,Civil suit pending,63.2,Referred to Revenue Court,2025-04-17
+SC-21-005-009-683504-2,21-005-009-683504,Claimant 2,Widow,True,Documented,Succession Certificate,29.0,Verified,2025-04-17
+SC-36-019-010-992795-1,36-019-010-992795,Claimant 1,Sister,True,Documented,Legal Heir Certificate,41.2,Verified,2025-10-28
+SC-36-019-010-992795-2,36-019-010-992795,Claimant 2,Grandson,True,Undocumented,Oral claim only,27.9,Pending Verification,2025-10-28
+SC-36-019-010-992795-3,36-019-010-992795,Claimant 3,Sister,True,Documented,Succession Certificate,21.0,Verified,2025-10-28
+SC-29-009-010-464509-1,29-009-010-464509,Claimant 1,Grandson,True,Documented,Legal Heir Certificate,33.9,Verified,2025-05-30
+SC-29-009-010-464509-2,29-009-010-464509,Claimant 2,Son,True,Documented,Legal Heir Certificate,44.0,Verified,2025-05-30
+SC-09-015-005-629643-1,09-015-005-629643,Claimant 1,Daughter,True,Undocumented,"Affidavit, unverified",19.8,Pending Verification,2026-04-26
+SC-09-015-005-629643-2,09-015-005-629643,Claimant 2,Adopted Son,False,Documented,Partition Deed,31.7,Verified,2026-04-26
+SC-09-015-005-629643-3,09-015-005-629643,Claimant 3,Son,True,Documented,Mutation Entry (RoR),18.8,Verified,2026-04-26
+SC-09-015-005-629643-4,09-015-005-629643,Claimant 4,Sister,True,Undocumented,"Affidavit, unverified",27.0,Pending Verification,2026-04-26
+SC-09-015-018-258288-1,09-015-018-258288,Claimant 1,Nephew,False,Documented,Mutation Entry (RoR),35.6,Verified,2024-06-17
+SC-09-015-018-258288-2,09-015-018-258288,Claimant 2,Step-son,True,Documented,Succession Certificate,44.4,Verified,2024-06-17
+SC-09-015-018-258288-3,09-015-018-258288,Claimant 3,Brother,False,Documented,Mutation Entry (RoR),15.1,Verified,2024-06-17
+SC-36-027-010-336564-1,36-027-010-336564,Claimant 1,Adopted Son,True,Documented,Partition Deed,62.1,Verified,2024-06-01
+SC-36-027-010-336564-2,36-027-010-336564,Claimant 2,Son,True,Documented,Mutation Entry (RoR),29.6,Verified,2024-06-01
+SC-22-018-015-281782-1,22-018-015-281782,Claimant 1,Grandson,True,Documented,Partition Deed,19.5,Verified,2024-06-11
+SC-22-018-015-281782-2,22-018-015-281782,Claimant 2,Widow,True,Undocumented,Oral claim only,25.0,Pending Verification,2024-06-11
+SC-22-018-015-281782-3,22-018-015-281782,Claimant 3,Nephew,True,Documented,Registered Will,23.3,Verified,2024-06-11
+SC-22-018-015-281782-4,22-018-015-281782,Claimant 4,Daughter,True,Documented,Mutation Entry (RoR),32.2,Verified,2024-06-11
+SC-36-011-008-403302-1,36-011-008-403302,Claimant 1,Sister,True,Undocumented,Oral claim only,85.2,Pending Verification,2025-02-10
+SC-23-033-004-337896-1,23-033-004-337896,Claimant 1,Sister,True,Documented,Legal Heir Certificate,47.0,Verified,2025-09-26
+SC-23-033-004-337896-2,23-033-004-337896,Claimant 2,Adopted Son,True,Undocumented,Oral claim only,39.6,Pending Verification,2025-09-26
+SC-33-045-005-622277-1,33-045-005-622277,Claimant 1,Son,True,Undocumented,Panchayat attestation,65.8,Pending Verification,2024-10-02
+SC-33-045-005-622277-2,33-045-005-622277,Claimant 2,Widow,False,Documented,Succession Certificate,26.5,Verified,2024-10-02
+SC-33-031-005-708302-1,33-031-005-708302,Claimant 1,Widow,True,Documented,Partition Deed,73.7,Verified,2026-08-13
+SC-21-012-016-573987-1,21-012-016-573987,Claimant 1,Brother,True,Documented,Succession Certificate,41.3,Verified,2025-05-12
+SC-21-012-016-573987-2,21-012-016-573987,Claimant 2,Adopted Son,True,Documented,Mutation Entry (RoR),27.5,Verified,2025-05-12
+SC-21-012-016-573987-3,21-012-016-573987,Claimant 3,Adopted Son,True,Documented,Mutation Entry (RoR),31.200000000000003,Verified,2025-05-12
+SC-22-014-013-660569-1,22-014-013-660569,Claimant 1,Grandson,True,Documented,Mutation Entry (RoR),63.1,Verified,2026-07-22
+SC-33-045-015-960454-1,33-045-015-960454,Claimant 1,Sister,True,Documented,Legal Heir Certificate,62.6,Verified,2024-11-20
+SC-33-045-015-960454-2,33-045-015-960454,Claimant 2,Step-son,True,Documented,Succession Certificate,26.8,Verified,2024-11-20
+SC-09-031-024-799118-1,09-031-024-799118,Claimant 1,Widow,True,Undocumented,"Affidavit, unverified",24.5,Pending Verification,2025-11-01
+SC-09-031-024-799118-2,09-031-024-799118,Claimant 2,Adopted Son,True,Documented,Partition Deed,25.5,Verified,2025-11-01
+SC-09-031-024-799118-3,09-031-024-799118,Claimant 3,Brother,True,Documented,Mutation Entry (RoR),15.1,Verified,2025-11-01
+SC-09-031-024-799118-4,09-031-024-799118,Claimant 4,Adopted Son,True,Documented,Succession Certificate,34.9,Verified,2025-11-01
+SC-33-031-011-842506-1,33-031-011-842506,Claimant 1,Son,True,Undocumented,"Affidavit, unverified",20.3,Pending Verification,2026-03-24
+SC-33-031-011-842506-2,33-031-011-842506,Claimant 2,Son,True,Documented,Partition Deed,30.9,Verified,2026-03-24
+SC-33-031-011-842506-3,33-031-011-842506,Claimant 3,Grandson,True,Documented,Succession Certificate,34.1,Verified,2026-03-24
+SC-33-031-011-842506-4,33-031-011-842506,Claimant 4,Nephew,True,Documented,Registered Will,14.700000000000003,Verified,2026-03-24
+SC-09-044-011-678937-1,09-044-011-678937,Claimant 1,Son,True,Undocumented,Panchayat attestation,15.5,Pending Verification,2024-12-04
+SC-09-044-011-678937-2,09-044-011-678937,Claimant 2,Brother,False,Documented,Registered Will,38.7,Verified,2024-12-04
+SC-09-044-011-678937-3,09-044-011-678937,Claimant 3,Adopted Son,True,Contested,Civil suit pending,15.6,Referred to Revenue Court,2024-12-04
+SC-09-044-011-678937-4,09-044-011-678937,Claimant 4,Nephew,True,Contested,Competing Will produced,30.199999999999996,Referred to Revenue Court,2024-12-04
+SC-21-026-004-937999-1,21-026-004-937999,Claimant 1,Step-son,True,Documented,Partition Deed,43.1,Verified,2026-06-18
+SC-21-026-004-937999-2,21-026-004-937999,Claimant 2,Brother,False,Contested,Competing Will produced,22.3,Referred to Revenue Court,2026-06-18
+SC-21-026-004-937999-3,21-026-004-937999,Claimant 3,Son,True,Documented,Registered Will,34.599999999999994,Verified,2026-06-18
+SC-22-014-003-019606-1,22-014-003-019606,Claimant 1,Widow,True,Documented,Registered Will,54.5,Verified,2025-05-12
+SC-22-014-003-019606-2,22-014-003-019606,Claimant 2,Widow,True,Documented,Partition Deed,45.5,Verified,2025-05-12
+SC-36-027-006-854589-1,36-027-006-854589,Claimant 1,Son,False,Documented,Legal Heir Certificate,84.6,Verified,2025-11-30
+SC-21-026-015-050123-1,21-026-015-050123,Claimant 1,Nephew,True,Documented,Partition Deed,78.1,Verified,2025-01-31
+SC-33-014-001-688634-1,33-014-001-688634,Claimant 1,Step-son,True,Contested,Competing Will produced,18.0,Referred to Revenue Court,2025-03-20
+SC-33-014-001-688634-2,33-014-001-688634,Claimant 2,Son,True,Contested,Competing Will produced,37.1,Referred to Revenue Court,2025-03-20
+SC-33-014-001-688634-3,33-014-001-688634,Claimant 3,Son,True,Documented,Partition Deed,19.9,Verified,2025-03-20
+SC-33-014-001-688634-4,33-014-001-688634,Claimant 4,Sister,False,Documented,Succession Certificate,20.5,Verified,2025-03-20
+SC-36-027-021-927366-1,36-027-021-927366,Claimant 1,Widow,True,Documented,Mutation Entry (RoR),29.0,Verified,2026-07-28
+SC-36-027-021-927366-2,36-027-021-927366,Claimant 2,Step-son,True,Documented,Legal Heir Certificate,27.5,Verified,2026-07-28
+SC-36-027-021-927366-3,36-027-021-927366,Claimant 3,Daughter,True,Undocumented,Panchayat attestation,38.1,Pending Verification,2026-07-28
+SC-36-027-012-620266-1,36-027-012-620266,Claimant 1,Son,True,Documented,Mutation Entry (RoR),27.6,Verified,2024-11-01
+SC-36-027-012-620266-2,36-027-012-620266,Claimant 2,Adopted Son,False,Contested,Competing Will produced,37.0,Referred to Revenue Court,2024-11-01
+SC-36-027-012-620266-3,36-027-012-620266,Claimant 3,Step-son,False,Undocumented,Oral claim only,35.400000000000006,Pending Verification,2024-11-01
+SC-33-045-007-735680-1,33-045-007-735680,Claimant 1,Son,True,Undocumented,"Affidavit, unverified",46.6,Pending Verification,2026-02-20
+SC-33-045-007-735680-2,33-045-007-735680,Claimant 2,Nephew,True,Documented,Legal Heir Certificate,29.0,Verified,2026-02-20
+SC-33-045-007-735680-3,33-045-007-735680,Claimant 3,Brother,True,Documented,Partition Deed,24.4,Verified,2026-02-20
+SC-33-031-024-214066-1,33-031-024-214066,Claimant 1,Nephew,True,Documented,Registered Will,40.0,Verified,2025-01-02
+SC-33-031-024-214066-2,33-031-024-214066,Claimant 2,Step-son,True,Undocumented,Panchayat attestation,60.0,Pending Verification,2025-01-02
+SC-29-022-018-697458-1,29-022-018-697458,Claimant 1,Widow,False,Undocumented,Panchayat attestation,69.4,Pending Verification,2026-03-17
+SC-27-037-015-638180-1,27-037-015-638180,Claimant 1,Sister,True,Undocumented,Oral claim only,27.4,Pending Verification,2026-08-14
+SC-27-037-015-638180-2,27-037-015-638180,Claimant 2,Adopted Son,True,Undocumented,Oral claim only,32.6,Pending Verification,2026-08-14
+SC-27-037-015-638180-3,27-037-015-638180,Claimant 3,Brother,True,Documented,Succession Certificate,18.6,Verified,2026-08-14
+SC-27-037-015-638180-4,27-037-015-638180,Claimant 4,Daughter,True,Undocumented,Panchayat attestation,21.39999999999999,Pending Verification,2026-08-14
+SC-09-015-020-941039-1,09-015-020-941039,Claimant 1,Nephew,True,Contested,Disputed mutation,20.7,Referred to Revenue Court,2026-01-15
+SC-09-015-020-941039-2,09-015-020-941039,Claimant 2,Widow,True,Undocumented,"Affidavit, unverified",29.7,Pending Verification,2026-01-15
+SC-09-015-020-941039-3,09-015-020-941039,Claimant 3,Daughter,True,Documented,Registered Will,20.1,Verified,2026-01-15
+SC-09-015-020-941039-4,09-015-020-941039,Claimant 4,Adopted Son,True,Undocumented,"Affidavit, unverified",29.499999999999993,Pending Verification,2026-01-15
+SC-22-002-019-299770-1,22-002-019-299770,Claimant 1,Adopted Son,False,Documented,Succession Certificate,44.3,Verified,2024-12-04
+SC-22-002-019-299770-2,22-002-019-299770,Claimant 2,Daughter,True,Documented,Succession Certificate,34.2,Verified,2024-12-04
+SC-22-002-019-299770-3,22-002-019-299770,Claimant 3,Step-son,True,Documented,Legal Heir Certificate,21.5,Verified,2024-12-04
+SC-29-009-019-414479-1,29-009-019-414479,Claimant 1,Daughter,False,Documented,Succession Certificate,43.9,Verified,2024-06-06
+SC-29-009-019-414479-2,29-009-019-414479,Claimant 2,Widow,False,Undocumented,"Affidavit, unverified",30.4,Pending Verification,2024-06-06
+SC-29-009-019-414479-3,29-009-019-414479,Claimant 3,Son,True,Documented,Partition Deed,18.9,Verified,2024-06-06
+SC-27-001-015-405987-1,27-001-015-405987,Claimant 1,Step-son,True,Documented,Succession Certificate,49.6,Verified,2025-04-30
+SC-27-001-015-405987-2,27-001-015-405987,Claimant 2,Nephew,True,Contested,Disputed mutation,50.4,Referred to Revenue Court,2025-04-30
+SC-23-028-006-699935-1,23-028-006-699935,Claimant 1,Son,True,Undocumented,Oral claim only,61.2,Pending Verification,2025-06-13
+SC-23-028-006-699935-2,23-028-006-699935,Claimant 2,Nephew,True,Contested,Disputed mutation,38.8,Referred to Revenue Court,2025-06-13
+SC-36-019-018-438600-1,36-019-018-438600,Claimant 1,Daughter,True,Documented,Partition Deed,22.4,Verified,2025-06-05
+SC-36-019-018-438600-2,36-019-018-438600,Claimant 2,Brother,True,Documented,Legal Heir Certificate,27.4,Verified,2025-06-05
+SC-36-019-018-438600-3,36-019-018-438600,Claimant 3,Sister,True,Contested,Civil suit pending,30.3,Referred to Revenue Court,2025-06-05
+SC-33-045-023-585144-1,33-045-023-585144,Claimant 1,Grandson,True,Documented,Succession Certificate,53.8,Verified,2026-01-20
+SC-33-045-023-585144-2,33-045-023-585144,Claimant 2,Son,True,Undocumented,"Affidavit, unverified",38.2,Pending Verification,2026-01-20
+SC-29-022-023-972424-1,29-022-023-972424,Claimant 1,Nephew,True,Undocumented,Panchayat attestation,60.6,Pending Verification,2024-11-06
+SC-29-022-023-972424-2,29-022-023-972424,Claimant 2,Daughter,False,Contested,Competing Will produced,34.1,Referred to Revenue Court,2024-11-06
+SC-09-031-014-618305-1,09-031-014-618305,Claimant 1,Step-son,True,Documented,Legal Heir Certificate,19.9,Verified,2025-05-11
+SC-09-031-014-618305-2,09-031-014-618305,Claimant 2,Grandson,True,Contested,Competing Will produced,26.6,Referred to Revenue Court,2025-05-11
+SC-09-031-014-618305-3,09-031-014-618305,Claimant 3,Sister,True,Contested,Competing Will produced,16.2,Referred to Revenue Court,2025-05-11
+SC-09-031-014-618305-4,09-031-014-618305,Claimant 4,Widow,True,Documented,Partition Deed,37.3,Verified,2025-05-11
+SC-27-001-022-863752-1,27-001-022-863752,Claimant 1,Widow,True,Documented,Registered Will,59.9,Verified,2026-04-05
+SC-27-001-022-863752-2,27-001-022-863752,Claimant 2,Son,True,Documented,Mutation Entry (RoR),25.9,Verified,2026-04-05
+SC-33-031-022-233231-1,33-031-022-233231,Claimant 1,Sister,False,Contested,Disputed mutation,85.6,Referred to Revenue Court,2026-02-20
+SC-09-015-018-017810-1,09-015-018-017810,Claimant 1,Widow,False,Documented,Legal Heir Certificate,41.8,Verified,2025-01-05
+SC-09-015-018-017810-2,09-015-018-017810,Claimant 2,Widow,False,Documented,Partition Deed,35.0,Verified,2025-01-05
+SC-09-015-018-017810-3,09-015-018-017810,Claimant 3,Nephew,True,Undocumented,"Affidavit, unverified",23.200000000000003,Pending Verification,2025-01-05
+SC-29-018-014-922306-1,29-018-014-922306,Claimant 1,Step-son,True,Documented,Partition Deed,49.3,Verified,2025-11-15
+SC-29-018-014-922306-2,29-018-014-922306,Claimant 2,Step-son,True,Documented,Legal Heir Certificate,50.7,Verified,2025-11-15
+SC-36-019-007-248099-1,36-019-007-248099,Claimant 1,Daughter,True,Documented,Registered Will,18.0,Verified,2026-02-17
+SC-36-019-007-248099-2,36-019-007-248099,Claimant 2,Nephew,True,Undocumented,Oral claim only,21.1,Pending Verification,2026-02-17
+SC-36-019-007-248099-3,36-019-007-248099,Claimant 3,Grandson,True,Undocumented,Oral claim only,27.3,Pending Verification,2026-02-17
+SC-36-019-007-248099-4,36-019-007-248099,Claimant 4,Nephew,True,Contested,Disputed mutation,33.599999999999994,Referred to Revenue Court,2026-02-17
+SC-21-005-020-459268-1,21-005-020-459268,Claimant 1,Daughter,True,Contested,Civil suit pending,100.0,Referred to Revenue Court,2026-02-07
+SC-09-002-019-518833-1,09-002-019-518833,Claimant 1,Widow,True,Documented,Succession Certificate,47.9,Verified,2025-05-13
+SC-09-002-019-518833-2,09-002-019-518833,Claimant 2,Adopted Son,True,Documented,Succession Certificate,52.1,Verified,2025-05-13
+SC-36-003-016-652606-1,36-003-016-652606,Claimant 1,Grandson,True,Documented,Legal Heir Certificate,26.5,Verified,2024-09-13
+SC-36-003-016-652606-2,36-003-016-652606,Claimant 2,Step-son,True,Documented,Partition Deed,23.2,Verified,2024-09-13
+SC-36-003-016-652606-3,36-003-016-652606,Claimant 3,Son,True,Documented,Registered Will,30.4,Verified,2024-09-13
+SC-36-003-016-652606-4,36-003-016-652606,Claimant 4,Daughter,True,Documented,Succession Certificate,16.1,Verified,2024-09-13
+SC-21-012-004-001947-1,21-012-004-001947,Claimant 1,Adopted Son,True,Contested,Civil suit pending,69.0,Referred to Revenue Court,2025-11-23
+SC-21-012-004-001947-2,21-012-004-001947,Claimant 2,Step-son,True,Documented,Partition Deed,20.7,Verified,2025-11-23
+SC-29-022-021-035895-1,29-022-021-035895,Claimant 1,Nephew,True,Undocumented,"Affidavit, unverified",32.0,Pending Verification,2025-08-26
+SC-29-022-021-035895-2,29-022-021-035895,Claimant 2,Widow,False,Documented,Legal Heir Certificate,19.8,Verified,2025-08-26
+SC-29-022-021-035895-3,29-022-021-035895,Claimant 3,Widow,True,Documented,Mutation Entry (RoR),14.9,Verified,2025-08-26
+SC-29-022-021-035895-4,29-022-021-035895,Claimant 4,Daughter,True,Undocumented,"Affidavit, unverified",33.300000000000004,Pending Verification,2025-08-26

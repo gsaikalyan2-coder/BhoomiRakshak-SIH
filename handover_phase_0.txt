@@ -1,0 +1,286 @@
+================================================================================
+HANDOVER — PHASE 0 COMPLETE  ->  PHASE 1 READY
+BhoomiRakshak · SIH 2026 · PS SIH26017
+Written 2026-08-23. Self-contained: a fresh session needs nothing else but the
+repo at C:\Users\saika\Land Acquisition.
+================================================================================
+
+--------------------------------------------------------------------------------
+PART A — PROJECT SUMMARY
+--------------------------------------------------------------------------------
+
+WHAT WE ARE BUILDING
+BhoomiRakshak — "Predictive Analysis System for Early Detection of Land
+Acquisition Delays". Smart India Hackathon 2026, problem statement SIH26017,
+Ministry of Rural Development, category Software, theme Agriculture & Foodtech.
+
+An AI decision-support dashboard for GOVERNMENT OFFICERS ONLY that:
+  1. predicts which ongoing land acquisition projects will be delayed, BEFORE
+     the delay happens;
+  2. predicts WHICH statutory stage will stall (compensation / legal / R&R /
+     ownership-title / administrative approval);
+  3. explains every score factor-by-factor using SHAP, in officer language;
+  4. prescribes a corrective action and lets the officer simulate it first.
+
+THE NOVELTY (verified by research, see docs/research/competitive-landscape.md)
+No existing Indian system does forward-looking, explained, per-project delay
+prediction for land acquisition:
+  - LACRRIS (DoLR)      — records Sec. 4/11/19/23/38 dates after the fact.
+                          No forecasting. No dispute/objection fields at all.
+  - PAIMANA (MoSPI)     — replaced OCMS-2006 in late 2025. 1,392 projects,
+                          Rs 29.68 lakh cr. RETROSPECTIVE overrun reports only,
+                          capped at projects >= Rs 150 cr, no parcel dimension.
+                          NOTE: this is the incumbent most likely to be raised
+                          by a judge. Answer: it reports the past.
+  - Bhoomi Rashi (MoRTH)— digitises 3A/3D notification workflow + PFMS payout.
+                          Workflow speed, not intelligence.
+  - PM Gati Shakti      — GIS layers for PLANNING. Space without time.
+  - PRAGATI             — manual PM-chaired escalation, months late, a handful
+                          of projects per session.
+  - DILRMP / Bhu-Naksha — digitises records, scores nothing with them.
+
+DEADLINE
+Prototype evaluation Thursday 2026-08-27. Build days: Mon 24, Tue 25, Wed 26 Aug.
+
+CURRENT STATUS
+Phase 0 COMPLETE. Repository scaffolded, competitive research done, scope
+locked, dataset generated and validated. No application code written yet.
+Phase 1 (data layer) is next and has not started.
+
+--------------------------------------------------------------------------------
+PART B — WHAT THIS SESSION ACCOMPLISHED
+--------------------------------------------------------------------------------
+
+1. COMPETITIVE RESEARCH
+   Browsed and documented LACRRIS, PAIMANA, Bhoomi Rashi, PM Gati Shakti,
+   PRAGATI, DILRMP and the academic delay-prediction literature.
+   -> docs/research/competitive-landscape.md
+   Built a 16-row matrix mapping each weakness to the feature that closes it.
+   -> docs/research/gap-coverage-matrix.md
+
+2. FEATURE SCOPING
+   Ran an expand-and-contract pass, then reconciled it against the user's
+   22-page planning PDF (SIH PS PLAN VERSION.pdf). The PDF governs.
+   -> docs/design/scope.md
+
+3. REPOSITORY SCAFFOLD
+   backend/ ml/ frontend/ migrations/ docker/ docs/ scripts/ .github/
+   CLAUDE.md, FOLDER_STRUCTURE.md, README.md, .env.example, .gitignore,
+   docker-compose.yml, docker/*.Dockerfile, requirements.txt, package.json,
+   CI workflow.
+
+4. DATASET — THREE REVISIONS, ALL DEFECTS FIXED
+   The user's original land_acquisition_dataset.csv (300 rows) was audited and
+   found to have five defects. It was regenerated. Full audit trail:
+   -> docs/research/dataset-audit.md
+
+   Model performance across revisions (5-fold CV):
+     rev 1 (user's) : is_delayed AUC 0.805 | stage 3-class 0.780 / 0.573 base
+     rev 2          : is_delayed AUC 0.907 | stage 5-class 0.588 / 0.324 base
+     rev 3 (CURRENT): is_delayed AUC 0.925 acc 0.848
+                      stage 5-class 0.679 / 0.347 base
+
+   What was fixed:
+     a) LEAKAGE — original had a `delay_probability` column that was the
+        generator's own formula (corr 0.79 with the label). Removed.
+     b) COORDINATES — original lat/long were random across India; Bengaluru
+        projects landed in Tamil Nadu. Now drawn from real village centroids.
+     c) DEAD FEATURES — 18 of 33 columns had literally zero model importance,
+        including everything the problem statement names as a delay driver
+        (pending approvals, title clarity, ownership disputes, stage dwell).
+        The delay formula now weights 12 drivers; all of them register.
+     d) MISSING TABLES — risk_history, status_log, officers, admin_units,
+        succession_claims, project_dependencies all generated.
+     e) LABEL MEANING — decided with the user: the label means "WILL BECOME
+        OVERDUE". Train on the 600 closed projects; score the 300 ongoing ones.
+        All ongoing completion dates are in the future.
+
+5. PROJECT PLAN
+   Eight phases, each with a binary exit criterion, plus a traceability matrix
+   proving every PDF feature is assigned to a phase.
+   -> PROJECT_PLAN.md
+
+--------------------------------------------------------------------------------
+PART C — HANDOFF: EVERYTHING A COLD SESSION NEEDS
+--------------------------------------------------------------------------------
+
+C.1  LOCKED DECISIONS — DO NOT RE-OPEN THESE
+--------------------------------------------------------------------------------
+  Product name .......... BhoomiRakshak
+  Project primary key ... ULPIN, 14-digit DILRMP format, e.g. 36-027-018-816317
+                          (the user explicitly asked for ULPIN and asked that it
+                          not be questioned again; it is now fully grounded --
+                          all three code segments verify against admin_units)
+  Officer ID ............ TN-LAO-2024-0456 (field) / TN-DC-2019-0012 (admin)
+  Audience .............. GOVERNMENT ONLY. No citizen layer, not even read-only.
+  Database .............. Real PostgreSQL 16 + PostGIS 3. NOT CSV/pandas.
+  Login ................. username + password + CAPTCHA (user decision; the
+                          PDF argues against CAPTCHA, user overruled it)
+  Alerts ................ Real SMTP email, with logged in-app fallback
+  Label meaning ......... "will become overdue" (train closed, score ongoing)
+  Roles ................. exactly 2: admin, officer
+  Governing spec ........ SIH PS PLAN VERSION.pdf, reconciled 2026-08-23.
+                          Where the PDF and earlier scoping disagreed, the PDF wins.
+                          NO PDF FEATURE MAY BE DROPPED.
+
+C.2  TECH STACK — FIXED
+--------------------------------------------------------------------------------
+  Database ........ PostgreSQL 16 + PostGIS 3
+  Backend ......... FastAPI (Python 3.11), SQLAlchemy 2.x, Pydantic v2, Alembic
+  Models .......... XGBoost / LightGBM
+  Explainability .. SHAP (TreeExplainer)
+  Recommendations . rule-based map + Flan-T5 (google/flan-t5-base)
+  Frontend ........ React 18 + Vite, Recharts, Leaflet.js
+  Auth ............ JWT with role + district claims
+  Alerts .......... webhook + SMTP
+
+C.3  DATASET ON DISK — ml/data/  (rev 3, validated, ready to load)
+--------------------------------------------------------------------------------
+  projects.csv ............. 900 rows. 600 is_closed_project=True (LABELLED,
+                             training set) / 300 ongoing (is_delayed,
+                             delay_stage, historical_delay_days all NULL —
+                             these are what the system scores)
+  admin_units.csv .......... 768 rows. State>District>Taluk>Village with
+                             village_code, ri_circle, revenue_inspector,
+                             tehsildar, no_plots, no_khatiyans, no_tenants
+  risk_history.csv ......... 4,500 rows. 5 monthly snapshots per project.
+                             REQUIRED by the Recharts trend line.
+  status_log.csv ........... 4,518 rows. Desk-level entered_on / exited_on /
+                             days_at_desk / is_current across 7 desks
+                             (Tehsildar, LAO, RDO, District Collector,
+                             Legal Cell, Treasury/PFMS, R&R Cell).
+                             REQUIRED by the SLA / stuck-file clock.
+  succession_claims.csv .... 927 heir claims over 362 parcels
+  succession_risk.csv ...... rule output per parcel: band + stated reason
+  project_dependencies.csv . 628 edges for cascading impact (SYNTHETIC — say so)
+  officers.csv ............. 41 accounts: 32 district LAOs, 8 Collectors,
+                             1 national nodal officer
+
+  Generator: ml/src/data/generate_dataset.py  (re-runnable, seeded 20260823)
+
+  NATIONAL TOTALS for the statistics panel, computed live from admin_units:
+    8 states · 32 districts · 128 tehsildars · 768 villages · 256 RI circles
+    2,293,187 plots · 1,612,419 khatiyans · 573,899 tenants
+
+C.4  TWO RULES THE TRAINING CODE MUST FOLLOW  (Phase 2, but decide now)
+--------------------------------------------------------------------------------
+  RULE 1 — MANDATORY DROP-LIST. Never feed these to the model:
+    ulpin, project_name, latent_risk_audit, top_driver_audit, is_delayed,
+    delay_stage, historical_delay_days, actual_completion_date,
+    assigned_field_officer_id, notification_date, expected_completion_date,
+    is_closed_project, planned_duration_days, taluk, village
+  (latent_risk_audit and top_driver_audit are deliberately left in the CSV so
+   the generator can be sanity-checked. They WILL leak if fed to XGBoost.)
+
+  RULE 2 — ENCODE ORDINALS EXPLICITLY. Using pandas cat.codes (alphabetical)
+  flattens title_clarity_status and legal_dispute_stage to ZERO importance.
+  Verified: with proper ordering they are 0.057 and 0.071.
+    title_clarity_status ... Clear 0, Partial 1, Disputed 2
+    legal_dispute_stage .... None 0, Resolved 1, Filed 2, Under Hearing 3,
+                             Stayed by Court 4
+    clearances ............. Not Required 0, Obtained 0, Applied 1, Pending 2
+    approval_stage ......... Possession Taken 0, R&R Implementation 1,
+                             Compensation Disbursement 2, Award Declared 3,
+                             Section 11 Notification Issued 4, SIA Completed 5
+    one-hot ................ project_type, implementing_agency, state, district
+
+C.5  BLOODLINE / SUCCESSION — IMPLEMENTATION NOTE
+--------------------------------------------------------------------------------
+  The user was explicit: this is an APPLICATION FEATURE, not a model input.
+  It is never trained. No succession column is fed to XGBoost.
+  The risk band is a DETERMINISTIC RULE, already implemented in
+  generate_dataset.py::succession_risk(), to be reimplemented identically in the
+  backend service so seeded data and live computation can never disagree:
+
+    High   — any contested claim, OR claimed shares total > 105% of the parcel
+    Medium — any undocumented claim, OR more than 2 heirs on one parcel
+    Low    — every heirship claim documented
+
+  Current spread: 134 High / 167 Medium / 61 Low.
+  Because it is a rule it always yields a stated reason, e.g.
+  "3 heir claims without documentary proof — mutation not established".
+
+C.6  ENVIRONMENT STATE
+--------------------------------------------------------------------------------
+  Nothing is running. No database exists yet. No Python venv created.
+  No npm install has been run. .env does not exist — only .env.example.
+  Secrets are filled per phase; Phase 1 fills only POSTGRES_* and DATABASE_URL.
+
+C.7  WHAT TO DO NEXT — PHASE 1
+--------------------------------------------------------------------------------
+  See PROJECT_PLAN.md "Phase 1 — Data layer". Objective: a real Postgres+PostGIS
+  database holding the full domain, seeded from the eight CSVs.
+
+  Deliverables:
+   1. Alembic migrations for: projects, risk_history, status_log, officers,
+      admin_units, succession_claims, project_dependencies, risk_scores,
+      risk_reasons, recommendations, alerts, annotations, audit_log
+   2. PostGIS enabled; geom Point column on projects from lat/long; GiST index
+   3. issue_resolutions view — per project, the date each issue class
+      (notification, objection, award, compensation, R&R, possession) was
+      cleared, or NULL if open. Powers the "when was it sorted" feature.
+   4. scripts/seed.py loading all eight CSVs; officer passwords hashed with
+      BCRYPT (the shipped password_sha256_demo column is a placeholder and must
+      NOT be used)
+   5. Index on every foreign key
+
+  BINARY EXIT CRITERION — Phase 1 is done only when ALL of these pass:
+   [ ] `docker compose up -d db` starts a healthy PostGIS container
+   [ ] `alembic upgrade head` applies cleanly from an empty database
+   [ ] `python scripts/seed.py` loads 900 projects, 768 admin units,
+       4,500 history rows, 4,518 status rows, 927 succession claims,
+       628 dependencies, 41 officers — with zero integrity errors
+   [ ] SELECT ST_AsText(geom) FROM projects LIMIT 1 returns a point that falls
+       inside its own district
+   [ ] the state statistics query returns 8 / 32 / 128 / 768 / 256 and the plot,
+       khatiyan and tenant totals above
+   [ ] every officer row has a bcrypt hash, and no SHA-256 hash survives
+   [ ] the issue_resolutions view returns at least one cleared date for a
+       closed project
+
+C.8  PHASE-GATING PROTOCOL — MANDATORY, SET BY THE USER
+--------------------------------------------------------------------------------
+  1. Execute ONE phase at a time.
+  2. A phase is done only when its binary exit criterion is VERIFIED, not when
+     work was done on it.
+  3. At the end of the phase, produce docs/handover/handover_phase_2.txt with
+     Part A (project summary + status + phase just completed), Part B (what the
+     session accomplished: decisions, files created/modified, blockers), and
+     Part C (self-contained handoff so a cold session can resume with no chat
+     history).
+  4. STOP and WAIT for the user to confirm receipt of the handover before
+     starting Phase 2.
+  5. Update "## Current Phase" in CLAUDE.md at the same time.
+  6. Convert relative dates to absolute in all records.
+
+C.9  RISKS TO CARRY FORWARD
+--------------------------------------------------------------------------------
+  R1 SCHEDULE. Phases 1-8 total ~44h against ~45-50 realistic person-hours for
+     two people over three days. There is no slack and nothing is padding. The
+     user's instruction is that NO PDF FEATURE MAY BE DROPPED, so if time is
+     lost the correct move is to REDUCE DEPTH, not remove a feature (e.g.
+     cascading impact as a static badge instead of a graph view). Make that
+     call Wednesday 09:00, not Wednesday 23:00.
+  R2 FLAN-T5 is the only live-inference dependency and powers three features
+     (recommendations narrative, NL query phrasing, weekly brief). All three
+     MUST degrade to deterministic rule/template output. Build the fallback
+     first, the LLM second. The demo must render correctly with the model off.
+  R3 TRAINING DATA IS SYNTHETIC. Say it before a judge asks. No public
+     land-acquisition delay-risk dataset exists in India — that absence IS the
+     novelty argument. The generator is grounded in LARR Act 2013 parameters and
+     DILRMP/ULPIN structure. The two fields no government schema captures
+     (circle-rate gap, ownership fragmentation) are a deployment
+     recommendation, not a defect.
+
+C.10 KEY FILES TO READ ON ARRIVAL, IN THIS ORDER
+--------------------------------------------------------------------------------
+  1. CLAUDE.md ............................ the operating contract, governs all
+  2. PROJECT_PLAN.md ...................... phases + full traceability matrix
+  3. docs/design/scope.md ................. what is in and out, and why
+  4. docs/research/dataset-audit.md ....... the data, its defects, its fixes
+  5. docs/research/gap-coverage-matrix.md . the pitch: hole -> feature
+  6. FOLDER_STRUCTURE.md .................. directory boundaries (binding)
+
+================================================================================
+END OF HANDOVER
+================================================================================

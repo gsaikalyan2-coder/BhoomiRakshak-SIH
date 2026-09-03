@@ -1,0 +1,19 @@
+# Phase 1 data-layer tooling only — what alembic, scripts/seed.py and
+# scripts/verify_phase1.py actually import.
+#
+# Use this instead of backend/requirements.txt to verify Phase 1. That file pins
+# torch==2.5.* and transformers, roughly 2.5 GB of download you do not need until
+# Phase 6. Every pin below matches backend/requirements.txt exactly, so installing
+# the full file later neither upgrades nor downgrades anything here.
+
+sqlalchemy==2.0.*
+alembic==1.14.*
+psycopg[binary]==3.2.*
+geoalchemy2==0.15.*
+passlib[bcrypt]==1.7.*
+# passlib 1.7.4 breaks on bcrypt >= 4.1 — "ValueError: password cannot be longer
+# than 72 bytes" — which kills seed.py on the first officer hash. See the note in
+# backend/requirements.txt.
+bcrypt<4.1
+pandas==2.2.*
+python-dotenv==1.0.*

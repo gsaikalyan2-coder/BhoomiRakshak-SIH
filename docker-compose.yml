@@ -1,0 +1,32 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-lade}
+      POSTGRES_USER: ${POSTGRES_USER:-lade}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set in .env}
+    ports: ["5432:5432"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-lade}"]
+      interval: 5s
+      retries: 10
+
+  backend:
+    build: { context: ., dockerfile: docker/backend.Dockerfile }
+    env_file: [.env]
+    depends_on:
+      db: { condition: service_healthy }
+    ports: ["8000:8000"]
+    volumes: ["./backend:/app/backend", "./ml:/app/ml"]
+
+  frontend:
+    build: { context: ., dockerfile: docker/frontend.Dockerfile }
+    env_file: [.env]
+    depends_on: [backend]
+    ports: ["5173:5173"]
+    volumes: ["./frontend:/app"]
+
+volumes:
+  pgdata:

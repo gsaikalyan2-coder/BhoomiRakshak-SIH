@@ -1,0 +1,415 @@
+================================================================================
+HANDOVER — PHASE 1 COMPLETE  ->  PHASE 2 READY
+BhoomiRakshak · SIH 2026 · PS SIH26017
+Written 2026-08-23. Self-contained: a fresh session needs nothing else but the
+repo at C:\Users\saika\Land Acquisition.
+================================================================================
+
+--------------------------------------------------------------------------------
+PART A — PROJECT SUMMARY
+--------------------------------------------------------------------------------
+
+WHAT WE ARE BUILDING
+BhoomiRakshak — "Predictive Analysis System for Early Detection of Land
+Acquisition Delays". Smart India Hackathon 2026, PS SIH26017, Ministry of Rural
+Development, category Software, theme Agriculture & Foodtech.
+
+A GOVERNMENT-INTERNAL decision-support dashboard that (1) predicts which ongoing
+land acquisition projects will be delayed before the delay happens, (2) predicts
+which statutory stage will stall, (3) explains each score factor-by-factor with
+SHAP in officer language, and (4) prescribes a corrective action the officer can
+simulate before taking it. Two roles only: admin, officer. No citizen surface.
+
+DEADLINE
+Prototype evaluation Thursday 2026-08-27.
+Build days: Monday 2026-08-24, Tuesday 2026-08-25, Wednesday 2026-08-26.
+
+CURRENT STATUS
+Phase 0 (foundation, dataset rev 3) — COMPLETE.
+Phase 1 (data layer)               — COMPLETE, exit criterion verified 2026-08-23.
+Phase 2 (ML core)                  — NOT STARTED. It is next.
+
+The database schema exists as Alembic migrations, PostGIS is enabled, all eight
+rev-3 CSVs load with zero integrity errors, officer passwords are bcrypt, and the
+issue_resolutions view (feature E2) returns dated clearances. No application code
+(models, routers, services, frontend) has been written — that is Phase 3 onward.
+
+--------------------------------------------------------------------------------
+PART B — WHAT THIS SESSION ACCOMPLISHED (2026-08-23)
+--------------------------------------------------------------------------------
+
+B.1  FILES CREATED
+  alembic.ini
+      Alembic config. sqlalchemy.url is deliberately EMPTY — the URL comes from
+      DATABASE_URL in the local .env, so no credential is ever committed.
+  migrations/env.py
+      Loads .env, reads DATABASE_URL, fails loudly if it is unset.
+      target_metadata = None: Phase 1 ships migrations only; SQLAlchemy ORM
+      models land in Phase 3 and autogenerate is not used until then.
+  migrations/script.py.mako
+  migrations/versions/0001_extensions_and_reference.py
+      CREATE EXTENSION postgis, pgcrypto.
+      Tables: admin_units (+ POINT geom + GiST), district_boundaries
+      (+ POLYGON geom + GiST), officers (bcrypt password_hash, CHECK role IN
+      ('admin','officer'), CHECK password_hash LIKE '$2%').
+  migrations/versions/0002_domain_tables.py
+      Tables: projects (PK ulpin, POINT geom + GiST, FK -> admin_units,
+      FK -> officers), risk_history, status_log, succession_claims,
+      succession_risk, project_dependencies. Index on every FK.
+  migrations/versions/0003_intelligence_governance_and_view.py
+      Tables: risk_scores, risk_reasons, recommendations, alerts, annotations,
+      audit_log — the Phase 3/6/7 write targets, created now so no later phase
+      needs a schema change under time pressure.
+      Plus the issue_resolutions VIEW (feature E2).
+  scripts/seed.py
+      Loads all eight CSVs in FK order inside ONE transaction. --truncate flag
+      makes it re-runnable. Prints a per-table PASS/FAIL count table and exits
+      non-zero on any mismatch.
+  scripts/verify_phase1.sql
+      The eight exit-criterion checks as SQL, each printing PASS/FAIL.
+      Run: psql "$DATABASE_URL" -f scripts/verify_phase1.sql
+  .env  (LOCAL ONLY, gitignored — .gitignore already covers .env and .env.*)
+      POSTGRES_* and DATABASE_URL filled with a generated password. Every other
+      variable still ENTER_YOUR_VALUE_HERE, per the fill schedule in CLAUDE.md.
+  docs/handover/handover_phase_2.txt   (this file)
+
+B.2  FILES MODIFIED
+  CLAUDE.md — "## Current Phase" section updated to Phase 1 complete.
+  (Nothing else was touched. No CSV was regenerated or edited.)
+
+B.3  DECISIONS MADE THIS SESSION
+  D1  THREE MIGRATIONS, NOT ONE. 0001 reference / 0002 domain / 0003
+      intelligence+governance+view. Each is independently reversible and the
+      downgrade path was exercised (`alembic downgrade base` then
+      `alembic upgrade head`) three times during the build.
+
+  D2  ALL THIRTEEN TABLES ARE CREATED NOW, including risk_scores, risk_reasons,
+      recommendations, alerts, annotations and audit_log which nothing writes to
+      until Phase 3/6/7. Rationale: the schedule has no slack; a migration
+      written on Wednesday is a migration that breaks the demo.
+
+  D3  status_log DOES NOT CONTAIN A FULL STAGE HISTORY.
+      This was discovered while building the E2 view and it changes how E2 and
+      N7 must be implemented. The dataset records the desk chain WITHIN each
+      project's CURRENT stage only: every project has exactly one open row
+      (is_current = true, exited_on = NULL), and every status_log row for a
+      project carries the SAME stage as projects.approval_stage. There are
+      4,518 rows over 900 projects — about five DESKS per project, not five
+      stages.
+      Consequence: a view that asks "when did the Award stage end" can never
+      return a date, because the file only ever appears in the stage it is
+      sitting in now. The first draft of issue_resolutions did exactly that and
+      returned zero cleared dates for five of six issue classes. It was rewritten.
+
+  D4  issue_resolutions CLEARS BY STAGE PROGRESSION, AND STATES ITS EVIDENCE.
+      Statutory order used (LARR 2013): SIA Completed(0) -> Section 11
+      Notification(1) -> [objection(2)] -> Award Declared(3) -> Compensation
+      Disbursement(4) -> R&R Implementation(5) -> Possession Taken(6).
+      An issue class ranked BELOW the project's current approval_stage is
+      Cleared; equal is "Open — at desk"; above is "Not reached".
+      Dates are taken only where the source records actually carry one:
+        notification  -> projects.notification_date
+        objection     -> status_log: date the file left the Legal Cell desk
+        possession    -> projects.actual_completion_date
+        the class immediately before the current stage
+                      -> status_log: date the file entered the current stage
+      Every other cleared class returns is_cleared = true with cleared_on NULL
+      and evidence = 'stage passed — clearance date not captured in the source
+      records'. NO DATE IS EVER INVENTED. The view exposes an `evidence` column
+      and the UI must show it.
+      Result over the 600 closed projects: 1,738 dated clearances
+      (notification 409, objection 332, award 95, compensation 97, R&R 98,
+      possession 600).
+
+  D5  DISTRICT BOUNDARY POLYGONS ARE DERIVED, AND LABELLED AS SUCH.
+      PROJECT_PLAN.md Phase 1 §2 says "District boundary GeoJSON loaded for the
+      choropleth". No GeoJSON ships with dataset rev 3 and downloading one was
+      not possible in this session. Rather than leave Phase 7's choropleth with
+      no geometry, district_boundaries is populated as
+      ST_Buffer(ST_ConvexHull(ST_Collect(village centroids)), 0.05) per district,
+      with a `source` column set to 'derived-village-hull'.
+      THIS IS AN APPROXIMATION AND IS AN OPEN ITEM — see B.5.
+
+  D6  DEMO PASSWORD SCHEME. Each officer's password is their own officer_id in
+      lowercase (e.g. TN-LAO-2024-0456 -> "tn-lao-2024-0456"), hashed with
+      bcrypt (passlib, $2b$, 12 rounds). The shipped password_sha256_demo column
+      is DROPPED in the loader and never reaches the database. Phase 4 shows two
+      demo credentials on the login screen by design.
+
+  D7  'None' IS A VALUE, NOT A NULL. projects.legal_dispute_stage contains the
+      literal string "None" meaning "no dispute on file" — it is ordinal level 0
+      in the Phase 2 encoding. pandas read it as NaN and the load failed on a
+      NOT NULL constraint. seed.py now restores it explicitly. PHASE 2 MUST NOT
+      REINTRODUCE THIS BUG when it reads the same CSV.
+
+  D8  spatial_index=False on every GeoAlchemy2 Geometry column. GeoAlchemy2
+      creates its own idx_<table>_geom automatically, which duplicated the
+      explicit GiST indexes (six indexes for three columns). Explicit index,
+      auto-index off.
+
+  D9  succession_risk.csv IS LOADED AS A TABLE (362 rows, one per parcel with a
+      claim). It is application data, never a model input — that decision is
+      unchanged and re-stated in C.4 below.
+
+B.4  BUGS FOUND AND FIXED DURING THE BUILD
+  1. projects.legal_dispute_stage NOT NULL violation — see D7.
+  2. succession_claims.verification_status is 25 characters at its longest;
+     the column was declared VARCHAR(24). Widened to 32.
+  3. Duplicate GiST indexes — see D8.
+  4. issue_resolutions returned zero cleared dates for five of six issue
+     classes — see D3/D4. This was the substantive find of the session.
+
+B.5  BLOCKERS AND UNRESOLVED ITEMS
+  U1  `docker compose up -d db` WAS NOT RUN AND IS NOT VERIFIED.
+      The build session could not pull postgis/postgis:16-3.4 (the image
+      registry was unreachable from it). Everything else was verified against a
+      REAL PostgreSQL 16.13 + PostGIS 3.4.2 server, which is the same major
+      version pair the compose file pins, but the container itself is untested.
+      ACTION FOR THE USER, before Phase 2 work depends on it:
+          docker compose up -d db
+          docker compose ps          # expect: db  healthy
+          alembic upgrade head
+          python scripts/seed.py
+          psql "$DATABASE_URL" -f scripts/verify_phase1.sql
+      All seven other checkboxes are verified — output is in C.6.
+      NOTE: docker-compose.yml maps host port 5432. If a local Postgres is
+      already listening there, change the host side of the mapping and the port
+      in .env together.
+
+  U2  DISTRICT BOUNDARIES ARE CONVEX HULLS, NOT REAL BOUNDARIES (D5).
+      Good enough for a choropleth and for the "pin inside its own district"
+      check, which passes for all 900 projects. If a real district GeoJSON is
+      obtained before Wednesday 2026-08-26, replace the polygons via a new
+      migration and set source = 'survey-of-india' — no schema change needed.
+      A judge asking "are these real boundaries" must be told no.
+
+  U3  status_log CARRIES DESK HISTORY WITHIN THE CURRENT STAGE ONLY (D3).
+      This directly constrains Phase 5's SLA / stuck-file clock (N7): the clock
+      can honestly say "at the Tehsildar desk 47 days, within the Compensation
+      Disbursement stage, having passed through R&R Cell, Legal Cell, Treasury,
+      Collector and RDO" — a full desk trail. It CANNOT say how long the project
+      spent in a previous STAGE. Design the N7 panel around desks, not stages.
+
+--------------------------------------------------------------------------------
+PART C — HANDOFF: EVERYTHING A COLD SESSION NEEDS
+--------------------------------------------------------------------------------
+
+C.1  LOCKED DECISIONS — DO NOT RE-OPEN
+  Product name .......... BhoomiRakshak
+  Project primary key ... ULPIN, 14-digit DILRMP format, e.g. 36-027-018-816317.
+                          SETTLED. Do not question it again.
+  Officer ID ............ TN-LAO-2024-0456 (field) / TN-DC-2019-0012 (admin)
+  Audience .............. GOVERNMENT ONLY. No citizen layer, not even read-only.
+  Database .............. Real PostgreSQL 16 + PostGIS 3. NOT CSV/pandas.
+  Login ................. username + password + CAPTCHA (user decision)
+  Alerts ................ Real SMTP email, logged in-app fallback
+  Label meaning ......... "will become overdue" — train on the 600 closed
+                          projects, score the 300 ongoing ones
+  Roles ................. exactly 2: admin, officer
+  Governing spec ........ SIH PS PLAN VERSION.pdf, reconciled 2026-08-23.
+                          NO PDF FEATURE MAY BE DROPPED. If time is lost, reduce
+                          DEPTH, never remove a feature.
+  Conventions ........... routers thin / services fat; no DB access outside
+                          backend/app/services/; Pydantic request AND response
+                          schema on every endpoint, no bare dicts; every FK
+                          indexed; every geometry column GiST; no TODO
+                          placeholders in committed code; secrets only in local
+                          .env.
+  Dates ................. absolute, never relative.
+
+C.2  TECH STACK — FIXED
+  PostgreSQL 16 + PostGIS 3 · FastAPI (Python 3.11) · SQLAlchemy 2.x ·
+  Pydantic v2 · Alembic · XGBoost/LightGBM · SHAP TreeExplainer ·
+  rule map + google/flan-t5-base · React 18 + Vite + Recharts + Leaflet ·
+  JWT with role + district claims · SMTP + webhook alerts.
+
+C.3  ENVIRONMENT STATE AS OF 2026-08-23
+  .env EXISTS at the repo root, gitignored, with POSTGRES_HOST/PORT/DB/USER/
+  PASSWORD and DATABASE_URL filled. Everything else is still
+  ENTER_YOUR_VALUE_HERE. Phase 2 fills nothing; it WRITES the values that
+  ACTIVE_MODEL_VERSION and MODEL_REGISTRY_PATH will take (CLAUDE.md's schedule
+  says Phase 4 for those variables; set them when the first artifact exists).
+  DATABASE_URL form:
+      postgresql+psycopg://lade:<password>@localhost:5432/lade
+  Python packages needed for Phase 1 tooling (already listed in
+  backend/requirements.txt): alembic, sqlalchemy, psycopg[binary], geoalchemy2,
+  passlib[bcrypt], pandas, python-dotenv.
+  No venv is committed. No node_modules. No model artifacts yet.
+
+  TO BRING THE DATABASE UP FROM NOTHING:
+      docker compose up -d db
+      alembic upgrade head
+      python scripts/seed.py --truncate
+      psql "$DATABASE_URL" -f scripts/verify_phase1.sql
+
+C.4  WHAT IS IN THE DATABASE NOW
+  Tables (13 domain + district_boundaries + alembic_version + PostGIS internals):
+    admin_units ............ 768   village-level, with POINT geom
+    district_boundaries .... 32    DERIVED convex hulls, source column says so
+    officers ............... 41    32 LAOs (role=officer), 9 admins
+                                   (8 Collectors + 1 nodal). bcrypt hashes.
+    projects ............... 900   600 closed (is_delayed populated) /
+                                   300 ongoing (is_delayed NULL). POINT geom.
+    risk_history ........... 4,500 5 snapshots per project
+    status_log ............. 4,518 desk chain within the CURRENT stage (see U3)
+    succession_claims ...... 927   over 362 parcels
+    succession_risk ........ 362   band + stated reason per parcel
+    project_dependencies ... 628   edges (SYNTHETIC — say so to judges)
+    risk_scores ............ 0     Phase 3 batch scoring writes these
+    risk_reasons ........... 0     Phase 3 writes top-3 SHAP factors per score
+    recommendations ........ 0     Phase 6 writes these
+    alerts ................. 0     Phase 7 writes these
+    annotations ............ 0     Phase 7 writes these
+    audit_log .............. 0     Phase 3 middleware writes these
+  View:
+    issue_resolutions ...... 5,400 rows (900 projects x 6 issue classes), with
+                             columns: ulpin, issue_class, issue_label,
+                             sort_order, current_stage, status, cleared_on,
+                             is_cleared, days_from_notification, evidence.
+
+  SUCCESSION IS AN APPLICATION FEATURE, NEVER A MODEL INPUT. The band is a
+  deterministic rule, identical in generate_dataset.py and (from Phase 3) the
+  backend service:
+    High   — any contested claim, OR claimed shares total > 105% of the parcel
+    Medium — any undocumented claim, OR more than 2 heirs on one parcel
+    Low    — every heirship claim documented
+  Spread: 134 High / 167 Medium / 61 Low.
+
+C.5  TWO RULES THE PHASE 2 TRAINING CODE MUST FOLLOW
+  RULE 1 — MANDATORY DROP-LIST. Never feed these to either model:
+    ulpin, project_name, latent_risk_audit, top_driver_audit, is_delayed,
+    delay_stage, historical_delay_days, actual_completion_date,
+    assigned_field_officer_id, notification_date, expected_completion_date,
+    is_closed_project, planned_duration_days, taluk, village
+  latent_risk_audit and top_driver_audit are the generator's own ground truth
+  and WILL leak. A unit test must assert no drop-list column reaches the feature
+  matrix.
+
+  RULE 2 — ENCODE ORDINALS EXPLICITLY. pandas cat.codes sorts alphabetically and
+  flattens these to zero importance. Verified importances with correct ordering:
+  title_clarity_status 0.057, legal_dispute_stage 0.071.
+    title_clarity_status ... Clear 0, Partial 1, Disputed 2
+    legal_dispute_stage .... None 0, Resolved 1, Filed 2, Under Hearing 3,
+                             Stayed by Court 4     ("None" is a VALUE — see D7)
+    clearances ............. Not Required 0, Obtained 0, Applied 1, Pending 2
+    approval_stage ......... Possession Taken 0, R&R Implementation 1,
+                             Compensation Disbursement 2, Award Declared 3,
+                             Section 11 Notification Issued 4, SIA Completed 5
+    one-hot ................ project_type, implementing_agency, state, district
+
+C.6  PHASE 1 EXIT CRITERION — VERIFIED OUTPUT, 2026-08-23
+  Verified against PostgreSQL 16.13 / PostGIS 3.4.2.
+
+  [ ] docker compose up -d db starts a healthy PostGIS container
+        NOT VERIFIED — see U1. The user must run it. `docker compose config db`
+        parses cleanly and pins postgis/postgis:16-3.4 with a pg_isready
+        healthcheck.
+  [x] alembic upgrade head applies cleanly from an empty database
+        0001 -> 0002 -> 0003, run three times from `alembic downgrade base`.
+  [x] python scripts/seed.py loads, with zero integrity errors:
+        admin_units 768 · officers 41 · projects 900 · risk_history 4500 ·
+        status_log 4518 · succession_claims 927 · succession_risk 362 ·
+        project_dependencies 628
+  [x] SELECT ST_AsText(geom) FROM projects LIMIT 1
+        -> POINT(82.19365 21.99939), ulpin 22-014-018-128587, district Bilaspur,
+           ST_Within(project.geom, its own district polygon) = true.
+        Offenders across all 900 projects: 0.
+  [x] state statistics query
+        8 states · 32 districts · 128 tehsildars · 768 villages · 256 RI circles
+        · 2,293,187 plots · 1,612,419 khatiyans · 573,899 tenants     -> PASS
+  [x] every officer row carries a bcrypt hash, no SHA-256 survives
+        bcrypt_rows 41 · sha256_rows 0. Round-trip checked: verify(correct
+        password) True, verify(wrong password) False, for one officer and one
+        admin.
+  [x] issue_resolutions returns at least one cleared date for a closed project
+        1,738 dated clearances across the 600 closed projects. Example
+        09-002-004-284613: notification 2022-03-24, objection 2022-06-09,
+        award 2022-03-24, compensation OPEN, R&R not reached,
+        possession 2023-09-14.
+  [x] every foreign key has an index — unindexed_fks = 0
+  [x] every geometry column has a GiST index — exactly 3, no duplicates
+
+C.7  WHAT PHASE 2 MUST BUILD — ML CORE
+  Reference: PROJECT_PLAN.md "Phase 2 — ML core". Budget ~5 h, Monday
+  2026-08-24 afternoon. Deliverables:
+
+  1. ml/src/features/ — ONE feature-definition module, imported by both training
+     and (from Phase 3) serving. Enforces the C.5 drop-list and the C.5 explicit
+     ordinal encodings. This module is the single source of truth for the feature
+     matrix; the backend must never rebuild features itself.
+  2. Model A — XGBoost binary `is_delayed`, trained on the 600 closed projects
+     ONLY, with calibrated probability output.
+  3. Model B — XGBoost 5-class `delay_stage`, conditional on delay
+     (Compensation / Legal / R&R / Ownership-Title / Administrative).
+  4. Derived scores computed per project and persisted: compensation-gap index,
+     litigation-propensity score, succession risk (the C.4 rule, reimplemented
+     identically — it must never disagree with the seeded succession_risk table).
+  5. ml/src/explainability/ — shap.TreeExplainer; a function
+     project_row -> top-N factors with signed contribution %; and a reason-code
+     map turning feature names into officer language, e.g.
+     compensation_gap_pct -> "Compensation offered is 34% below the circle-rate
+     benchmark". The map's output lands in risk_reasons.display_label in Phase 3.
+  6. ml/src/evaluation/ — CV report card written to ml/experiments/: AUC,
+     accuracy, confusion matrix, per-state slice, calibration curve.
+  7. Artifacts written to the registry with a version string; set
+     ACTIVE_MODEL_VERSION and MODEL_REGISTRY_PATH in .env.
+
+  Data source note: read the CSVs in ml/data/, or read from Postgres — either is
+  acceptable, but if reading the CSVs, restore legal_dispute_stage 'None'
+  (D7) or the encoding silently loses a level.
+
+  PHASE 2 BINARY EXIT CRITERION:
+    `python -m ml.src.training.train` produces two versioned artifacts and a
+    report card showing AUC >= 0.85 and stage accuracy >= 2x the majority
+    baseline; the SHAP function returns sensible top-3 factors for three
+    hand-picked projects; and a unit test asserts no drop-list column appears in
+    the feature matrix.
+  Phase 0 already demonstrated these numbers are reachable on this dataset:
+  binary AUC 0.925 / accuracy 0.848, 5-class stage accuracy 0.679 against a
+  0.347 majority baseline.
+
+C.8  PHASE-GATING PROTOCOL — MANDATORY
+  1. Execute ONE phase at a time.
+  2. A phase is done only when its binary exit criterion is VERIFIED by running
+     it and showing the output — not when work was done on it.
+  3. End the phase with docs/handover/handover_phase_3.txt in this structure:
+     Part A project summary + status + phase just completed; Part B what the
+     session accomplished (decisions, files created/modified, blockers);
+     Part C a self-contained handoff.
+  4. STOP and WAIT for the user to confirm receipt before starting Phase 3.
+  5. Update "## Current Phase" in CLAUDE.md at the same time.
+  6. Absolute dates everywhere.
+
+C.9  RISKS CARRIED FORWARD
+  R1 SCHEDULE. Phases 1-8 total ~46 h against ~45-50 realistic person-hours over
+     three days. No slack, no padding. If time is lost, reduce DEPTH (cascading
+     impact as a static badge rather than a graph view; benchmarking as one
+     comparison line rather than a chart) — never drop a feature. Make that call
+     Wednesday 2026-08-26 at 09:00, not at 23:00.
+  R2 FLAN-T5 is the only live-inference dependency and powers three features
+     (recommendation narrative N4, NL query phrasing N6, weekly brief N10). All
+     three MUST degrade to deterministic rule/template output. Build the fallback
+     first, the LLM second. The demo must render correctly with the model off.
+  R3 TRAINING DATA IS SYNTHETIC. Say it before a judge asks. No public
+     land-acquisition delay-risk dataset exists in India — that absence IS the
+     novelty argument. The generator is grounded in LARR Act 2013 parameters and
+     DILRMP/ULPIN structure. The two fields no government schema captures
+     (circle-rate gap, ownership fragmentation) are a deployment recommendation,
+     not a defect.
+  R4 (NEW) DISTRICT POLYGONS ARE DERIVED CONVEX HULLS, not survey boundaries
+     (D5/U2). Label them in the UI and answer honestly if asked.
+  R5 (NEW) status_log HAS NO CROSS-STAGE HISTORY (D3/U3). Phase 5's SLA clock
+     must be built around DESKS within the current stage. Do not promise a
+     stage-duration chart the data cannot support.
+
+C.10 KEY FILES TO READ ON ARRIVAL, IN THIS ORDER
+  1. CLAUDE.md ............................ the operating contract, governs all
+  2. PROJECT_PLAN.md ...................... phases + full traceability matrix
+  3. this file ............................ Phase 1 state and its consequences
+  4. docs/research/dataset-audit.md ....... the data, its defects, its fixes
+  5. docs/design/scope.md ................. what is in and out, and why
+  6. FOLDER_STRUCTURE.md .................. directory boundaries (binding)
+
+================================================================================
+END OF HANDOVER — PHASE 1 COMPLETE
+================================================================================

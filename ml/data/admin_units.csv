@@ -1,0 +1,769 @@
+state,state_code,district,district_code,taluk,taluk_code,village,village_code,latitude,longitude,no_plots,no_khatiyans,no_tenants,ri_circle,revenue_inspector,tehsildar
+Chhattisgarh,22,Bilaspur,014,Bilaspur North,01,Rampur,001,22.11822,82.22157,2823,1948,1098,Bilaspur RI Circle 1,RI-22014-01,Tehsildar Bilaspur North
+Chhattisgarh,22,Bilaspur,014,Bilaspur North,01,Kothapalli,002,22.13815,82.20012,515,329,179,Bilaspur RI Circle 1,RI-22014-01,Tehsildar Bilaspur North
+Chhattisgarh,22,Bilaspur,014,Bilaspur North,01,Ganeshpura,003,22.03095,82.01436,2566,1715,489,Bilaspur RI Circle 1,RI-22014-01,Tehsildar Bilaspur North
+Chhattisgarh,22,Bilaspur,014,Bilaspur North,01,Bhimnagar,004,22.12584,82.21058,2873,2373,383,Bilaspur RI Circle 2,RI-22014-02,Tehsildar Bilaspur North
+Chhattisgarh,22,Bilaspur,014,Bilaspur North,01,Sultanpur,005,22.176,82.16065,2230,1805,235,Bilaspur RI Circle 2,RI-22014-02,Tehsildar Bilaspur North
+Chhattisgarh,22,Bilaspur,014,Bilaspur North,01,Devgaon,006,22.09827,82.19291,1084,649,377,Bilaspur RI Circle 2,RI-22014-02,Tehsildar Bilaspur North
+Chhattisgarh,22,Bilaspur,014,Bilaspur South,02,Chandrapalli,007,22.07483,82.12939,2803,2206,1027,Bilaspur RI Circle 3,RI-22014-03,Tehsildar Bilaspur South
+Chhattisgarh,22,Bilaspur,014,Bilaspur South,02,Narsapur,008,22.07113,82.08163,600,393,154,Bilaspur RI Circle 3,RI-22014-03,Tehsildar Bilaspur South
+Chhattisgarh,22,Bilaspur,014,Bilaspur South,02,Basavanahalli,009,22.01899,82.03439,1847,1542,611,Bilaspur RI Circle 3,RI-22014-03,Tehsildar Bilaspur South
+Chhattisgarh,22,Bilaspur,014,Bilaspur South,02,Mallapuram,010,22.08781,82.2076,566,354,86,Bilaspur RI Circle 4,RI-22014-04,Tehsildar Bilaspur South
+Chhattisgarh,22,Bilaspur,014,Bilaspur South,02,Amrapur,011,21.88938,82.10193,2781,2166,616,Bilaspur RI Circle 4,RI-22014-04,Tehsildar Bilaspur South
+Chhattisgarh,22,Bilaspur,014,Bilaspur South,02,Jaitpur,012,22.04497,82.07168,745,593,97,Bilaspur RI Circle 4,RI-22014-04,Tehsildar Bilaspur South
+Chhattisgarh,22,Bilaspur,014,Bilaspur East,03,Kesarpur,013,22.14853,82.08646,2703,2078,1058,Bilaspur RI Circle 5,RI-22014-05,Tehsildar Bilaspur East
+Chhattisgarh,22,Bilaspur,014,Bilaspur East,03,Lakshmipura,014,22.02936,82.12321,1921,1310,376,Bilaspur RI Circle 5,RI-22014-05,Tehsildar Bilaspur East
+Chhattisgarh,22,Bilaspur,014,Bilaspur East,03,Madhavgarh,015,22.05641,81.93091,1278,930,204,Bilaspur RI Circle 5,RI-22014-05,Tehsildar Bilaspur East
+Chhattisgarh,22,Bilaspur,014,Bilaspur East,03,Nandgaon,016,22.10177,82.19446,2644,1584,268,Bilaspur RI Circle 6,RI-22014-06,Tehsildar Bilaspur East
+Chhattisgarh,22,Bilaspur,014,Bilaspur East,03,Peddapalli,017,22.05954,82.08231,2751,1649,481,Bilaspur RI Circle 6,RI-22014-06,Tehsildar Bilaspur East
+Chhattisgarh,22,Bilaspur,014,Bilaspur East,03,Raghunathpur,018,21.99333,82.20219,1887,1146,606,Bilaspur RI Circle 6,RI-22014-06,Tehsildar Bilaspur East
+Chhattisgarh,22,Bilaspur,014,Bilaspur West,04,Shivnagar,019,21.90402,82.16093,698,553,169,Bilaspur RI Circle 7,RI-22014-07,Tehsildar Bilaspur West
+Chhattisgarh,22,Bilaspur,014,Bilaspur West,04,Tarapur,020,22.14823,82.24153,2354,1304,512,Bilaspur RI Circle 7,RI-22014-07,Tehsildar Bilaspur West
+Chhattisgarh,22,Bilaspur,014,Bilaspur West,04,Uttanahalli,021,22.20281,82.10256,2409,1986,581,Bilaspur RI Circle 7,RI-22014-07,Tehsildar Bilaspur West
+Chhattisgarh,22,Bilaspur,014,Bilaspur West,04,Veerapuram,022,22.29904,82.21946,2052,1635,494,Bilaspur RI Circle 8,RI-22014-08,Tehsildar Bilaspur West
+Chhattisgarh,22,Bilaspur,014,Bilaspur West,04,Yellapur,023,22.02061,82.2063,2281,1467,346,Bilaspur RI Circle 8,RI-22014-08,Tehsildar Bilaspur West
+Chhattisgarh,22,Bilaspur,014,Bilaspur West,04,Zamania,024,22.11069,81.91439,2797,2096,1102,Bilaspur RI Circle 8,RI-22014-08,Tehsildar Bilaspur West
+Chhattisgarh,22,Durg,009,Durg North,01,Rampur,001,21.28674,81.41454,2195,1562,392,Durg RI Circle 1,RI-22009-01,Tehsildar Durg North
+Chhattisgarh,22,Durg,009,Durg North,01,Kothapalli,002,21.16965,81.30944,537,431,90,Durg RI Circle 1,RI-22009-01,Tehsildar Durg North
+Chhattisgarh,22,Durg,009,Durg North,01,Ganeshpura,003,21.32285,81.3109,2143,1556,326,Durg RI Circle 1,RI-22009-01,Tehsildar Durg North
+Chhattisgarh,22,Durg,009,Durg North,01,Bhimnagar,004,21.36378,81.22874,1356,1047,329,Durg RI Circle 2,RI-22009-02,Tehsildar Durg North
+Chhattisgarh,22,Durg,009,Durg North,01,Sultanpur,005,21.12167,81.22517,3182,2543,561,Durg RI Circle 2,RI-22009-02,Tehsildar Durg North
+Chhattisgarh,22,Durg,009,Durg North,01,Devgaon,006,21.14733,81.26424,993,653,326,Durg RI Circle 2,RI-22009-02,Tehsildar Durg North
+Chhattisgarh,22,Durg,009,Durg South,02,Chandrapalli,007,21.28159,81.19339,468,281,146,Durg RI Circle 3,RI-22009-03,Tehsildar Durg South
+Chhattisgarh,22,Durg,009,Durg South,02,Narsapur,008,21.1395,81.18909,1311,971,249,Durg RI Circle 3,RI-22009-03,Tehsildar Durg South
+Chhattisgarh,22,Durg,009,Durg South,02,Basavanahalli,009,20.99443,81.21695,1925,1200,220,Durg RI Circle 3,RI-22009-03,Tehsildar Durg South
+Chhattisgarh,22,Durg,009,Durg South,02,Mallapuram,010,21.25027,81.15799,2674,2152,828,Durg RI Circle 4,RI-22009-04,Tehsildar Durg South
+Chhattisgarh,22,Durg,009,Durg South,02,Amrapur,011,21.19447,81.48157,416,257,138,Durg RI Circle 4,RI-22009-04,Tehsildar Durg South
+Chhattisgarh,22,Durg,009,Durg South,02,Jaitpur,012,21.30799,81.44292,1702,1002,557,Durg RI Circle 4,RI-22009-04,Tehsildar Durg South
+Chhattisgarh,22,Durg,009,Durg East,03,Kesarpur,013,21.30822,81.2804,2637,1597,398,Durg RI Circle 5,RI-22009-05,Tehsildar Durg East
+Chhattisgarh,22,Durg,009,Durg East,03,Lakshmipura,014,21.25053,81.26174,595,443,134,Durg RI Circle 5,RI-22009-05,Tehsildar Durg East
+Chhattisgarh,22,Durg,009,Durg East,03,Madhavgarh,015,21.06499,81.21797,1662,1299,492,Durg RI Circle 5,RI-22009-05,Tehsildar Durg East
+Chhattisgarh,22,Durg,009,Durg East,03,Nandgaon,016,21.19182,81.21508,2964,1816,897,Durg RI Circle 6,RI-22009-06,Tehsildar Durg East
+Chhattisgarh,22,Durg,009,Durg East,03,Peddapalli,017,21.13364,81.27444,2118,1179,653,Durg RI Circle 6,RI-22009-06,Tehsildar Durg East
+Chhattisgarh,22,Durg,009,Durg East,03,Raghunathpur,018,21.07504,81.42807,706,474,136,Durg RI Circle 6,RI-22009-06,Tehsildar Durg East
+Chhattisgarh,22,Durg,009,Durg West,04,Shivnagar,019,21.10095,81.33165,3095,2178,711,Durg RI Circle 7,RI-22009-07,Tehsildar Durg West
+Chhattisgarh,22,Durg,009,Durg West,04,Tarapur,020,21.14022,81.49679,1350,874,201,Durg RI Circle 7,RI-22009-07,Tehsildar Durg West
+Chhattisgarh,22,Durg,009,Durg West,04,Uttanahalli,021,21.24262,81.23183,2841,1579,306,Durg RI Circle 7,RI-22009-07,Tehsildar Durg West
+Chhattisgarh,22,Durg,009,Durg West,04,Veerapuram,022,21.27631,81.27848,545,403,140,Durg RI Circle 8,RI-22009-08,Tehsildar Durg West
+Chhattisgarh,22,Durg,009,Durg West,04,Yellapur,023,21.09458,81.22873,1543,937,173,Durg RI Circle 8,RI-22009-08,Tehsildar Durg West
+Chhattisgarh,22,Durg,009,Durg West,04,Zamania,024,21.27263,81.34174,543,347,152,Durg RI Circle 8,RI-22009-08,Tehsildar Durg West
+Chhattisgarh,22,Korba,018,Korba North,01,Rampur,001,22.40253,82.60156,1257,880,471,Korba RI Circle 1,RI-22018-01,Tehsildar Korba North
+Chhattisgarh,22,Korba,018,Korba North,01,Kothapalli,002,22.3009,82.50849,1592,1331,428,Korba RI Circle 1,RI-22018-01,Tehsildar Korba North
+Chhattisgarh,22,Korba,018,Korba North,01,Ganeshpura,003,22.31729,82.75565,1828,1024,396,Korba RI Circle 1,RI-22018-01,Tehsildar Korba North
+Chhattisgarh,22,Korba,018,Korba North,01,Bhimnagar,004,22.24891,82.85,1955,1080,514,Korba RI Circle 2,RI-22018-02,Tehsildar Korba North
+Chhattisgarh,22,Korba,018,Korba North,01,Sultanpur,005,22.36041,82.59959,2933,2373,504,Korba RI Circle 2,RI-22018-02,Tehsildar Korba North
+Chhattisgarh,22,Korba,018,Korba North,01,Devgaon,006,22.13841,82.63281,867,651,104,Korba RI Circle 2,RI-22018-02,Tehsildar Korba North
+Chhattisgarh,22,Korba,018,Korba South,02,Chandrapalli,007,22.44035,82.54043,1849,1428,457,Korba RI Circle 3,RI-22018-03,Tehsildar Korba South
+Chhattisgarh,22,Korba,018,Korba South,02,Narsapur,008,22.3158,82.6317,1987,1509,591,Korba RI Circle 3,RI-22018-03,Tehsildar Korba South
+Chhattisgarh,22,Korba,018,Korba South,02,Basavanahalli,009,22.29579,82.56171,1506,980,369,Korba RI Circle 3,RI-22018-03,Tehsildar Korba South
+Chhattisgarh,22,Korba,018,Korba South,02,Mallapuram,010,22.23411,82.70721,1340,957,160,Korba RI Circle 4,RI-22018-04,Tehsildar Korba South
+Chhattisgarh,22,Korba,018,Korba South,02,Amrapur,011,22.22448,82.58917,954,638,230,Korba RI Circle 4,RI-22018-04,Tehsildar Korba South
+Chhattisgarh,22,Korba,018,Korba South,02,Jaitpur,012,22.45701,82.62421,2885,1608,454,Korba RI Circle 4,RI-22018-04,Tehsildar Korba South
+Chhattisgarh,22,Korba,018,Korba East,03,Kesarpur,013,22.39653,82.52423,720,558,137,Korba RI Circle 5,RI-22018-05,Tehsildar Korba East
+Chhattisgarh,22,Korba,018,Korba East,03,Lakshmipura,014,22.34964,82.68487,2783,1824,477,Korba RI Circle 5,RI-22018-05,Tehsildar Korba East
+Chhattisgarh,22,Korba,018,Korba East,03,Madhavgarh,015,22.3624,82.68748,2409,1349,823,Korba RI Circle 5,RI-22018-05,Tehsildar Korba East
+Chhattisgarh,22,Korba,018,Korba East,03,Nandgaon,016,22.23161,82.72121,2181,1661,728,Korba RI Circle 6,RI-22018-06,Tehsildar Korba East
+Chhattisgarh,22,Korba,018,Korba East,03,Peddapalli,017,22.38634,82.66093,1439,999,529,Korba RI Circle 6,RI-22018-06,Tehsildar Korba East
+Chhattisgarh,22,Korba,018,Korba East,03,Raghunathpur,018,22.29258,82.61332,2734,2045,592,Korba RI Circle 6,RI-22018-06,Tehsildar Korba East
+Chhattisgarh,22,Korba,018,Korba West,04,Shivnagar,019,22.2028,82.71639,642,453,192,Korba RI Circle 7,RI-22018-07,Tehsildar Korba West
+Chhattisgarh,22,Korba,018,Korba West,04,Tarapur,020,22.36536,82.58517,1782,1382,346,Korba RI Circle 7,RI-22018-07,Tehsildar Korba West
+Chhattisgarh,22,Korba,018,Korba West,04,Uttanahalli,021,22.32104,82.67493,1566,993,312,Korba RI Circle 7,RI-22018-07,Tehsildar Korba West
+Chhattisgarh,22,Korba,018,Korba West,04,Veerapuram,022,22.48455,82.8215,870,676,97,Korba RI Circle 8,RI-22018-08,Tehsildar Korba West
+Chhattisgarh,22,Korba,018,Korba West,04,Yellapur,023,22.29651,82.58709,440,310,134,Korba RI Circle 8,RI-22018-08,Tehsildar Korba West
+Chhattisgarh,22,Korba,018,Korba West,04,Zamania,024,22.49421,82.82048,2997,1995,447,Korba RI Circle 8,RI-22018-08,Tehsildar Korba West
+Chhattisgarh,22,Raipur,002,Raipur North,01,Rampur,001,21.33006,81.67993,1988,1472,777,Raipur RI Circle 1,RI-22002-01,Tehsildar Raipur North
+Chhattisgarh,22,Raipur,002,Raipur North,01,Kothapalli,002,21.35381,81.74923,4004,2676,1218,Raipur RI Circle 1,RI-22002-01,Tehsildar Raipur North
+Chhattisgarh,22,Raipur,002,Raipur North,01,Ganeshpura,003,21.12181,81.48655,2407,1789,828,Raipur RI Circle 1,RI-22002-01,Tehsildar Raipur North
+Chhattisgarh,22,Raipur,002,Raipur North,01,Bhimnagar,004,21.25614,81.5112,7890,4839,2911,Raipur RI Circle 2,RI-22002-02,Tehsildar Raipur North
+Chhattisgarh,22,Raipur,002,Raipur North,01,Sultanpur,005,21.41126,81.58976,2537,1558,515,Raipur RI Circle 2,RI-22002-02,Tehsildar Raipur North
+Chhattisgarh,22,Raipur,002,Raipur North,01,Devgaon,006,21.27804,81.62397,8770,7388,2163,Raipur RI Circle 2,RI-22002-02,Tehsildar Raipur North
+Chhattisgarh,22,Raipur,002,Raipur South,02,Chandrapalli,007,21.25429,81.68238,8723,7265,3269,Raipur RI Circle 3,RI-22002-03,Tehsildar Raipur South
+Chhattisgarh,22,Raipur,002,Raipur South,02,Narsapur,008,21.13326,81.75324,3847,3257,1330,Raipur RI Circle 3,RI-22002-03,Tehsildar Raipur South
+Chhattisgarh,22,Raipur,002,Raipur South,02,Basavanahalli,009,21.13634,81.6244,7554,5277,2173,Raipur RI Circle 3,RI-22002-03,Tehsildar Raipur South
+Chhattisgarh,22,Raipur,002,Raipur South,02,Mallapuram,010,21.22226,81.50794,3266,1892,1019,Raipur RI Circle 4,RI-22002-04,Tehsildar Raipur South
+Chhattisgarh,22,Raipur,002,Raipur South,02,Amrapur,011,21.33082,81.57844,4197,2926,1623,Raipur RI Circle 4,RI-22002-04,Tehsildar Raipur South
+Chhattisgarh,22,Raipur,002,Raipur South,02,Jaitpur,012,21.20963,81.43596,2524,1897,825,Raipur RI Circle 4,RI-22002-04,Tehsildar Raipur South
+Chhattisgarh,22,Raipur,002,Raipur East,03,Kesarpur,013,21.28237,81.61701,7090,4595,1273,Raipur RI Circle 5,RI-22002-05,Tehsildar Raipur East
+Chhattisgarh,22,Raipur,002,Raipur East,03,Lakshmipura,014,21.24777,81.51086,5020,2820,1341,Raipur RI Circle 5,RI-22002-05,Tehsildar Raipur East
+Chhattisgarh,22,Raipur,002,Raipur East,03,Madhavgarh,015,21.12236,81.79818,5441,3801,1097,Raipur RI Circle 5,RI-22002-05,Tehsildar Raipur East
+Chhattisgarh,22,Raipur,002,Raipur East,03,Nandgaon,016,21.24407,81.73035,8541,5290,1341,Raipur RI Circle 6,RI-22002-06,Tehsildar Raipur East
+Chhattisgarh,22,Raipur,002,Raipur East,03,Peddapalli,017,21.2292,81.47008,4507,3242,1084,Raipur RI Circle 6,RI-22002-06,Tehsildar Raipur East
+Chhattisgarh,22,Raipur,002,Raipur East,03,Raghunathpur,018,21.3603,81.60454,7157,5557,956,Raipur RI Circle 6,RI-22002-06,Tehsildar Raipur East
+Chhattisgarh,22,Raipur,002,Raipur West,04,Shivnagar,019,21.21129,81.52297,6250,3581,1490,Raipur RI Circle 7,RI-22002-07,Tehsildar Raipur West
+Chhattisgarh,22,Raipur,002,Raipur West,04,Tarapur,020,21.3653,81.70228,7262,6140,1499,Raipur RI Circle 7,RI-22002-07,Tehsildar Raipur West
+Chhattisgarh,22,Raipur,002,Raipur West,04,Uttanahalli,021,21.11396,81.71393,6627,4828,1892,Raipur RI Circle 7,RI-22002-07,Tehsildar Raipur West
+Chhattisgarh,22,Raipur,002,Raipur West,04,Veerapuram,022,21.32804,81.51699,5877,3297,2179,Raipur RI Circle 8,RI-22002-08,Tehsildar Raipur West
+Chhattisgarh,22,Raipur,002,Raipur West,04,Yellapur,023,21.24394,81.50143,6831,5087,2174,Raipur RI Circle 8,RI-22002-08,Tehsildar Raipur West
+Chhattisgarh,22,Raipur,002,Raipur West,04,Zamania,024,21.17161,81.57862,7205,4759,1973,Raipur RI Circle 8,RI-22002-08,Tehsildar Raipur West
+Karnataka,29,Belagavi,022,Belagavi North,01,Rampur,001,15.92991,74.44069,889,698,279,Belagavi RI Circle 1,RI-29022-01,Tehsildar Belagavi North
+Karnataka,29,Belagavi,022,Belagavi North,01,Kothapalli,002,15.8078,74.379,2156,1767,631,Belagavi RI Circle 1,RI-29022-01,Tehsildar Belagavi North
+Karnataka,29,Belagavi,022,Belagavi North,01,Ganeshpura,003,15.86062,74.36332,795,574,309,Belagavi RI Circle 1,RI-29022-01,Tehsildar Belagavi North
+Karnataka,29,Belagavi,022,Belagavi North,01,Bhimnagar,004,15.90259,74.61576,1535,986,523,Belagavi RI Circle 2,RI-29022-02,Tehsildar Belagavi North
+Karnataka,29,Belagavi,022,Belagavi North,01,Sultanpur,005,15.72351,74.45224,1327,970,204,Belagavi RI Circle 2,RI-29022-02,Tehsildar Belagavi North
+Karnataka,29,Belagavi,022,Belagavi North,01,Devgaon,006,15.74214,74.55861,1944,1501,588,Belagavi RI Circle 2,RI-29022-02,Tehsildar Belagavi North
+Karnataka,29,Belagavi,022,Belagavi South,02,Chandrapalli,007,15.77867,74.49679,2983,2439,337,Belagavi RI Circle 3,RI-29022-03,Tehsildar Belagavi South
+Karnataka,29,Belagavi,022,Belagavi South,02,Narsapur,008,15.94586,74.44584,1167,736,433,Belagavi RI Circle 3,RI-29022-03,Tehsildar Belagavi South
+Karnataka,29,Belagavi,022,Belagavi South,02,Basavanahalli,009,15.92274,74.49631,953,767,105,Belagavi RI Circle 3,RI-29022-03,Tehsildar Belagavi South
+Karnataka,29,Belagavi,022,Belagavi South,02,Mallapuram,010,15.91341,74.39175,957,582,351,Belagavi RI Circle 4,RI-29022-04,Tehsildar Belagavi South
+Karnataka,29,Belagavi,022,Belagavi South,02,Amrapur,011,15.95737,74.29614,3019,1984,1189,Belagavi RI Circle 4,RI-29022-04,Tehsildar Belagavi South
+Karnataka,29,Belagavi,022,Belagavi South,02,Jaitpur,012,16.03829,74.65481,1779,1176,673,Belagavi RI Circle 4,RI-29022-04,Tehsildar Belagavi South
+Karnataka,29,Belagavi,022,Belagavi East,03,Kesarpur,013,15.87808,74.33145,2810,2268,653,Belagavi RI Circle 5,RI-29022-05,Tehsildar Belagavi East
+Karnataka,29,Belagavi,022,Belagavi East,03,Lakshmipura,014,15.74641,74.4227,1374,833,458,Belagavi RI Circle 5,RI-29022-05,Tehsildar Belagavi East
+Karnataka,29,Belagavi,022,Belagavi East,03,Madhavgarh,015,15.81201,74.48959,1454,1226,226,Belagavi RI Circle 5,RI-29022-05,Tehsildar Belagavi East
+Karnataka,29,Belagavi,022,Belagavi East,03,Nandgaon,016,15.82195,74.47166,3080,1978,402,Belagavi RI Circle 6,RI-29022-06,Tehsildar Belagavi East
+Karnataka,29,Belagavi,022,Belagavi East,03,Peddapalli,017,15.93103,74.53229,2736,1960,1045,Belagavi RI Circle 6,RI-29022-06,Tehsildar Belagavi East
+Karnataka,29,Belagavi,022,Belagavi East,03,Raghunathpur,018,15.9055,74.45404,2595,1863,995,Belagavi RI Circle 6,RI-29022-06,Tehsildar Belagavi East
+Karnataka,29,Belagavi,022,Belagavi West,04,Shivnagar,019,15.80768,74.59712,2924,1918,573,Belagavi RI Circle 7,RI-29022-07,Tehsildar Belagavi West
+Karnataka,29,Belagavi,022,Belagavi West,04,Tarapur,020,15.9045,74.70907,808,573,264,Belagavi RI Circle 7,RI-29022-07,Tehsildar Belagavi West
+Karnataka,29,Belagavi,022,Belagavi West,04,Uttanahalli,021,15.84024,74.65719,527,397,102,Belagavi RI Circle 7,RI-29022-07,Tehsildar Belagavi West
+Karnataka,29,Belagavi,022,Belagavi West,04,Veerapuram,022,16.11602,74.41359,2778,2243,797,Belagavi RI Circle 8,RI-29022-08,Tehsildar Belagavi West
+Karnataka,29,Belagavi,022,Belagavi West,04,Yellapur,023,15.85561,74.31964,2042,1413,596,Belagavi RI Circle 8,RI-29022-08,Tehsildar Belagavi West
+Karnataka,29,Belagavi,022,Belagavi West,04,Zamania,024,15.75834,74.52776,3191,1991,1272,Belagavi RI Circle 8,RI-29022-08,Tehsildar Belagavi West
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban North,01,Rampur,001,12.96742,77.68933,2588,1809,339,Bengaluru Urban RI Circle 1,RI-29007-01,Tehsildar Bengaluru Urban North
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban North,01,Kothapalli,002,12.81849,77.59285,3998,3215,1250,Bengaluru Urban RI Circle 1,RI-29007-01,Tehsildar Bengaluru Urban North
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban North,01,Ganeshpura,003,13.01618,77.41281,2251,1266,796,Bengaluru Urban RI Circle 1,RI-29007-01,Tehsildar Bengaluru Urban North
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban North,01,Bhimnagar,004,13.04555,77.65066,5786,3940,1193,Bengaluru Urban RI Circle 2,RI-29007-02,Tehsildar Bengaluru Urban North
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban North,01,Sultanpur,005,12.92481,77.68616,8257,5948,1463,Bengaluru Urban RI Circle 2,RI-29007-02,Tehsildar Bengaluru Urban North
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban North,01,Devgaon,006,12.96923,77.53172,4367,2621,804,Bengaluru Urban RI Circle 2,RI-29007-02,Tehsildar Bengaluru Urban North
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban South,02,Chandrapalli,007,12.98663,77.71598,8758,6363,2505,Bengaluru Urban RI Circle 3,RI-29007-03,Tehsildar Bengaluru Urban South
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban South,02,Narsapur,008,12.96029,77.66257,6949,4635,2362,Bengaluru Urban RI Circle 3,RI-29007-03,Tehsildar Bengaluru Urban South
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban South,02,Basavanahalli,009,12.72368,77.21824,8422,4772,3188,Bengaluru Urban RI Circle 3,RI-29007-03,Tehsildar Bengaluru Urban South
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban South,02,Mallapuram,010,13.05174,77.57628,5099,3135,730,Bengaluru Urban RI Circle 4,RI-29007-04,Tehsildar Bengaluru Urban South
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban South,02,Amrapur,011,12.99465,77.56078,6437,4170,2161,Bengaluru Urban RI Circle 4,RI-29007-04,Tehsildar Bengaluru Urban South
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban South,02,Jaitpur,012,12.94795,77.77984,2898,1716,974,Bengaluru Urban RI Circle 4,RI-29007-04,Tehsildar Bengaluru Urban South
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban East,03,Kesarpur,013,12.99544,77.64672,8396,5502,2712,Bengaluru Urban RI Circle 5,RI-29007-05,Tehsildar Bengaluru Urban East
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban East,03,Lakshmipura,014,13.03703,77.58837,5335,4528,1063,Bengaluru Urban RI Circle 5,RI-29007-05,Tehsildar Bengaluru Urban East
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban East,03,Madhavgarh,015,13.13217,77.43095,7811,5887,2676,Bengaluru Urban RI Circle 5,RI-29007-05,Tehsildar Bengaluru Urban East
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban East,03,Nandgaon,016,12.9453,77.56658,2228,1313,296,Bengaluru Urban RI Circle 6,RI-29007-06,Tehsildar Bengaluru Urban East
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban East,03,Peddapalli,017,12.91834,77.69352,4669,2688,1460,Bengaluru Urban RI Circle 6,RI-29007-06,Tehsildar Bengaluru Urban East
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban East,03,Raghunathpur,018,12.97147,77.46931,3002,1775,614,Bengaluru Urban RI Circle 6,RI-29007-06,Tehsildar Bengaluru Urban East
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban West,04,Shivnagar,019,12.85101,77.52364,5869,4638,1255,Bengaluru Urban RI Circle 7,RI-29007-07,Tehsildar Bengaluru Urban West
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban West,04,Tarapur,020,13.03258,77.59837,3003,1687,827,Bengaluru Urban RI Circle 7,RI-29007-07,Tehsildar Bengaluru Urban West
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban West,04,Uttanahalli,021,12.94907,77.52143,8830,6281,3001,Bengaluru Urban RI Circle 7,RI-29007-07,Tehsildar Bengaluru Urban West
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban West,04,Veerapuram,022,13.08696,77.5379,4888,3924,1028,Bengaluru Urban RI Circle 8,RI-29007-08,Tehsildar Bengaluru Urban West
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban West,04,Yellapur,023,12.88584,77.49784,7881,6361,2342,Bengaluru Urban RI Circle 8,RI-29007-08,Tehsildar Bengaluru Urban West
+Karnataka,29,Bengaluru Urban,007,Bengaluru Urban West,04,Zamania,024,12.97783,77.53321,6266,4543,785,Bengaluru Urban RI Circle 8,RI-29007-08,Tehsildar Bengaluru Urban West
+Karnataka,29,Mysuru,018,Mysuru North,01,Rampur,001,12.34414,76.71863,2512,1841,451,Mysuru RI Circle 1,RI-29018-01,Tehsildar Mysuru North
+Karnataka,29,Mysuru,018,Mysuru North,01,Kothapalli,002,12.42628,76.64935,909,506,251,Mysuru RI Circle 1,RI-29018-01,Tehsildar Mysuru North
+Karnataka,29,Mysuru,018,Mysuru North,01,Ganeshpura,003,12.43108,76.59429,3111,2070,590,Mysuru RI Circle 1,RI-29018-01,Tehsildar Mysuru North
+Karnataka,29,Mysuru,018,Mysuru North,01,Bhimnagar,004,12.35766,76.60491,487,353,161,Mysuru RI Circle 2,RI-29018-02,Tehsildar Mysuru North
+Karnataka,29,Mysuru,018,Mysuru North,01,Sultanpur,005,12.36637,76.5701,599,502,79,Mysuru RI Circle 2,RI-29018-02,Tehsildar Mysuru North
+Karnataka,29,Mysuru,018,Mysuru North,01,Devgaon,006,12.30798,76.70943,933,698,324,Mysuru RI Circle 2,RI-29018-02,Tehsildar Mysuru North
+Karnataka,29,Mysuru,018,Mysuru South,02,Chandrapalli,007,12.32498,76.64273,1175,931,272,Mysuru RI Circle 3,RI-29018-03,Tehsildar Mysuru South
+Karnataka,29,Mysuru,018,Mysuru South,02,Narsapur,008,12.33297,76.4534,471,296,79,Mysuru RI Circle 3,RI-29018-03,Tehsildar Mysuru South
+Karnataka,29,Mysuru,018,Mysuru South,02,Basavanahalli,009,12.28405,76.69093,1610,1042,448,Mysuru RI Circle 3,RI-29018-03,Tehsildar Mysuru South
+Karnataka,29,Mysuru,018,Mysuru South,02,Mallapuram,010,12.33131,76.67625,2473,2044,257,Mysuru RI Circle 4,RI-29018-04,Tehsildar Mysuru South
+Karnataka,29,Mysuru,018,Mysuru South,02,Amrapur,011,12.18712,76.67493,1060,724,288,Mysuru RI Circle 4,RI-29018-04,Tehsildar Mysuru South
+Karnataka,29,Mysuru,018,Mysuru South,02,Jaitpur,012,12.23187,76.66563,2449,1673,602,Mysuru RI Circle 4,RI-29018-04,Tehsildar Mysuru South
+Karnataka,29,Mysuru,018,Mysuru East,03,Kesarpur,013,12.27412,76.61198,1840,1132,235,Mysuru RI Circle 5,RI-29018-05,Tehsildar Mysuru East
+Karnataka,29,Mysuru,018,Mysuru East,03,Lakshmipura,014,12.06434,76.58483,1065,847,325,Mysuru RI Circle 5,RI-29018-05,Tehsildar Mysuru East
+Karnataka,29,Mysuru,018,Mysuru East,03,Madhavgarh,015,12.15764,76.68996,1595,1281,333,Mysuru RI Circle 5,RI-29018-05,Tehsildar Mysuru East
+Karnataka,29,Mysuru,018,Mysuru East,03,Nandgaon,016,12.34225,76.62276,1352,1022,530,Mysuru RI Circle 6,RI-29018-06,Tehsildar Mysuru East
+Karnataka,29,Mysuru,018,Mysuru East,03,Peddapalli,017,12.44119,76.62021,415,319,136,Mysuru RI Circle 6,RI-29018-06,Tehsildar Mysuru East
+Karnataka,29,Mysuru,018,Mysuru East,03,Raghunathpur,018,12.35074,76.59815,1910,1615,268,Mysuru RI Circle 6,RI-29018-06,Tehsildar Mysuru East
+Karnataka,29,Mysuru,018,Mysuru West,04,Shivnagar,019,12.40337,76.56847,1065,678,248,Mysuru RI Circle 7,RI-29018-07,Tehsildar Mysuru West
+Karnataka,29,Mysuru,018,Mysuru West,04,Tarapur,020,12.18069,76.89392,2838,1837,384,Mysuru RI Circle 7,RI-29018-07,Tehsildar Mysuru West
+Karnataka,29,Mysuru,018,Mysuru West,04,Uttanahalli,021,12.29831,76.52634,3055,1813,305,Mysuru RI Circle 7,RI-29018-07,Tehsildar Mysuru West
+Karnataka,29,Mysuru,018,Mysuru West,04,Veerapuram,022,12.42312,76.72551,2204,1622,853,Mysuru RI Circle 8,RI-29018-08,Tehsildar Mysuru West
+Karnataka,29,Mysuru,018,Mysuru West,04,Yellapur,023,12.36133,76.52828,1204,748,453,Mysuru RI Circle 8,RI-29018-08,Tehsildar Mysuru West
+Karnataka,29,Mysuru,018,Mysuru West,04,Zamania,024,12.25358,76.6064,1874,1074,205,Mysuru RI Circle 8,RI-29018-08,Tehsildar Mysuru West
+Karnataka,29,Tumakuru,009,Tumakuru North,01,Rampur,001,13.30001,77.19014,1014,743,259,Tumakuru RI Circle 1,RI-29009-01,Tehsildar Tumakuru North
+Karnataka,29,Tumakuru,009,Tumakuru North,01,Kothapalli,002,13.34002,77.02957,2777,2063,958,Tumakuru RI Circle 1,RI-29009-01,Tehsildar Tumakuru North
+Karnataka,29,Tumakuru,009,Tumakuru North,01,Ganeshpura,003,13.53808,77.27139,2826,2126,703,Tumakuru RI Circle 1,RI-29009-01,Tehsildar Tumakuru North
+Karnataka,29,Tumakuru,009,Tumakuru North,01,Bhimnagar,004,13.34104,77.14792,2041,1239,568,Tumakuru RI Circle 2,RI-29009-02,Tehsildar Tumakuru North
+Karnataka,29,Tumakuru,009,Tumakuru North,01,Sultanpur,005,13.25157,77.21722,1028,713,248,Tumakuru RI Circle 2,RI-29009-02,Tehsildar Tumakuru North
+Karnataka,29,Tumakuru,009,Tumakuru North,01,Devgaon,006,13.40293,77.09325,2161,1451,574,Tumakuru RI Circle 2,RI-29009-02,Tehsildar Tumakuru North
+Karnataka,29,Tumakuru,009,Tumakuru South,02,Chandrapalli,007,13.49038,77.25374,1151,890,139,Tumakuru RI Circle 3,RI-29009-03,Tehsildar Tumakuru South
+Karnataka,29,Tumakuru,009,Tumakuru South,02,Narsapur,008,13.37841,77.01136,1255,977,379,Tumakuru RI Circle 3,RI-29009-03,Tehsildar Tumakuru South
+Karnataka,29,Tumakuru,009,Tumakuru South,02,Basavanahalli,009,13.21213,77.15164,2014,1466,232,Tumakuru RI Circle 3,RI-29009-03,Tehsildar Tumakuru South
+Karnataka,29,Tumakuru,009,Tumakuru South,02,Mallapuram,010,13.44235,77.13392,885,619,331,Tumakuru RI Circle 4,RI-29009-04,Tehsildar Tumakuru South
+Karnataka,29,Tumakuru,009,Tumakuru South,02,Amrapur,011,13.30567,77.05573,1269,1049,258,Tumakuru RI Circle 4,RI-29009-04,Tehsildar Tumakuru South
+Karnataka,29,Tumakuru,009,Tumakuru South,02,Jaitpur,012,13.22606,77.05551,554,398,194,Tumakuru RI Circle 4,RI-29009-04,Tehsildar Tumakuru South
+Karnataka,29,Tumakuru,009,Tumakuru East,03,Kesarpur,013,13.38192,77.16339,2081,1640,382,Tumakuru RI Circle 5,RI-29009-05,Tehsildar Tumakuru East
+Karnataka,29,Tumakuru,009,Tumakuru East,03,Lakshmipura,014,13.23149,77.30343,2104,1236,672,Tumakuru RI Circle 5,RI-29009-05,Tehsildar Tumakuru East
+Karnataka,29,Tumakuru,009,Tumakuru East,03,Madhavgarh,015,13.31779,77.16506,2587,2119,805,Tumakuru RI Circle 5,RI-29009-05,Tehsildar Tumakuru East
+Karnataka,29,Tumakuru,009,Tumakuru East,03,Nandgaon,016,13.36806,77.04253,1541,1231,320,Tumakuru RI Circle 6,RI-29009-06,Tehsildar Tumakuru East
+Karnataka,29,Tumakuru,009,Tumakuru East,03,Peddapalli,017,13.23704,77.04782,2293,1917,655,Tumakuru RI Circle 6,RI-29009-06,Tehsildar Tumakuru East
+Karnataka,29,Tumakuru,009,Tumakuru East,03,Raghunathpur,018,13.2433,77.17555,654,466,144,Tumakuru RI Circle 6,RI-29009-06,Tehsildar Tumakuru East
+Karnataka,29,Tumakuru,009,Tumakuru West,04,Shivnagar,019,13.24207,77.09602,2567,1484,989,Tumakuru RI Circle 7,RI-29009-07,Tehsildar Tumakuru West
+Karnataka,29,Tumakuru,009,Tumakuru West,04,Tarapur,020,13.24533,77.1706,1001,638,263,Tumakuru RI Circle 7,RI-29009-07,Tehsildar Tumakuru West
+Karnataka,29,Tumakuru,009,Tumakuru West,04,Uttanahalli,021,13.39986,77.19029,2382,1372,293,Tumakuru RI Circle 7,RI-29009-07,Tehsildar Tumakuru West
+Karnataka,29,Tumakuru,009,Tumakuru West,04,Veerapuram,022,13.32034,77.09085,1102,807,364,Tumakuru RI Circle 8,RI-29009-08,Tehsildar Tumakuru West
+Karnataka,29,Tumakuru,009,Tumakuru West,04,Yellapur,023,13.18387,77.13491,618,516,122,Tumakuru RI Circle 8,RI-29009-08,Tehsildar Tumakuru West
+Karnataka,29,Tumakuru,009,Tumakuru West,04,Zamania,024,13.34181,76.95285,682,526,178,Tumakuru RI Circle 8,RI-29009-08,Tehsildar Tumakuru West
+Madhya Pradesh,23,Bhopal,004,Bhopal North,01,Rampur,001,23.30957,77.43703,7327,4937,1096,Bhopal RI Circle 1,RI-23004-01,Tehsildar Bhopal North
+Madhya Pradesh,23,Bhopal,004,Bhopal North,01,Kothapalli,002,23.18949,77.32404,5248,4322,1537,Bhopal RI Circle 1,RI-23004-01,Tehsildar Bhopal North
+Madhya Pradesh,23,Bhopal,004,Bhopal North,01,Ganeshpura,003,23.42478,77.32123,6811,5236,1633,Bhopal RI Circle 1,RI-23004-01,Tehsildar Bhopal North
+Madhya Pradesh,23,Bhopal,004,Bhopal North,01,Bhimnagar,004,23.20914,77.48858,5034,3874,1399,Bhopal RI Circle 2,RI-23004-02,Tehsildar Bhopal North
+Madhya Pradesh,23,Bhopal,004,Bhopal North,01,Sultanpur,005,23.17904,77.44223,2342,1595,841,Bhopal RI Circle 2,RI-23004-02,Tehsildar Bhopal North
+Madhya Pradesh,23,Bhopal,004,Bhopal North,01,Devgaon,006,23.22218,77.41454,2102,1558,360,Bhopal RI Circle 2,RI-23004-02,Tehsildar Bhopal North
+Madhya Pradesh,23,Bhopal,004,Bhopal South,02,Chandrapalli,007,23.25726,77.51715,2438,1978,655,Bhopal RI Circle 3,RI-23004-03,Tehsildar Bhopal South
+Madhya Pradesh,23,Bhopal,004,Bhopal South,02,Narsapur,008,23.18594,77.32322,1977,1250,245,Bhopal RI Circle 3,RI-23004-03,Tehsildar Bhopal South
+Madhya Pradesh,23,Bhopal,004,Bhopal South,02,Basavanahalli,009,23.19802,77.4388,6342,4235,1236,Bhopal RI Circle 3,RI-23004-03,Tehsildar Bhopal South
+Madhya Pradesh,23,Bhopal,004,Bhopal South,02,Mallapuram,010,23.10058,77.34429,2138,1679,407,Bhopal RI Circle 4,RI-23004-04,Tehsildar Bhopal South
+Madhya Pradesh,23,Bhopal,004,Bhopal South,02,Amrapur,011,23.05645,77.37763,5627,3156,2166,Bhopal RI Circle 4,RI-23004-04,Tehsildar Bhopal South
+Madhya Pradesh,23,Bhopal,004,Bhopal South,02,Jaitpur,012,23.2796,77.49947,8029,5339,2052,Bhopal RI Circle 4,RI-23004-04,Tehsildar Bhopal South
+Madhya Pradesh,23,Bhopal,004,Bhopal East,03,Kesarpur,013,23.41507,77.40741,8748,5146,1503,Bhopal RI Circle 5,RI-23004-05,Tehsildar Bhopal East
+Madhya Pradesh,23,Bhopal,004,Bhopal East,03,Lakshmipura,014,23.4182,77.46937,1803,1200,299,Bhopal RI Circle 5,RI-23004-05,Tehsildar Bhopal East
+Madhya Pradesh,23,Bhopal,004,Bhopal East,03,Madhavgarh,015,23.1623,77.22101,8047,4470,3159,Bhopal RI Circle 5,RI-23004-05,Tehsildar Bhopal East
+Madhya Pradesh,23,Bhopal,004,Bhopal East,03,Nandgaon,016,23.10735,77.43309,4057,2814,1470,Bhopal RI Circle 6,RI-23004-06,Tehsildar Bhopal East
+Madhya Pradesh,23,Bhopal,004,Bhopal East,03,Peddapalli,017,23.31368,77.2938,8962,5175,3407,Bhopal RI Circle 6,RI-23004-06,Tehsildar Bhopal East
+Madhya Pradesh,23,Bhopal,004,Bhopal East,03,Raghunathpur,018,23.1424,77.42714,5496,4540,998,Bhopal RI Circle 6,RI-23004-06,Tehsildar Bhopal East
+Madhya Pradesh,23,Bhopal,004,Bhopal West,04,Shivnagar,019,23.30838,77.37265,4929,2713,705,Bhopal RI Circle 7,RI-23004-07,Tehsildar Bhopal West
+Madhya Pradesh,23,Bhopal,004,Bhopal West,04,Tarapur,020,23.11777,77.45237,7209,4201,2308,Bhopal RI Circle 7,RI-23004-07,Tehsildar Bhopal West
+Madhya Pradesh,23,Bhopal,004,Bhopal West,04,Uttanahalli,021,23.37394,77.58457,6622,4081,2171,Bhopal RI Circle 7,RI-23004-07,Tehsildar Bhopal West
+Madhya Pradesh,23,Bhopal,004,Bhopal West,04,Veerapuram,022,23.22732,77.52182,4863,3771,864,Bhopal RI Circle 8,RI-23004-08,Tehsildar Bhopal West
+Madhya Pradesh,23,Bhopal,004,Bhopal West,04,Yellapur,023,23.3724,77.20219,4397,3226,1176,Bhopal RI Circle 8,RI-23004-08,Tehsildar Bhopal West
+Madhya Pradesh,23,Bhopal,004,Bhopal West,04,Zamania,024,23.32895,77.29885,5792,4535,1311,Bhopal RI Circle 8,RI-23004-08,Tehsildar Bhopal West
+Madhya Pradesh,23,Gwalior,033,Gwalior North,01,Rampur,001,26.14359,78.21638,2802,2262,339,Gwalior RI Circle 1,RI-23033-01,Tehsildar Gwalior North
+Madhya Pradesh,23,Gwalior,033,Gwalior North,01,Kothapalli,002,26.2817,78.17466,2666,1606,634,Gwalior RI Circle 1,RI-23033-01,Tehsildar Gwalior North
+Madhya Pradesh,23,Gwalior,033,Gwalior North,01,Ganeshpura,003,26.27713,78.25568,806,605,139,Gwalior RI Circle 1,RI-23033-01,Tehsildar Gwalior North
+Madhya Pradesh,23,Gwalior,033,Gwalior North,01,Bhimnagar,004,26.23972,78.28352,2713,2159,1047,Gwalior RI Circle 2,RI-23033-02,Tehsildar Gwalior North
+Madhya Pradesh,23,Gwalior,033,Gwalior North,01,Sultanpur,005,26.27738,78.3071,1159,666,224,Gwalior RI Circle 2,RI-23033-02,Tehsildar Gwalior North
+Madhya Pradesh,23,Gwalior,033,Gwalior North,01,Devgaon,006,26.4067,78.10336,2382,1600,286,Gwalior RI Circle 2,RI-23033-02,Tehsildar Gwalior North
+Madhya Pradesh,23,Gwalior,033,Gwalior South,02,Chandrapalli,007,26.2704,78.17935,3015,2437,841,Gwalior RI Circle 3,RI-23033-03,Tehsildar Gwalior South
+Madhya Pradesh,23,Gwalior,033,Gwalior South,02,Narsapur,008,26.261,78.08003,1310,935,211,Gwalior RI Circle 3,RI-23033-03,Tehsildar Gwalior South
+Madhya Pradesh,23,Gwalior,033,Gwalior South,02,Basavanahalli,009,26.28046,78.19259,1227,768,141,Gwalior RI Circle 3,RI-23033-03,Tehsildar Gwalior South
+Madhya Pradesh,23,Gwalior,033,Gwalior South,02,Mallapuram,010,26.37222,78.09502,452,364,173,Gwalior RI Circle 4,RI-23033-04,Tehsildar Gwalior South
+Madhya Pradesh,23,Gwalior,033,Gwalior South,02,Amrapur,011,26.05272,78.20376,2021,1370,502,Gwalior RI Circle 4,RI-23033-04,Tehsildar Gwalior South
+Madhya Pradesh,23,Gwalior,033,Gwalior South,02,Jaitpur,012,26.36018,78.02921,2426,1465,528,Gwalior RI Circle 4,RI-23033-04,Tehsildar Gwalior South
+Madhya Pradesh,23,Gwalior,033,Gwalior East,03,Kesarpur,013,26.28102,78.28005,2886,2438,510,Gwalior RI Circle 5,RI-23033-05,Tehsildar Gwalior East
+Madhya Pradesh,23,Gwalior,033,Gwalior East,03,Lakshmipura,014,26.05468,78.23688,2918,1780,882,Gwalior RI Circle 5,RI-23033-05,Tehsildar Gwalior East
+Madhya Pradesh,23,Gwalior,033,Gwalior East,03,Madhavgarh,015,26.24514,78.11866,1829,1022,689,Gwalior RI Circle 5,RI-23033-05,Tehsildar Gwalior East
+Madhya Pradesh,23,Gwalior,033,Gwalior East,03,Nandgaon,016,26.17915,78.44728,1015,708,380,Gwalior RI Circle 6,RI-23033-06,Tehsildar Gwalior East
+Madhya Pradesh,23,Gwalior,033,Gwalior East,03,Peddapalli,017,26.1579,78.29337,1763,1303,350,Gwalior RI Circle 6,RI-23033-06,Tehsildar Gwalior East
+Madhya Pradesh,23,Gwalior,033,Gwalior East,03,Raghunathpur,018,26.18471,78.0663,2859,2387,306,Gwalior RI Circle 6,RI-23033-06,Tehsildar Gwalior East
+Madhya Pradesh,23,Gwalior,033,Gwalior West,04,Shivnagar,019,26.22185,78.22122,2321,1923,912,Gwalior RI Circle 7,RI-23033-07,Tehsildar Gwalior West
+Madhya Pradesh,23,Gwalior,033,Gwalior West,04,Tarapur,020,26.11292,78.20252,2823,1790,970,Gwalior RI Circle 7,RI-23033-07,Tehsildar Gwalior West
+Madhya Pradesh,23,Gwalior,033,Gwalior West,04,Uttanahalli,021,26.18499,78.19013,1608,1254,393,Gwalior RI Circle 7,RI-23033-07,Tehsildar Gwalior West
+Madhya Pradesh,23,Gwalior,033,Gwalior West,04,Veerapuram,022,26.32674,78.31564,1174,930,135,Gwalior RI Circle 8,RI-23033-08,Tehsildar Gwalior West
+Madhya Pradesh,23,Gwalior,033,Gwalior West,04,Yellapur,023,26.16082,78.18293,2658,2089,446,Gwalior RI Circle 8,RI-23033-08,Tehsildar Gwalior West
+Madhya Pradesh,23,Gwalior,033,Gwalior West,04,Zamania,024,26.22358,78.24633,1799,1392,290,Gwalior RI Circle 8,RI-23033-08,Tehsildar Gwalior West
+Madhya Pradesh,23,Indore,016,Indore North,01,Rampur,001,22.80958,75.96415,4260,2914,709,Indore RI Circle 1,RI-23016-01,Tehsildar Indore North
+Madhya Pradesh,23,Indore,016,Indore North,01,Kothapalli,002,22.5718,75.99813,4102,2800,899,Indore RI Circle 1,RI-23016-01,Tehsildar Indore North
+Madhya Pradesh,23,Indore,016,Indore North,01,Ganeshpura,003,22.62636,75.90675,2635,2118,489,Indore RI Circle 1,RI-23016-01,Tehsildar Indore North
+Madhya Pradesh,23,Indore,016,Indore North,01,Bhimnagar,004,22.79011,75.8738,4411,3447,1583,Indore RI Circle 2,RI-23016-02,Tehsildar Indore North
+Madhya Pradesh,23,Indore,016,Indore North,01,Sultanpur,005,22.63698,75.79817,6826,5259,2523,Indore RI Circle 2,RI-23016-02,Tehsildar Indore North
+Madhya Pradesh,23,Indore,016,Indore North,01,Devgaon,006,22.80244,75.86608,6260,4813,963,Indore RI Circle 2,RI-23016-02,Tehsildar Indore North
+Madhya Pradesh,23,Indore,016,Indore South,02,Chandrapalli,007,22.63718,75.85166,6677,5337,811,Indore RI Circle 3,RI-23016-03,Tehsildar Indore South
+Madhya Pradesh,23,Indore,016,Indore South,02,Narsapur,008,22.72466,75.92322,5924,3633,1811,Indore RI Circle 3,RI-23016-03,Tehsildar Indore South
+Madhya Pradesh,23,Indore,016,Indore South,02,Basavanahalli,009,22.79771,75.89458,4642,3596,1852,Indore RI Circle 3,RI-23016-03,Tehsildar Indore South
+Madhya Pradesh,23,Indore,016,Indore South,02,Mallapuram,010,22.80614,75.8968,8140,5200,3043,Indore RI Circle 4,RI-23016-04,Tehsildar Indore South
+Madhya Pradesh,23,Indore,016,Indore South,02,Amrapur,011,22.61257,75.95088,8119,6216,2027,Indore RI Circle 4,RI-23016-04,Tehsildar Indore South
+Madhya Pradesh,23,Indore,016,Indore South,02,Jaitpur,012,22.6036,75.88818,2533,1985,996,Indore RI Circle 4,RI-23016-04,Tehsildar Indore South
+Madhya Pradesh,23,Indore,016,Indore East,03,Kesarpur,013,22.73426,75.87089,8459,7037,2493,Indore RI Circle 5,RI-23016-05,Tehsildar Indore East
+Madhya Pradesh,23,Indore,016,Indore East,03,Lakshmipura,014,22.68168,75.89356,8583,7235,2256,Indore RI Circle 5,RI-23016-05,Tehsildar Indore East
+Madhya Pradesh,23,Indore,016,Indore East,03,Madhavgarh,015,22.78781,75.95476,6841,5291,2409,Indore RI Circle 5,RI-23016-05,Tehsildar Indore East
+Madhya Pradesh,23,Indore,016,Indore East,03,Nandgaon,016,22.60997,76.00614,3363,2231,909,Indore RI Circle 6,RI-23016-06,Tehsildar Indore East
+Madhya Pradesh,23,Indore,016,Indore East,03,Peddapalli,017,22.66854,75.93223,8632,5443,3123,Indore RI Circle 6,RI-23016-06,Tehsildar Indore East
+Madhya Pradesh,23,Indore,016,Indore East,03,Raghunathpur,018,22.59253,75.83576,2829,2031,787,Indore RI Circle 6,RI-23016-06,Tehsildar Indore East
+Madhya Pradesh,23,Indore,016,Indore West,04,Shivnagar,019,22.72548,75.88889,4496,2762,1050,Indore RI Circle 7,RI-23016-07,Tehsildar Indore West
+Madhya Pradesh,23,Indore,016,Indore West,04,Tarapur,020,22.68079,75.83925,4930,3886,722,Indore RI Circle 7,RI-23016-07,Tehsildar Indore West
+Madhya Pradesh,23,Indore,016,Indore West,04,Uttanahalli,021,22.61763,75.83221,3268,2350,412,Indore RI Circle 7,RI-23016-07,Tehsildar Indore West
+Madhya Pradesh,23,Indore,016,Indore West,04,Veerapuram,022,22.62955,75.78302,6465,4970,2176,Indore RI Circle 8,RI-23016-08,Tehsildar Indore West
+Madhya Pradesh,23,Indore,016,Indore West,04,Yellapur,023,22.81358,75.9503,6443,4058,2297,Indore RI Circle 8,RI-23016-08,Tehsildar Indore West
+Madhya Pradesh,23,Indore,016,Indore West,04,Zamania,024,22.68952,75.8825,7139,4401,1315,Indore RI Circle 8,RI-23016-08,Tehsildar Indore West
+Madhya Pradesh,23,Jabalpur,028,Jabalpur North,01,Rampur,001,23.20217,79.86325,2990,2232,609,Jabalpur RI Circle 1,RI-23028-01,Tehsildar Jabalpur North
+Madhya Pradesh,23,Jabalpur,028,Jabalpur North,01,Kothapalli,002,23.21973,80.0711,735,435,201,Jabalpur RI Circle 1,RI-23028-01,Tehsildar Jabalpur North
+Madhya Pradesh,23,Jabalpur,028,Jabalpur North,01,Ganeshpura,003,23.10471,80.08183,2085,1308,489,Jabalpur RI Circle 1,RI-23028-01,Tehsildar Jabalpur North
+Madhya Pradesh,23,Jabalpur,028,Jabalpur North,01,Bhimnagar,004,23.35598,79.99055,2481,1714,627,Jabalpur RI Circle 2,RI-23028-02,Tehsildar Jabalpur North
+Madhya Pradesh,23,Jabalpur,028,Jabalpur North,01,Sultanpur,005,23.05364,80.02018,3051,2500,698,Jabalpur RI Circle 2,RI-23028-02,Tehsildar Jabalpur North
+Madhya Pradesh,23,Jabalpur,028,Jabalpur North,01,Devgaon,006,23.10133,80.00512,2557,1801,462,Jabalpur RI Circle 2,RI-23028-02,Tehsildar Jabalpur North
+Madhya Pradesh,23,Jabalpur,028,Jabalpur South,02,Chandrapalli,007,23.26754,79.90773,2903,2461,509,Jabalpur RI Circle 3,RI-23028-03,Tehsildar Jabalpur South
+Madhya Pradesh,23,Jabalpur,028,Jabalpur South,02,Narsapur,008,23.24437,79.88569,1965,1336,740,Jabalpur RI Circle 3,RI-23028-03,Tehsildar Jabalpur South
+Madhya Pradesh,23,Jabalpur,028,Jabalpur South,02,Basavanahalli,009,23.17459,79.92144,2936,2206,844,Jabalpur RI Circle 3,RI-23028-03,Tehsildar Jabalpur South
+Madhya Pradesh,23,Jabalpur,028,Jabalpur South,02,Mallapuram,010,23.17804,80.00592,1290,1061,211,Jabalpur RI Circle 4,RI-23028-04,Tehsildar Jabalpur South
+Madhya Pradesh,23,Jabalpur,028,Jabalpur South,02,Amrapur,011,23.27364,79.88757,846,546,97,Jabalpur RI Circle 4,RI-23028-04,Tehsildar Jabalpur South
+Madhya Pradesh,23,Jabalpur,028,Jabalpur South,02,Jaitpur,012,23.2972,79.91428,3032,1702,334,Jabalpur RI Circle 4,RI-23028-04,Tehsildar Jabalpur South
+Madhya Pradesh,23,Jabalpur,028,Jabalpur East,03,Kesarpur,013,23.33908,80.05947,1245,693,263,Jabalpur RI Circle 5,RI-23028-05,Tehsildar Jabalpur East
+Madhya Pradesh,23,Jabalpur,028,Jabalpur East,03,Lakshmipura,014,23.10353,79.97865,534,374,87,Jabalpur RI Circle 5,RI-23028-05,Tehsildar Jabalpur East
+Madhya Pradesh,23,Jabalpur,028,Jabalpur East,03,Madhavgarh,015,23.12919,79.78706,1939,1619,438,Jabalpur RI Circle 5,RI-23028-05,Tehsildar Jabalpur East
+Madhya Pradesh,23,Jabalpur,028,Jabalpur East,03,Nandgaon,016,23.09496,79.94004,2455,1821,932,Jabalpur RI Circle 6,RI-23028-06,Tehsildar Jabalpur East
+Madhya Pradesh,23,Jabalpur,028,Jabalpur East,03,Peddapalli,017,23.13453,79.82082,1470,1192,209,Jabalpur RI Circle 6,RI-23028-06,Tehsildar Jabalpur East
+Madhya Pradesh,23,Jabalpur,028,Jabalpur East,03,Raghunathpur,018,23.15906,79.99071,445,317,177,Jabalpur RI Circle 6,RI-23028-06,Tehsildar Jabalpur East
+Madhya Pradesh,23,Jabalpur,028,Jabalpur West,04,Shivnagar,019,23.30427,80.00941,2984,2420,770,Jabalpur RI Circle 7,RI-23028-07,Tehsildar Jabalpur West
+Madhya Pradesh,23,Jabalpur,028,Jabalpur West,04,Tarapur,020,23.18541,80.01669,2101,1595,505,Jabalpur RI Circle 7,RI-23028-07,Tehsildar Jabalpur West
+Madhya Pradesh,23,Jabalpur,028,Jabalpur West,04,Uttanahalli,021,23.2146,79.99943,3103,1810,971,Jabalpur RI Circle 7,RI-23028-07,Tehsildar Jabalpur West
+Madhya Pradesh,23,Jabalpur,028,Jabalpur West,04,Veerapuram,022,23.17819,79.96173,2706,1642,474,Jabalpur RI Circle 8,RI-23028-08,Tehsildar Jabalpur West
+Madhya Pradesh,23,Jabalpur,028,Jabalpur West,04,Yellapur,023,23.31462,80.01694,2193,1443,729,Jabalpur RI Circle 8,RI-23028-08,Tehsildar Jabalpur West
+Madhya Pradesh,23,Jabalpur,028,Jabalpur West,04,Zamania,024,23.35958,79.96975,964,722,329,Jabalpur RI Circle 8,RI-23028-08,Tehsildar Jabalpur West
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban North,01,Rampur,001,19.15367,72.85858,7011,4715,1237,Mumbai Suburban RI Circle 1,RI-27001-01,Tehsildar Mumbai Suburban North
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban North,01,Kothapalli,002,19.12961,72.88105,8192,6053,1084,Mumbai Suburban RI Circle 1,RI-27001-01,Tehsildar Mumbai Suburban North
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban North,01,Ganeshpura,003,19.10313,72.91578,8492,5177,3340,Mumbai Suburban RI Circle 1,RI-27001-01,Tehsildar Mumbai Suburban North
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban North,01,Bhimnagar,004,19.12667,72.75118,8716,5024,1807,Mumbai Suburban RI Circle 2,RI-27001-02,Tehsildar Mumbai Suburban North
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban North,01,Sultanpur,005,19.17136,72.85308,7005,4906,958,Mumbai Suburban RI Circle 2,RI-27001-02,Tehsildar Mumbai Suburban North
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban North,01,Devgaon,006,19.04235,72.84287,5435,3782,1058,Mumbai Suburban RI Circle 2,RI-27001-02,Tehsildar Mumbai Suburban North
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban South,02,Chandrapalli,007,19.09643,72.7235,2289,1284,370,Mumbai Suburban RI Circle 3,RI-27001-03,Tehsildar Mumbai Suburban South
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban South,02,Narsapur,008,18.9961,72.86654,8411,5310,1778,Mumbai Suburban RI Circle 3,RI-27001-03,Tehsildar Mumbai Suburban South
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban South,02,Basavanahalli,009,19.21704,72.91228,2389,1613,737,Mumbai Suburban RI Circle 3,RI-27001-03,Tehsildar Mumbai Suburban South
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban South,02,Mallapuram,010,19.25836,72.95981,4438,3762,468,Mumbai Suburban RI Circle 4,RI-27001-04,Tehsildar Mumbai Suburban South
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban South,02,Amrapur,011,19.1008,72.84604,6778,5133,1578,Mumbai Suburban RI Circle 4,RI-27001-04,Tehsildar Mumbai Suburban South
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban South,02,Jaitpur,012,19.09203,72.87923,4665,2978,1645,Mumbai Suburban RI Circle 4,RI-27001-04,Tehsildar Mumbai Suburban South
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban East,03,Kesarpur,013,19.27157,72.94928,5659,3678,888,Mumbai Suburban RI Circle 5,RI-27001-05,Tehsildar Mumbai Suburban East
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban East,03,Lakshmipura,014,19.00438,72.9594,4752,3481,993,Mumbai Suburban RI Circle 5,RI-27001-05,Tehsildar Mumbai Suburban East
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban East,03,Madhavgarh,015,18.98852,72.67001,5149,4008,1935,Mumbai Suburban RI Circle 5,RI-27001-05,Tehsildar Mumbai Suburban East
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban East,03,Nandgaon,016,19.15383,72.98489,2801,2360,1060,Mumbai Suburban RI Circle 6,RI-27001-06,Tehsildar Mumbai Suburban East
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban East,03,Peddapalli,017,19.28975,72.84844,8662,5164,1964,Mumbai Suburban RI Circle 6,RI-27001-06,Tehsildar Mumbai Suburban East
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban East,03,Raghunathpur,018,19.11025,72.9267,5920,4853,913,Mumbai Suburban RI Circle 6,RI-27001-06,Tehsildar Mumbai Suburban East
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban West,04,Shivnagar,019,19.27647,72.91045,5406,3522,1119,Mumbai Suburban RI Circle 7,RI-27001-07,Tehsildar Mumbai Suburban West
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban West,04,Tarapur,020,19.13392,72.83169,5397,3929,1722,Mumbai Suburban RI Circle 7,RI-27001-07,Tehsildar Mumbai Suburban West
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban West,04,Uttanahalli,021,19.07973,72.85885,8063,5352,2232,Mumbai Suburban RI Circle 7,RI-27001-07,Tehsildar Mumbai Suburban West
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban West,04,Veerapuram,022,18.91605,72.78674,4635,3367,1479,Mumbai Suburban RI Circle 8,RI-27001-08,Tehsildar Mumbai Suburban West
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban West,04,Yellapur,023,19.1139,72.85622,5434,3703,1683,Mumbai Suburban RI Circle 8,RI-27001-08,Tehsildar Mumbai Suburban West
+Maharashtra,27,Mumbai Suburban,001,Mumbai Suburban West,04,Zamania,024,19.26105,72.91015,5891,4688,1863,Mumbai Suburban RI Circle 8,RI-27001-08,Tehsildar Mumbai Suburban West
+Maharashtra,27,Nagpur,025,Nagpur North,01,Rampur,001,21.26149,79.05554,2483,2082,266,Nagpur RI Circle 1,RI-27025-01,Tehsildar Nagpur North
+Maharashtra,27,Nagpur,025,Nagpur North,01,Kothapalli,002,21.20137,79.09641,8636,5256,2222,Nagpur RI Circle 1,RI-27025-01,Tehsildar Nagpur North
+Maharashtra,27,Nagpur,025,Nagpur North,01,Ganeshpura,003,21.06423,79.11885,3254,2495,1196,Nagpur RI Circle 1,RI-27025-01,Tehsildar Nagpur North
+Maharashtra,27,Nagpur,025,Nagpur North,01,Bhimnagar,004,21.21825,79.07514,8128,6210,3121,Nagpur RI Circle 2,RI-27025-02,Tehsildar Nagpur North
+Maharashtra,27,Nagpur,025,Nagpur North,01,Sultanpur,005,21.2832,79.13169,4197,2780,1385,Nagpur RI Circle 2,RI-27025-02,Tehsildar Nagpur North
+Maharashtra,27,Nagpur,025,Nagpur North,01,Devgaon,006,21.15091,78.95658,8102,6282,3066,Nagpur RI Circle 2,RI-27025-02,Tehsildar Nagpur North
+Maharashtra,27,Nagpur,025,Nagpur South,02,Chandrapalli,007,21.03467,78.97184,8093,5801,2903,Nagpur RI Circle 3,RI-27025-03,Tehsildar Nagpur South
+Maharashtra,27,Nagpur,025,Nagpur South,02,Narsapur,008,20.93551,78.93606,5054,3598,545,Nagpur RI Circle 3,RI-27025-03,Tehsildar Nagpur South
+Maharashtra,27,Nagpur,025,Nagpur South,02,Basavanahalli,009,21.08052,79.0808,7207,5270,736,Nagpur RI Circle 3,RI-27025-03,Tehsildar Nagpur South
+Maharashtra,27,Nagpur,025,Nagpur South,02,Mallapuram,010,21.12552,79.14115,8366,6857,3241,Nagpur RI Circle 4,RI-27025-04,Tehsildar Nagpur South
+Maharashtra,27,Nagpur,025,Nagpur South,02,Amrapur,011,21.20203,78.94858,7159,5711,1187,Nagpur RI Circle 4,RI-27025-04,Tehsildar Nagpur South
+Maharashtra,27,Nagpur,025,Nagpur South,02,Jaitpur,012,21.23977,79.07152,4300,3321,1010,Nagpur RI Circle 4,RI-27025-04,Tehsildar Nagpur South
+Maharashtra,27,Nagpur,025,Nagpur East,03,Kesarpur,013,21.03885,79.27123,6004,4807,1678,Nagpur RI Circle 5,RI-27025-05,Tehsildar Nagpur East
+Maharashtra,27,Nagpur,025,Nagpur East,03,Lakshmipura,014,21.24211,78.96438,3024,2149,421,Nagpur RI Circle 5,RI-27025-05,Tehsildar Nagpur East
+Maharashtra,27,Nagpur,025,Nagpur East,03,Madhavgarh,015,20.97579,79.03606,8874,5392,3015,Nagpur RI Circle 5,RI-27025-05,Tehsildar Nagpur East
+Maharashtra,27,Nagpur,025,Nagpur East,03,Nandgaon,016,21.22731,79.09006,7568,4966,902,Nagpur RI Circle 6,RI-27025-06,Tehsildar Nagpur East
+Maharashtra,27,Nagpur,025,Nagpur East,03,Peddapalli,017,21.04492,79.00309,2791,1637,802,Nagpur RI Circle 6,RI-27025-06,Tehsildar Nagpur East
+Maharashtra,27,Nagpur,025,Nagpur East,03,Raghunathpur,018,21.16746,79.08469,8387,6341,1440,Nagpur RI Circle 6,RI-27025-06,Tehsildar Nagpur East
+Maharashtra,27,Nagpur,025,Nagpur West,04,Shivnagar,019,21.22845,79.24464,6877,4221,1024,Nagpur RI Circle 7,RI-27025-07,Tehsildar Nagpur West
+Maharashtra,27,Nagpur,025,Nagpur West,04,Tarapur,020,20.89929,79.07196,6696,4763,2417,Nagpur RI Circle 7,RI-27025-07,Tehsildar Nagpur West
+Maharashtra,27,Nagpur,025,Nagpur West,04,Uttanahalli,021,21.12791,79.04627,2519,1863,633,Nagpur RI Circle 7,RI-27025-07,Tehsildar Nagpur West
+Maharashtra,27,Nagpur,025,Nagpur West,04,Veerapuram,022,21.25935,79.19543,3040,2150,370,Nagpur RI Circle 8,RI-27025-08,Tehsildar Nagpur West
+Maharashtra,27,Nagpur,025,Nagpur West,04,Yellapur,023,21.17493,79.04749,4898,3726,874,Nagpur RI Circle 8,RI-27025-08,Tehsildar Nagpur West
+Maharashtra,27,Nagpur,025,Nagpur West,04,Zamania,024,21.17555,78.98762,2186,1853,373,Nagpur RI Circle 8,RI-27025-08,Tehsildar Nagpur West
+Maharashtra,27,Nashik,037,Nashik North,01,Rampur,001,19.91538,73.82552,745,425,96,Nashik RI Circle 1,RI-27037-01,Tehsildar Nashik North
+Maharashtra,27,Nashik,037,Nashik North,01,Kothapalli,002,19.94372,73.88239,2110,1209,790,Nashik RI Circle 1,RI-27037-01,Tehsildar Nashik North
+Maharashtra,27,Nashik,037,Nashik North,01,Ganeshpura,003,19.95244,73.81492,1543,1188,615,Nashik RI Circle 1,RI-27037-01,Tehsildar Nashik North
+Maharashtra,27,Nashik,037,Nashik North,01,Bhimnagar,004,19.93239,73.70466,812,584,264,Nashik RI Circle 2,RI-27037-02,Tehsildar Nashik North
+Maharashtra,27,Nashik,037,Nashik North,01,Sultanpur,005,20.10438,73.78118,1925,1222,414,Nashik RI Circle 2,RI-27037-02,Tehsildar Nashik North
+Maharashtra,27,Nashik,037,Nashik North,01,Devgaon,006,19.96391,73.72353,2829,1748,494,Nashik RI Circle 2,RI-27037-02,Tehsildar Nashik North
+Maharashtra,27,Nashik,037,Nashik South,02,Chandrapalli,007,19.96492,73.81952,1857,1118,596,Nashik RI Circle 3,RI-27037-03,Tehsildar Nashik South
+Maharashtra,27,Nashik,037,Nashik South,02,Narsapur,008,19.9599,73.79239,2774,1619,1102,Nashik RI Circle 3,RI-27037-03,Tehsildar Nashik South
+Maharashtra,27,Nashik,037,Nashik South,02,Basavanahalli,009,19.89802,73.59931,1437,1018,196,Nashik RI Circle 3,RI-27037-03,Tehsildar Nashik South
+Maharashtra,27,Nashik,037,Nashik South,02,Mallapuram,010,19.98986,73.87008,2905,1886,562,Nashik RI Circle 4,RI-27037-04,Tehsildar Nashik South
+Maharashtra,27,Nashik,037,Nashik South,02,Amrapur,011,20.01272,73.79869,779,591,247,Nashik RI Circle 4,RI-27037-04,Tehsildar Nashik South
+Maharashtra,27,Nashik,037,Nashik South,02,Jaitpur,012,20.02693,73.91304,3143,2022,336,Nashik RI Circle 4,RI-27037-04,Tehsildar Nashik South
+Maharashtra,27,Nashik,037,Nashik East,03,Kesarpur,013,19.96163,73.82271,753,532,298,Nashik RI Circle 5,RI-27037-05,Tehsildar Nashik East
+Maharashtra,27,Nashik,037,Nashik East,03,Lakshmipura,014,19.90204,73.73653,1256,895,493,Nashik RI Circle 5,RI-27037-05,Tehsildar Nashik East
+Maharashtra,27,Nashik,037,Nashik East,03,Madhavgarh,015,19.97061,73.85122,2347,1909,755,Nashik RI Circle 5,RI-27037-05,Tehsildar Nashik East
+Maharashtra,27,Nashik,037,Nashik East,03,Nandgaon,016,20.02608,73.62651,1580,1249,611,Nashik RI Circle 6,RI-27037-06,Tehsildar Nashik East
+Maharashtra,27,Nashik,037,Nashik East,03,Peddapalli,017,20.05412,73.83069,2235,1871,870,Nashik RI Circle 6,RI-27037-06,Tehsildar Nashik East
+Maharashtra,27,Nashik,037,Nashik East,03,Raghunathpur,018,20.04138,73.63045,2930,1854,615,Nashik RI Circle 6,RI-27037-06,Tehsildar Nashik East
+Maharashtra,27,Nashik,037,Nashik West,04,Shivnagar,019,20.00779,73.77915,1207,710,162,Nashik RI Circle 7,RI-27037-07,Tehsildar Nashik West
+Maharashtra,27,Nashik,037,Nashik West,04,Tarapur,020,20.09232,73.82111,426,332,138,Nashik RI Circle 7,RI-27037-07,Tehsildar Nashik West
+Maharashtra,27,Nashik,037,Nashik West,04,Uttanahalli,021,19.88053,73.75797,1015,696,224,Nashik RI Circle 7,RI-27037-07,Tehsildar Nashik West
+Maharashtra,27,Nashik,037,Nashik West,04,Veerapuram,022,20.03531,73.84204,1715,1023,468,Nashik RI Circle 8,RI-27037-08,Tehsildar Nashik West
+Maharashtra,27,Nashik,037,Nashik West,04,Yellapur,023,19.98419,73.90878,3073,2245,459,Nashik RI Circle 8,RI-27037-08,Tehsildar Nashik West
+Maharashtra,27,Nashik,037,Nashik West,04,Zamania,024,20.01336,73.93955,1033,613,170,Nashik RI Circle 8,RI-27037-08,Tehsildar Nashik West
+Maharashtra,27,Pune,013,Pune North,01,Rampur,001,18.49982,73.80154,6282,3600,1928,Pune RI Circle 1,RI-27013-01,Tehsildar Pune North
+Maharashtra,27,Pune,013,Pune North,01,Kothapalli,002,18.5481,73.80186,5671,3346,1372,Pune RI Circle 1,RI-27013-01,Tehsildar Pune North
+Maharashtra,27,Pune,013,Pune North,01,Ganeshpura,003,18.52166,73.94778,8379,5939,945,Pune RI Circle 1,RI-27013-01,Tehsildar Pune North
+Maharashtra,27,Pune,013,Pune North,01,Bhimnagar,004,18.57693,73.78122,6049,4896,723,Pune RI Circle 2,RI-27013-02,Tehsildar Pune North
+Maharashtra,27,Pune,013,Pune North,01,Sultanpur,005,18.56518,73.75787,8805,6318,1488,Pune RI Circle 2,RI-27013-02,Tehsildar Pune North
+Maharashtra,27,Pune,013,Pune North,01,Devgaon,006,18.5624,73.8032,3901,2940,408,Pune RI Circle 2,RI-27013-02,Tehsildar Pune North
+Maharashtra,27,Pune,013,Pune South,02,Chandrapalli,007,18.61429,74.07079,6879,4398,1846,Pune RI Circle 3,RI-27013-03,Tehsildar Pune South
+Maharashtra,27,Pune,013,Pune South,02,Narsapur,008,18.47064,73.75703,8089,5122,2299,Pune RI Circle 3,RI-27013-03,Tehsildar Pune South
+Maharashtra,27,Pune,013,Pune South,02,Basavanahalli,009,18.48562,73.75468,7473,4889,1604,Pune RI Circle 3,RI-27013-03,Tehsildar Pune South
+Maharashtra,27,Pune,013,Pune South,02,Mallapuram,010,18.53662,73.90945,5013,3673,1404,Pune RI Circle 4,RI-27013-04,Tehsildar Pune South
+Maharashtra,27,Pune,013,Pune South,02,Amrapur,011,18.65137,73.9784,6931,5797,1196,Pune RI Circle 4,RI-27013-04,Tehsildar Pune South
+Maharashtra,27,Pune,013,Pune South,02,Jaitpur,012,18.21182,73.71632,3863,2974,690,Pune RI Circle 4,RI-27013-04,Tehsildar Pune South
+Maharashtra,27,Pune,013,Pune East,03,Kesarpur,013,18.47164,73.89522,6296,4377,1564,Pune RI Circle 5,RI-27013-05,Tehsildar Pune East
+Maharashtra,27,Pune,013,Pune East,03,Lakshmipura,014,18.51469,73.91649,3474,1926,606,Pune RI Circle 5,RI-27013-05,Tehsildar Pune East
+Maharashtra,27,Pune,013,Pune East,03,Madhavgarh,015,18.45173,73.9173,6646,4317,1362,Pune RI Circle 5,RI-27013-05,Tehsildar Pune East
+Maharashtra,27,Pune,013,Pune East,03,Nandgaon,016,18.65045,73.86957,6625,4226,2585,Pune RI Circle 6,RI-27013-06,Tehsildar Pune East
+Maharashtra,27,Pune,013,Pune East,03,Peddapalli,017,18.55393,73.86121,5974,4057,1834,Pune RI Circle 6,RI-27013-06,Tehsildar Pune East
+Maharashtra,27,Pune,013,Pune East,03,Raghunathpur,018,18.45495,73.8582,7337,5399,2344,Pune RI Circle 6,RI-27013-06,Tehsildar Pune East
+Maharashtra,27,Pune,013,Pune West,04,Shivnagar,019,18.54251,73.91093,5600,4366,1439,Pune RI Circle 7,RI-27013-07,Tehsildar Pune West
+Maharashtra,27,Pune,013,Pune West,04,Tarapur,020,18.52661,73.97465,5931,3878,1098,Pune RI Circle 7,RI-27013-07,Tehsildar Pune West
+Maharashtra,27,Pune,013,Pune West,04,Uttanahalli,021,18.50542,73.77447,2889,1767,755,Pune RI Circle 7,RI-27013-07,Tehsildar Pune West
+Maharashtra,27,Pune,013,Pune West,04,Veerapuram,022,18.58771,73.79823,8919,7490,2931,Pune RI Circle 8,RI-27013-08,Tehsildar Pune West
+Maharashtra,27,Pune,013,Pune West,04,Yellapur,023,18.45056,73.8657,7649,4938,2066,Pune RI Circle 8,RI-27013-08,Tehsildar Pune West
+Maharashtra,27,Pune,013,Pune West,04,Zamania,024,18.24349,73.80444,4943,3983,1476,Pune RI Circle 8,RI-27013-08,Tehsildar Pune West
+Odisha,21,Cuttack,012,Cuttack North,01,Rampur,001,20.50082,85.94167,2498,2084,251,Cuttack RI Circle 1,RI-21012-01,Tehsildar Cuttack North
+Odisha,21,Cuttack,012,Cuttack North,01,Kothapalli,002,20.47376,85.76403,1063,828,142,Cuttack RI Circle 1,RI-21012-01,Tehsildar Cuttack North
+Odisha,21,Cuttack,012,Cuttack North,01,Ganeshpura,003,20.49382,85.88628,2521,2135,365,Cuttack RI Circle 1,RI-21012-01,Tehsildar Cuttack North
+Odisha,21,Cuttack,012,Cuttack North,01,Bhimnagar,004,20.49917,85.71415,2766,2002,445,Cuttack RI Circle 2,RI-21012-02,Tehsildar Cuttack North
+Odisha,21,Cuttack,012,Cuttack North,01,Sultanpur,005,20.4845,85.90004,1298,873,365,Cuttack RI Circle 2,RI-21012-02,Tehsildar Cuttack North
+Odisha,21,Cuttack,012,Cuttack North,01,Devgaon,006,20.48236,85.99341,630,377,193,Cuttack RI Circle 2,RI-21012-02,Tehsildar Cuttack North
+Odisha,21,Cuttack,012,Cuttack South,02,Chandrapalli,007,20.44312,85.93037,1162,754,194,Cuttack RI Circle 3,RI-21012-03,Tehsildar Cuttack South
+Odisha,21,Cuttack,012,Cuttack South,02,Narsapur,008,20.50019,85.68925,1459,857,523,Cuttack RI Circle 3,RI-21012-03,Tehsildar Cuttack South
+Odisha,21,Cuttack,012,Cuttack South,02,Basavanahalli,009,20.49273,85.87904,671,510,251,Cuttack RI Circle 3,RI-21012-03,Tehsildar Cuttack South
+Odisha,21,Cuttack,012,Cuttack South,02,Mallapuram,010,20.501,85.88448,2497,1928,580,Cuttack RI Circle 4,RI-21012-04,Tehsildar Cuttack South
+Odisha,21,Cuttack,012,Cuttack South,02,Amrapur,011,20.37067,85.88104,948,608,306,Cuttack RI Circle 4,RI-21012-04,Tehsildar Cuttack South
+Odisha,21,Cuttack,012,Cuttack South,02,Jaitpur,012,20.47147,85.99808,1652,1365,502,Cuttack RI Circle 4,RI-21012-04,Tehsildar Cuttack South
+Odisha,21,Cuttack,012,Cuttack East,03,Kesarpur,013,20.56171,85.8293,2973,1808,959,Cuttack RI Circle 5,RI-21012-05,Tehsildar Cuttack East
+Odisha,21,Cuttack,012,Cuttack East,03,Lakshmipura,014,20.64623,85.87443,2490,1387,590,Cuttack RI Circle 5,RI-21012-05,Tehsildar Cuttack East
+Odisha,21,Cuttack,012,Cuttack East,03,Madhavgarh,015,20.52712,85.70079,585,426,154,Cuttack RI Circle 5,RI-21012-05,Tehsildar Cuttack East
+Odisha,21,Cuttack,012,Cuttack East,03,Nandgaon,016,20.49502,85.78061,761,587,166,Cuttack RI Circle 6,RI-21012-06,Tehsildar Cuttack East
+Odisha,21,Cuttack,012,Cuttack East,03,Peddapalli,017,20.42251,85.87689,2132,1419,243,Cuttack RI Circle 6,RI-21012-06,Tehsildar Cuttack East
+Odisha,21,Cuttack,012,Cuttack East,03,Raghunathpur,018,20.51343,85.88835,738,553,82,Cuttack RI Circle 6,RI-21012-06,Tehsildar Cuttack East
+Odisha,21,Cuttack,012,Cuttack West,04,Shivnagar,019,20.49268,85.86305,2701,1910,349,Cuttack RI Circle 7,RI-21012-07,Tehsildar Cuttack West
+Odisha,21,Cuttack,012,Cuttack West,04,Tarapur,020,20.45059,85.87979,2438,1500,925,Cuttack RI Circle 7,RI-21012-07,Tehsildar Cuttack West
+Odisha,21,Cuttack,012,Cuttack West,04,Uttanahalli,021,20.53394,85.85357,1874,1301,347,Cuttack RI Circle 7,RI-21012-07,Tehsildar Cuttack West
+Odisha,21,Cuttack,012,Cuttack West,04,Veerapuram,022,20.46291,85.87374,2204,1286,602,Cuttack RI Circle 8,RI-21012-08,Tehsildar Cuttack West
+Odisha,21,Cuttack,012,Cuttack West,04,Yellapur,023,20.48645,85.87382,400,261,81,Cuttack RI Circle 8,RI-21012-08,Tehsildar Cuttack West
+Odisha,21,Cuttack,012,Cuttack West,04,Zamania,024,20.3486,85.84532,2690,1861,385,Cuttack RI Circle 8,RI-21012-08,Tehsildar Cuttack West
+Odisha,21,Ganjam,019,Ganjam North,01,Rampur,001,19.29491,84.79829,2567,2022,841,Ganjam RI Circle 1,RI-21019-01,Tehsildar Ganjam North
+Odisha,21,Ganjam,019,Ganjam North,01,Kothapalli,002,19.53494,84.78178,2670,2232,414,Ganjam RI Circle 1,RI-21019-01,Tehsildar Ganjam North
+Odisha,21,Ganjam,019,Ganjam North,01,Ganeshpura,003,19.2625,84.68343,625,527,200,Ganjam RI Circle 1,RI-21019-01,Tehsildar Ganjam North
+Odisha,21,Ganjam,019,Ganjam North,01,Bhimnagar,004,19.42012,84.79109,1250,741,303,Ganjam RI Circle 2,RI-21019-02,Tehsildar Ganjam North
+Odisha,21,Ganjam,019,Ganjam North,01,Sultanpur,005,19.4159,84.53475,906,549,195,Ganjam RI Circle 2,RI-21019-02,Tehsildar Ganjam North
+Odisha,21,Ganjam,019,Ganjam North,01,Devgaon,006,19.50614,84.89116,3029,2402,431,Ganjam RI Circle 2,RI-21019-02,Tehsildar Ganjam North
+Odisha,21,Ganjam,019,Ganjam South,02,Chandrapalli,007,19.33477,84.94814,2265,1624,567,Ganjam RI Circle 3,RI-21019-03,Tehsildar Ganjam South
+Odisha,21,Ganjam,019,Ganjam South,02,Narsapur,008,19.37478,84.87858,2689,2237,1073,Ganjam RI Circle 3,RI-21019-03,Tehsildar Ganjam South
+Odisha,21,Ganjam,019,Ganjam South,02,Basavanahalli,009,19.26615,84.76456,760,482,157,Ganjam RI Circle 3,RI-21019-03,Tehsildar Ganjam South
+Odisha,21,Ganjam,019,Ganjam South,02,Mallapuram,010,19.30361,84.91342,2264,1677,589,Ganjam RI Circle 4,RI-21019-04,Tehsildar Ganjam South
+Odisha,21,Ganjam,019,Ganjam South,02,Amrapur,011,19.30515,84.79986,765,532,174,Ganjam RI Circle 4,RI-21019-04,Tehsildar Ganjam South
+Odisha,21,Ganjam,019,Ganjam South,02,Jaitpur,012,19.28583,84.9204,2347,1301,724,Ganjam RI Circle 4,RI-21019-04,Tehsildar Ganjam South
+Odisha,21,Ganjam,019,Ganjam East,03,Kesarpur,013,19.33943,84.9141,1111,910,244,Ganjam RI Circle 5,RI-21019-05,Tehsildar Ganjam East
+Odisha,21,Ganjam,019,Ganjam East,03,Lakshmipura,014,19.31639,84.71957,2295,1498,584,Ganjam RI Circle 5,RI-21019-05,Tehsildar Ganjam East
+Odisha,21,Ganjam,019,Ganjam East,03,Madhavgarh,015,19.33818,84.91635,1102,905,365,Ganjam RI Circle 5,RI-21019-05,Tehsildar Ganjam East
+Odisha,21,Ganjam,019,Ganjam East,03,Nandgaon,016,19.28329,84.84334,2415,1798,872,Ganjam RI Circle 6,RI-21019-06,Tehsildar Ganjam East
+Odisha,21,Ganjam,019,Ganjam East,03,Peddapalli,017,19.34341,84.82144,1808,1109,545,Ganjam RI Circle 6,RI-21019-06,Tehsildar Ganjam East
+Odisha,21,Ganjam,019,Ganjam East,03,Raghunathpur,018,19.38306,84.7788,631,473,203,Ganjam RI Circle 6,RI-21019-06,Tehsildar Ganjam East
+Odisha,21,Ganjam,019,Ganjam West,04,Shivnagar,019,19.37738,84.77922,2474,1915,740,Ganjam RI Circle 7,RI-21019-07,Tehsildar Ganjam West
+Odisha,21,Ganjam,019,Ganjam West,04,Tarapur,020,19.30021,84.81345,1085,773,322,Ganjam RI Circle 7,RI-21019-07,Tehsildar Ganjam West
+Odisha,21,Ganjam,019,Ganjam West,04,Uttanahalli,021,19.36039,84.85267,1708,1005,195,Ganjam RI Circle 7,RI-21019-07,Tehsildar Ganjam West
+Odisha,21,Ganjam,019,Ganjam West,04,Veerapuram,022,19.27283,84.73616,1168,697,355,Ganjam RI Circle 8,RI-21019-08,Tehsildar Ganjam West
+Odisha,21,Ganjam,019,Ganjam West,04,Yellapur,023,19.38782,84.89538,965,782,294,Ganjam RI Circle 8,RI-21019-08,Tehsildar Ganjam West
+Odisha,21,Ganjam,019,Ganjam West,04,Zamania,024,19.47629,84.83261,1267,1028,149,Ganjam RI Circle 8,RI-21019-08,Tehsildar Ganjam West
+Odisha,21,Khordha,005,Khordha North,01,Rampur,001,20.10244,85.46893,2143,1334,639,Khordha RI Circle 1,RI-21005-01,Tehsildar Khordha North
+Odisha,21,Khordha,005,Khordha North,01,Kothapalli,002,20.10803,85.64403,2656,1562,891,Khordha RI Circle 1,RI-21005-01,Tehsildar Khordha North
+Odisha,21,Khordha,005,Khordha North,01,Ganeshpura,003,20.18215,85.6806,1717,1252,257,Khordha RI Circle 1,RI-21005-01,Tehsildar Khordha North
+Odisha,21,Khordha,005,Khordha North,01,Bhimnagar,004,20.31453,85.56273,1023,808,289,Khordha RI Circle 2,RI-21005-02,Tehsildar Khordha North
+Odisha,21,Khordha,005,Khordha North,01,Sultanpur,005,20.2384,85.58039,2665,1678,652,Khordha RI Circle 2,RI-21005-02,Tehsildar Khordha North
+Odisha,21,Khordha,005,Khordha North,01,Devgaon,006,20.2341,85.67192,3105,2136,1132,Khordha RI Circle 2,RI-21005-02,Tehsildar Khordha North
+Odisha,21,Khordha,005,Khordha South,02,Chandrapalli,007,20.04495,85.81974,717,502,171,Khordha RI Circle 3,RI-21005-03,Tehsildar Khordha South
+Odisha,21,Khordha,005,Khordha South,02,Narsapur,008,20.13875,85.54934,1361,1124,364,Khordha RI Circle 3,RI-21005-03,Tehsildar Khordha South
+Odisha,21,Khordha,005,Khordha South,02,Basavanahalli,009,20.07724,85.76282,2086,1761,767,Khordha RI Circle 3,RI-21005-03,Tehsildar Khordha South
+Odisha,21,Khordha,005,Khordha South,02,Mallapuram,010,20.22596,85.57738,2827,2249,450,Khordha RI Circle 4,RI-21005-04,Tehsildar Khordha South
+Odisha,21,Khordha,005,Khordha South,02,Amrapur,011,20.23924,85.79009,1469,910,508,Khordha RI Circle 4,RI-21005-04,Tehsildar Khordha South
+Odisha,21,Khordha,005,Khordha South,02,Jaitpur,012,20.27979,85.48949,2292,1281,878,Khordha RI Circle 4,RI-21005-04,Tehsildar Khordha South
+Odisha,21,Khordha,005,Khordha East,03,Kesarpur,013,20.16571,85.59873,458,304,73,Khordha RI Circle 5,RI-21005-05,Tehsildar Khordha East
+Odisha,21,Khordha,005,Khordha East,03,Lakshmipura,014,20.11862,85.50466,2142,1600,284,Khordha RI Circle 5,RI-21005-05,Tehsildar Khordha East
+Odisha,21,Khordha,005,Khordha East,03,Madhavgarh,015,20.11611,85.51663,1876,1314,207,Khordha RI Circle 5,RI-21005-05,Tehsildar Khordha East
+Odisha,21,Khordha,005,Khordha East,03,Nandgaon,016,20.19079,85.52679,1938,1454,558,Khordha RI Circle 6,RI-21005-06,Tehsildar Khordha East
+Odisha,21,Khordha,005,Khordha East,03,Peddapalli,017,20.08743,85.80554,1615,974,261,Khordha RI Circle 6,RI-21005-06,Tehsildar Khordha East
+Odisha,21,Khordha,005,Khordha East,03,Raghunathpur,018,20.34933,85.56142,1549,896,383,Khordha RI Circle 6,RI-21005-06,Tehsildar Khordha East
+Odisha,21,Khordha,005,Khordha West,04,Shivnagar,019,20.29978,85.7009,2581,2035,482,Khordha RI Circle 7,RI-21005-07,Tehsildar Khordha West
+Odisha,21,Khordha,005,Khordha West,04,Tarapur,020,20.14998,85.61546,2659,1543,653,Khordha RI Circle 7,RI-21005-07,Tehsildar Khordha West
+Odisha,21,Khordha,005,Khordha West,04,Uttanahalli,021,20.11089,85.67239,1806,1385,519,Khordha RI Circle 7,RI-21005-07,Tehsildar Khordha West
+Odisha,21,Khordha,005,Khordha West,04,Veerapuram,022,20.26917,85.62967,1386,981,333,Khordha RI Circle 8,RI-21005-08,Tehsildar Khordha West
+Odisha,21,Khordha,005,Khordha West,04,Yellapur,023,20.28516,85.7559,1673,987,602,Khordha RI Circle 8,RI-21005-08,Tehsildar Khordha West
+Odisha,21,Khordha,005,Khordha West,04,Zamania,024,20.20176,85.64607,1363,1105,249,Khordha RI Circle 8,RI-21005-08,Tehsildar Khordha West
+Odisha,21,Sambalpur,026,Sambalpur North,01,Rampur,001,21.64051,83.95965,2973,2219,812,Sambalpur RI Circle 1,RI-21026-01,Tehsildar Sambalpur North
+Odisha,21,Sambalpur,026,Sambalpur North,01,Kothapalli,002,21.56606,84.10121,3100,2259,582,Sambalpur RI Circle 1,RI-21026-01,Tehsildar Sambalpur North
+Odisha,21,Sambalpur,026,Sambalpur North,01,Ganeshpura,003,21.54845,84.06065,1034,630,241,Sambalpur RI Circle 1,RI-21026-01,Tehsildar Sambalpur North
+Odisha,21,Sambalpur,026,Sambalpur North,01,Bhimnagar,004,21.65502,83.84565,1121,709,125,Sambalpur RI Circle 2,RI-21026-02,Tehsildar Sambalpur North
+Odisha,21,Sambalpur,026,Sambalpur North,01,Sultanpur,005,21.44964,84.03943,2968,1857,335,Sambalpur RI Circle 2,RI-21026-02,Tehsildar Sambalpur North
+Odisha,21,Sambalpur,026,Sambalpur North,01,Devgaon,006,21.51026,84.06512,1792,1224,459,Sambalpur RI Circle 2,RI-21026-02,Tehsildar Sambalpur North
+Odisha,21,Sambalpur,026,Sambalpur South,02,Chandrapalli,007,21.5097,83.9729,1528,1065,289,Sambalpur RI Circle 3,RI-21026-03,Tehsildar Sambalpur South
+Odisha,21,Sambalpur,026,Sambalpur South,02,Narsapur,008,21.46316,83.99786,2599,2090,397,Sambalpur RI Circle 3,RI-21026-03,Tehsildar Sambalpur South
+Odisha,21,Sambalpur,026,Sambalpur South,02,Basavanahalli,009,21.45046,83.92315,528,335,172,Sambalpur RI Circle 3,RI-21026-03,Tehsildar Sambalpur South
+Odisha,21,Sambalpur,026,Sambalpur South,02,Mallapuram,010,21.3904,84.00329,1160,910,160,Sambalpur RI Circle 4,RI-21026-04,Tehsildar Sambalpur South
+Odisha,21,Sambalpur,026,Sambalpur South,02,Amrapur,011,21.46394,84.10721,1796,1432,674,Sambalpur RI Circle 4,RI-21026-04,Tehsildar Sambalpur South
+Odisha,21,Sambalpur,026,Sambalpur South,02,Jaitpur,012,21.4255,83.89926,3065,2309,928,Sambalpur RI Circle 4,RI-21026-04,Tehsildar Sambalpur South
+Odisha,21,Sambalpur,026,Sambalpur East,03,Kesarpur,013,21.30852,84.0089,3006,1820,998,Sambalpur RI Circle 5,RI-21026-05,Tehsildar Sambalpur East
+Odisha,21,Sambalpur,026,Sambalpur East,03,Lakshmipura,014,21.55662,83.84198,797,576,170,Sambalpur RI Circle 5,RI-21026-05,Tehsildar Sambalpur East
+Odisha,21,Sambalpur,026,Sambalpur East,03,Madhavgarh,015,21.4076,83.92284,1320,799,222,Sambalpur RI Circle 5,RI-21026-05,Tehsildar Sambalpur East
+Odisha,21,Sambalpur,026,Sambalpur East,03,Nandgaon,016,21.44637,83.86684,2360,1989,818,Sambalpur RI Circle 6,RI-21026-06,Tehsildar Sambalpur East
+Odisha,21,Sambalpur,026,Sambalpur East,03,Peddapalli,017,21.38215,83.98636,467,354,136,Sambalpur RI Circle 6,RI-21026-06,Tehsildar Sambalpur East
+Odisha,21,Sambalpur,026,Sambalpur East,03,Raghunathpur,018,21.46508,84.00429,1068,757,281,Sambalpur RI Circle 6,RI-21026-06,Tehsildar Sambalpur East
+Odisha,21,Sambalpur,026,Sambalpur West,04,Shivnagar,019,21.3503,83.84883,1989,1094,534,Sambalpur RI Circle 7,RI-21026-07,Tehsildar Sambalpur West
+Odisha,21,Sambalpur,026,Sambalpur West,04,Tarapur,020,21.39165,83.94084,2498,1863,284,Sambalpur RI Circle 7,RI-21026-07,Tehsildar Sambalpur West
+Odisha,21,Sambalpur,026,Sambalpur West,04,Uttanahalli,021,21.57549,83.85227,624,495,158,Sambalpur RI Circle 7,RI-21026-07,Tehsildar Sambalpur West
+Odisha,21,Sambalpur,026,Sambalpur West,04,Veerapuram,022,21.40036,84.09584,1763,1241,319,Sambalpur RI Circle 8,RI-21026-08,Tehsildar Sambalpur West
+Odisha,21,Sambalpur,026,Sambalpur West,04,Yellapur,023,21.41615,83.92381,1247,1024,493,Sambalpur RI Circle 8,RI-21026-08,Tehsildar Sambalpur West
+Odisha,21,Sambalpur,026,Sambalpur West,04,Zamania,024,21.45288,83.83763,2360,1794,558,Sambalpur RI Circle 8,RI-21026-08,Tehsildar Sambalpur West
+Tamil Nadu,33,Chennai,014,Chennai North,01,Rampur,001,13.06879,80.39429,4615,3043,1189,Chennai RI Circle 1,RI-33014-01,Tehsildar Chennai North
+Tamil Nadu,33,Chennai,014,Chennai North,01,Kothapalli,002,13.16964,80.13986,5240,3614,1208,Chennai RI Circle 1,RI-33014-01,Tehsildar Chennai North
+Tamil Nadu,33,Chennai,014,Chennai North,01,Ganeshpura,003,13.18123,80.38875,3016,2460,859,Chennai RI Circle 1,RI-33014-01,Tehsildar Chennai North
+Tamil Nadu,33,Chennai,014,Chennai North,01,Bhimnagar,004,12.94288,80.37772,2149,1356,499,Chennai RI Circle 2,RI-33014-02,Tehsildar Chennai North
+Tamil Nadu,33,Chennai,014,Chennai North,01,Sultanpur,005,12.9679,80.23896,7822,5581,1592,Chennai RI Circle 2,RI-33014-02,Tehsildar Chennai North
+Tamil Nadu,33,Chennai,014,Chennai North,01,Devgaon,006,13.09664,80.2047,7551,4390,872,Chennai RI Circle 2,RI-33014-02,Tehsildar Chennai North
+Tamil Nadu,33,Chennai,014,Chennai South,02,Chandrapalli,007,13.07304,80.19196,8063,4607,2878,Chennai RI Circle 3,RI-33014-03,Tehsildar Chennai South
+Tamil Nadu,33,Chennai,014,Chennai South,02,Narsapur,008,13.09174,80.33817,2607,2100,962,Chennai RI Circle 3,RI-33014-03,Tehsildar Chennai South
+Tamil Nadu,33,Chennai,014,Chennai South,02,Basavanahalli,009,13.08247,80.13821,2837,1729,364,Chennai RI Circle 3,RI-33014-03,Tehsildar Chennai South
+Tamil Nadu,33,Chennai,014,Chennai South,02,Mallapuram,010,13.12138,80.24492,8388,6525,1221,Chennai RI Circle 4,RI-33014-04,Tehsildar Chennai South
+Tamil Nadu,33,Chennai,014,Chennai South,02,Amrapur,011,13.14833,80.38511,2307,1509,841,Chennai RI Circle 4,RI-33014-04,Tehsildar Chennai South
+Tamil Nadu,33,Chennai,014,Chennai South,02,Jaitpur,012,13.05723,80.38101,4774,3140,1280,Chennai RI Circle 4,RI-33014-04,Tehsildar Chennai South
+Tamil Nadu,33,Chennai,014,Chennai East,03,Kesarpur,013,13.07298,80.19544,1888,1259,297,Chennai RI Circle 5,RI-33014-05,Tehsildar Chennai East
+Tamil Nadu,33,Chennai,014,Chennai East,03,Lakshmipura,014,13.04978,80.21354,4211,2790,1298,Chennai RI Circle 5,RI-33014-05,Tehsildar Chennai East
+Tamil Nadu,33,Chennai,014,Chennai East,03,Madhavgarh,015,13.15037,80.27054,5777,4638,2041,Chennai RI Circle 5,RI-33014-05,Tehsildar Chennai East
+Tamil Nadu,33,Chennai,014,Chennai East,03,Nandgaon,016,12.98042,80.39276,6835,5404,2148,Chennai RI Circle 6,RI-33014-06,Tehsildar Chennai East
+Tamil Nadu,33,Chennai,014,Chennai East,03,Peddapalli,017,13.12968,80.26242,7073,5991,2558,Chennai RI Circle 6,RI-33014-06,Tehsildar Chennai East
+Tamil Nadu,33,Chennai,014,Chennai East,03,Raghunathpur,018,13.16215,80.19225,2721,1656,691,Chennai RI Circle 6,RI-33014-06,Tehsildar Chennai East
+Tamil Nadu,33,Chennai,014,Chennai West,04,Shivnagar,019,13.12068,80.14953,3203,2553,837,Chennai RI Circle 7,RI-33014-07,Tehsildar Chennai West
+Tamil Nadu,33,Chennai,014,Chennai West,04,Tarapur,020,13.16259,80.29312,7553,4585,2874,Chennai RI Circle 7,RI-33014-07,Tehsildar Chennai West
+Tamil Nadu,33,Chennai,014,Chennai West,04,Uttanahalli,021,12.90616,80.17935,5211,4210,971,Chennai RI Circle 7,RI-33014-07,Tehsildar Chennai West
+Tamil Nadu,33,Chennai,014,Chennai West,04,Veerapuram,022,13.16919,80.42382,8619,6173,925,Chennai RI Circle 8,RI-33014-08,Tehsildar Chennai West
+Tamil Nadu,33,Chennai,014,Chennai West,04,Yellapur,023,13.28102,80.29722,8911,5257,2263,Chennai RI Circle 8,RI-33014-08,Tehsildar Chennai West
+Tamil Nadu,33,Chennai,014,Chennai West,04,Zamania,024,13.0708,80.26485,6378,4242,1535,Chennai RI Circle 8,RI-33014-08,Tehsildar Chennai West
+Tamil Nadu,33,Coimbatore,023,Coimbatore North,01,Rampur,001,11.13897,76.90004,2174,1255,308,Coimbatore RI Circle 1,RI-33023-01,Tehsildar Coimbatore North
+Tamil Nadu,33,Coimbatore,023,Coimbatore North,01,Kothapalli,002,10.91585,77.00865,3181,1780,545,Coimbatore RI Circle 1,RI-33023-01,Tehsildar Coimbatore North
+Tamil Nadu,33,Coimbatore,023,Coimbatore North,01,Ganeshpura,003,11.07775,76.93497,1288,873,206,Coimbatore RI Circle 1,RI-33023-01,Tehsildar Coimbatore North
+Tamil Nadu,33,Coimbatore,023,Coimbatore North,01,Bhimnagar,004,10.99651,76.92845,2906,2402,445,Coimbatore RI Circle 2,RI-33023-02,Tehsildar Coimbatore North
+Tamil Nadu,33,Coimbatore,023,Coimbatore North,01,Sultanpur,005,10.95028,76.9884,1370,970,414,Coimbatore RI Circle 2,RI-33023-02,Tehsildar Coimbatore North
+Tamil Nadu,33,Coimbatore,023,Coimbatore North,01,Devgaon,006,11.02667,77.03677,1622,1187,365,Coimbatore RI Circle 2,RI-33023-02,Tehsildar Coimbatore North
+Tamil Nadu,33,Coimbatore,023,Coimbatore South,02,Chandrapalli,007,11.08475,76.95923,2489,1593,559,Coimbatore RI Circle 3,RI-33023-03,Tehsildar Coimbatore South
+Tamil Nadu,33,Coimbatore,023,Coimbatore South,02,Narsapur,008,10.94569,77.0179,419,286,49,Coimbatore RI Circle 3,RI-33023-03,Tehsildar Coimbatore South
+Tamil Nadu,33,Coimbatore,023,Coimbatore South,02,Basavanahalli,009,11.04224,77.05778,1795,1191,366,Coimbatore RI Circle 3,RI-33023-03,Tehsildar Coimbatore South
+Tamil Nadu,33,Coimbatore,023,Coimbatore South,02,Mallapuram,010,10.93827,76.94664,1167,721,298,Coimbatore RI Circle 4,RI-33023-04,Tehsildar Coimbatore South
+Tamil Nadu,33,Coimbatore,023,Coimbatore South,02,Amrapur,011,11.06787,77.00079,3086,2342,624,Coimbatore RI Circle 4,RI-33023-04,Tehsildar Coimbatore South
+Tamil Nadu,33,Coimbatore,023,Coimbatore South,02,Jaitpur,012,11.00155,77.03275,2963,1975,445,Coimbatore RI Circle 4,RI-33023-04,Tehsildar Coimbatore South
+Tamil Nadu,33,Coimbatore,023,Coimbatore East,03,Kesarpur,013,11.14735,76.83297,434,242,147,Coimbatore RI Circle 5,RI-33023-05,Tehsildar Coimbatore East
+Tamil Nadu,33,Coimbatore,023,Coimbatore East,03,Lakshmipura,014,11.1432,76.89177,2460,1681,425,Coimbatore RI Circle 5,RI-33023-05,Tehsildar Coimbatore East
+Tamil Nadu,33,Coimbatore,023,Coimbatore East,03,Madhavgarh,015,11.26677,76.94633,2273,1883,434,Coimbatore RI Circle 5,RI-33023-05,Tehsildar Coimbatore East
+Tamil Nadu,33,Coimbatore,023,Coimbatore East,03,Nandgaon,016,10.93805,77.05648,2191,1654,275,Coimbatore RI Circle 6,RI-33023-06,Tehsildar Coimbatore East
+Tamil Nadu,33,Coimbatore,023,Coimbatore East,03,Peddapalli,017,11.05863,77.14323,3105,1765,1079,Coimbatore RI Circle 6,RI-33023-06,Tehsildar Coimbatore East
+Tamil Nadu,33,Coimbatore,023,Coimbatore East,03,Raghunathpur,018,11.00357,76.97169,1924,1389,474,Coimbatore RI Circle 6,RI-33023-06,Tehsildar Coimbatore East
+Tamil Nadu,33,Coimbatore,023,Coimbatore West,04,Shivnagar,019,10.90493,76.96339,874,488,260,Coimbatore RI Circle 7,RI-33023-07,Tehsildar Coimbatore West
+Tamil Nadu,33,Coimbatore,023,Coimbatore West,04,Tarapur,020,11.22934,76.84088,1867,1147,452,Coimbatore RI Circle 7,RI-33023-07,Tehsildar Coimbatore West
+Tamil Nadu,33,Coimbatore,023,Coimbatore West,04,Uttanahalli,021,11.16984,77.04115,2622,2015,328,Coimbatore RI Circle 7,RI-33023-07,Tehsildar Coimbatore West
+Tamil Nadu,33,Coimbatore,023,Coimbatore West,04,Veerapuram,022,11.01397,77.16064,833,621,234,Coimbatore RI Circle 8,RI-33023-08,Tehsildar Coimbatore West
+Tamil Nadu,33,Coimbatore,023,Coimbatore West,04,Yellapur,023,11.02567,77.25523,2508,1914,542,Coimbatore RI Circle 8,RI-33023-08,Tehsildar Coimbatore West
+Tamil Nadu,33,Coimbatore,023,Coimbatore West,04,Zamania,024,11.23313,76.84783,2071,1558,823,Coimbatore RI Circle 8,RI-33023-08,Tehsildar Coimbatore West
+Tamil Nadu,33,Madurai,031,Madurai North,01,Rampur,001,9.85343,78.23168,677,558,211,Madurai RI Circle 1,RI-33031-01,Tehsildar Madurai North
+Tamil Nadu,33,Madurai,031,Madurai North,01,Kothapalli,002,10.06405,78.24442,563,335,103,Madurai RI Circle 1,RI-33031-01,Tehsildar Madurai North
+Tamil Nadu,33,Madurai,031,Madurai North,01,Ganeshpura,003,10.0869,78.14151,3073,2541,349,Madurai RI Circle 1,RI-33031-01,Tehsildar Madurai North
+Tamil Nadu,33,Madurai,031,Madurai North,01,Bhimnagar,004,9.94005,78.07326,424,354,118,Madurai RI Circle 2,RI-33031-02,Tehsildar Madurai North
+Tamil Nadu,33,Madurai,031,Madurai North,01,Sultanpur,005,9.91744,78.21604,1372,1162,150,Madurai RI Circle 2,RI-33031-02,Tehsildar Madurai North
+Tamil Nadu,33,Madurai,031,Madurai North,01,Devgaon,006,9.8439,78.06394,2525,1582,477,Madurai RI Circle 2,RI-33031-02,Tehsildar Madurai North
+Tamil Nadu,33,Madurai,031,Madurai South,02,Chandrapalli,007,10.08916,78.12902,1849,1523,454,Madurai RI Circle 3,RI-33031-03,Tehsildar Madurai South
+Tamil Nadu,33,Madurai,031,Madurai South,02,Narsapur,008,10.01603,78.14091,1710,982,597,Madurai RI Circle 3,RI-33031-03,Tehsildar Madurai South
+Tamil Nadu,33,Madurai,031,Madurai South,02,Basavanahalli,009,10.11097,78.24925,2070,1498,368,Madurai RI Circle 3,RI-33031-03,Tehsildar Madurai South
+Tamil Nadu,33,Madurai,031,Madurai South,02,Mallapuram,010,9.85402,78.05382,3001,2305,874,Madurai RI Circle 4,RI-33031-04,Tehsildar Madurai South
+Tamil Nadu,33,Madurai,031,Madurai South,02,Amrapur,011,9.91631,78.11254,527,434,94,Madurai RI Circle 4,RI-33031-04,Tehsildar Madurai South
+Tamil Nadu,33,Madurai,031,Madurai South,02,Jaitpur,012,10.02447,78.12604,938,725,206,Madurai RI Circle 4,RI-33031-04,Tehsildar Madurai South
+Tamil Nadu,33,Madurai,031,Madurai East,03,Kesarpur,013,9.99768,78.16169,504,334,171,Madurai RI Circle 5,RI-33031-05,Tehsildar Madurai East
+Tamil Nadu,33,Madurai,031,Madurai East,03,Lakshmipura,014,10.04354,78.01582,592,375,116,Madurai RI Circle 5,RI-33031-05,Tehsildar Madurai East
+Tamil Nadu,33,Madurai,031,Madurai East,03,Madhavgarh,015,9.92216,78.01934,713,439,213,Madurai RI Circle 5,RI-33031-05,Tehsildar Madurai East
+Tamil Nadu,33,Madurai,031,Madurai East,03,Nandgaon,016,10.08412,78.06946,1541,1121,546,Madurai RI Circle 6,RI-33031-06,Tehsildar Madurai East
+Tamil Nadu,33,Madurai,031,Madurai East,03,Peddapalli,017,9.93001,78.16666,2622,1976,828,Madurai RI Circle 6,RI-33031-06,Tehsildar Madurai East
+Tamil Nadu,33,Madurai,031,Madurai East,03,Raghunathpur,018,9.81986,78.29054,811,566,90,Madurai RI Circle 6,RI-33031-06,Tehsildar Madurai East
+Tamil Nadu,33,Madurai,031,Madurai West,04,Shivnagar,019,9.99523,78.19168,1977,1504,747,Madurai RI Circle 7,RI-33031-07,Tehsildar Madurai West
+Tamil Nadu,33,Madurai,031,Madurai West,04,Tarapur,020,10.00607,78.06107,477,387,68,Madurai RI Circle 7,RI-33031-07,Tehsildar Madurai West
+Tamil Nadu,33,Madurai,031,Madurai West,04,Uttanahalli,021,9.86742,78.13724,912,541,232,Madurai RI Circle 7,RI-33031-07,Tehsildar Madurai West
+Tamil Nadu,33,Madurai,031,Madurai West,04,Veerapuram,022,10.02437,78.05137,2057,1350,557,Madurai RI Circle 8,RI-33031-08,Tehsildar Madurai West
+Tamil Nadu,33,Madurai,031,Madurai West,04,Yellapur,023,10.05023,78.2465,2356,1550,869,Madurai RI Circle 8,RI-33031-08,Tehsildar Madurai West
+Tamil Nadu,33,Madurai,031,Madurai West,04,Zamania,024,9.91234,78.22637,400,311,107,Madurai RI Circle 8,RI-33031-08,Tehsildar Madurai West
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli North,01,Rampur,001,10.69752,78.7812,2247,1270,615,Tiruchirappalli RI Circle 1,RI-33045-01,Tehsildar Tiruchirappalli North
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli North,01,Kothapalli,002,10.84922,78.5165,1432,1126,318,Tiruchirappalli RI Circle 1,RI-33045-01,Tehsildar Tiruchirappalli North
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli North,01,Ganeshpura,003,10.73186,78.86305,2482,2081,813,Tiruchirappalli RI Circle 1,RI-33045-01,Tehsildar Tiruchirappalli North
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli North,01,Bhimnagar,004,10.92154,78.68439,1204,1021,151,Tiruchirappalli RI Circle 2,RI-33045-02,Tehsildar Tiruchirappalli North
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli North,01,Sultanpur,005,10.70121,78.82795,1489,1253,278,Tiruchirappalli RI Circle 2,RI-33045-02,Tehsildar Tiruchirappalli North
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli North,01,Devgaon,006,10.65053,78.63386,1332,909,523,Tiruchirappalli RI Circle 2,RI-33045-02,Tehsildar Tiruchirappalli North
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli South,02,Chandrapalli,007,10.72801,78.64797,2905,2028,327,Tiruchirappalli RI Circle 3,RI-33045-03,Tehsildar Tiruchirappalli South
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli South,02,Narsapur,008,10.72264,78.74102,801,448,310,Tiruchirappalli RI Circle 3,RI-33045-03,Tehsildar Tiruchirappalli South
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli South,02,Basavanahalli,009,10.79435,78.67094,2982,2182,1071,Tiruchirappalli RI Circle 3,RI-33045-03,Tehsildar Tiruchirappalli South
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli South,02,Mallapuram,010,10.82309,78.70588,1878,1224,366,Tiruchirappalli RI Circle 4,RI-33045-04,Tehsildar Tiruchirappalli South
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli South,02,Amrapur,011,10.80863,78.80211,1336,1021,338,Tiruchirappalli RI Circle 4,RI-33045-04,Tehsildar Tiruchirappalli South
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli South,02,Jaitpur,012,10.80827,78.71905,884,656,320,Tiruchirappalli RI Circle 4,RI-33045-04,Tehsildar Tiruchirappalli South
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli East,03,Kesarpur,013,10.81332,78.68357,1017,791,237,Tiruchirappalli RI Circle 5,RI-33045-05,Tehsildar Tiruchirappalli East
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli East,03,Lakshmipura,014,10.74721,78.76367,893,652,104,Tiruchirappalli RI Circle 5,RI-33045-05,Tehsildar Tiruchirappalli East
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli East,03,Madhavgarh,015,10.63638,78.6523,1903,1082,607,Tiruchirappalli RI Circle 5,RI-33045-05,Tehsildar Tiruchirappalli East
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli East,03,Nandgaon,016,10.73294,78.71979,3183,2485,757,Tiruchirappalli RI Circle 6,RI-33045-06,Tehsildar Tiruchirappalli East
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli East,03,Peddapalli,017,10.87956,78.60597,590,375,142,Tiruchirappalli RI Circle 6,RI-33045-06,Tehsildar Tiruchirappalli East
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli East,03,Raghunathpur,018,10.75275,78.75365,2694,1489,992,Tiruchirappalli RI Circle 6,RI-33045-06,Tehsildar Tiruchirappalli East
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli West,04,Shivnagar,019,10.69879,78.67248,885,592,208,Tiruchirappalli RI Circle 7,RI-33045-07,Tehsildar Tiruchirappalli West
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli West,04,Tarapur,020,10.79615,78.62104,2224,1542,484,Tiruchirappalli RI Circle 7,RI-33045-07,Tehsildar Tiruchirappalli West
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli West,04,Uttanahalli,021,10.70929,78.78233,2251,1590,890,Tiruchirappalli RI Circle 7,RI-33045-07,Tehsildar Tiruchirappalli West
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli West,04,Veerapuram,022,10.6931,78.58371,826,597,136,Tiruchirappalli RI Circle 8,RI-33045-08,Tehsildar Tiruchirappalli West
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli West,04,Yellapur,023,10.6616,78.78598,2587,2072,479,Tiruchirappalli RI Circle 8,RI-33045-08,Tehsildar Tiruchirappalli West
+Tamil Nadu,33,Tiruchirappalli,045,Tiruchirappalli West,04,Zamania,024,10.79626,78.68937,2769,2213,383,Tiruchirappalli RI Circle 8,RI-33045-08,Tehsildar Tiruchirappalli West
+Telangana,36,Hyderabad,003,Hyderabad North,01,Rampur,001,17.27308,78.5922,3825,2499,687,Hyderabad RI Circle 1,RI-36003-01,Tehsildar Hyderabad North
+Telangana,36,Hyderabad,003,Hyderabad North,01,Kothapalli,002,17.41228,78.64294,2274,1315,690,Hyderabad RI Circle 1,RI-36003-01,Tehsildar Hyderabad North
+Telangana,36,Hyderabad,003,Hyderabad North,01,Ganeshpura,003,17.29912,78.49913,8251,4663,2673,Hyderabad RI Circle 1,RI-36003-01,Tehsildar Hyderabad North
+Telangana,36,Hyderabad,003,Hyderabad North,01,Bhimnagar,004,17.54801,78.42949,2889,2356,820,Hyderabad RI Circle 2,RI-36003-02,Tehsildar Hyderabad North
+Telangana,36,Hyderabad,003,Hyderabad North,01,Sultanpur,005,17.44046,78.41974,3728,2082,893,Hyderabad RI Circle 2,RI-36003-02,Tehsildar Hyderabad North
+Telangana,36,Hyderabad,003,Hyderabad North,01,Devgaon,006,17.24451,78.56801,2538,2049,562,Hyderabad RI Circle 2,RI-36003-02,Tehsildar Hyderabad North
+Telangana,36,Hyderabad,003,Hyderabad South,02,Chandrapalli,007,17.45489,78.5291,4099,2548,1014,Hyderabad RI Circle 3,RI-36003-03,Tehsildar Hyderabad South
+Telangana,36,Hyderabad,003,Hyderabad South,02,Narsapur,008,17.45799,78.60985,2442,1695,920,Hyderabad RI Circle 3,RI-36003-03,Tehsildar Hyderabad South
+Telangana,36,Hyderabad,003,Hyderabad South,02,Basavanahalli,009,17.40823,78.63865,7273,5976,1105,Hyderabad RI Circle 3,RI-36003-03,Tehsildar Hyderabad South
+Telangana,36,Hyderabad,003,Hyderabad South,02,Mallapuram,010,17.36333,78.43607,8833,7333,3254,Hyderabad RI Circle 4,RI-36003-04,Tehsildar Hyderabad South
+Telangana,36,Hyderabad,003,Hyderabad South,02,Amrapur,011,17.32526,78.53574,4451,3331,1025,Hyderabad RI Circle 4,RI-36003-04,Tehsildar Hyderabad South
+Telangana,36,Hyderabad,003,Hyderabad South,02,Jaitpur,012,17.41969,78.46542,4569,3795,1824,Hyderabad RI Circle 4,RI-36003-04,Tehsildar Hyderabad South
+Telangana,36,Hyderabad,003,Hyderabad East,03,Kesarpur,013,17.31757,78.28248,2631,2046,282,Hyderabad RI Circle 5,RI-36003-05,Tehsildar Hyderabad East
+Telangana,36,Hyderabad,003,Hyderabad East,03,Lakshmipura,014,17.45029,78.42675,6961,4341,2355,Hyderabad RI Circle 5,RI-36003-05,Tehsildar Hyderabad East
+Telangana,36,Hyderabad,003,Hyderabad East,03,Madhavgarh,015,17.52366,78.43227,6136,4692,2407,Hyderabad RI Circle 5,RI-36003-05,Tehsildar Hyderabad East
+Telangana,36,Hyderabad,003,Hyderabad East,03,Nandgaon,016,17.3578,78.4231,5269,3899,1248,Hyderabad RI Circle 6,RI-36003-06,Tehsildar Hyderabad East
+Telangana,36,Hyderabad,003,Hyderabad East,03,Peddapalli,017,17.34922,78.59223,7813,5133,3080,Hyderabad RI Circle 6,RI-36003-06,Tehsildar Hyderabad East
+Telangana,36,Hyderabad,003,Hyderabad East,03,Raghunathpur,018,17.47299,78.57621,4085,3453,1094,Hyderabad RI Circle 6,RI-36003-06,Tehsildar Hyderabad East
+Telangana,36,Hyderabad,003,Hyderabad West,04,Shivnagar,019,17.17231,78.59744,8170,6786,1201,Hyderabad RI Circle 7,RI-36003-07,Tehsildar Hyderabad West
+Telangana,36,Hyderabad,003,Hyderabad West,04,Tarapur,020,17.4168,78.5873,6604,5417,1179,Hyderabad RI Circle 7,RI-36003-07,Tehsildar Hyderabad West
+Telangana,36,Hyderabad,003,Hyderabad West,04,Uttanahalli,021,17.30976,78.3738,7878,5107,1125,Hyderabad RI Circle 7,RI-36003-07,Tehsildar Hyderabad West
+Telangana,36,Hyderabad,003,Hyderabad West,04,Veerapuram,022,17.28714,78.53046,7309,4271,1077,Hyderabad RI Circle 8,RI-36003-08,Tehsildar Hyderabad West
+Telangana,36,Hyderabad,003,Hyderabad West,04,Yellapur,023,17.45596,78.41187,4139,3338,1578,Hyderabad RI Circle 8,RI-36003-08,Tehsildar Hyderabad West
+Telangana,36,Hyderabad,003,Hyderabad West,04,Zamania,024,17.56649,78.2684,5991,5040,1884,Hyderabad RI Circle 8,RI-36003-08,Tehsildar Hyderabad West
+Telangana,36,Karimnagar,019,Karimnagar North,01,Rampur,001,18.51072,79.0094,2906,2000,1080,Karimnagar RI Circle 1,RI-36019-01,Tehsildar Karimnagar North
+Telangana,36,Karimnagar,019,Karimnagar North,01,Kothapalli,002,18.35047,79.06897,823,686,93,Karimnagar RI Circle 1,RI-36019-01,Tehsildar Karimnagar North
+Telangana,36,Karimnagar,019,Karimnagar North,01,Ganeshpura,003,18.57306,79.12862,2106,1620,461,Karimnagar RI Circle 1,RI-36019-01,Tehsildar Karimnagar North
+Telangana,36,Karimnagar,019,Karimnagar North,01,Bhimnagar,004,18.58719,79.22594,1102,658,307,Karimnagar RI Circle 2,RI-36019-02,Tehsildar Karimnagar North
+Telangana,36,Karimnagar,019,Karimnagar North,01,Sultanpur,005,18.4122,79.15652,1440,884,420,Karimnagar RI Circle 2,RI-36019-02,Tehsildar Karimnagar North
+Telangana,36,Karimnagar,019,Karimnagar North,01,Devgaon,006,18.46899,79.00888,2675,1534,435,Karimnagar RI Circle 2,RI-36019-02,Tehsildar Karimnagar North
+Telangana,36,Karimnagar,019,Karimnagar South,02,Chandrapalli,007,18.43515,79.13878,2075,1613,510,Karimnagar RI Circle 3,RI-36019-03,Tehsildar Karimnagar South
+Telangana,36,Karimnagar,019,Karimnagar South,02,Narsapur,008,18.36297,79.11303,1090,845,233,Karimnagar RI Circle 3,RI-36019-03,Tehsildar Karimnagar South
+Telangana,36,Karimnagar,019,Karimnagar South,02,Basavanahalli,009,18.46451,79.1079,1890,1421,671,Karimnagar RI Circle 3,RI-36019-03,Tehsildar Karimnagar South
+Telangana,36,Karimnagar,019,Karimnagar South,02,Mallapuram,010,18.42543,79.1863,1776,1267,307,Karimnagar RI Circle 4,RI-36019-04,Tehsildar Karimnagar South
+Telangana,36,Karimnagar,019,Karimnagar South,02,Amrapur,011,18.59442,79.10576,2785,2353,663,Karimnagar RI Circle 4,RI-36019-04,Tehsildar Karimnagar South
+Telangana,36,Karimnagar,019,Karimnagar South,02,Jaitpur,012,18.36098,79.20391,2519,1563,500,Karimnagar RI Circle 4,RI-36019-04,Tehsildar Karimnagar South
+Telangana,36,Karimnagar,019,Karimnagar East,03,Kesarpur,013,18.61522,79.23425,2280,1660,406,Karimnagar RI Circle 5,RI-36019-05,Tehsildar Karimnagar East
+Telangana,36,Karimnagar,019,Karimnagar East,03,Lakshmipura,014,18.43744,79.23322,2295,1777,326,Karimnagar RI Circle 5,RI-36019-05,Tehsildar Karimnagar East
+Telangana,36,Karimnagar,019,Karimnagar East,03,Madhavgarh,015,18.64,79.26749,542,335,114,Karimnagar RI Circle 5,RI-36019-05,Tehsildar Karimnagar East
+Telangana,36,Karimnagar,019,Karimnagar East,03,Nandgaon,016,18.22878,79.03837,2592,1595,386,Karimnagar RI Circle 6,RI-36019-06,Tehsildar Karimnagar East
+Telangana,36,Karimnagar,019,Karimnagar East,03,Peddapalli,017,18.50687,79.27269,2946,1808,755,Karimnagar RI Circle 6,RI-36019-06,Tehsildar Karimnagar East
+Telangana,36,Karimnagar,019,Karimnagar East,03,Raghunathpur,018,18.51028,79.17041,772,475,293,Karimnagar RI Circle 6,RI-36019-06,Tehsildar Karimnagar East
+Telangana,36,Karimnagar,019,Karimnagar West,04,Shivnagar,019,18.27923,79.23968,2583,1815,713,Karimnagar RI Circle 7,RI-36019-07,Tehsildar Karimnagar West
+Telangana,36,Karimnagar,019,Karimnagar West,04,Tarapur,020,18.4761,79.17056,2551,2015,508,Karimnagar RI Circle 7,RI-36019-07,Tehsildar Karimnagar West
+Telangana,36,Karimnagar,019,Karimnagar West,04,Uttanahalli,021,18.60159,79.15824,2942,2401,481,Karimnagar RI Circle 7,RI-36019-07,Tehsildar Karimnagar West
+Telangana,36,Karimnagar,019,Karimnagar West,04,Veerapuram,022,18.48349,79.21924,2938,1683,867,Karimnagar RI Circle 8,RI-36019-08,Tehsildar Karimnagar West
+Telangana,36,Karimnagar,019,Karimnagar West,04,Yellapur,023,18.65197,79.11981,3095,1879,386,Karimnagar RI Circle 8,RI-36019-08,Tehsildar Karimnagar West
+Telangana,36,Karimnagar,019,Karimnagar West,04,Zamania,024,18.37954,79.08913,2215,1345,742,Karimnagar RI Circle 8,RI-36019-08,Tehsildar Karimnagar West
+Telangana,36,Nizamabad,027,Nizamabad North,01,Rampur,001,18.71365,78.00411,1940,1244,689,Nizamabad RI Circle 1,RI-36027-01,Tehsildar Nizamabad North
+Telangana,36,Nizamabad,027,Nizamabad North,01,Kothapalli,002,18.85285,77.98875,879,596,114,Nizamabad RI Circle 1,RI-36027-01,Tehsildar Nizamabad North
+Telangana,36,Nizamabad,027,Nizamabad North,01,Ganeshpura,003,18.63139,78.14785,1367,1013,165,Nizamabad RI Circle 1,RI-36027-01,Tehsildar Nizamabad North
+Telangana,36,Nizamabad,027,Nizamabad North,01,Bhimnagar,004,18.63409,77.95548,2239,1508,505,Nizamabad RI Circle 2,RI-36027-02,Tehsildar Nizamabad North
+Telangana,36,Nizamabad,027,Nizamabad North,01,Sultanpur,005,18.5986,78.31366,845,683,188,Nizamabad RI Circle 2,RI-36027-02,Tehsildar Nizamabad North
+Telangana,36,Nizamabad,027,Nizamabad North,01,Devgaon,006,18.65212,78.08952,1396,859,155,Nizamabad RI Circle 2,RI-36027-02,Tehsildar Nizamabad North
+Telangana,36,Nizamabad,027,Nizamabad South,02,Chandrapalli,007,18.65436,78.13273,2438,1649,721,Nizamabad RI Circle 3,RI-36027-03,Tehsildar Nizamabad South
+Telangana,36,Nizamabad,027,Nizamabad South,02,Narsapur,008,18.68748,78.18623,3076,1831,404,Nizamabad RI Circle 3,RI-36027-03,Tehsildar Nizamabad South
+Telangana,36,Nizamabad,027,Nizamabad South,02,Basavanahalli,009,18.72271,77.99629,2970,2439,566,Nizamabad RI Circle 3,RI-36027-03,Tehsildar Nizamabad South
+Telangana,36,Nizamabad,027,Nizamabad South,02,Mallapuram,010,18.65858,78.14655,2509,1819,340,Nizamabad RI Circle 4,RI-36027-04,Tehsildar Nizamabad South
+Telangana,36,Nizamabad,027,Nizamabad South,02,Amrapur,011,18.57801,78.0141,2779,1878,683,Nizamabad RI Circle 4,RI-36027-04,Tehsildar Nizamabad South
+Telangana,36,Nizamabad,027,Nizamabad South,02,Jaitpur,012,18.64063,78.21341,2743,1892,534,Nizamabad RI Circle 4,RI-36027-04,Tehsildar Nizamabad South
+Telangana,36,Nizamabad,027,Nizamabad East,03,Kesarpur,013,18.68965,78.10604,1385,981,308,Nizamabad RI Circle 5,RI-36027-05,Tehsildar Nizamabad East
+Telangana,36,Nizamabad,027,Nizamabad East,03,Lakshmipura,014,18.77185,78.18891,2008,1486,283,Nizamabad RI Circle 5,RI-36027-05,Tehsildar Nizamabad East
+Telangana,36,Nizamabad,027,Nizamabad East,03,Madhavgarh,015,18.766,78.12202,746,410,88,Nizamabad RI Circle 5,RI-36027-05,Tehsildar Nizamabad East
+Telangana,36,Nizamabad,027,Nizamabad East,03,Nandgaon,016,18.70676,78.06347,2677,1779,479,Nizamabad RI Circle 6,RI-36027-06,Tehsildar Nizamabad East
+Telangana,36,Nizamabad,027,Nizamabad East,03,Peddapalli,017,18.71494,77.95883,1943,1175,198,Nizamabad RI Circle 6,RI-36027-06,Tehsildar Nizamabad East
+Telangana,36,Nizamabad,027,Nizamabad East,03,Raghunathpur,018,18.68333,78.21543,2629,2020,998,Nizamabad RI Circle 6,RI-36027-06,Tehsildar Nizamabad East
+Telangana,36,Nizamabad,027,Nizamabad West,04,Shivnagar,019,18.76709,78.11285,2668,1773,886,Nizamabad RI Circle 7,RI-36027-07,Tehsildar Nizamabad West
+Telangana,36,Nizamabad,027,Nizamabad West,04,Tarapur,020,18.80647,78.0221,431,250,71,Nizamabad RI Circle 7,RI-36027-07,Tehsildar Nizamabad West
+Telangana,36,Nizamabad,027,Nizamabad West,04,Uttanahalli,021,18.61403,78.10907,1154,863,249,Nizamabad RI Circle 7,RI-36027-07,Tehsildar Nizamabad West
+Telangana,36,Nizamabad,027,Nizamabad West,04,Veerapuram,022,18.60152,78.17541,539,330,54,Nizamabad RI Circle 8,RI-36027-08,Tehsildar Nizamabad West
+Telangana,36,Nizamabad,027,Nizamabad West,04,Yellapur,023,18.63806,78.08457,1572,912,551,Nizamabad RI Circle 8,RI-36027-08,Tehsildar Nizamabad West
+Telangana,36,Nizamabad,027,Nizamabad West,04,Zamania,024,18.79217,78.12166,2969,1753,404,Nizamabad RI Circle 8,RI-36027-08,Tehsildar Nizamabad West
+Telangana,36,Warangal,011,Warangal North,01,Rampur,001,17.99808,79.70584,2973,1992,819,Warangal RI Circle 1,RI-36011-01,Tehsildar Warangal North
+Telangana,36,Warangal,011,Warangal North,01,Kothapalli,002,18.03614,79.58835,1192,767,366,Warangal RI Circle 1,RI-36011-01,Tehsildar Warangal North
+Telangana,36,Warangal,011,Warangal North,01,Ganeshpura,003,18.0389,79.52141,1042,726,256,Warangal RI Circle 1,RI-36011-01,Tehsildar Warangal North
+Telangana,36,Warangal,011,Warangal North,01,Bhimnagar,004,18.1045,79.61129,1741,1011,612,Warangal RI Circle 2,RI-36011-02,Tehsildar Warangal North
+Telangana,36,Warangal,011,Warangal North,01,Sultanpur,005,17.97378,79.39057,1522,844,187,Warangal RI Circle 2,RI-36011-02,Tehsildar Warangal North
+Telangana,36,Warangal,011,Warangal North,01,Devgaon,006,17.98383,79.50927,3116,2271,560,Warangal RI Circle 2,RI-36011-02,Tehsildar Warangal North
+Telangana,36,Warangal,011,Warangal South,02,Chandrapalli,007,17.85348,79.53506,1434,864,377,Warangal RI Circle 3,RI-36011-03,Tehsildar Warangal South
+Telangana,36,Warangal,011,Warangal South,02,Narsapur,008,17.91253,79.6067,989,715,245,Warangal RI Circle 3,RI-36011-03,Tehsildar Warangal South
+Telangana,36,Warangal,011,Warangal South,02,Basavanahalli,009,18.07016,79.66721,1553,1049,533,Warangal RI Circle 3,RI-36011-03,Tehsildar Warangal South
+Telangana,36,Warangal,011,Warangal South,02,Mallapuram,010,17.88045,79.54826,1122,646,264,Warangal RI Circle 4,RI-36011-04,Tehsildar Warangal South
+Telangana,36,Warangal,011,Warangal South,02,Amrapur,011,17.87567,79.67301,1407,1165,523,Warangal RI Circle 4,RI-36011-04,Tehsildar Warangal South
+Telangana,36,Warangal,011,Warangal South,02,Jaitpur,012,17.79469,79.6038,757,514,201,Warangal RI Circle 4,RI-36011-04,Tehsildar Warangal South
+Telangana,36,Warangal,011,Warangal East,03,Kesarpur,013,17.97916,79.51676,2229,1779,276,Warangal RI Circle 5,RI-36011-05,Tehsildar Warangal East
+Telangana,36,Warangal,011,Warangal East,03,Lakshmipura,014,18.04412,79.61583,579,334,163,Warangal RI Circle 5,RI-36011-05,Tehsildar Warangal East
+Telangana,36,Warangal,011,Warangal East,03,Madhavgarh,015,18.06171,79.52765,1833,1477,220,Warangal RI Circle 5,RI-36011-05,Tehsildar Warangal East
+Telangana,36,Warangal,011,Warangal East,03,Nandgaon,016,17.99938,79.71499,2208,1794,695,Warangal RI Circle 6,RI-36011-06,Tehsildar Warangal East
+Telangana,36,Warangal,011,Warangal East,03,Peddapalli,017,18.13411,79.67506,1036,706,412,Warangal RI Circle 6,RI-36011-06,Tehsildar Warangal East
+Telangana,36,Warangal,011,Warangal East,03,Raghunathpur,018,17.99403,79.52043,640,406,241,Warangal RI Circle 6,RI-36011-06,Tehsildar Warangal East
+Telangana,36,Warangal,011,Warangal West,04,Shivnagar,019,17.95498,79.51972,2577,2066,782,Warangal RI Circle 7,RI-36011-07,Tehsildar Warangal West
+Telangana,36,Warangal,011,Warangal West,04,Tarapur,020,18.13794,79.55635,1025,734,157,Warangal RI Circle 7,RI-36011-07,Tehsildar Warangal West
+Telangana,36,Warangal,011,Warangal West,04,Uttanahalli,021,17.90736,79.68817,2911,2103,649,Warangal RI Circle 7,RI-36011-07,Tehsildar Warangal West
+Telangana,36,Warangal,011,Warangal West,04,Veerapuram,022,17.76683,79.49465,1450,1017,219,Warangal RI Circle 8,RI-36011-08,Tehsildar Warangal West
+Telangana,36,Warangal,011,Warangal West,04,Yellapur,023,17.9185,79.54902,1016,607,286,Warangal RI Circle 8,RI-36011-08,Tehsildar Warangal West
+Telangana,36,Warangal,011,Warangal West,04,Zamania,024,18.04126,79.62541,2029,1645,674,Warangal RI Circle 8,RI-36011-08,Tehsildar Warangal West
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar North,01,Rampur,001,26.53999,80.24921,1871,1052,226,Kanpur Nagar RI Circle 1,RI-09015-01,Tehsildar Kanpur Nagar North
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar North,01,Kothapalli,002,26.39423,80.45489,1131,932,182,Kanpur Nagar RI Circle 1,RI-09015-01,Tehsildar Kanpur Nagar North
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar North,01,Ganeshpura,003,26.47459,80.30341,1237,938,325,Kanpur Nagar RI Circle 1,RI-09015-01,Tehsildar Kanpur Nagar North
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar North,01,Bhimnagar,004,26.31325,80.28399,1178,747,304,Kanpur Nagar RI Circle 2,RI-09015-02,Tehsildar Kanpur Nagar North
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar North,01,Sultanpur,005,26.58162,80.37669,2622,2170,274,Kanpur Nagar RI Circle 2,RI-09015-02,Tehsildar Kanpur Nagar North
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar North,01,Devgaon,006,26.51349,80.4031,2119,1739,289,Kanpur Nagar RI Circle 2,RI-09015-02,Tehsildar Kanpur Nagar North
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar South,02,Chandrapalli,007,26.39012,80.3677,2213,1856,742,Kanpur Nagar RI Circle 3,RI-09015-03,Tehsildar Kanpur Nagar South
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar South,02,Narsapur,008,26.50221,80.34571,2536,2008,726,Kanpur Nagar RI Circle 3,RI-09015-03,Tehsildar Kanpur Nagar South
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar South,02,Basavanahalli,009,26.35417,80.34802,3184,1935,1208,Kanpur Nagar RI Circle 3,RI-09015-03,Tehsildar Kanpur Nagar South
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar South,02,Mallapuram,010,26.5081,80.53521,677,533,82,Kanpur Nagar RI Circle 4,RI-09015-04,Tehsildar Kanpur Nagar South
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar South,02,Amrapur,011,26.46069,80.28383,3173,2486,1094,Kanpur Nagar RI Circle 4,RI-09015-04,Tehsildar Kanpur Nagar South
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar South,02,Jaitpur,012,26.32018,80.26794,2888,2334,1005,Kanpur Nagar RI Circle 4,RI-09015-04,Tehsildar Kanpur Nagar South
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar East,03,Kesarpur,013,26.59723,80.39071,894,680,307,Kanpur Nagar RI Circle 5,RI-09015-05,Tehsildar Kanpur Nagar East
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar East,03,Lakshmipura,014,26.40999,80.21384,3045,1734,697,Kanpur Nagar RI Circle 5,RI-09015-05,Tehsildar Kanpur Nagar East
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar East,03,Madhavgarh,015,26.40014,80.40622,2918,2255,896,Kanpur Nagar RI Circle 5,RI-09015-05,Tehsildar Kanpur Nagar East
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar East,03,Nandgaon,016,26.64232,80.25945,638,436,154,Kanpur Nagar RI Circle 6,RI-09015-06,Tehsildar Kanpur Nagar East
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar East,03,Peddapalli,017,26.38084,80.33037,495,313,85,Kanpur Nagar RI Circle 6,RI-09015-06,Tehsildar Kanpur Nagar East
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar East,03,Raghunathpur,018,26.35294,80.26787,808,522,201,Kanpur Nagar RI Circle 6,RI-09015-06,Tehsildar Kanpur Nagar East
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar West,04,Shivnagar,019,26.41666,80.21998,1547,1314,159,Kanpur Nagar RI Circle 7,RI-09015-07,Tehsildar Kanpur Nagar West
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar West,04,Tarapur,020,26.39355,80.4131,779,459,154,Kanpur Nagar RI Circle 7,RI-09015-07,Tehsildar Kanpur Nagar West
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar West,04,Uttanahalli,021,26.32187,80.42465,3002,2294,917,Kanpur Nagar RI Circle 7,RI-09015-07,Tehsildar Kanpur Nagar West
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar West,04,Veerapuram,022,26.45919,80.26863,772,482,140,Kanpur Nagar RI Circle 8,RI-09015-08,Tehsildar Kanpur Nagar West
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar West,04,Yellapur,023,26.4155,80.26997,741,475,183,Kanpur Nagar RI Circle 8,RI-09015-08,Tehsildar Kanpur Nagar West
+Uttar Pradesh,09,Kanpur Nagar,015,Kanpur Nagar West,04,Zamania,024,26.38072,80.30408,1730,1244,396,Kanpur Nagar RI Circle 8,RI-09015-08,Tehsildar Kanpur Nagar West
+Uttar Pradesh,09,Lucknow,002,Lucknow North,01,Rampur,001,26.6515,80.86831,5242,4083,977,Lucknow RI Circle 1,RI-09002-01,Tehsildar Lucknow North
+Uttar Pradesh,09,Lucknow,002,Lucknow North,01,Kothapalli,002,26.88819,81.04204,4266,3419,1255,Lucknow RI Circle 1,RI-09002-01,Tehsildar Lucknow North
+Uttar Pradesh,09,Lucknow,002,Lucknow North,01,Ganeshpura,003,26.86244,80.91902,3419,2012,1079,Lucknow RI Circle 1,RI-09002-01,Tehsildar Lucknow North
+Uttar Pradesh,09,Lucknow,002,Lucknow North,01,Bhimnagar,004,26.84978,80.81933,3537,2470,397,Lucknow RI Circle 2,RI-09002-02,Tehsildar Lucknow North
+Uttar Pradesh,09,Lucknow,002,Lucknow North,01,Sultanpur,005,26.911,80.92359,2529,2076,793,Lucknow RI Circle 2,RI-09002-02,Tehsildar Lucknow North
+Uttar Pradesh,09,Lucknow,002,Lucknow North,01,Devgaon,006,26.82933,80.96866,4357,2817,859,Lucknow RI Circle 2,RI-09002-02,Tehsildar Lucknow North
+Uttar Pradesh,09,Lucknow,002,Lucknow South,02,Chandrapalli,007,26.70533,80.9072,2207,1357,470,Lucknow RI Circle 3,RI-09002-03,Tehsildar Lucknow South
+Uttar Pradesh,09,Lucknow,002,Lucknow South,02,Narsapur,008,26.91381,80.83391,8365,4809,1588,Lucknow RI Circle 3,RI-09002-03,Tehsildar Lucknow South
+Uttar Pradesh,09,Lucknow,002,Lucknow South,02,Basavanahalli,009,26.81474,81.1074,8182,6885,1033,Lucknow RI Circle 3,RI-09002-03,Tehsildar Lucknow South
+Uttar Pradesh,09,Lucknow,002,Lucknow South,02,Mallapuram,010,26.82778,80.94394,6590,5094,998,Lucknow RI Circle 4,RI-09002-04,Tehsildar Lucknow South
+Uttar Pradesh,09,Lucknow,002,Lucknow South,02,Amrapur,011,26.92814,81.17255,6407,4821,2268,Lucknow RI Circle 4,RI-09002-04,Tehsildar Lucknow South
+Uttar Pradesh,09,Lucknow,002,Lucknow South,02,Jaitpur,012,26.75013,81.05536,3447,2772,919,Lucknow RI Circle 4,RI-09002-04,Tehsildar Lucknow South
+Uttar Pradesh,09,Lucknow,002,Lucknow East,03,Kesarpur,013,26.68848,80.97308,8957,5301,2796,Lucknow RI Circle 5,RI-09002-05,Tehsildar Lucknow East
+Uttar Pradesh,09,Lucknow,002,Lucknow East,03,Lakshmipura,014,26.89942,81.07825,6745,4601,2076,Lucknow RI Circle 5,RI-09002-05,Tehsildar Lucknow East
+Uttar Pradesh,09,Lucknow,002,Lucknow East,03,Madhavgarh,015,26.74983,81.00784,3209,2467,1210,Lucknow RI Circle 5,RI-09002-05,Tehsildar Lucknow East
+Uttar Pradesh,09,Lucknow,002,Lucknow East,03,Nandgaon,016,26.85152,80.92758,1839,1560,203,Lucknow RI Circle 6,RI-09002-06,Tehsildar Lucknow East
+Uttar Pradesh,09,Lucknow,002,Lucknow East,03,Peddapalli,017,26.90427,80.97925,8273,5586,2747,Lucknow RI Circle 6,RI-09002-06,Tehsildar Lucknow East
+Uttar Pradesh,09,Lucknow,002,Lucknow East,03,Raghunathpur,018,26.8147,80.89417,8426,6053,1087,Lucknow RI Circle 6,RI-09002-06,Tehsildar Lucknow East
+Uttar Pradesh,09,Lucknow,002,Lucknow West,04,Shivnagar,019,26.77968,81.04978,8600,4981,1944,Lucknow RI Circle 7,RI-09002-07,Tehsildar Lucknow West
+Uttar Pradesh,09,Lucknow,002,Lucknow West,04,Tarapur,020,26.83686,80.93446,4083,3141,1207,Lucknow RI Circle 7,RI-09002-07,Tehsildar Lucknow West
+Uttar Pradesh,09,Lucknow,002,Lucknow West,04,Uttanahalli,021,26.91315,80.8328,4346,2746,643,Lucknow RI Circle 7,RI-09002-07,Tehsildar Lucknow West
+Uttar Pradesh,09,Lucknow,002,Lucknow West,04,Veerapuram,022,26.81758,80.94282,1869,1252,308,Lucknow RI Circle 8,RI-09002-08,Tehsildar Lucknow West
+Uttar Pradesh,09,Lucknow,002,Lucknow West,04,Yellapur,023,26.87966,80.92497,6364,5225,867,Lucknow RI Circle 8,RI-09002-08,Tehsildar Lucknow West
+Uttar Pradesh,09,Lucknow,002,Lucknow West,04,Zamania,024,26.8205,81.13917,2067,1707,371,Lucknow RI Circle 8,RI-09002-08,Tehsildar Lucknow West
+Uttar Pradesh,09,Prayagraj,044,Prayagraj North,01,Rampur,001,25.47352,81.72947,404,334,67,Prayagraj RI Circle 1,RI-09044-01,Tehsildar Prayagraj North
+Uttar Pradesh,09,Prayagraj,044,Prayagraj North,01,Kothapalli,002,25.46169,81.80447,1136,651,444,Prayagraj RI Circle 1,RI-09044-01,Tehsildar Prayagraj North
+Uttar Pradesh,09,Prayagraj,044,Prayagraj North,01,Ganeshpura,003,25.4294,81.93905,1577,953,200,Prayagraj RI Circle 1,RI-09044-01,Tehsildar Prayagraj North
+Uttar Pradesh,09,Prayagraj,044,Prayagraj North,01,Bhimnagar,004,25.41056,81.90739,2667,1710,520,Prayagraj RI Circle 2,RI-09044-02,Tehsildar Prayagraj North
+Uttar Pradesh,09,Prayagraj,044,Prayagraj North,01,Sultanpur,005,25.52158,81.8364,3149,2122,475,Prayagraj RI Circle 2,RI-09044-02,Tehsildar Prayagraj North
+Uttar Pradesh,09,Prayagraj,044,Prayagraj North,01,Devgaon,006,25.46302,81.79073,2962,2148,584,Prayagraj RI Circle 2,RI-09044-02,Tehsildar Prayagraj North
+Uttar Pradesh,09,Prayagraj,044,Prayagraj South,02,Chandrapalli,007,25.38554,81.71978,1046,884,222,Prayagraj RI Circle 3,RI-09044-03,Tehsildar Prayagraj South
+Uttar Pradesh,09,Prayagraj,044,Prayagraj South,02,Narsapur,008,25.57537,81.75209,3086,1757,1071,Prayagraj RI Circle 3,RI-09044-03,Tehsildar Prayagraj South
+Uttar Pradesh,09,Prayagraj,044,Prayagraj South,02,Basavanahalli,009,25.58779,81.73022,567,323,67,Prayagraj RI Circle 3,RI-09044-03,Tehsildar Prayagraj South
+Uttar Pradesh,09,Prayagraj,044,Prayagraj South,02,Mallapuram,010,25.4032,81.8332,2667,2139,720,Prayagraj RI Circle 4,RI-09044-04,Tehsildar Prayagraj South
+Uttar Pradesh,09,Prayagraj,044,Prayagraj South,02,Amrapur,011,25.44576,81.89138,2834,1841,964,Prayagraj RI Circle 4,RI-09044-04,Tehsildar Prayagraj South
+Uttar Pradesh,09,Prayagraj,044,Prayagraj South,02,Jaitpur,012,25.54602,81.95686,2336,1588,603,Prayagraj RI Circle 4,RI-09044-04,Tehsildar Prayagraj South
+Uttar Pradesh,09,Prayagraj,044,Prayagraj East,03,Kesarpur,013,25.36857,81.89478,542,437,79,Prayagraj RI Circle 5,RI-09044-05,Tehsildar Prayagraj East
+Uttar Pradesh,09,Prayagraj,044,Prayagraj East,03,Lakshmipura,014,25.55509,81.7428,1136,826,118,Prayagraj RI Circle 5,RI-09044-05,Tehsildar Prayagraj East
+Uttar Pradesh,09,Prayagraj,044,Prayagraj East,03,Madhavgarh,015,25.40694,81.85712,1567,894,292,Prayagraj RI Circle 5,RI-09044-05,Tehsildar Prayagraj East
+Uttar Pradesh,09,Prayagraj,044,Prayagraj East,03,Nandgaon,016,25.4533,81.86868,435,264,80,Prayagraj RI Circle 6,RI-09044-06,Tehsildar Prayagraj East
+Uttar Pradesh,09,Prayagraj,044,Prayagraj East,03,Peddapalli,017,25.46608,81.75097,2575,1938,714,Prayagraj RI Circle 6,RI-09044-06,Tehsildar Prayagraj East
+Uttar Pradesh,09,Prayagraj,044,Prayagraj East,03,Raghunathpur,018,25.66769,81.93419,2597,1929,749,Prayagraj RI Circle 6,RI-09044-06,Tehsildar Prayagraj East
+Uttar Pradesh,09,Prayagraj,044,Prayagraj West,04,Shivnagar,019,25.33093,81.83831,503,368,96,Prayagraj RI Circle 7,RI-09044-07,Tehsildar Prayagraj West
+Uttar Pradesh,09,Prayagraj,044,Prayagraj West,04,Tarapur,020,25.43408,81.83193,2300,1837,325,Prayagraj RI Circle 7,RI-09044-07,Tehsildar Prayagraj West
+Uttar Pradesh,09,Prayagraj,044,Prayagraj West,04,Uttanahalli,021,25.50308,81.76013,2896,1994,1028,Prayagraj RI Circle 7,RI-09044-07,Tehsildar Prayagraj West
+Uttar Pradesh,09,Prayagraj,044,Prayagraj West,04,Veerapuram,022,25.34326,81.93105,2849,1751,1033,Prayagraj RI Circle 8,RI-09044-08,Tehsildar Prayagraj West
+Uttar Pradesh,09,Prayagraj,044,Prayagraj West,04,Yellapur,023,25.28003,81.72378,2975,2019,387,Prayagraj RI Circle 8,RI-09044-08,Tehsildar Prayagraj West
+Uttar Pradesh,09,Prayagraj,044,Prayagraj West,04,Zamania,024,25.44579,81.7437,1674,1143,595,Prayagraj RI Circle 8,RI-09044-08,Tehsildar Prayagraj West
+Uttar Pradesh,09,Varanasi,031,Varanasi North,01,Rampur,001,25.32071,83.10598,2964,1694,921,Varanasi RI Circle 1,RI-09031-01,Tehsildar Varanasi North
+Uttar Pradesh,09,Varanasi,031,Varanasi North,01,Kothapalli,002,25.33978,82.94829,2386,1329,639,Varanasi RI Circle 1,RI-09031-01,Tehsildar Varanasi North
+Uttar Pradesh,09,Varanasi,031,Varanasi North,01,Ganeshpura,003,25.29316,82.92808,2374,1389,789,Varanasi RI Circle 1,RI-09031-01,Tehsildar Varanasi North
+Uttar Pradesh,09,Varanasi,031,Varanasi North,01,Bhimnagar,004,25.4218,83.0071,2861,2132,1057,Varanasi RI Circle 2,RI-09031-02,Tehsildar Varanasi North
+Uttar Pradesh,09,Varanasi,031,Varanasi North,01,Sultanpur,005,25.39701,83.0049,2468,1542,508,Varanasi RI Circle 2,RI-09031-02,Tehsildar Varanasi North
+Uttar Pradesh,09,Varanasi,031,Varanasi North,01,Devgaon,006,25.24905,82.82112,1885,1555,730,Varanasi RI Circle 2,RI-09031-02,Tehsildar Varanasi North
+Uttar Pradesh,09,Varanasi,031,Varanasi South,02,Chandrapalli,007,25.44358,82.92893,679,484,195,Varanasi RI Circle 3,RI-09031-03,Tehsildar Varanasi South
+Uttar Pradesh,09,Varanasi,031,Varanasi South,02,Narsapur,008,25.36215,83.02244,584,387,78,Varanasi RI Circle 3,RI-09031-03,Tehsildar Varanasi South
+Uttar Pradesh,09,Varanasi,031,Varanasi South,02,Basavanahalli,009,25.39703,82.78692,978,693,365,Varanasi RI Circle 3,RI-09031-03,Tehsildar Varanasi South
+Uttar Pradesh,09,Varanasi,031,Varanasi South,02,Mallapuram,010,25.39969,82.90502,1061,644,273,Varanasi RI Circle 4,RI-09031-04,Tehsildar Varanasi South
+Uttar Pradesh,09,Varanasi,031,Varanasi South,02,Amrapur,011,25.34411,82.97521,2643,1864,903,Varanasi RI Circle 4,RI-09031-04,Tehsildar Varanasi South
+Uttar Pradesh,09,Varanasi,031,Varanasi South,02,Jaitpur,012,25.37462,82.89147,2722,1875,814,Varanasi RI Circle 4,RI-09031-04,Tehsildar Varanasi South
+Uttar Pradesh,09,Varanasi,031,Varanasi East,03,Kesarpur,013,25.29922,82.96178,2481,2034,333,Varanasi RI Circle 5,RI-09031-05,Tehsildar Varanasi East
+Uttar Pradesh,09,Varanasi,031,Varanasi East,03,Lakshmipura,014,25.26613,83.16405,1802,1007,662,Varanasi RI Circle 5,RI-09031-05,Tehsildar Varanasi East
+Uttar Pradesh,09,Varanasi,031,Varanasi East,03,Madhavgarh,015,25.36084,82.97244,2575,1633,833,Varanasi RI Circle 5,RI-09031-05,Tehsildar Varanasi East
+Uttar Pradesh,09,Varanasi,031,Varanasi East,03,Nandgaon,016,25.17353,82.80752,1401,1165,348,Varanasi RI Circle 6,RI-09031-06,Tehsildar Varanasi East
+Uttar Pradesh,09,Varanasi,031,Varanasi East,03,Peddapalli,017,25.27589,82.94763,1192,760,123,Varanasi RI Circle 6,RI-09031-06,Tehsildar Varanasi East
+Uttar Pradesh,09,Varanasi,031,Varanasi East,03,Raghunathpur,018,25.30542,83.10338,1581,1212,183,Varanasi RI Circle 6,RI-09031-06,Tehsildar Varanasi East
+Uttar Pradesh,09,Varanasi,031,Varanasi West,04,Shivnagar,019,25.40209,83.00664,1088,608,274,Varanasi RI Circle 7,RI-09031-07,Tehsildar Varanasi West
+Uttar Pradesh,09,Varanasi,031,Varanasi West,04,Tarapur,020,25.327,82.97201,3110,1834,1154,Varanasi RI Circle 7,RI-09031-07,Tehsildar Varanasi West
+Uttar Pradesh,09,Varanasi,031,Varanasi West,04,Uttanahalli,021,25.36766,83.01766,804,676,232,Varanasi RI Circle 7,RI-09031-07,Tehsildar Varanasi West
+Uttar Pradesh,09,Varanasi,031,Varanasi West,04,Veerapuram,022,25.55596,83.0151,1549,890,372,Varanasi RI Circle 8,RI-09031-08,Tehsildar Varanasi West
+Uttar Pradesh,09,Varanasi,031,Varanasi West,04,Yellapur,023,25.40476,82.90447,2816,1769,891,Varanasi RI Circle 8,RI-09031-08,Tehsildar Varanasi West
+Uttar Pradesh,09,Varanasi,031,Varanasi West,04,Zamania,024,25.32909,82.94619,574,455,143,Varanasi RI Circle 8,RI-09031-08,Tehsildar Varanasi West
