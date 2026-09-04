@@ -2,7 +2,7 @@ pandas==2.2.*
 numpy==2.4.*
 xgboost==3.2.*
 lightgbm==4.7.*
-shap==0.51.*
+shap==0.52.*
 scikit-learn==1.9.*
 joblib==1.6.*
 pytest==9.1.*
