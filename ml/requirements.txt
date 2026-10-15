@@ -6,4 +6,4 @@ shap==0.51.*
 scikit-learn==1.9.*
 joblib==1.6.*
 pytest==9.1.*
-ruff==0.16.*
+ruff==0.17.*
